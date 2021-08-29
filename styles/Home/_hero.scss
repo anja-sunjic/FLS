@@ -4,6 +4,7 @@
   .inner {
     height: 100%;
     width: max-content;
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -13,12 +14,16 @@
     gap: 2rem;
     h1 {
       font-size: crem(56px);
+      text-align: center;
     }
     p {
       font-size: crem(44px);
       display: block;
       &.right {
         align-self: flex-end;
+        @include touch {
+          align-self: center;
+        }
       }
     }
     .btn {

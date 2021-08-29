@@ -5,10 +5,6 @@
 $yellow: #f1dc13;
 $blue: #1b69ae;
 
-//fonts
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
-$font: "Montserrat", sans-serif;
-
 // convertes px to rem.
 @function crem($pixels) {
   $context: 16 * 1px;
@@ -16,6 +12,18 @@ $font: "Montserrat", sans-serif;
     $pixels: $pixels * 1px;
   }
   @return $pixels / $context * 1rem;
+}
+//fonts
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+$font: "Montserrat", sans-serif;
+
+html {
+  scroll-behavior: smooth;
+  font-size: calc(0.5em + 0.4vw);
+}
+
+body {
+  font-family: $font;
 }
 
 h2 {
@@ -25,13 +33,6 @@ h2 {
 }
 p {
   font-size: crem(24px);
-}
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: $font;
 }
 
 //import all files
