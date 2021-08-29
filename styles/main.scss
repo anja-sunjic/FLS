@@ -1,0 +1,30 @@
+//import css framework
+@import "~bulma/bulma";
+
+//colors
+$yellow: #f1dc13;
+$blue: #1b69ae;
+
+//fonts
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+$font: "Montserrat", sans-serif;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font;
+}
+
+// convertes px to rem.
+@function crem($pixels) {
+  $context: 16 * 1px;
+  @if (unitless($pixels)) {
+    $pixels: $pixels * 1px;
+  }
+  @return $pixels / $context * 1rem;
+}
+
+//import all files
+@import "./Home/all";

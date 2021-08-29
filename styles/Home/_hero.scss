@@ -1,0 +1,29 @@
+.hero {
+  height: 100vh;
+  width: 100vw;
+  .inner {
+    height: 100%;
+    width: max-content;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 600;
+    gap: 2rem;
+    h1 {
+      font-size: crem(56px);
+    }
+    p {
+      font-size: crem(44px);
+      display: block;
+      &.right {
+        align-self: flex-end;
+      }
+    }
+    .btn {
+      background-color: $yellow;
+      padding: 2rem 3rem;
+    }
+  }
+}
