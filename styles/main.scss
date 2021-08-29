@@ -9,14 +9,6 @@ $blue: #1b69ae;
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
 $font: "Montserrat", sans-serif;
 
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: $font;
-}
-
 // convertes px to rem.
 @function crem($pixels) {
   $context: 16 * 1px;
@@ -24,6 +16,22 @@ body {
     $pixels: $pixels * 1px;
   }
   @return $pixels / $context * 1rem;
+}
+
+h2 {
+  font-size: crem(44px);
+  font-weight: 600;
+  text-align: center;
+}
+p {
+  font-size: crem(24px);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font;
 }
 
 //import all files

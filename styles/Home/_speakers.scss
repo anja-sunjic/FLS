@@ -1,0 +1,15 @@
+.speakers {
+  .speaker-img {
+    height: crem(120px);
+    width: crem(120px);
+    border-radius: 50%;
+    overflow: hidden;
+    img {
+      display: inline;
+      margin: 0 auto;
+      height: 100%;
+      width: auto;
+      object-fit: cover;
+    }
+  }
+}
