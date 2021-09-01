@@ -9,7 +9,7 @@ export default function About() {
             Herzegovina. By establishing an event that will annually gather
             prosperous changemakers in the field of STEM, we aim to create a
             strong network that will change the way we perceive the industry and
-            the future of our country's development.
+            the future of our country&#39;s development.
             <br /> <br />
             This year, we will welcome hundreds of STEM leaders in Tuzla. Become
             a part of a deal-breaker story that will shape today into a new
