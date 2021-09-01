@@ -4,13 +4,10 @@ export default function Footer() {
       <div className="footer">
         <div className="inner">
           <div className="logo"></div>
-          <span>Powered by</span>
-          <a href="https://www.bhfuturesfoundation.org/">
-            <img src="/bhff.logo.png" alt="" className="logo" />
-          </a>
-          <div className="btn">
+          <span>16-18 December 2021 - Tuzla, B&H</span>
+          <a className="contact-button _shine" href="/contact">
             <span>Contact Us</span>
-          </div>
+          </a>
           <div className="sm">
             <span>Follow FLS</span>
             <a href="">

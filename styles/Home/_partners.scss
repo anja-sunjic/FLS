@@ -1,5 +1,25 @@
 .partners {
   text-align: center;
+  color: $blue;
+  .top-partners {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    span.role {
+      font: $font;
+      font-size: crem(26px);
+    }
+    .partner {
+      &:not(:last-of-type) {
+        margin-bottom: 6rem;
+      }
+      img {
+        height: 7rem;
+        width: auto;
+      }
+    }
+  }
   .items {
     display: flex;
     flex-direction: row;
@@ -9,6 +29,10 @@
     gap: 4rem;
   }
   .partner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     .partner-img {
       width: crem(200px);
       height: auto;

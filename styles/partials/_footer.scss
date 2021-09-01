@@ -1,5 +1,6 @@
 .footer {
   background-color: $blue;
+  color: $white;
   .inner {
     display: flex;
     flex-direction: column;
@@ -8,9 +9,11 @@
     gap: 2rem;
   }
   span {
-    color: $yellow;
     font-size: crem(22px);
     font-weight: 600;
+  }
+  .contact-button {
+    margin: 1rem 0;
   }
   .logo {
     height: 5rem;
