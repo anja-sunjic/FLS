@@ -34,9 +34,11 @@ export default function Speakers() {
               <p className="title">Title</p>
             </div>
           </div>
-          <a className="contact-button _shine" href="/contact">
-            <span>Become a speaker</span>
-          </a>
+          <Link href="/contact">
+            <a className="contact-button _shine">
+              <span>Become a speaker</span>
+            </a>
+          </Link>
         </div>
       </section>
     </>

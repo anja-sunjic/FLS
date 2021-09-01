@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <>
@@ -5,9 +7,11 @@ export default function Footer() {
         <div className="inner">
           <div className="logo"></div>
           <span>16-18 December 2021 - Tuzla, B&H</span>
-          <a className="contact-button _shine" href="/contact">
-            <span>Contact Us</span>
-          </a>
+          <Link href="/contact">
+            <a className="contact-button _shine">
+              <span>Contact Us</span>
+            </a>
+          </Link>
           <div className="sm">
             <span>Follow FLS</span>
             <a href="">
