@@ -1,3 +1,4 @@
+import MetaData from "../components/partials/seo-meta";
 import About from "../components/Home/About";
 import Hero from "../components/Home/Hero";
 import Speakers from "../components/Home/Speakers";
@@ -7,6 +8,12 @@ import Footer from "../components/Home/Footer";
 export default function Home() {
   return (
     <>
+      <MetaData
+        path="/"
+        title="Futures Leaders Summit"
+        description=""
+        image=""
+      />
       <Hero />
       <About />
       <Speakers />

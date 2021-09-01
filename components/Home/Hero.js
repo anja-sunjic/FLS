@@ -9,6 +9,9 @@ export default function Hero() {
           <div className="btn">
             <span>Registration will open soon</span>
           </div>
+          <div className="hero-img blur">
+            <img src="hero.jpeg" alt="" />
+          </div>
         </div>
       </div>
     </>
