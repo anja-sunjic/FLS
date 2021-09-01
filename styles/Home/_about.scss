@@ -6,6 +6,9 @@
   p {
     margin-bottom: 2rem;
     padding: 0 15%;
+    @include touch {
+      padding: 0;
+    }
   }
   .covid-line {
     background-color: white;
