@@ -3,7 +3,7 @@ export default function Partners() {
     <>
       <section className="section partners">
         <div className="container">
-          <h2>Our Partners So Far</h2>
+          <h2>Sponsors & Partners</h2>
           <div className="items">
             <div className="partner">
               <div href="" className="partner-img">
@@ -26,6 +26,9 @@ export default function Partners() {
               </div>
             </div>
           </div>
+          <a className="contact-button _shine" href="/contact">
+            <span>Become a partner</span>
+          </a>
         </div>
       </section>
     </>

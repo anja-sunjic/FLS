@@ -3,7 +3,7 @@ export default function Speakers() {
     <>
       <section className="section speakers">
         <div className="container">
-          <h2>Our Speakers So Far</h2>
+          <h2>Speakers</h2>
           <div className="items">
             <div className="speaker">
               <div href="" className="speaker-img">
@@ -34,6 +34,9 @@ export default function Speakers() {
               <p className="title">Title</p>
             </div>
           </div>
+          <a className="contact-button _shine" href="/contact">
+            <span>Become a speaker</span>
+          </a>
         </div>
       </section>
     </>

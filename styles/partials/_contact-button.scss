@@ -1,0 +1,14 @@
+.contact-button {
+  padding: 1rem 3rem;
+  background-color: $yellow;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  margin-top: 6rem;
+  span {
+    color: $gray;
+    font-size: crem(22px);
+    font-weight: 600;
+  }
+}

@@ -3,7 +3,8 @@ import About from "../components/Home/About";
 import Hero from "../components/Home/Hero";
 import Speakers from "../components/Home/Speakers";
 import Partners from "../components/Home/Partners";
-import Footer from "../components/Home/Footer";
+import Footer from "../components/partials/Footer";
+import Header from "../components/partials/Header";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         description=""
         image=""
       />
+      <Header />
       <Hero />
       <About />
       <Speakers />

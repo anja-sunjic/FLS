@@ -1,0 +1,17 @@
+.header {
+  position: fixed;
+  top: 1rem;
+  width: 100%;
+  z-index: 999;
+  margin: 0 2rem;
+  .inner {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    a {
+      color: $yellow;
+      font-size: crem(36px);
+      font-weight: 600;
+    }
+  }
+}
