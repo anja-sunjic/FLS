@@ -16,9 +16,11 @@ export default function Header() {
     <>
       <header className="header">
         <div className="inner">
-          <a href="/">
-            <span>LOGO</span>
-          </a>
+          <Link href="/">
+            <a>
+              <span>LOGO</span>
+            </a>
+          </Link>
         </div>
       </header>
     </>
