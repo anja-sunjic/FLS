@@ -1,8 +1,24 @@
 .about {
   background-color: $blue;
   color: white;
-
+  position: relative;
+  padding-bottom: 10rem !important;
+  p {
+    margin-bottom: 2rem;
+  }
   .covid-line {
     background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 1.5rem 0;
+    bottom: 4rem;
+    span {
+      font-size: crem(16px);
+      font-weight: 600;
+    }
   }
 }

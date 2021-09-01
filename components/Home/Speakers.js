@@ -12,6 +12,27 @@ export default function Speakers() {
               <p className="name">Name</p>
               <p className="title">Title</p>
             </div>
+            <div className="speaker">
+              <div href="" className="speaker-img">
+                <img src="./placeholder.png" alt="" />
+              </div>
+              <p className="name">Name</p>
+              <p className="title">Title</p>
+            </div>
+            <div className="speaker">
+              <div href="" className="speaker-img">
+                <img src="./placeholder.png" alt="" />
+              </div>
+              <p className="name">Name</p>
+              <p className="title">Title</p>
+            </div>
+            <div className="speaker">
+              <div href="" className="speaker-img">
+                <img src="./placeholder.png" alt="" />
+              </div>
+              <p className="name">Name</p>
+              <p className="title">Title</p>
+            </div>
           </div>
         </div>
       </section>

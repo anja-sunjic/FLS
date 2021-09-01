@@ -1,9 +1,11 @@
 .speakers {
+  border-bottom: 1px solid black;
   .speaker-img {
-    height: crem(120px);
-    width: crem(120px);
+    height: crem(200px);
+    width: crem(200px);
     border-radius: 50%;
     overflow: hidden;
+    margin-bottom: 1rem;
     img {
       display: inline;
       margin: 0 auto;
@@ -11,5 +13,18 @@
       width: auto;
       object-fit: cover;
     }
+  }
+  .items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+  }
+  .speaker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
