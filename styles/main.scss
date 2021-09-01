@@ -37,6 +37,9 @@ p {
 }
 .section {
   padding: crem(100px) 0;
+  @include touch {
+    padding: 3rem 1.5rem !important;
+  }
 }
 //import all files
 @import "./Home/all";

@@ -26,6 +26,9 @@
           align-self: center;
         }
       }
+      @include touch {
+        text-align: center;
+      }
     }
     .btn {
       background-color: $yellow;
