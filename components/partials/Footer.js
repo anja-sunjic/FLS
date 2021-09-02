@@ -12,17 +12,21 @@ export default function Footer() {
               <span>Contact Us</span>
             </a>
           </Link>
+          {/* to do fix alignment */}
           <div className="sm">
             <span>Follow FLS</span>
-            <a href="">
-              <img src="/facebook.svg" alt="" />
-            </a>
-            <a href="">
-              <img src="/instagram.svg" alt="" />
-            </a>
-            <a href="">
-              <img src="/linkedin.svg" alt="" />
-            </a>
+            <br />
+            <div className="is-flex is-flex-direction-row">
+              <a href="">
+                <img src="/facebook.svg" alt="" />
+              </a>
+              <a href="">
+                <img src="/instagram.svg" alt="" />
+              </a>
+              <a href="">
+                <img src="/linkedin.svg" alt="" />
+              </a>
+            </div>
           </div>
         </div>
       </div>

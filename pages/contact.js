@@ -7,6 +7,7 @@ export default function Home() {
     <>
       <MetaData path="/contact" title="Contact" description="" image="" />
       <Header />
+      {/* to do >> contact forma */}
       <Footer />
     </>
   );

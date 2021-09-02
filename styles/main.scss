@@ -4,7 +4,7 @@
 //colors
 $yellow: #ffee00;
 $blue: #1b69ae;
-$blue: #0a2c49;
+$blue: #182027;
 $gray: #424242;
 
 // convertes px to rem.
@@ -21,6 +21,7 @@ $gray: #424242;
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
 $font: "Montserrat", sans-serif;
 $font-cap: "Sora", sans-serif;
+
 ::-moz-selection {
   color: $dark;
   background: #ffc700;
