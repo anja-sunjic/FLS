@@ -1,6 +1,13 @@
 .partners {
   text-align: center;
-  color: $blue;
+  color: white;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  background-color: #080f13;
+  .container {
+    padding-top: crem(220px);
+    padding-bottom: crem(120px);
+  }
   .top-partners {
     display: flex;
     flex-direction: column;

@@ -1,7 +1,14 @@
 .speakers {
-  border-bottom: 1px solid black;
   text-align: center;
-  color: $blue;
+  color: white;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  background-color: #080f13;
+  .container {
+    padding-top: crem(220px);
+    padding-bottom: crem(120px);
+    background-color: #12191d;
+  }
   .speaker-img {
     height: crem(200px);
     width: crem(200px);

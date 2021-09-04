@@ -40,12 +40,20 @@ body {
 }
 
 h2 {
-  font-size: crem(44px);
-  font-weight: 600;
+  font-size: crem(52px);
+  font-weight: 400;
   text-align: center;
   margin-bottom: 2rem;
   font-family: $font-cap;
   text-transform: uppercase;
+  background-color: $yellow;
+  color: $dark;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: left;
 }
 p {
   font-size: crem(24px);

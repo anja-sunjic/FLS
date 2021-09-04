@@ -1,14 +1,22 @@
 .about {
-  background-color: $blue;
+  background-color: #080f13;
   color: white;
   position: relative;
-  padding-bottom: 12rem !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  .container {
+    padding-top: crem(220px);
+    padding-bottom: crem(120px);
+  }
+  .inner {
+    padding-right: 15%;
+  }
+  .accented {
+    color: $yellow;
+    font-weight: 700;
+  }
   p {
     margin-bottom: 2rem;
-    padding: 0 15%;
-    @include touch {
-      padding: 0;
-    }
   }
   .img {
     position: relative;
@@ -21,5 +29,8 @@
     object-fit: cover;
   }
   .covid {
+    padding: 2rem;
+    font-size: crem(16px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
   }
 }
