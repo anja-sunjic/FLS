@@ -1,0 +1,22 @@
+.decor {
+  background-color: $dark;
+  position: relative;
+  overflow: hidden;
+  height: crem(600px);
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  .container {
+    height: 100%;
+  }
+  .shadow-decor {
+    position: absolute;
+    bottom: -15rem;
+  }
+  .text-decor {
+    position: absolute;
+    bottom: -4rem;
+  }
+  img {
+    max-width: 100%;
+  }
+}
