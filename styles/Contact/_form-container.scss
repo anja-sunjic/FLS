@@ -1,0 +1,50 @@
+.form-container {
+  background-color: $dark;
+  .contact-form {
+    padding: 0 30%;
+    margin-top: 5rem;
+  }
+  h2 {
+    position: relative;
+  }
+  p.sub {
+    font-size: crem(22px);
+    font-weight: 600;
+    margin-bottom: crem(40px);
+    color: white;
+  }
+  .form-control {
+    margin-bottom: 2rem;
+    .form-label {
+      font-size: crem(24px);
+      font-weight: 600;
+      margin-bottom: 1rem;
+      color: $yellow;
+      display: inline-block;
+    }
+    input,
+    textarea {
+      width: 100%;
+      padding: 0.5rem 1rem;
+      font-size: crem(24px);
+      font-weight: 600;
+      margin-bottom: 1rem;
+      color: $dark;
+      background-color: white;
+      border: none;
+      font-family: $font;
+    }
+    .inquiry-select {
+      font-size: crem(24px);
+      font-weight: 600;
+      font-family: $font;
+    }
+  }
+  .contact-button {
+    margin-top: 0;
+    width: 100%;
+    font-size: crem(28px);
+    font-weight: 600;
+    font-family: $font;
+  }
+}
