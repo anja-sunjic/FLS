@@ -28,7 +28,7 @@
     gap: 2rem;
     color: $white;
     h1 {
-      font-size: crem(64px);
+      font-size: crem(140px);
       text-align: center;
       font-weight: 800;
       font-family: $font-cap;
@@ -49,6 +49,18 @@
       span {
         color: $gray;
       }
+    }
+    .blur img {
+      display: block; /* remove bottom space */
+      -webkit-filter: blur(9px);
+      -moz-filter: blur(9px);
+      -ms-filter: blur(9px);
+      -o-filter: blur(9px);
+      filter: blur(9px);
+    }
+    .blur:before {
+      background-color: $yellow;
+      opacity: 0.8;
     }
   }
 }

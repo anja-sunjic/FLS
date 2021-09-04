@@ -2,11 +2,11 @@
 @import "~bulma/bulma";
 
 //colors
-$yellow: #ffee00;
+$yellow: #fdb90b;
 $blue: #1b69ae;
 $blue: #182027;
 $gray: #424242;
-
+$dark: #080f13;
 // convertes px to rem.
 @function crem($pixels) {
   $context: 16 * 1px;
@@ -16,20 +16,19 @@ $gray: #424242;
   @return $pixels / $context * 1rem;
 }
 //fonts
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
-$font: "Montserrat", sans-serif;
-$font-cap: "Sora", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Overpass:wght@300;400;600&display=swap");
+$font: "Overpass", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+$font-cap: "Anton", sans-serif;
 
 ::-moz-selection {
   color: $dark;
-  background: #ffc700;
+  background: $yellow;
 }
 
 ::selection {
   color: $dark;
-  background: #ffc700;
+  background: $yellow;
 }
 html {
   scroll-behavior: smooth;
@@ -45,6 +44,8 @@ h2 {
   font-weight: 600;
   text-align: center;
   margin-bottom: 2rem;
+  font-family: $font-cap;
+  text-transform: uppercase;
 }
 p {
   font-size: crem(24px);
