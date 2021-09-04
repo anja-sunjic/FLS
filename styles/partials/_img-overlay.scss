@@ -1,0 +1,23 @@
+.blur {
+  display: inline-block; /* make the div not 100% */
+}
+/* the 'blur' effect */
+.blur:before {
+  content: "";
+  background-color: black;
+  opacity: 0.75;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.blur img {
+  display: block; /* remove bottom space */
+  -webkit-filter: blur(9px);
+  -moz-filter: blur(9px);
+  -ms-filter: blur(9px);
+  -o-filter: blur(9px);
+  filter: blur(9px);
+}
