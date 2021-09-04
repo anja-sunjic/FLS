@@ -1,6 +1,7 @@
 .footer {
-  background-color: $blue;
+  background-color: $dark;
   color: $white;
+  padding-top: crem(110px);
   .inner {
     display: flex;
     flex-direction: column;
@@ -8,9 +9,22 @@
     justify-content: center;
     gap: 2rem;
   }
-  span {
+  p {
     font-size: crem(22px);
     font-weight: 600;
+    margin-bottom: crem(40px);
+    &.sub {
+      font-size: crem(18px);
+      line-height: crem(31px);
+      padding-right: 35%;
+      color: #e1e1e1;
+      @include touch {
+        padding-right: 0;
+      }
+      &.cc {
+        margin-bottom: 0;
+      }
+    }
   }
   .contact-button {
     margin: 1rem 0;
@@ -20,15 +34,11 @@
     width: auto;
   }
   .sm {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
     a {
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-right: 1rem;
     }
     img {
       height: 3rem;
