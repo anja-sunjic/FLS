@@ -27,6 +27,9 @@
     position: relative;
     height: 100%;
     width: 100%;
+    @include touch {
+      margin-top: 1.5rem;
+    }
   }
   img {
     height: 100%;

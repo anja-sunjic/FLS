@@ -24,6 +24,10 @@
     font-size: crem(22px);
     font-weight: 600;
     margin-bottom: crem(40px);
+    @include touch {
+      margin-bottom: crem(20px);
+      padding-top: crem(20px);
+    }
     &.sub {
       font-size: crem(18px);
       line-height: crem(31px);
