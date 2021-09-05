@@ -32,10 +32,10 @@ export default function ContactForm() {
 
     emailjs
       .send(
-        "service_weanjll",
-        "template_jmzgbur",
+        "service_bf6vot6",
+        "fls_contact_form",
         templateParams,
-        "user_uVpKEawr5mFOKdcTWe7QP"
+        "user_VJGu25NurbZTbZc1QQ5Tx"
       )
       .then(
         (response) => {
