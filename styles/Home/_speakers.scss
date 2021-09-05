@@ -9,12 +9,15 @@
     padding-bottom: crem(120px);
     background-color: #12191d;
   }
+  .inner {
+    margin-bottom: 2rem;
+    min-height: crem(250px);
+  }
   .speaker-img {
     height: crem(200px);
     width: crem(200px);
     border-radius: 50%;
     overflow: hidden;
-    margin-bottom: 1rem;
     img {
       display: inline;
       margin: 0 auto;
@@ -40,7 +43,6 @@
     justify-content: flex-start;
     padding-top: 2rem;
     padding-right: 3rem;
-    margin-bottom: 5rem;
     p {
       text-align: left;
       &.name {
