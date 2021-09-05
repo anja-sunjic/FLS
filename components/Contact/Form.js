@@ -17,7 +17,7 @@ export default function ContactForm() {
   //inquiry type dropdown options
   const options = [
     { value: "General Inquiry", label: "General Inquiry" },
-    { value: "Become a Partner", label: "Become a Partner" },
+    { value: "Become a Sponsor", label: "Become a Sponsor" },
   ];
 
   let templateParams = {
