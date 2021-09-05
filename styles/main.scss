@@ -33,6 +33,7 @@ $font-cap: "Anton", sans-serif;
 html {
   scroll-behavior: smooth;
   font-size: calc(0.5em + 0.4vw);
+  background-color: $dark;
 }
 
 body {
@@ -63,6 +64,11 @@ p {
   @include touch {
     padding: 3rem 1.5rem !important;
   }
+}
+._main {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 28rem;
 }
 //import all files
 @import "./Home/all";

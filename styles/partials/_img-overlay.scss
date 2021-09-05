@@ -29,7 +29,7 @@
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   filter: grayscale(100%);
-  filter: gray; /* IE 6-9 */
+  filter: rgb(128, 128, 128); /* IE 6-9 */
   transition: all 0.5s ease;
 }
 .grayscale:hover {

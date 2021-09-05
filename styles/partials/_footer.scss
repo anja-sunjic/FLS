@@ -2,6 +2,16 @@
   background-color: $dark;
   color: $white;
   padding-top: crem(110px);
+  padding: 0 !important;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: -5;
+  @include touch {
+    position: relative;
+    padding-bottom: 2rem;
+    z-index: 10;
+  }
   .inner {
     display: flex;
     flex-direction: column;

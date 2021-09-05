@@ -16,12 +16,14 @@ export default function Home() {
         description=""
         image=""
       />
-      <Header />
-      <Hero />
-      <About />
-      <Speakers />
-      <Partners />
-      <Decor />
+      <div className="_main">
+        <Header />
+        <Hero />
+        <About />
+        <Speakers />
+        <Partners />
+        <Decor />
+      </div>
       <Footer />
     </>
   );
