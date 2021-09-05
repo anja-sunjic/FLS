@@ -9,6 +9,9 @@
     @include tablet {
       padding: 0 15%;
     }
+    @include desktop {
+      padding: 0 30%;
+    }
   }
   h2 {
     position: relative;
