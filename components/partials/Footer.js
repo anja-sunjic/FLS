@@ -40,7 +40,8 @@ export default function Footer() {
             </div>
           </div>
           <p className="sub cc">
-            © Bosnia & Herzegovina Futures Foundation All rights reserved • 2021
+            © Bosnia & Herzegovina Futures Foundation • All rights reserved •
+            2021
           </p>
         </div>
       </div>

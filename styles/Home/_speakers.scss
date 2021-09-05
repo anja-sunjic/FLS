@@ -19,7 +19,7 @@
       display: inline;
       margin: 0 auto;
       height: 100%;
-      width: auto;
+      width: 100%;
       object-fit: cover;
     }
   }
@@ -34,6 +34,34 @@
   .speaker {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    height: 100%;
+    margin-left: 1rem;
+    justify-content: flex-start;
+    padding-top: 2rem;
+    padding-right: 3rem;
+    margin-bottom: 5rem;
+    p {
+      text-align: left;
+      &.name {
+        color: $yellow;
+        font-size: crem(24px);
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+      &.title {
+        color: white;
+        font-size: crem(22px);
+        font-weight: 500;
+      }
+    }
+    a {
+      justify-self: flex-end;
+      svg {
+        path {
+          fill: $yellow;
+        }
+      }
+    }
   }
 }
