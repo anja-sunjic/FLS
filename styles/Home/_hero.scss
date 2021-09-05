@@ -1,6 +1,7 @@
 .hero {
   height: 100vh;
   width: 100vw;
+  position: relative;
   .hero-img {
     position: absolute;
     z-index: -1;
@@ -45,9 +46,13 @@
       background-color: $yellow;
       padding: 2rem 3rem;
       margin-top: 4rem;
-      border-radius: 8px;
       span {
-        color: $gray;
+        font-family: $font-cap;
+        text-transform: uppercase;
+        background-color: $yellow;
+        color: $dark;
+        font-size: crem(44px);
+        font-weight: 400;
       }
     }
     .blur img {
@@ -62,5 +67,9 @@
       background-color: $dark;
       opacity: 0.8;
     }
+  }
+  .bottom {
+    display: flex;
+    flex-direction: row;
   }
 }
