@@ -17,7 +17,6 @@ export default function Home() {
         image=""
       />
       <div className="_main">
-        <Header />
         <Hero />
         <About />
         <Speakers />
