@@ -25,6 +25,7 @@ export default function Speakers() {
                       <a
                         href="https://www.linkedin.com/in/zinkabejtic/"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         {" "}
                         <svg
@@ -63,6 +64,7 @@ export default function Speakers() {
                       <a
                         href="https://www.linkedin.com/in/fedjadelalic/"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         {" "}
                         <svg
@@ -98,6 +100,7 @@ export default function Speakers() {
                       <a
                         href="https://www.linkedin.com/in/mario-barosevcic/"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <svg
                           width="24"
@@ -134,6 +137,7 @@ export default function Speakers() {
                       <a
                         href="https://www.linkedin.com/in/melita-kurtovic-5762b6ab/"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <svg
                           width="24"
