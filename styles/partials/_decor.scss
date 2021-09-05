@@ -14,15 +14,15 @@
   }
   .text-decor {
     position: absolute;
-    bottom: -4rem;
+    bottom: -3rem;
   }
   img {
-    max-width: 80%;
+    max-width: 100%;
     @include tablet {
       max-width: 80%;
     }
     @include desktop {
-      max-width: 90%;
+      max-width: 100%;
     }
   }
 }

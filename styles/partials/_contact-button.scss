@@ -12,4 +12,7 @@
     font-size: crem(22px);
     font-weight: 600;
   }
+  &:hover {
+    background: lighten($blue, 5%);
+  }
 }
