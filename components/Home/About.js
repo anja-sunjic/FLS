@@ -30,7 +30,7 @@ export default function About() {
             </div>
 
             <div className="column is-5">
-              <div className="img blur">
+              <div className="img ">
                 <img src="_MG_9401.jpg" alt="" />
               </div>
             </div>
