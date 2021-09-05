@@ -48,7 +48,7 @@ export default function Partners() {
           </div> */}
           <Link href="/contact">
             <a className="contact-button _shine">
-              <span>Become a partner</span>
+              <span>Become a Sponsor</span>
             </a>
           </Link>
         </div>
