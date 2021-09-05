@@ -12,7 +12,7 @@ export default function Speakers() {
                 <div className="columns is-mobile is-vcentered">
                   <div className="column is-narrow">
                     <div href="" className="speaker-img">
-                      <img src="./zinka.jpg" alt="" />
+                      <img src="./zinka.jpg" alt="" className="grayscale" />
                     </div>
                   </div>
                   <div className="column is-8">
@@ -51,7 +51,7 @@ export default function Speakers() {
                 <div className="columns is-mobile is-vcentered">
                   <div className="column is-narrow">
                     <div href="" className="speaker-img">
-                      <img src="./Fele.jpg" alt="" />
+                      <img src="./Fele.jpg" alt="" className="grayscale" />
                     </div>
                   </div>
                   <div className="column is-8">
@@ -90,7 +90,11 @@ export default function Speakers() {
                 <div className="columns is-mobile is-vcentered">
                   <div className="column is-narrow">
                     <div href="" className="speaker-img">
-                      <img src="./MarioBarosevcic.jpg" alt="" />
+                      <img
+                        src="./MarioBarosevcic.jpg"
+                        alt=""
+                        className="grayscale"
+                      />
                     </div>
                   </div>
                   <div className="column is-8">
@@ -125,7 +129,11 @@ export default function Speakers() {
                 <div className="columns is-mobile is-vcentered">
                   <div className="column is-narrow">
                     <div href="" className="speaker-img">
-                      <img src="./MelitaKurtovic.jpg" alt="" />
+                      <img
+                        src="./MelitaKurtovic.jpg"
+                        alt=""
+                        className="grayscale"
+                      />
                     </div>
                   </div>
                   <div className="column is-8">
