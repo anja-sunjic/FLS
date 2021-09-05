@@ -10,10 +10,9 @@ export default function Footer() {
               {/* <div className="logo"></div> */}
               <p>Contact Us</p> <br />
               <p className="sub">
-                As you are most likely aware of, the corona virus pandemic is
-                currently affecting the globe. After a succesful first virtual
-                conference in April, we’re once again making use of technology
-                to deliver an awesome conference.
+                The Organizing Committee will put in place all measures needed
+                to prevent the further spread of the COVID-19 virus. More
+                information will be published shortly.
               </p>
               <Link href="/contact">
                 <a className="contact-button _shine">

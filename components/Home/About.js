@@ -21,11 +21,6 @@ export default function About() {
                   Become a part of a deal-breaker story that will shape today
                   into a new tomorrow.
                 </p>
-                <p className="covid">
-                  The Organizing Committee will put in place all measures needed
-                  to prevent the further spread of the COVID-19 virus. More
-                  information will be published shortly.
-                </p>
               </div>
             </div>
 
