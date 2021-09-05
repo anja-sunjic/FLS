@@ -9,7 +9,7 @@ export default function Speakers() {
           <div className="columns is-multiline">
             <div className="column is-6">
               <div className="columns is-mobile">
-                <div className="column is-4">
+                <div className="column is-narrow">
                   <div href="" className="speaker-img">
                     <img src="./zinka.jpg" alt="" />
                   </div>
@@ -45,7 +45,7 @@ export default function Speakers() {
             </div>
             <div className="column is-6">
               <div className="columns is-mobile">
-                <div className="column is-4">
+                <div className="column is-narrow">
                   <div href="" className="speaker-img">
                     <img src="./Fele.jpg" alt="" />
                   </div>
@@ -81,7 +81,7 @@ export default function Speakers() {
             </div>
             <div className="column is-6">
               <div className="columns is-mobile">
-                <div className="column is-4">
+                <div className="column is-narrow">
                   <div href="" className="speaker-img">
                     <img src="./MarioBarosevcic.jpg" alt="" />
                   </div>
@@ -113,7 +113,7 @@ export default function Speakers() {
             </div>
             <div className="column is-6">
               <div className="columns is-mobile">
-                <div className="column is-4">
+                <div className="column is-narrow">
                   <div href="" className="speaker-img">
                     <img src="./MelitaKurtovic.jpg" alt="" />
                   </div>
