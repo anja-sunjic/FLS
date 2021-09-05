@@ -9,13 +9,13 @@ export default function Partners() {
           <div className="top-partners">
             <div className="partner">
               <span className="role">Organizer</span>
-              <a href="https://www.bhfuturesfoundation.org/">
+              <a href="https://www.bhfuturesfoundation.org/" target="_blank">
                 <img src="/partners/BHFF.png" alt="" className="grayscale" />
               </a>
             </div>
             <div className="partner">
               <span className="role">Organizing Partner</span>
-              <a href="https://bhing.ba/">
+              <a href="https://bhing.ba/" target="_blank">
                 <img src="/partners/bhing.png" alt="" className="grayscale" />
               </a>
             </div>

@@ -21,7 +21,10 @@ export default function Speakers() {
                       Professor, Head of Department of Art and Design @ American
                       University of Sharjah
                     </p>
-                    <a href="https://www.linkedin.com/in/zinkabejtic/">
+                    <a
+                      href="https://www.linkedin.com/in/zinkabejtic/"
+                      target="_blank"
+                    >
                       {" "}
                       <svg
                         width="24"
@@ -54,7 +57,10 @@ export default function Speakers() {
                       Manager of Games Technology and Energy at International
                       Olympic Committee – IOC
                     </p>
-                    <a href="https://www.linkedin.com/in/fedjadelalic/">
+                    <a
+                      href="https://www.linkedin.com/in/fedjadelalic/"
+                      target="_blank"
+                    >
                       {" "}
                       <svg
                         width="24"
@@ -84,7 +90,10 @@ export default function Speakers() {
                   <div className="speaker">
                     <p className="name">Mario Barosevcic</p>
                     <p className="title">Principal @ Emerge Education</p>
-                    <a href="https://www.linkedin.com/in/mario-barosevcic/">
+                    <a
+                      href="https://www.linkedin.com/in/mario-barosevcic/"
+                      target="_blank"
+                    >
                       <svg
                         width="24"
                         height="24"
@@ -113,7 +122,10 @@ export default function Speakers() {
                   <div className="speaker">
                     <p className="name">Melita Kurtovic</p>
                     <p className="title">Talent Operations Analyst @ Netflix</p>
-                    <a href="https://www.linkedin.com/in/melita-kurtovic-5762b6ab/">
+                    <a
+                      href="https://www.linkedin.com/in/melita-kurtovic-5762b6ab/"
+                      target="_blank"
+                    >
                       <svg
                         width="24"
                         height="24"
