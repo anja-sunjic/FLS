@@ -69,6 +69,9 @@ p {
   position: relative;
   z-index: 1;
   margin-bottom: 28rem;
+  @include touch {
+    margin-bottom: 0;
+  }
 }
 //import all files
 @import "./Home/all";
