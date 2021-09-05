@@ -1,7 +1,10 @@
 .hero {
+  /* General */
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   position: relative;
+
+  /* Background image */
   .hero-img {
     position: absolute;
     z-index: -1;
@@ -15,61 +18,108 @@
       object-fit: cover;
     }
   }
+  .blur img {
+    display: block; /* remove bottom space */
+    -webkit-filter: blur(9px);
+    -moz-filter: blur(9px);
+    -ms-filter: blur(9px);
+    -o-filter: blur(9px);
+    filter: blur(9px);
+  }
+  .blur:before {
+    background-color: $yellow;
+    opacity: 0.8;
+  }
 
-  .inner {
-    height: 100%;
-    width: max-content;
-    max-width: 100%;
-    margin: 0 auto;
+  /* Content */
+  .hero-content {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    font-weight: 600;
-    gap: 2rem;
-    color: $white;
-    h1 {
-      font-size: crem(140px);
-      text-align: center;
-      font-weight: 800;
-      font-family: $font-cap;
-    }
-    p {
-      font-size: crem(32px);
-      display: block;
-      text-align: center;
-      &.right {
-        font-size: crem(40px);
+    justify-content: flex-end;
+    width: 100%;
+
+    /* Top part */
+    .hero-top {
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      /* Title */
+      .hero-title-wrapper {
+        display: flex;
+        align-items: left;
+        justify-content: center;
+        flex-direction: column;
+        padding: 2rem;
+        hr {
+          height: 7px;
+          background-color: $dark;
+        }
+        span {
+          text-align: left;
+          letter-spacing: 4px;
+          font-size: crem(140px);
+          text-align: left;
+          font-weight: 800;
+          font-family: $font-cap;
+        }
+        .white {
+          color: white;
+        }
+        .black {
+          color: $dark;
+        }
       }
     }
-    .btn {
-      background-color: $yellow;
+    /* Info box */
+    .hero-info {
+      background: $dark;
       padding: 2rem 3rem;
-      margin-top: 4rem;
+      display: flex;
+      flex-direction: column;
+      height: max-content;
+      width: max-content;
+      margin-bottom: 2rem;
       span {
         font-family: $font-cap;
         text-transform: uppercase;
-        background-color: $yellow;
-        color: $dark;
+        color: white;
         font-size: crem(44px);
         font-weight: 400;
       }
     }
-    .blur img {
-      display: block; /* remove bottom space */
-      -webkit-filter: blur(9px);
-      -moz-filter: blur(9px);
-      -ms-filter: blur(9px);
-      -o-filter: blur(9px);
-      filter: blur(9px);
+    /* Bottom part */
+    .hero-bottom {
+      display: flex;
+      align-items: flex-end;
+      /* Buttons */
+      .hero-button-black {
+        padding: 2rem;
+        height: max-content;
+        background-color: $dark;
+        span {
+          background-color: $dark;
+          color: white;
+          font-family: $font-cap;
+          text-transform: uppercase;
+          font-size: crem(44px);
+          font-weight: 400;
+        }
+      }
+      .hero-button-yellow {
+        padding: 2rem;
+        height: max-content;
+        background-color: $yellow;
+        span {
+          background-color: $yellow;
+          color: $dark;
+          font-family: $font-cap;
+          text-transform: uppercase;
+          font-size: crem(44px);
+          font-weight: 400;
+        }
+      }
     }
-    .blur:before {
-      background-color: $dark;
-      opacity: 0.8;
-    }
-  }
-  .bottom {
-    display: flex;
-    flex-direction: row;
   }
 }
