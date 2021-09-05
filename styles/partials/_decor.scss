@@ -17,6 +17,12 @@
     bottom: -4rem;
   }
   img {
-    max-width: 100%;
+    max-width: 80%;
+    @include tablet {
+      max-width: 80%;
+    }
+    @include desktop {
+      max-width: 90%;
+    }
   }
 }

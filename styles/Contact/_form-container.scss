@@ -3,6 +3,12 @@
   .contact-form {
     padding: 0 30%;
     margin-top: 5rem;
+    @include mobile {
+      padding: 0 5%;
+    }
+    @include tablet {
+      padding: 0 15%;
+    }
   }
   h2 {
     position: relative;
@@ -33,6 +39,7 @@
       background-color: white;
       border: none;
       font-family: $font;
+      border-radius: 4px;
     }
     .inquiry-select {
       font-size: crem(24px);
