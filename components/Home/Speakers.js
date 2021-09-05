@@ -19,7 +19,7 @@ export default function Speakers() {
                     <div className="speaker">
                       <p className="name">Zinka Bejtic</p>
                       <p className="title">
-                        Professor, Head of Department of Art and Design @
+                        Professor, Head of Department of Art and Design at
                         American University of Sharjah
                       </p>
                       <a
@@ -96,7 +96,7 @@ export default function Speakers() {
                   <div className="column is-8">
                     <div className="speaker">
                       <p className="name">Mario Barosevcic</p>
-                      <p className="title">Principal @ Emerge Education</p>
+                      <p className="title">Principal at Emerge Education</p>
                       <a
                         href="https://www.linkedin.com/in/mario-barosevcic/"
                         target="_blank"
@@ -132,7 +132,7 @@ export default function Speakers() {
                     <div className="speaker">
                       <p className="name">Melita Kurtovic</p>
                       <p className="title">
-                        Talent Operations Analyst @ Netflix
+                        Talent Operations Analyst at Netflix
                       </p>
                       <a
                         href="https://www.linkedin.com/in/melita-kurtovic-5762b6ab/"
