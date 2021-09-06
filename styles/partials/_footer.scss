@@ -12,6 +12,7 @@
     position: relative;
     padding: 3rem 1.5rem !important;
     z-index: 10;
+    margin-bottom: 0;
   }
   .inner {
     display: flex;
@@ -22,7 +23,7 @@
   }
   p {
     font-size: crem(22px);
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: crem(40px);
     @include touch {
       margin-bottom: crem(20px);
@@ -33,6 +34,7 @@
       line-height: crem(31px);
       padding-right: 35%;
       color: #e1e1e1;
+      font-weight: 400;
       @include touch {
         padding-right: 0;
       }
