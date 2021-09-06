@@ -9,8 +9,10 @@
   cursor: pointer;
   span {
     color: $white;
-    font-size: crem(22px);
-    font-weight: 600;
+    font-size: crem(24px);
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: $font-cap;
   }
   &:hover {
     background: lighten($blue, 5%);

@@ -5,8 +5,8 @@
   padding-bottom: 0 !important;
   background-color: #080f13;
   .container {
-    padding-top: crem(220px);
-    padding-bottom: crem(120px);
+    padding-top: crem(180px);
+    padding-bottom: crem(100px);
     background-color: #12191d;
     @include touch {
       padding-top: crem(160px);
@@ -18,6 +18,7 @@
   .inner {
     margin-bottom: 2rem;
     min-height: crem(250px);
+    padding: 1.5rem;
   }
   .speaker-img {
     height: crem(200px);
@@ -69,6 +70,9 @@
         path {
           fill: $blue;
         }
+      }
+      &:hover {
+        filter: brightness(1.25);
       }
     }
   }
