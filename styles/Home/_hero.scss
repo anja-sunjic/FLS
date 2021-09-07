@@ -35,9 +35,12 @@
   .hero-content {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     width: 100%;
-
+    position: relative;
+    @include touch {
+      padding: 0 1.5rem;
+    }
     /* Top part */
     .hero-top {
       width: 100%;
@@ -45,30 +48,49 @@
       align-items: flex-start;
       justify-content: space-between;
       flex-wrap: wrap;
+      @include touch {
+        flex-direction: column;
+      }
       /* Title */
       .hero-title-wrapper {
         display: flex;
         align-items: left;
         justify-content: center;
         flex-direction: column;
-        padding: 2rem;
+        padding: 0;
         hr {
           height: 7px;
           background-color: $dark;
         }
+        @include touch {
+          margin-bottom: 6rem;
+        }
         span {
           text-align: left;
           letter-spacing: 4px;
-          font-size: crem(140px);
+          font-size: crem(136px);
+          line-height: crem(136px);
           text-align: left;
           font-weight: 800;
           font-family: $font-cap;
+          @include mobile {
+            font-size: crem(100px);
+            line-height: crem(110px);
+          }
         }
         .white {
           color: white;
+          margin-bottom: 2rem;
+          @include mobile {
+            margin-bottom: 0;
+          }
         }
         .black {
           color: $dark;
+          text-decoration: underline;
+          @include touch {
+            text-decoration: none;
+          }
         }
       }
     }
@@ -93,7 +115,10 @@
     .hero-bottom {
       display: flex;
       align-items: flex-end;
+      margin-top: auto;
       /* Buttons */
+      position: absolute;
+      bottom: 0;
       .hero-button-black {
         padding: 2rem;
         height: max-content;

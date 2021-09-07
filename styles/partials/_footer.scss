@@ -9,9 +9,9 @@
   z-index: -5;
   margin-bottom: 2rem;
   @include touch {
-    position: relative;
+    //position: relative;
     padding: 3rem 1.5rem !important;
-    z-index: 10;
+    // z-index: 10;
     margin-bottom: 0;
   }
   .inner {

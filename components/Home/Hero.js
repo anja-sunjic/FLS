@@ -1,4 +1,4 @@
-import Navbar from '../partials/Navbar'
+import Navbar from "../partials/Navbar";
 
 export default function Hero() {
   return (
@@ -13,7 +13,6 @@ export default function Hero() {
             <div className="hero-title-wrapper">
               <span className="white">FUTURES LEADERS</span>
               <span className="black">SUMMIT &#39;21</span>
-              <hr style={{width: "70%"}}></hr>
             </div>
             <div className="hero-info">
               <span>DECEMBER</span>
@@ -22,7 +21,9 @@ export default function Hero() {
           </div>
           <div className="hero-bottom">
             <div className="hero-button-black">
-              <span>STEM outside<br></br> the box</span>
+              <span>
+                STEM outside<br></br> the box
+              </span>
             </div>
             <div className="hero-button-yellow">
               <span>COMING SOON</span>
