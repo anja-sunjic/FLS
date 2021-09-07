@@ -48,6 +48,7 @@
       align-items: flex-start;
       justify-content: space-between;
       flex-wrap: wrap;
+      padding-bottom: 5%;
       @include touch {
         flex-direction: column;
       }
