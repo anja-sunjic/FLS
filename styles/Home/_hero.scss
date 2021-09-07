@@ -123,6 +123,9 @@
         padding: 2rem;
         height: max-content;
         background-color: $dark;
+        @include touch {
+          padding: 1.5rem;
+        }
         span {
           background-color: $dark;
           color: white;
@@ -130,6 +133,9 @@
           text-transform: uppercase;
           font-size: crem(44px);
           font-weight: 400;
+          @include touch {
+            font-size: crem(36px);
+          }
         }
       }
       .hero-button-yellow {
