@@ -14,8 +14,8 @@ export default function About() {
                   Bosnia and Herzegovina. By establishing an event that will
                   annually gather prospective change makers in the field of
                   STEM, we aim to create a strong network that will change the
-                  way we perceive the industry and the future of our country's
-                  development.
+                  way we perceive the industry and the future of our
+                  country&#39;s development.
                 </p>
                 <p className="accented">
                   This year, the big idea behind the event is the importance of
