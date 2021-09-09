@@ -27,7 +27,7 @@
     filter: blur(9px);
   }
   .blur:before {
-    background-color: $yellow;
+    background-color: $dark;
     opacity: 0.8;
   }
 
@@ -87,7 +87,7 @@
           }
         }
         .black {
-          color: $dark;
+          color: $yellow;
           text-decoration: underline;
           @include touch {
             text-decoration: none;

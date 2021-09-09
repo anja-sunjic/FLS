@@ -8,10 +8,13 @@ export default function Footer() {
           <div className="columns">
             <div className="column is-8">
               {/* <div className="logo"></div> */}
-              <p>Contact Us</p> <br />
+              <p>FLS'21 HEALTH AND SAFETY PROTOCOLS</p> <br />
               <p className="sub">
-                The organizing team will put in place all measures needed to prevent the further spread of the COVID-19 
-                virus during event days. More information will be published shortly.
+                All safety measures will be in accordance with the instructions
+                of the Cantonal Crisis Staff. The organizing team will put in
+                place all measures needed to prevent the further spread of the
+                COVID-19 virus during event days. More information will be
+                published shortly.
               </p>
               <Link href="/contact">
                 <a className="contact-button _shine">
