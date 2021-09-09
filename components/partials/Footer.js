@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="columns">
             <div className="column is-8">
               {/* <div className="logo"></div> */}
-              <p>FLS'21 HEALTH AND SAFETY PROTOCOLS</p> <br />
+              <p>FLS&#39;21 HEALTH AND SAFETY PROTOCOLS</p> <br />
               <p className="sub">
                 All safety measures will be in accordance with the instructions
                 of the Cantonal Crisis Staff. The organizing team will put in
