@@ -22,11 +22,11 @@
     gap: 2rem;
   }
   p {
-    font-size: crem(22px);
-    font-weight: 700;
-    margin-bottom: crem(40px);
+    font-size: crem(24px);
+    font-weight: 800;
+    margin-bottom: crem(18px);
     @include touch {
-      margin-bottom: crem(20px);
+      margin-bottom: crem(10px);
       padding-top: crem(20px);
     }
     &.sub {
@@ -35,6 +35,7 @@
       padding-right: 35%;
       color: #e1e1e1;
       font-weight: 400;
+      margin-bottom: 4rem;
       @include touch {
         padding-right: 0;
       }
@@ -57,8 +58,13 @@
       justify-content: center;
       margin-right: 1rem;
     }
-    img {
-      height: 3rem;
+    path {
+      fill: $blue;
+    }
+    a:hover {
+      path {
+        fill: lighten($blue, 5%);
+      }
     }
   }
 }

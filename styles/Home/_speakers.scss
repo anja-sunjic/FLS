@@ -3,7 +3,7 @@
   color: white;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
-  background-color: #080f13;
+  background-color: $dark;
   .container {
     padding-top: crem(180px);
     padding-bottom: crem(100px);
@@ -25,7 +25,8 @@
     width: crem(200px);
     border-radius: 50%;
     overflow: hidden;
-    img {
+    img,
+    svg {
       display: inline;
       margin: 0 auto;
       height: 100%;

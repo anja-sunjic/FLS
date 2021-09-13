@@ -80,15 +80,15 @@
           }
         }
         .white {
-          color: white;
+          color: $yellow;
           margin-bottom: 2rem;
           @include mobile {
             margin-bottom: 0;
           }
         }
         .black {
-          color: $yellow;
-          text-decoration: underline;
+          color: $white;
+          //text-decoration: underline;
           @include touch {
             text-decoration: none;
           }
