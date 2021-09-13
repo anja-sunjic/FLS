@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Hexagon from "react-hexagon";
 
 export default function Speakers() {
   return (

@@ -1,20 +1,19 @@
 .contact-button {
   padding: 1rem 3rem;
-  background-color: $blue;
+  background-color: $yellow;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border-radius: 8px;
+  border-radius: 200px;
   margin-top: 6rem;
   cursor: pointer;
   span {
-    color: $white;
+    color: black;
     font-size: crem(28px);
-    font-weight: 400;
-    text-transform: uppercase;
-    font-family: $font-cap;
+    font-weight: 700;
+    font-family: $font;
   }
   &:hover {
-    background: lighten($blue, 5%);
+    background: lighten($yellow, 5%);
   }
 }
