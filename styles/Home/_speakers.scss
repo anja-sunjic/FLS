@@ -34,11 +34,11 @@
       object-fit: cover;
     }
     .anon {
-      -webkit-filter: blur(8px);
-      -moz-filter: blur(8px);
-      -ms-filter: blur(8px);
-      -o-filter: blur(8px);
-      filter: blur(8px);
+      -webkit-filter: blur(8px) grayscale(100%);
+      -moz-filter: blur(8px) grayscale(100%);
+      -ms-filter: blur(8px) grayscale(100%);
+      -o-filter: blur(8px) grayscale(100%);
+      filter: blur(8px) grayscale(100%);
     }
   }
   .items {
