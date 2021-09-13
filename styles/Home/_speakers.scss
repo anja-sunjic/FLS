@@ -33,6 +33,13 @@
       width: 100%;
       object-fit: cover;
     }
+    .anon {
+      -webkit-filter: blur(8px);
+      -moz-filter: blur(8px);
+      -ms-filter: blur(8px);
+      -o-filter: blur(8px);
+      filter: blur(8px);
+    }
   }
   .items {
     display: flex;
@@ -58,6 +65,12 @@
         font-size: crem(24px);
         font-weight: 600;
         margin-bottom: 1rem;
+        &.anon {
+          font-family: $font-cap;
+          font-weight: 400;
+          text-transform: uppercase;
+          font-size: crem(26px);
+        }
       }
       &.title {
         color: white;
