@@ -1,15 +1,21 @@
 .form-container {
   background-color: $dark;
+  position: relative;
+  padding-top: crem(150px);
   .contact-form {
     width: 40%;
     margin-top: 5rem;
   }
-  .decor {
-    width: 50%;
+  .hex-decor {
     position: absolute;
     right: 0;
     top: 50%;
     transform: translateY(-50%);
+    height: 100%;
+
+    img {
+      height: 100%;
+    }
   }
   h2 {
     position: relative;

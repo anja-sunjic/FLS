@@ -6,8 +6,17 @@
   background-color: $dark;
   padding-top: 2rem;
   .container {
-    padding-top: crem(220px);
-    padding-bottom: crem(120px);
+    padding-top: crem(80px);
+    padding-bottom: crem(80px);
+  }
+  h3 {
+    font-family: $font-cap;
+    font-style: normal;
+    font-weight: normal;
+    font-size: crem(48px);
+    line-height: 110%;
+    text-align: center;
+    text-transform: uppercase;
   }
   .top-partners {
     display: flex;
@@ -39,6 +48,13 @@
     align-items: center;
     justify-content: center;
     gap: 4rem;
+  }
+  .dots {
+    margin-top: crem(100px);
+    margin-bottom: crem(80px);
+  }
+  .contact-button {
+    margin-top: 2rem;
   }
   .partner {
     display: flex;

@@ -24,28 +24,10 @@ export default function Partners() {
               </a>
             </div>
           </div>
-          {/* <div className="items">
-            <div className="partner">
-              <div href="" className="partner-img">
-                <img src="./placeholder.png" alt="" />
-              </div>
-            </div>
-            <div className="partner">
-              <div href="" className="partner-img">
-                <img src="./placeholder.png" alt="" />
-              </div>
-            </div>
-            <div className="partner">
-              <div href="" className="partner-img">
-                <img src="./placeholder.png" alt="" />
-              </div>
-            </div>
-            <div className="partner">
-              <div href="" className="partner-img">
-                <img src="./placeholder.png" alt="" />
-              </div>
-            </div>
-          </div> */}
+          <div className="dots">
+            <img src="/dots.svg" alt="" />
+          </div>
+          <h3>Want to become a sponsor?</h3>
           <Link href="/contact">
             <a className="contact-button _shine">
               <span>Become a Sponsor</span>

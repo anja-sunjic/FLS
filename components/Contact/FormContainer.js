@@ -4,6 +4,9 @@ export default function FormContainer() {
   return (
     <>
       <section className="section form-container">
+        <div className="hex-decor">
+          <img src="/hex.svg" alt="" />
+        </div>
         <div className="container">
           <h2>Contact Us</h2>
           <p className="sub">
