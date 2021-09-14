@@ -48,23 +48,25 @@ export default function Header() {
               <input id="nav-toggle" type="checkbox"></input>
               <ul className="links">
                 <li>
-                  <a href="/">Home</a>
+                  <Link href="/">Home</Link>
                 </li>
                 <li>
-                  <a href="#about">About</a>
+                  <Link href="#about">About</Link>
                 </li>
                 <li>
-                  <a href="#speakers">Speakers</a>
+                  <Link href="#speakers">Speakers</Link>
                 </li>
                 <li>
-                  <a href="#partners">Sponsors & Partners</a>
+                  <Link href="#partners">Sponsors & Partners</Link>
                 </li>
               </ul>
             </div>
           </nav>
-          <a className="contact-button" href="/contact">
-            <span>Contact Us</span>
-          </a>
+          <Link href="/contact">
+            <a className="contact-button">
+              <span>Contact Us</span>
+            </a>
+          </Link>
         </div>
       </header>
     </>
