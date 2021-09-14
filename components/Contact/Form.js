@@ -107,7 +107,7 @@ export default function ContactForm() {
       <input
         className="contact-button"
         type="submit"
-        value={formState === "LOADING" ? "Loading..." : "Submit inquiry"}
+        value={formState === "LOADING" ? "Loading..." : "Submit Inquiry"}
         disabled={formState === "LOADING"}
       />
       {formState === "SUCCESS" ? (
