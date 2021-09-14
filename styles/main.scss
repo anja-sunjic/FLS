@@ -46,14 +46,11 @@ body {
 h2 {
   font-size: crem(52px);
   font-weight: 400;
-  text-align: left;
   margin-bottom: 2rem;
   font-family: $font-cap;
   text-transform: uppercase;
   color: $yellow;
-  display: inline-block;
-  top: 0;
-  left: 0;
+  display: block;
   text-align: left;
 }
 p {

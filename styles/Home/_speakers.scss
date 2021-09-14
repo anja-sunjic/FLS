@@ -5,18 +5,20 @@
   background-color: $dark;
   .container {
     background-color: #12191d;
-    padding: crem(120px) 0;
+    padding: crem(80px) crem(40px);
     @include touch {
       padding-left: 1rem;
       padding-right: 1rem;
     }
     overflow: hidden;
+    z-index: 2;
   }
   .hex-decor {
     position: absolute;
     left: 0;
     top: 0;
     height: 100%;
+    z-index: -1;
   }
   .inner {
     margin-bottom: 2rem;
