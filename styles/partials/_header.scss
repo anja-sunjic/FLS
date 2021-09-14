@@ -1,17 +1,27 @@
 .header {
   position: fixed;
-  top: 1rem;
+  top: 0;
   width: 100%;
   z-index: 999;
-  margin: 0 2rem;
+  transform: translateY(0);
+  transition: transform 0.3s ease;
+  background-color: rgba($dark, 0.5);
+
+  &.hidden {
+    transform: translateY(-140%);
+  }
   .inner {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    a {
-      color: $dark;
-      font-size: crem(36px);
-      font-weight: 600;
+    padding: 0 2rem;
+    width: 100%;
+    .contact-button {
+      margin-top: 0;
+      margin-left: auto;
+      span {
+        font-size: crem(16px);
+      }
     }
   }
 }

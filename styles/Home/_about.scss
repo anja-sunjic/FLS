@@ -2,17 +2,8 @@
   background-color: $dark;
   color: white;
   position: relative;
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-  .container {
-    padding-top: crem(220px);
-    padding-bottom: crem(120px);
-  }
+  overflow: hidden;
   .inner {
-    padding-right: 15%;
-    @include touch {
-      padding-right: 0;
-    }
   }
   .accented {
     color: $yellow;
@@ -23,22 +14,15 @@
       margin-bottom: 2rem;
     }
   }
-  .img {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    @include touch {
-      margin-top: 1.5rem;
+  .hex-decor {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 150%;
+
+    img {
+      height: 100%;
     }
-  }
-  img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-  .covid {
-    padding: 2rem;
-    font-size: crem(16px);
-    border: 2px solid rgba(255, 255, 255, 0.3);
   }
 }

@@ -1,17 +1,15 @@
 .form-container {
   background-color: $dark;
   .contact-form {
-    padding: 0 30%;
+    width: 40%;
     margin-top: 5rem;
-    @include mobile {
-      padding: 0 5%;
-    }
-    @include tablet {
-      padding: 0 15%;
-    }
-    @include desktop {
-      padding: 0 30%;
-    }
+  }
+  .decor {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
   }
   h2 {
     position: relative;

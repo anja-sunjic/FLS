@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Partners() {
   return (
     <>
-      <section className="section partners">
+      <section className="section partners" id="partners" name="partners">
         <div className="container">
           <h2>Sponsors & Partners</h2>
           <div className="top-partners">

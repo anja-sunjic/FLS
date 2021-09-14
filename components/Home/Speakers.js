@@ -4,8 +4,11 @@ import Hexagon from "react-hexagon";
 export default function Speakers() {
   return (
     <>
-      <section className="section speakers">
+      <section className="section speakers" id="speakers" name="speakers">
         <div className="container">
+          <div className="hex-decor">
+            <img src="/hex2.svg" alt="" />
+          </div>
           <h2>Speakers</h2>
           <div className="columns is-multiline">
             <div className="column is-6">

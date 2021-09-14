@@ -1,19 +1,22 @@
 .speakers {
   text-align: center;
   color: white;
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
+  padding: 0 !important;
   background-color: $dark;
   .container {
-    padding-top: crem(180px);
-    padding-bottom: crem(100px);
     background-color: #12191d;
+    padding: crem(120px) 0;
     @include touch {
-      padding-top: crem(160px);
-      padding-bottom: crem(80px);
       padding-left: 1rem;
       padding-right: 1rem;
     }
+    overflow: hidden;
+  }
+  .hex-decor {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
   }
   .inner {
     margin-bottom: 2rem;
@@ -34,49 +37,14 @@
       object-fit: cover;
     }
     .anon {
-      -webkit-filter: blur(8px) grayscale(100%);
-      -moz-filter: blur(8px) grayscale(100%);
-      -ms-filter: blur(8px) grayscale(100%);
-      -o-filter: blur(8px) grayscale(100%);
-      filter: blur(8px) grayscale(100%);
+      -webkit-filter: blur(6px) grayscale(100%);
+      -moz-filter: blur(6px) grayscale(100%);
+      -ms-filter: blur(6px) grayscale(100%);
+      -o-filter: blur(6px) grayscale(100%);
+      filter: blur(6px) grayscale(100%);
     }
   }
-  .hexagon {
-    overflow: hidden;
-    visibility: hidden;
-    -webkit-transform: rotate(120deg);
-    -moz-transform: rotate(120deg);
-    -ms-transform: rotate(120deg);
-    -o-transform: rotate(120deg);
-    transform: rotate(120deg);
-    cursor: pointer;
-    width: 200px;
-    height: 400px;
-    margin: -80px 0 0 20px;
-  }
-  .hexagon-in1 {
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    -webkit-transform: rotate(-60deg);
-    -moz-transform: rotate(-60deg);
-    -ms-transform: rotate(-60deg);
-    -o-transform: rotate(-60deg);
-    transform: rotate(-60deg);
-  }
-  .hexagon-in2 {
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-image: url(http://placekitten.com/240/240);
-    visibility: visible;
-    -webkit-transform: rotate(-60deg);
-    -moz-transform: rotate(-60deg);
-    -ms-transform: rotate(-60deg);
-    -o-transform: rotate(-60deg);
-    transform: rotate(-60deg);
-  }
+
   .items {
     display: flex;
     flex-direction: row;

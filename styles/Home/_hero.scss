@@ -20,11 +20,11 @@
   }
   .blur img {
     display: block; /* remove bottom space */
-    -webkit-filter: blur(9px);
-    -moz-filter: blur(9px);
-    -ms-filter: blur(9px);
-    -o-filter: blur(9px);
-    filter: blur(9px);
+    -webkit-filter: grayscale(100%) blur(6px);
+    -moz-filter: grayscale(100%) blur(6px);
+    -ms-filter: grayscale(100%) blur(6px);
+    -o-filter: grayscale(100%) blur(6px);
+    filter: grayscale(100%) blur(6px);
   }
   .blur:before {
     background-color: $dark;
@@ -35,15 +35,24 @@
   .hero-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 100%;
     position: relative;
     @include touch {
       padding: 0 1.5rem;
     }
-    img {
-      width: 80%;
-      padding-bottom: 10%;
+    .hero-logo {
+      width: 70%;
+      img {
+        width: 100%;
+      }
+    }
+    .dots {
+      align-self: flex-end;
+      width: 60%;
+      img {
+        width: 100%;
+      }
     }
   }
 }

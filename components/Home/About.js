@@ -1,14 +1,12 @@
 export default function About() {
   return (
     <>
-      <section className="section about">
+      <section className="section about" id="about" name="about">
         <div className="container">
           <div className="columns">
             <div className="column is-7">
               <div className="inner">
-                <h2>
-                  About The <br /> Summit
-                </h2>
+                <h2>About The Summit</h2>
                 <p>
                   Futures Leaders Summit (FLS) gathers future STEM leaders from
                   Bosnia and Herzegovina. By establishing an event that will
@@ -27,13 +25,10 @@ export default function About() {
                 </p>
               </div>
             </div>
-
-            <div className="column is-5">
-              <div className="img ">
-                <img src="_MG_9401.jpg" alt="" />
-              </div>
-            </div>
           </div>
+        </div>
+        <div className="hex-decor">
+          <img src="/hex.svg" alt="" />
         </div>
       </section>
     </>
