@@ -67,8 +67,8 @@
     p {
       text-align: left;
       &.name {
-        color: $yellow;
-        font-size: crem(24px);
+        color: white;
+        font-size: crem(28px);
         font-weight: 600;
         margin-bottom: 1rem;
         &.anon {
@@ -79,7 +79,7 @@
         }
       }
       &.title {
-        color: white;
+        color: #8a9297;
         font-size: crem(22px);
         font-weight: 500;
       }

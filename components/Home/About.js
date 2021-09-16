@@ -2,6 +2,9 @@ export default function About() {
   return (
     <>
       <section className="section about" id="about" name="about">
+        {/* <div className="line-decor">
+          <img src="/about-lines.svg" alt="" />
+        </div> */}
         <div className="container">
           <div className="columns">
             <div className="column is-7">

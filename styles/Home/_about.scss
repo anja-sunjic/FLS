@@ -3,6 +3,7 @@
   color: white;
   position: relative;
   overflow: hidden;
+  padding: crem(120px) 0;
   .inner {
   }
   .accented {
@@ -19,10 +20,13 @@
     right: 0;
     top: 50%;
     transform: translateY(-50%);
-    height: 150%;
+    height: 120%;
 
     img {
       height: 100%;
     }
+  }
+  .line-decor {
+    position: absolute;
   }
 }

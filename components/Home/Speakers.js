@@ -5,7 +5,7 @@ export default function Speakers() {
   return (
     <>
       <section className="section speakers" id="speakers" name="speakers">
-        <div className="container">
+        <div className="container is-fluid">
           <div className="hex-decor">
             <img src="/hex2.svg" alt="" />
           </div>
