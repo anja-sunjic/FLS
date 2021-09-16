@@ -1,14 +1,14 @@
 import Head from "next/head";
 const MetaData = (props) => (
   <Head>
-    <title>{props.title} | Futures Leaders Summit</title>
+    <title>{props.title} | Futures Leaders Summit '21</title>
     <meta name="description" content={props.description} />
 
     <meta property="og:type" content="website" />
     <meta
       name="og:title"
       property="og:title"
-      content={props.title + " | Futures Leaders Summit"}
+      content={props.title + " | Futures Leaders Summit '21"}
     />
     <meta
       name="og:description"
@@ -21,7 +21,7 @@ const MetaData = (props) => (
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:title"
-      content={props.title + " | Futures Leaders Summit"}
+      content={props.title + " | Futures Leaders Summit '21"}
     />
     <meta name="twitter:description" content={props.desc} />
     <meta name="twitter:image" content={props.image} />
