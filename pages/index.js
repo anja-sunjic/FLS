@@ -14,7 +14,7 @@ export default function Home() {
         path="/"
         title="Futures Leaders Summit"
         description=""
-        image=""
+        image="/share.png"
       />
       <div className="_main">
         <Header />

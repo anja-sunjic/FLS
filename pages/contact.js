@@ -7,7 +7,12 @@ import FormContainer from "../components/Contact/FormContainer";
 export default function Home() {
   return (
     <>
-      <MetaData path="/contact" title="Contact" description="" image="" />
+      <MetaData
+        path="/contact"
+        title="Contact"
+        description=""
+        image="/share.png"
+      />
       <div className="_main">
         <Header />
         <FormContainer />
