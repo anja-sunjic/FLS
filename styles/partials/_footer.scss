@@ -56,14 +56,16 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-right: 1rem;
+      &:not(:last-of-type) {
+        margin-right: 1rem;
+      }
     }
     path {
-      fill: $blue;
+      fill: $yellow;
     }
     a:hover {
       path {
-        fill: lighten($blue, 5%);
+        fill: white;
       }
     }
   }

@@ -23,5 +23,10 @@
         font-size: crem(16px);
       }
     }
+    .logo {
+      @include touch {
+        width: crem(200px);
+      }
+    }
   }
 }

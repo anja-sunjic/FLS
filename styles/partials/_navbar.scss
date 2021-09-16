@@ -45,9 +45,9 @@ nav {
     }
   }
 }
-@media screen and (max-width: 768px) {
+@include touch {
   nav {
-    height: 60px;
+    display: none;
     .links {
       float: none;
       position: fixed;

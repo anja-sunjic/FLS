@@ -39,7 +39,7 @@ export default function Header() {
       <header className={`header ${shadowStyle} ${hiddenStyle}`}>
         <div className="inner">
           <Link href="/">
-            <a>
+            <a className="logo">
               <img src="logo.svg" alt="" />
             </a>
           </Link>
@@ -63,7 +63,7 @@ export default function Header() {
             </div>
           </nav>
           <Link href="/contact">
-            <a className="contact-button">
+            <a className="contact-button is-hidden-touch">
               <span>Contact Us</span>
             </a>
           </Link>

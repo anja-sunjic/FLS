@@ -2,9 +2,15 @@
   background-color: $dark;
   position: relative;
   padding-top: crem(150px);
+  @include touch {
+    padding-top: crem(200px) !important;
+  }
   .contact-form {
     width: 40%;
     margin-top: 5rem;
+    @include touch {
+      width: 100%;
+    }
   }
   .hex-decor {
     position: absolute;
