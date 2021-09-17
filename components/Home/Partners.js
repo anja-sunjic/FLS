@@ -24,7 +24,7 @@ export default function Partners() {
               </a>
             </div>
           </div>
-          <div className="dots is-hidden">
+          <div className="dots is-hidden-touch">
             <img src="/dots.svg" alt="" />
           </div>
           <div className="cta-sec">

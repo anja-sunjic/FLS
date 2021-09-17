@@ -10,9 +10,11 @@
     padding-bottom: crem(120px);
   }
   .cta-sec {
-    margin-top: 5rem;
-    background-color: #12191d;
-    padding: 4rem 2rem;
+    @include touch {
+      margin-top: 5rem;
+      background-color: #12191d;
+      padding: 4rem 2rem;
+    }
   }
   h3 {
     font-family: $font-cap;
