@@ -7,7 +7,7 @@
   padding-bottom: 0 !important;
   margin-bottom: 30rem;
   @include touch {
-    margin-bottom: 43rem;
+    margin-bottom: 53rem;
   }
   .container {
     height: 100%;
@@ -16,7 +16,8 @@
     position: absolute;
     bottom: -15rem;
     @include touch {
-      bottom: -2rem;
+      bottom: -4rem;
+      left: -7rem;
     }
   }
   .text-decor {
