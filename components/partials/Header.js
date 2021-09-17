@@ -40,7 +40,7 @@ export default function Header() {
         <div className="inner">
           <Link href="/">
             <a className="logo">
-              <img src="logo.svg" alt="" />
+              <img src="logo.png" alt="" />
             </a>
           </Link>
           <nav>
