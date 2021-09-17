@@ -4,6 +4,7 @@
   min-height: 100vh;
   width: 100%;
   position: relative;
+
   @include touch {
     height: 50vh;
     min-height: 50vh;
