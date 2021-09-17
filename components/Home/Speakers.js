@@ -207,7 +207,7 @@ export default function Speakers() {
                     </div>
                   </div>
                 </div>
-              </div>{" "}
+              </div>
             </div>
             <div className="column is-6">
               <div className="inner">
@@ -228,7 +228,6 @@ export default function Speakers() {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        {" "}
                         <svg
                           width="24"
                           height="24"

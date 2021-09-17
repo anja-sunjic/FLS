@@ -5,13 +5,13 @@
   background-color: $dark;
   .container {
     background-color: #12191d;
-    padding: crem(80px) crem(40px);
-    @include touch {
-      padding-left: 1rem;
-      padding-right: 1rem;
-    }
+    padding: crem(90px) crem(60px);
+    max-width: crem(1600px) !important;
     overflow: hidden;
     z-index: 2;
+    @include touch {
+      max-width: initial !important;
+    }
   }
   .hex-decor {
     position: absolute;
@@ -36,6 +36,7 @@
       margin: 0 auto;
       height: 100%;
       width: 100%;
+      -o-object-fit: cover;
       object-fit: cover;
     }
     .anon {
@@ -92,6 +93,7 @@
         }
       }
       &:hover {
+        -webkit-filter: brightness(1.25);
         filter: brightness(1.25);
       }
     }
