@@ -16,6 +16,7 @@ export default function Footer() {
                 COVID-19 virus during event days. More information will be
                 published shortly.
               </p>
+
               <Link href="/contact">
                 <a className="contact-button _shine">
                   <span>Contact Us</span>
@@ -85,6 +86,9 @@ export default function Footer() {
                   </a>
                 </div>
               </div>
+              <a className="logo">
+                <img src="logo.svg" alt="" />
+              </a>{" "}
             </div>
           </div>
           <p className="sub cc">
