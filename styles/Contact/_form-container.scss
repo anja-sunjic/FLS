@@ -5,6 +5,9 @@
   @include touch {
     padding-top: crem(200px) !important;
   }
+  button:focus {
+    outline: 0 !important;
+  }
   .contact-form {
     width: 40%;
     margin-top: 5rem;
@@ -68,7 +71,7 @@
     font-weight: 600;
     font-family: $font;
     -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
+    -moz-appearance: none;
+    appearance: none;
   }
 }
