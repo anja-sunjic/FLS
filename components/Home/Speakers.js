@@ -19,6 +19,7 @@ export default function Speakers() {
             </div>
           </div>
           <div className="columns is-multiline">
+            {/* zinka */}
             <div className="column is-6">
               <div className="inner">
                 <div className="columns is-mobile is-vcentered">
@@ -58,6 +59,7 @@ export default function Speakers() {
                 </div>
               </div>
             </div>
+            {/* admir */}
             <div className="column is-6">
               <div className="inner">
                 <div className="columns is-mobile is-vcentered">
@@ -97,7 +99,7 @@ export default function Speakers() {
                 </div>
               </div>
             </div>
-
+            {/* fele */}
             <div className="column is-6">
               <div className="inner">
                 <div className="columns is-mobile is-vcentered">
@@ -137,16 +139,13 @@ export default function Speakers() {
                 </div>
               </div>
             </div>
+            {/* mario */}
             <div className="column is-6">
               <div className="inner">
                 <div className="columns is-mobile is-vcentered">
                   <div className="column is-narrow">
                     <div href="" className="speaker-img">
-                      <img
-                        src="./MarioBarosevcic.jpg"
-                        alt=""
-                        className="grayscale"
-                      />
+                      <img src="./Mario.jpg" alt="" className="grayscale" />
                     </div>
                   </div>
                   <div className="column is-8">
