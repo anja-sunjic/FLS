@@ -99,7 +99,7 @@ export default function Footer() {
                 </div>
               </div>
               <a className="logo">
-                <img src="logo.svg" alt="" />
+                <img src="logo.png" alt="" />
               </a>{" "}
             </div>
           </div>
