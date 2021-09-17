@@ -109,8 +109,9 @@
         }
       }
       &:hover {
-        -webkit-filter: brightness(1.25);
-        filter: brightness(1.25);
+        path {
+          fill: white;
+        }
       }
     }
   }
