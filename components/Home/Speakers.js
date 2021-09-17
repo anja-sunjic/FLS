@@ -11,7 +11,7 @@ export default function Speakers() {
           </div>
           <div className="title-line">
             <h2>Speakers</h2>
-            <div className="line-decor">
+            <div className="line-decor is-hidden-touch">
               <img src="/dots.svg" alt="" />
             </div>
           </div>
