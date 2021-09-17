@@ -24,15 +24,17 @@ export default function Partners() {
               </a>
             </div>
           </div>
-          <div className="dots">
+          <div className="dots is-hidden">
             <img src="/dots.svg" alt="" />
           </div>
-          <h3>Want to become a sponsor?</h3>
-          <Link href="/contact">
-            <a className="contact-button _shine">
-              <span>Become a Sponsor</span>
-            </a>
-          </Link>
+          <div className="cta-sec">
+            <h3>FLS&#39;21 IS LOOKING FOR SPONSORS!</h3>
+            <Link href="/contact">
+              <a className="contact-button _shine">
+                <span>Become a Sponsor</span>
+              </a>
+            </Link>
+          </div>
         </div>
       </section>
     </>

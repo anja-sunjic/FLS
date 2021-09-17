@@ -7,7 +7,12 @@
   padding-top: 2rem;
   .container {
     padding-top: crem(80px);
-    padding-bottom: crem(220px);
+    padding-bottom: crem(120px);
+  }
+  .cta-sec {
+    margin-top: 5rem;
+    background-color: #12191d;
+    padding: 4rem 2rem;
   }
   h3 {
     font-family: $font-cap;
