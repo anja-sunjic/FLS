@@ -29,6 +29,7 @@
     }
     .logo {
       display: flex;
+      width: 14rem;
       @include touch {
         width: crem(200px);
       }
