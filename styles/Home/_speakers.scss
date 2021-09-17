@@ -48,6 +48,9 @@
     margin-bottom: 2rem;
     min-height: crem(250px);
     padding: 1.5rem;
+    @include touch {
+      margin-bottom: 0;
+    }
   }
   .speaker-img {
     //border-radius: 50%;
