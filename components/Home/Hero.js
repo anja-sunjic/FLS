@@ -9,7 +9,7 @@ export default function Hero() {
           <div className="hero-logo">
             <img src="/hero-logo.svg" alt="" />
           </div>
-          <div className="dots">
+          <div className="dots is-hidden-touch">
             <img src="/dots.svg" alt="" />
           </div>
         </div>
