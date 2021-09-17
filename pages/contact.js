@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <MetaData
         path="/contact"
-        title="Contact"
+        title="Contact Us"
         description=""
         image="/share.png"
       />
