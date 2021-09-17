@@ -214,7 +214,11 @@ export default function Speakers() {
                 <div className="columns is-mobile is-vcentered">
                   <div className="column is-narrow">
                     <div href="" className="speaker-img">
-                      <img src="./Amra.jpg" alt="" className="grayscale" />
+                      <img
+                        src="./Amra-square.jpg"
+                        alt=""
+                        className="grayscale"
+                      />
                     </div>
                   </div>
                   <div className="column is-8">
