@@ -36,6 +36,13 @@
     height: 100%;
     z-index: -1;
   }
+  .hex-decor-2 {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    z-index: -1;
+    top: 85rem;
+  }
   .inner {
     margin-bottom: 2rem;
     min-height: crem(250px);

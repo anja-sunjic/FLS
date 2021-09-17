@@ -9,6 +9,9 @@ export default function Speakers() {
           <div className="hex-decor">
             <img src="/hex2.svg" alt="" />
           </div>
+          <div className="hex-decor-2 is-hidden-desktop">
+            <img src="/hex.svg" alt="" />
+          </div>
           <div className="title-line">
             <h2>Speakers</h2>
             <div className="line-decor is-hidden-touch">
