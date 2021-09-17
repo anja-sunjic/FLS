@@ -27,7 +27,7 @@ export default function Footer() {
               <div className="sm">
                 <p>Follow FLS</p>
                 <div className="is-flex is-flex-direction-row">
-                  <a href="">
+                  <a href="https://www.facebook.com/Futures-Leaders-Summit-100876219014134">
                     <svg
                       width="24"
                       height="24"
@@ -41,7 +41,7 @@ export default function Footer() {
                       />
                     </svg>
                   </a>
-                  <a href="">
+                  <a href="https://www.facebook.com/Futures-Leaders-Summit-100876219014134">
                     <svg
                       width="24"
                       height="24"
