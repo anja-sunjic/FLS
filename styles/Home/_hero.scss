@@ -1,8 +1,13 @@
 .hero {
   /* General */
   height: 100vh;
+  min-height: 100vh;
   width: 100%;
   position: relative;
+  @include touch {
+    height: 70vh;
+    min-height: 70vh;
+  }
 
   /* Background image */
   .hero-img {
@@ -15,6 +20,7 @@
     img {
       height: 100%;
       width: 100%;
+      -o-object-fit: cover;
       object-fit: cover;
     }
   }
@@ -43,6 +49,9 @@
     }
     .hero-logo {
       width: 60%;
+      @include touch {
+        width: 100%;
+      }
       img {
         width: 100%;
       }
@@ -51,6 +60,9 @@
       align-self: flex-end;
       width: 60%;
       img {
+        width: 100%;
+      }
+      @include touch {
         width: 100%;
       }
     }

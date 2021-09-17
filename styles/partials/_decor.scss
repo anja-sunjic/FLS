@@ -5,6 +5,10 @@
   height: crem(600px);
   padding-top: 0 !important;
   padding-bottom: 0 !important;
+  margin-bottom: 33rem;
+  @include touch {
+    margin-bottom: 43rem;
+  }
   .container {
     height: 100%;
   }
@@ -14,7 +18,7 @@
   }
   .text-decor {
     position: absolute;
-    bottom: -3rem;
+    bottom: -2rem;
   }
   img {
     max-width: 100%;

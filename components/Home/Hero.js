@@ -10,7 +10,7 @@ export default function Hero() {
             <img src="/hero-logo.svg" alt="" />
           </div>
           <div className="dots">
-            <img src="/dots.svg" alt="" />
+            <img src="/dots.png" alt="" />
           </div>
         </div>
       </div>
