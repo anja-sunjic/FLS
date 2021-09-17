@@ -15,6 +15,9 @@
   .shadow-decor {
     position: absolute;
     bottom: -15rem;
+    @include touch {
+      bottom: -2rem;
+    }
   }
   .text-decor {
     position: absolute;
