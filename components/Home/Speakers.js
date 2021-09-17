@@ -23,8 +23,8 @@ export default function Speakers() {
                     <div className="speaker">
                       <p className="name">Admir Masic</p>
                       <p className="title">
-                        Career Development Professor in the Department of Civil
-                        and Environmental Engineering at MIT
+                        Associate Professor of Civil and Environmental
+                        Engineering at MIT
                       </p>
                       <a
                         href="https://www.linkedin.com/in/admirmasic/"

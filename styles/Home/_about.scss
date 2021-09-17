@@ -9,13 +9,6 @@
   h2 {
     z-index: 2;
   }
-  // h2::before {
-  //   content: url("/about-lines.svg");
-  //   position: absolute;
-  //   top: 0;
-  //   left: 0;
-  //   z-index: 1;
-  // }
   .accented {
     color: $yellow;
     font-weight: 700;
@@ -38,6 +31,13 @@
   }
   .line-decor {
     position: absolute;
+    display: none;
     left: -4rem;
+    @media screen and (max-width: 1700px) {
+      left: -10rem;
+    }
+    @media screen and (max-width: 1515px) {
+      left: -15rem;
+    }
   }
 }
