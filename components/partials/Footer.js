@@ -30,6 +30,7 @@ export default function Footer() {
                   <a
                     href="https://www.facebook.com/Futures-Leaders-Summit-100876219014134"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <svg
                       width="24"
@@ -47,6 +48,7 @@ export default function Footer() {
                   <a
                     href="https://www.facebook.com/Futures-Leaders-Summit-100876219014134"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <svg
                       width="24"
@@ -72,6 +74,7 @@ export default function Footer() {
                   <a
                     href="https://www.linkedin.com/company/futures-leaders-summit/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <svg
                       width="24"
