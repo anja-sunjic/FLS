@@ -64,8 +64,11 @@
     margin-top: 0;
     width: 100%;
     font-size: crem(28px);
+    line-height: crem(28px);
     font-weight: 600;
     font-family: $font;
-    appearance: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
   }
 }
