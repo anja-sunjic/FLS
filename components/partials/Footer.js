@@ -46,7 +46,7 @@ export default function Footer() {
                     </svg>
                   </a>
                   <a
-                    href="https://www.facebook.com/Futures-Leaders-Summit-100876219014134"
+                    href="https://www.instagram.com/futuresleaderssummit/"
                     target="_blank"
                     rel="noreferrer"
                   >
