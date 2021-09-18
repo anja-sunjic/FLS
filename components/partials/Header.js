@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-//import MobileMenu from "./MobileMenu";
 import { useState } from "react";
 import { useRouter } from "next/router";
 import useDocumentScrollThrottled from "../../hooks/useDocumentScrollThrottled";
@@ -16,7 +15,7 @@ export default function Header() {
   const [isActiveMenu, setIsActiveMenu] = useState(false);
   const [shouldHideHeader, setShouldHideHeader] = useState(false);
   const [shouldShowShadow, setShouldShowShadow] = useState(false);
-
+  const [isMobileMenu, setisMobileMenu] = useState(false);
   const MINIMUM_SCROLL = 40;
   const TIMEOUT_DELAY = 200;
 
@@ -36,7 +35,11 @@ export default function Header() {
   const hiddenStyle = shouldHideHeader ? "hidden" : "";
   return (
     <>
-      <header className={`header ${shadowStyle} ${hiddenStyle}`}>
+      <header
+        className={`header ${shadowStyle}  ${
+          isMobileMenu ? "active" : "not-active"
+        } ${isMobileMenu ? "" : hiddenStyle}`}
+      >
         <div className="inner">
           <Link href="/">
             <a className="logo">
@@ -67,8 +70,60 @@ export default function Header() {
               <span>Contact Us</span>
             </a>
           </Link>
+          <div
+            className="burger-icon is-hidden-desktop"
+            onClick={() => {
+              setisMobileMenu(!isMobileMenu);
+            }}
+          >
+            <div className={`btn ${isMobileMenu ? "active" : "not-active"}`}>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
         </div>
       </header>
+      {isMobileMenu && (
+        <div
+          className={`mobile-menu ${isMobileMenu ? "active" : "not-active"}`}
+        >
+          <ul className="links">
+            <li
+              onClick={() => {
+                setisMobileMenu(!isMobileMenu);
+                window.scrollTo({
+                  top: 0,
+                  behavior: "smooth",
+                });
+              }}
+            >
+              <Link href="/">Home</Link>
+            </li>
+            <li
+              onClick={() => {
+                setisMobileMenu(!isMobileMenu);
+              }}
+            >
+              <Link href="#about">About</Link>
+            </li>
+            <li
+              onClick={() => {
+                setisMobileMenu(!isMobileMenu);
+              }}
+            >
+              <Link href="#speakers">Speakers</Link>
+            </li>
+            <li
+              onClick={() => {
+                setisMobileMenu(!isMobileMenu);
+              }}
+            >
+              <Link href="#partners">Sponsors & Partners</Link>
+            </li>
+          </ul>
+        </div>
+      )}
     </>
   );
 }
