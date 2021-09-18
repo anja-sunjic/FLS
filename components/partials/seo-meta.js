@@ -1,7 +1,9 @@
 import Head from "next/head";
 const MetaData = (props) => (
   <Head>
-    <title>{props.title} | Futures Leaders Summit'21</title>
+    <title>
+      {props.title} | {`Futures Leaders Summit'21`}
+    </title>
     <meta name="description" content={props.description} />
 
     <meta property="og:type" content="website" />
