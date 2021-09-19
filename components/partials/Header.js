@@ -86,7 +86,9 @@ export default function Header() {
       </header>
       {isMobileMenu && (
         <div
-          className={`mobile-menu ${isMobileMenu ? "active" : "not-active"}`}
+          className={`mobile-menu is-hidden-desktop ${
+            isMobileMenu ? "active" : "not-active"
+          }`}
         >
           <ul className="links">
             <li
