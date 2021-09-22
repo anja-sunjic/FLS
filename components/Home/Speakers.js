@@ -1,5 +1,4 @@
-import Link from "next/link";
-import Hexagon from "react-hexagon";
+import LinkedIn from "../partials/LinkedIn";
 
 export default function Speakers() {
   return (
@@ -35,25 +34,7 @@ export default function Speakers() {
                         Professor, Head of Department of Art and Design at
                         American University of Sharjah
                       </p>
-                      <a
-                        href="https://www.linkedin.com/in/zinkabejtic/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        {" "}
-                        <svg
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M22.95 0H1.05C0.45 0 0 0.45 0 1.05V23.1C0 23.55 0.45 24 1.05 24H23.1C23.7 24 24.15 23.55 24.15 22.95V1.05C24 0.45 23.55 0 22.95 0ZM7.05 20.4H3.6V9H7.2V20.4H7.05ZM5.4 7.5C4.2 7.5 3.3 6.45 3.3 5.4C3.3 4.2 4.2 3.3 5.4 3.3C6.6 3.3 7.5 4.2 7.5 5.4C7.35 6.45 6.45 7.5 5.4 7.5ZM20.4 20.4H16.8V14.85C16.8 13.5 16.8 11.85 15 11.85C13.2 11.85 12.9 13.35 12.9 14.85V20.55H9.3V9H12.75V10.5C13.2 9.6 14.4 8.7 16.05 8.7C19.65 8.7 20.25 11.1 20.25 14.1V20.4H20.4Z"
-                            fill="white"
-                          />
-                        </svg>
-                      </a>
+                      <LinkedIn url="https://www.linkedin.com/in/zinkabejtic/" />
                     </div>
                   </div>
                 </div>
@@ -75,25 +56,7 @@ export default function Speakers() {
                         Associate Professor of Civil and Environmental
                         Engineering at MIT
                       </p>
-                      <a
-                        href="https://www.linkedin.com/in/admirmasic/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        {" "}
-                        <svg
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M22.95 0H1.05C0.45 0 0 0.45 0 1.05V23.1C0 23.55 0.45 24 1.05 24H23.1C23.7 24 24.15 23.55 24.15 22.95V1.05C24 0.45 23.55 0 22.95 0ZM7.05 20.4H3.6V9H7.2V20.4H7.05ZM5.4 7.5C4.2 7.5 3.3 6.45 3.3 5.4C3.3 4.2 4.2 3.3 5.4 3.3C6.6 3.3 7.5 4.2 7.5 5.4C7.35 6.45 6.45 7.5 5.4 7.5ZM20.4 20.4H16.8V14.85C16.8 13.5 16.8 11.85 15 11.85C13.2 11.85 12.9 13.35 12.9 14.85V20.55H9.3V9H12.75V10.5C13.2 9.6 14.4 8.7 16.05 8.7C19.65 8.7 20.25 11.1 20.25 14.1V20.4H20.4Z"
-                            fill="white"
-                          />
-                        </svg>
-                      </a>
+                      <LinkedIn url="https://www.linkedin.com/in/admirmasic/" />
                     </div>
                   </div>
                 </div>
@@ -115,25 +78,7 @@ export default function Speakers() {
                         Manager of Games Technology and Energy at International
                         Olympic Committee – IOC
                       </p>
-                      <a
-                        href="https://www.linkedin.com/in/fedjadelalic/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        {" "}
-                        <svg
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M22.95 0H1.05C0.45 0 0 0.45 0 1.05V23.1C0 23.55 0.45 24 1.05 24H23.1C23.7 24 24.15 23.55 24.15 22.95V1.05C24 0.45 23.55 0 22.95 0ZM7.05 20.4H3.6V9H7.2V20.4H7.05ZM5.4 7.5C4.2 7.5 3.3 6.45 3.3 5.4C3.3 4.2 4.2 3.3 5.4 3.3C6.6 3.3 7.5 4.2 7.5 5.4C7.35 6.45 6.45 7.5 5.4 7.5ZM20.4 20.4H16.8V14.85C16.8 13.5 16.8 11.85 15 11.85C13.2 11.85 12.9 13.35 12.9 14.85V20.55H9.3V9H12.75V10.5C13.2 9.6 14.4 8.7 16.05 8.7C19.65 8.7 20.25 11.1 20.25 14.1V20.4H20.4Z"
-                            fill="white"
-                          />
-                        </svg>
-                      </a>
+                      <LinkedIn url="https://www.linkedin.com/in/fedjadelalic/" />
                     </div>
                   </div>
                 </div>
@@ -152,24 +97,7 @@ export default function Speakers() {
                     <div className="speaker">
                       <p className="name">Mario Barosevcic</p>
                       <p className="title">Principal at Emerge Education</p>
-                      <a
-                        href="https://www.linkedin.com/in/mario-barosevcic/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <svg
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M22.95 0H1.05C0.45 0 0 0.45 0 1.05V23.1C0 23.55 0.45 24 1.05 24H23.1C23.7 24 24.15 23.55 24.15 22.95V1.05C24 0.45 23.55 0 22.95 0ZM7.05 20.4H3.6V9H7.2V20.4H7.05ZM5.4 7.5C4.2 7.5 3.3 6.45 3.3 5.4C3.3 4.2 4.2 3.3 5.4 3.3C6.6 3.3 7.5 4.2 7.5 5.4C7.35 6.45 6.45 7.5 5.4 7.5ZM20.4 20.4H16.8V14.85C16.8 13.5 16.8 11.85 15 11.85C13.2 11.85 12.9 13.35 12.9 14.85V20.55H9.3V9H12.75V10.5C13.2 9.6 14.4 8.7 16.05 8.7C19.65 8.7 20.25 11.1 20.25 14.1V20.4H20.4Z"
-                            fill="white"
-                          />
-                        </svg>
-                      </a>
+                      <LinkedIn url="https://www.linkedin.com/in/mario-barosevcic/" />
                     </div>
                   </div>
                 </div>
@@ -193,24 +121,7 @@ export default function Speakers() {
                       <p className="title">
                         Talent Operations Analyst at Netflix
                       </p>
-                      <a
-                        href="https://www.linkedin.com/in/melita-kurtovic-5762b6ab/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <svg
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M22.95 0H1.05C0.45 0 0 0.45 0 1.05V23.1C0 23.55 0.45 24 1.05 24H23.1C23.7 24 24.15 23.55 24.15 22.95V1.05C24 0.45 23.55 0 22.95 0ZM7.05 20.4H3.6V9H7.2V20.4H7.05ZM5.4 7.5C4.2 7.5 3.3 6.45 3.3 5.4C3.3 4.2 4.2 3.3 5.4 3.3C6.6 3.3 7.5 4.2 7.5 5.4C7.35 6.45 6.45 7.5 5.4 7.5ZM20.4 20.4H16.8V14.85C16.8 13.5 16.8 11.85 15 11.85C13.2 11.85 12.9 13.35 12.9 14.85V20.55H9.3V9H12.75V10.5C13.2 9.6 14.4 8.7 16.05 8.7C19.65 8.7 20.25 11.1 20.25 14.1V20.4H20.4Z"
-                            fill="white"
-                          />
-                        </svg>
-                      </a>
+                      <LinkedIn url="https://www.linkedin.com/in/melita-kurtovic-5762b6ab/" />
                     </div>
                   </div>
                 </div>
@@ -234,24 +145,7 @@ export default function Speakers() {
                       <p className="title">
                         Market & Technology Analyst at Marinomed Biotech AG
                       </p>
-                      <a
-                        href="https://www.linkedin.com/in/amra-ibric-15a8a71b5/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <svg
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M22.95 0H1.05C0.45 0 0 0.45 0 1.05V23.1C0 23.55 0.45 24 1.05 24H23.1C23.7 24 24.15 23.55 24.15 22.95V1.05C24 0.45 23.55 0 22.95 0ZM7.05 20.4H3.6V9H7.2V20.4H7.05ZM5.4 7.5C4.2 7.5 3.3 6.45 3.3 5.4C3.3 4.2 4.2 3.3 5.4 3.3C6.6 3.3 7.5 4.2 7.5 5.4C7.35 6.45 6.45 7.5 5.4 7.5ZM20.4 20.4H16.8V14.85C16.8 13.5 16.8 11.85 15 11.85C13.2 11.85 12.9 13.35 12.9 14.85V20.55H9.3V9H12.75V10.5C13.2 9.6 14.4 8.7 16.05 8.7C19.65 8.7 20.25 11.1 20.25 14.1V20.4H20.4Z"
-                            fill="white"
-                          />
-                        </svg>
-                      </a>
+                      <LinkedIn url="https://www.linkedin.com/in/amra-ibric-15a8a71b5/" />
                     </div>
                   </div>
                 </div>
