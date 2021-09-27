@@ -10,7 +10,12 @@ import Decor from "../components/partials/Decor";
 export default function Home() {
   return (
     <>
-      <MetaData path="/" title="Home" description="" image="/share.png" />
+      <MetaData
+        path="/"
+        title="Home"
+        description=""
+        image="https://www.fls.ba/share.png"
+      />
       <div className="_main">
         <Header />
         <Hero />
