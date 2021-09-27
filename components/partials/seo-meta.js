@@ -19,7 +19,8 @@ const MetaData = (props) => (
     />
     <meta property="og:url" content={"https://fls.ba" + props.path} />
     <meta property="og:image" content={props.image} />
-
+    <meta property="og:image:width" content="1179" />
+    <meta property="og:image:height" content="603" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:title"
