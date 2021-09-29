@@ -13,10 +13,16 @@ export default function Home() {
       <MetaData
         path="/"
         title="Home"
-        description=""
+        description="Futures Leaders Summit (FLS) gathers future STEM leaders from
+                  Bosnia and Herzegovina. By establishing an event that will
+                  annually gather prospective change makers in the field of
+                  STEM, we aim to create a strong network that will change the
+                  way we perceive the industry and the future of our
+                  country's development."
         image="https://www.fls.ba/share.png"
       />
       <div className="_main">
+        <h1 className="is-hidden">Futures Leaders Summit</h1>
         <Header />
         <Hero />
         <About />
