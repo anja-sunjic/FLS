@@ -6,15 +6,19 @@
   padding-top: 0 !important;
   padding-bottom: 0 !important;
   margin-bottom: 30rem;
-  @include touch {
-    margin-bottom: 43rem;
+  @include mobile {
+    margin-bottom: 45rem;
+    height: crem(500px);
+  }
+  @include tablet {
+    margin-bottom: 35rem;
   }
   .container {
     height: 100%;
   }
   .shadow-decor {
     position: absolute;
-    bottom: -15rem;
+    bottom: -13rem;
     @include touch {
       bottom: -4rem;
       left: -7rem;
@@ -23,14 +27,19 @@
   .text-decor {
     position: absolute;
     bottom: -2rem;
-  }
-  img {
-    max-width: 100%;
-    @include tablet {
-      max-width: 80%;
-    }
-    @include desktop {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    img {
       max-width: 100%;
+      max-height: 100%;
+      height: auto;
+      @include tablet {
+        max-width: 80%;
+      }
+      @include desktop {
+        max-width: 100%;
+      }
     }
   }
 }

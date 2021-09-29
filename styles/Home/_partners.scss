@@ -8,6 +8,9 @@
   .container {
     padding-top: crem(80px);
     padding-bottom: crem(120px);
+    @include mobile {
+      padding-bottom: crem(60px);
+    }
   }
   .cta-sec {
     @include touch {
