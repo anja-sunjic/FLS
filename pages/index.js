@@ -19,7 +19,7 @@ export default function Home() {
                   STEM, we aim to create a strong network that will change the
                   way we perceive the industry and the future of our
                   country's development."
-        image="https://www.fls.ba/share.png"
+        image="/share.png"
       />
       <div className="_main">
         <h1 className="is-hidden">Futures Leaders Summit</h1>
