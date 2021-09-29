@@ -82,7 +82,7 @@ export default function Footer() {
                   <LinkedIn url="https://www.linkedin.com/company/futuresleaderssummit" />
                 </div>
               </div>
-              <a className="logo">
+              <a className="logo is-hidden-touch">
                 <img src="logo.png" alt="" />
               </a>{" "}
             </div>

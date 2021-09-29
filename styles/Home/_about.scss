@@ -5,6 +5,9 @@
   overflow: hidden;
   padding: crem(120px) 0;
   .inner {
+    @include touch {
+      padding: crem(60px) 0 !important;
+    }
   }
   h2 {
     z-index: 2;
