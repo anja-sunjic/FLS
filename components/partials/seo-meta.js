@@ -28,7 +28,10 @@ const MetaData = (props) => (
     />
     <meta name="twitter:description" content={props.desc} />
     <meta name="twitter:image" content={props.image} />
-
+    <meta
+      name="google-site-verification"
+      content="bxOtgHILg5W8_hNLHgnf4CUob1BXKb2ad6NkuEVFcug"
+    />
     <link
       rel="canonical"
       href={props.canonical ? props.canonical : "https://fls.ba" + props.path}
