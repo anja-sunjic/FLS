@@ -10,7 +10,7 @@ export default function Hero() {
             alt=""
             layout="fill"
             priority="true"
-            // placeholder="blur"
+            placeholder="blur"
           />
         </div>
         <div className="hero-content container is-fluid">

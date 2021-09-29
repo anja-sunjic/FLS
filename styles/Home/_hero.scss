@@ -25,17 +25,17 @@
       object-fit: cover;
       @include touch {
         -o-object-position: right;
-           object-position: right;
+        object-position: right;
       }
     }
   }
   .blur img {
     display: block; /* remove bottom space */
-    -webkit-filter: grayscale(100%) blur(6px);
-    -moz-filter: grayscale(100%) blur(6px);
-    -ms-filter: grayscale(100%) blur(6px);
-    -o-filter: grayscale(100%) blur(6px);
-    filter: grayscale(100%) blur(6px);
+    -webkit-filter: grayscale(100%) blur(6px) !important;
+    -moz-filter: grayscale(100%) blur(6px) !important;
+    -ms-filter: grayscale(100%) blur(6px) !important;
+    -o-filter: grayscale(100%) blur(6px) !important;
+    filter: grayscale(100%) blur(6px) !important;
   }
   .blur:before {
     background-color: $dark;

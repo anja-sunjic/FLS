@@ -1,5 +1,6 @@
 import LinkedIn from "../partials/LinkedIn";
 
+import Speaker from "./Speaker";
 export default function Speakers() {
   return (
     <>
@@ -18,139 +19,42 @@ export default function Speakers() {
             </div>
           </div>
           <div className="columns is-multiline">
-            {/* zinka */}
-            <div className="column is-6">
-              <div className="inner">
-                <div className="columns is-mobile is-vcentered">
-                  <div className="column is-narrow">
-                    <div href="" className="speaker-img">
-                      <img src="./zinka.jpg" alt="" className="grayscale" />
-                    </div>
-                  </div>
-                  <div className="column is-8">
-                    <div className="speaker">
-                      <p className="name">Zinka Bejtic</p>
-                      <p className="title">
-                        Professor, Head of Department of Art and Design at
-                        American University of Sharjah
-                      </p>
-                      <LinkedIn url="https://www.linkedin.com/in/zinkabejtic/" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* admir */}
-            <div className="column is-6">
-              <div className="inner">
-                <div className="columns is-mobile is-vcentered">
-                  <div className="column is-narrow">
-                    <div href="" className="speaker-img">
-                      <img src="./Admir.jpg" alt="" className="grayscale" />
-                    </div>
-                  </div>
-                  <div className="column is-8">
-                    <div className="speaker">
-                      <p className="name">Admir Masic</p>
-                      <p className="title">
-                        Associate Professor of Civil and Environmental
-                        Engineering at MIT
-                      </p>
-                      <LinkedIn url="https://www.linkedin.com/in/admirmasic/" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* fele */}
-            <div className="column is-6">
-              <div className="inner">
-                <div className="columns is-mobile is-vcentered">
-                  <div className="column is-narrow">
-                    <div href="" className="speaker-img">
-                      <img src="./Fele.jpg" alt="" className="grayscale" />
-                    </div>
-                  </div>
-                  <div className="column is-8">
-                    <div className="speaker">
-                      <p className="name"> Fedja Delalic </p>
-                      <p className="title">
-                        Manager of Games Technology and Energy at International
-                        Olympic Committee – IOC
-                      </p>
-                      <LinkedIn url="https://www.linkedin.com/in/fedjadelalic/" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* mario */}
-            <div className="column is-6">
-              <div className="inner">
-                <div className="columns is-mobile is-vcentered">
-                  <div className="column is-narrow">
-                    <div href="" className="speaker-img">
-                      <img src="./Mario.jpg" alt="" className="grayscale" />
-                    </div>
-                  </div>
-                  <div className="column is-8">
-                    <div className="speaker">
-                      <p className="name">Mario Barosevcic</p>
-                      <p className="title">Principal at Emerge Education</p>
-                      <LinkedIn url="https://www.linkedin.com/in/mario-barosevcic/" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="column is-6">
-              <div className="inner">
-                <div className="columns is-mobile is-vcentered">
-                  <div className="column is-narrow">
-                    <div href="" className="speaker-img">
-                      <img
-                        src="./MelitaKurtovic.jpg"
-                        alt=""
-                        className="grayscale"
-                      />
-                    </div>
-                  </div>
-                  <div className="column is-8">
-                    <div className="speaker">
-                      <p className="name">Melita Kurtovic</p>
-                      <p className="title">
-                        Talent Operations Analyst at Netflix
-                      </p>
-                      <LinkedIn url="https://www.linkedin.com/in/melita-kurtovic-5762b6ab/" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="column is-6">
-              <div className="inner">
-                <div className="columns is-mobile is-vcentered">
-                  <div className="column is-narrow">
-                    <div href="" className="speaker-img">
-                      <img
-                        src="./Amra-square.jpg"
-                        alt=""
-                        className="grayscale"
-                      />
-                    </div>
-                  </div>
-                  <div className="column is-8">
-                    <div className="speaker">
-                      <p className="name">Amra Ibric</p>
-                      <p className="title">
-                        Market & Technology Analyst at Marinomed Biotech AG
-                      </p>
-                      <LinkedIn url="https://www.linkedin.com/in/amra-ibric-15a8a71b5/" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <Speaker
+              img="/zinka.jpg"
+              name="Zinka Bejtic"
+              title="Professor, Head of Department of Art and Design at American University of Sharjah"
+              li="https://www.linkedin.com/in/zinkabejtic/"
+            />
+            <Speaker
+              img="/Admir.jpg"
+              name="Admir Masic"
+              title="Associate Professor of Civil and Environmental Engineering at MIT"
+              li="https://www.linkedin.com/in/admirmasic/"
+            />
+            <Speaker
+              img="/Fele.jpg"
+              name="Fedja Delalic"
+              title="Manager of Games Technology and Energy at International Olympic Committee – IOC"
+              li="https://www.linkedin.com/in/fedjadelalic/"
+            />
+            <Speaker
+              img="/Mario.jpg"
+              name="Mario Barosevcic"
+              title="Principal at Emerge Education"
+              li="https://www.linkedin.com/in/mario-barosevcic/"
+            />
+            <Speaker
+              img="/MelitaKurtovic.jpg"
+              name="Melita Kurtovic"
+              title="Talent Operations Analyst at Netflix"
+              li="https://www.linkedin.com/in/melita-kurtovic-5762b6ab/"
+            />
+            <Speaker
+              img="/Amra-square.jpg"
+              name="Amra Ibric"
+              title=" Market & Technology Analyst at Marinomed Biotech AG"
+              li="https://www.linkedin.com/in/amra-ibric-15a8a71b5/"
+            />
             <div className="column is-6">
               <div className="inner">
                 <div className="columns is-mobile is-vcentered">
