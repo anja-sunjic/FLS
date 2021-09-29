@@ -1,9 +1,17 @@
+import Image from "next/image";
+import heroimg from "../../public/hero.png";
 export default function Hero() {
   return (
     <>
       <div className="hero">
         <div className="hero-img blur">
-          <img src="hero.png" alt="" />
+          <Image
+            src={heroimg}
+            alt=""
+            layout="fill"
+            priority="true"
+            // placeholder="blur"
+          />
         </div>
         <div className="hero-content container is-fluid">
           <div className="hero-logo">
