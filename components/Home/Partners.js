@@ -14,13 +14,21 @@ export default function Partners() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src="/partners/BHFF.png" alt="" className="grayscale" />
+                <img
+                  src="/partners/BHFF.png"
+                  alt="BH Futures Foundation"
+                  className="grayscale"
+                />
               </a>
             </div>
             <div className="partner">
               <span className="role">Organizing Partner</span>
               <a href="https://bhing.ba/" target="_blank" rel="noreferrer">
-                <img src="/partners/bhing.png" alt="" className="grayscale" />
+                <img
+                  src="/partners/bhing.png"
+                  alt="BH ING"
+                  className="grayscale"
+                />
               </a>
             </div>
           </div>

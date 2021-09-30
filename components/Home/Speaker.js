@@ -9,7 +9,7 @@ export default function Speaker(props) {
             <div href="" className="speaker-img">
               <Image
                 src={props.img}
-                alt=""
+                alt={props.name}
                 height={230}
                 width={200}
                 className="grayscale"

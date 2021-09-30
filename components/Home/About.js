@@ -3,7 +3,7 @@ export default function About() {
     <>
       <section className="section about" id="about" name="about">
         <div className="line-decor">
-          <img src="/about-lines.svg" alt="" />
+          <img src="/about-lines.svg" alt="decor" />
         </div>
         <div className="container">
           <div className="columns">
@@ -32,7 +32,7 @@ export default function About() {
           </div>
         </div>
         <div className="hex-decor">
-          <img src="/hex.svg" alt="" />
+          <img src="/hex.svg" alt="decor" />
         </div>
       </section>
     </>

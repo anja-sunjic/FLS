@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="hero-img blur">
           <Image
             src={heroimg}
-            alt=""
+            alt="Futures Leaders Summit"
             layout="fill"
             priority="true"
             placeholder="blur"
