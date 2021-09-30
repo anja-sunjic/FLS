@@ -17,7 +17,7 @@ const MetaData = (props) => (
       property="og:description"
       content={props.description}
     />
-    <meta property="og:url" content={"https://fls.ba" + props.path} />
+    <meta property="og:url" content={"https://www.fls.ba" + props.path} />
     <meta property="og:image" content={props.image} />
     <meta property="og:image:width" content="1179" />
     <meta property="og:image:height" content="603" />
@@ -34,7 +34,9 @@ const MetaData = (props) => (
     />
     <link
       rel="canonical"
-      href={props.canonical ? props.canonical : "https://fls.ba" + props.path}
+      href={
+        props.canonical ? props.canonical : "https://www.fls.ba" + props.path
+      }
     />
     <link rel="preload" as="image" href="hero.png" />
   </Head>

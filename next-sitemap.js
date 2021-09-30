@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: "https://fls.ba",
+  siteUrl: "https://www.fls.ba",
   generateRobotsTxt: true,
   sitemapSize: 2000,
 };
