@@ -36,6 +36,7 @@ const MetaData = (props) => (
       rel="canonical"
       href={props.canonical ? props.canonical : "https://fls.ba" + props.path}
     />
+    <link rel="preload" as="image" href="hero.png" />
   </Head>
 );
 
