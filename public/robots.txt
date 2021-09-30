@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://fls.ba
+
+# Sitemaps
+Sitemap: https://fls.ba/sitemap.xml
