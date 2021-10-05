@@ -43,6 +43,28 @@ export default function Story() {
               community of future STEM leaders that are changing Bosnia and
               Herzegovina.
             </p>
+            <p>
+              Every student deserves a chance to attend world class events, to
+              hear the stories of people that not long ago were as old as they
+              are now, and to hear first-hand that everything is possible. We
+              recognize the challenge of students to participate in top-class
+              events because only by seeing how their future can be bright,
+              students truly recognize their potential, and limitations fade on
+              the path towards excellence. In order to provide young and
+              prosperous STEM students in Bosnia and Herzegovina with the
+              opportunity to gain global perspectives and to encourage them to
+              create the change from local to country level, we will gather
+              keynote speakers from all over the world, organize workshops that
+              will improve their skill set, and enable them to visit and
+              collaborate with companies related to their field of study.
+            </p>
+            <p>
+              Our Foundation envisions Futures Leaders Summit as an event that
+              will in years to come, with all the available global sources and
+              partners, provide a chance for young leaders to transform Bosnia
+              and Herzegovina and hence shape their and the future of our
+              country.
+            </p>
           </div>
         </div>
       </div>

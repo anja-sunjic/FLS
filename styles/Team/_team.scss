@@ -1,0 +1,23 @@
+.team.hero {
+  min-height: 40vh;
+  height: 40vh;
+  .title-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+    @include touch {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      margin-bottom: 0;
+    }
+    .line-decor {
+      width: 60%;
+      img {
+        -o-object-fit: scale-down;
+        object-fit: scale-down;
+      }
+    }
+  }
+}

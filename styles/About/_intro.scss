@@ -47,6 +47,14 @@
 .purpose {
   background-color: $yellow;
   padding: 5rem 0;
+  ::-moz-selection {
+    color: $yellow;
+    background: $dark;
+  }
+  ::selection {
+    color: $yellow;
+    background: $dark;
+  }
   @include touch {
     padding: 4rem 1.5rem;
   }
@@ -58,6 +66,8 @@
     }
     p {
       padding-right: 10%;
+      font-weight: 600;
+      color: black;
       @include touch {
         padding-right: 0;
       }
@@ -72,6 +82,7 @@
 .story {
   padding: 5rem 0;
   position: relative;
+  height: unset;
   @include touch {
     min-height: unset;
     height: auto;
