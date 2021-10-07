@@ -3,10 +3,14 @@ import Team from "./Team";
 import { teams } from "../../data/teams";
 export default function Teams() {
   return (
-    <>
-      {/* oc */}
-      <Team bg="dark" name="Organizing Committee" members={teams} />
-      <Team bg="light" name="Event Coordination" members={teams} />
-    </>
+    <div className="section teams">
+      {teams.map((team) => {
+        return (
+          <div className="container">
+            <Team name={team.name} members={team.members} />
+          </div>
+        );
+      })}
+    </div>
   );
 }

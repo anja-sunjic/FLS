@@ -1,22 +1,22 @@
+import Link from "next/link";
 import Image from "next/image";
-import heroimg from "../../public/hero.png";
 export default function Member(props) {
   return (
     <>
-      <div className="team-member">
-        <Link href={props.li}>
-          <div className="speaker-img">
+      <div className="member">
+        <a href={props.li} target="_blank">
+          <div className="member-img image is-1-by-1">
             <Image
-              src={props.img}
+              src={props.image}
               alt={props.name}
-              height={230}
-              width={200}
+              layout="fill"
               className="grayscale"
               priority={true}
             />
           </div>
-        </Link>
+        </a>
         <p className="name">{props.name}</p>
+        <p className="role">{props.title}</p>
       </div>
     </>
   );
