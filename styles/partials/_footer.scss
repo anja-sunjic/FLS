@@ -41,6 +41,7 @@
       margin-bottom: 1rem;
       @include touch {
         padding-right: 0;
+        font-size: crem(22px);
       }
       &.cc {
         margin-bottom: 0;
