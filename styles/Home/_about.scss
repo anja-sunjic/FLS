@@ -9,6 +9,14 @@
       padding: crem(60px) 0 !important;
     }
   }
+  a {
+    color: white;
+    font-weight: 700;
+    margin-top: 2rem;
+    display: block;
+    font-size: crem(26px);
+    text-decoration: underline;
+  }
   h2 {
     z-index: 2;
   }

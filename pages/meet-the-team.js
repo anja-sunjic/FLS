@@ -3,6 +3,7 @@ import Footer from "../components/partials/Footer";
 import Header from "../components/partials/Header";
 import Decor from "../components/partials/Decor";
 import Intro from "../components/Team/Intro";
+import Teams from "../components/Team/Teams";
 export default function Team() {
   return (
     <>
@@ -15,6 +16,7 @@ export default function Team() {
       <div className="_main">
         <Header />
         <Intro />
+        <Teams />
         <Decor />
       </div>
       <Footer />

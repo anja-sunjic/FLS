@@ -1,14 +1,15 @@
 .team.hero {
-  min-height: 40vh;
-  height: 40vh;
+  min-height: 50vh;
+  height: 50vh;
+  .inner {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
   .title-line {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 5rem;
-    @include touch {
-      margin-bottom: 3rem;
-    }
     h2 {
       margin-bottom: 0;
     }
