@@ -4,7 +4,7 @@ export default function Story() {
   return (
     <>
       <div className="story hero">
-        <div className="hero-img blur">
+        <div className="hero-img blur is-hidden-touch">
           <Image
             src={heroimg}
             alt="Futures Leaders Summit"
