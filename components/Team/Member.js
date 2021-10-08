@@ -11,7 +11,8 @@ export default function Member(props) {
               alt={props.name}
               layout="fill"
               className="grayscale"
-              quality={20}
+              quality={60}
+              priority={true}
             />
           </div>
         </a>
