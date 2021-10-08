@@ -73,6 +73,15 @@ p {
   z-index: 1;
   background-color: $dark;
 }
+img {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  &:focus {
+    outline: none;
+  }
+}
 //import all files
 @import "./partials/all";
 @import "./animations";
