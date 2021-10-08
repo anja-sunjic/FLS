@@ -11,6 +11,8 @@ export default function Intro() {
             layout="fill"
             priority="true"
             placeholder="blur"
+            quality={60}
+            loading="eager"
           />
         </div>
         <div className="container">

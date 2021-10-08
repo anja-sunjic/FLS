@@ -4,7 +4,7 @@ import LazyLoad from "react-lazyload";
 export default function Team(props) {
   return (
     <>
-      <LazyLoad height={900} offset={800}>
+      <LazyLoad offset={1000}>
         <div className={`team-single`}>
           <div className="title-line">
             <h2>{props.name}</h2>
