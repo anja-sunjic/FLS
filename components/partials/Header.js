@@ -111,27 +111,29 @@ export default function Header() {
             </li>
             <Collapsible
               triggerSibling={() => (
+                <Link href="/about">
+                  <a
+                    className="_sibling"
+                    onClick={() => {
+                      setisMobileMenu(!isMobileMenu);
+                    }}
+                  >
+                    About
+                  </a>
+                </Link>
+              )}
+              trigger=" "
+            >
+              <Link href="/meet-the-team">
                 <a
-                  className="_sibling"
-                  href="/about"
+                  className="_sub"
                   onClick={() => {
                     setisMobileMenu(!isMobileMenu);
                   }}
                 >
-                  About
+                  Meet the Team
                 </a>
-              )}
-              trigger=" "
-            >
-              <a
-                className="_sub"
-                onClick={() => {
-                  setisMobileMenu(!isMobileMenu);
-                }}
-                href="/meet-the-team"
-              >
-                Meet the Team
-              </a>
+              </Link>
             </Collapsible>
             <li
               onClick={() => {
