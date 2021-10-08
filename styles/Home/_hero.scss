@@ -24,8 +24,8 @@
       -o-object-fit: cover;
       object-fit: cover;
       @include touch {
-        -o-object-position: right;
-        object-position: right;
+        -o-object-position: 60%;
+        object-position: 60%;
       }
     }
   }
