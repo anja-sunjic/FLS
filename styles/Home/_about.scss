@@ -46,8 +46,14 @@
     @media screen and (max-width: 1700px) {
       left: -10rem;
     }
-    @media screen and (max-width: 1515px) {
-      left: -15rem;
+    @media screen and (max-width: 1520px) {
+      left: -12.5rem;
+    }
+    @media screen and (max-width: 1480px) {
+      left: -13rem;
+    }
+    @media screen and (max-width: 1475px) {
+      display: none;
     }
   }
 }
