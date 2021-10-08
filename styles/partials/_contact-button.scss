@@ -12,9 +12,12 @@
   span {
     color: black;
     font-size: crem(28px);
-    line-height: crem(28px);
+    line-height: crem(30px);
     font-weight: 700;
     font-family: $font;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
   }
   &:hover {
     background: white;
