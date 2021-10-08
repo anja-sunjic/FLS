@@ -1,14 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
-export default function Member(props) {
+export default function Speaker(props) {
   return (
     <>
-      <div className="member">
-        <a href={props.li} target="_blank" rel="noreferrer">
+      <div className="speaker-card">
+        <a href={props.speaker.li} target="_blank" rel="noreferrer">
           <div className="member-img image is-1-by-1">
             <Image
-              src={props.image}
-              alt={props.name}
+              src={props.speaker.img}
+              alt={props.speaker.name}
               layout="fill"
               className="grayscale"
               quality={50}
@@ -16,8 +16,8 @@ export default function Member(props) {
             />
           </div>
         </a>
-        <p className="name">{props.name}</p>
-        <p className="role">{props.title}</p>
+        <p className="name">{props.speaker.name}</p>
+        <p className="role">{props.speaker.title}</p>
       </div>
     </>
   );

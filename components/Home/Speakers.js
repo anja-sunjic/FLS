@@ -22,37 +22,37 @@ export default function Speakers() {
           </div>
           <div className="columns is-multiline">
             <Speaker
-              img="/zinka.jpg"
+              img="/speakers/zinka.jpg"
               name="Zinka Bejtic"
               title="Professor, Head of Department of Art and Design at American University of Sharjah"
               li="https://www.linkedin.com/in/zinkabejtic/"
             />
             <Speaker
-              img="/Admir.jpg"
+              img="/speakers/Admir.jpg"
               name="Admir Masic"
               title="Associate Professor of Civil and Environmental Engineering at MIT"
               li="https://www.linkedin.com/in/admirmasic/"
             />
             <Speaker
-              img="/Fele.jpg"
+              img="/speakers/Fele.jpg"
               name="Fedja Delalic"
               title="Manager of Games Technology and Energy at International Olympic Committee – IOC"
               li="https://www.linkedin.com/in/fedjadelalic/"
             />
             <Speaker
-              img="/Mario.jpg"
+              img="/speakers/Mario.jpg"
               name="Mario Barosevcic"
               title="Principal at Emerge Education"
               li="https://www.linkedin.com/in/mario-barosevcic/"
             />
             <Speaker
-              img="/MelitaKurtovic.jpg"
+              img="/speakers/MelitaKurtovic.jpg"
               name="Melita Kurtovic"
               title="Talent Operations Analyst at Netflix"
               li="https://www.linkedin.com/in/melita-kurtovic-5762b6ab/"
             />
             <Speaker
-              img="/Amra-square.jpg"
+              img="/speakers/Amra-square.jpg"
               name="Amra Ibric"
               title=" Market & Technology Analyst at Marinomed Biotech AG"
               li="https://www.linkedin.com/in/amra-ibric-15a8a71b5/"

@@ -21,7 +21,7 @@ export default function Home() {
                   country's development."
         image="/share.png"
       />
-      <div className="_main">
+      <div className="_main home">
         <h1 className="is-hidden">Futures Leaders Summit</h1>
         <Header />
         <Hero />
