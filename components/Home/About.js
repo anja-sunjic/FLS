@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 export default function About() {
   return (
     <>
@@ -35,7 +36,7 @@ export default function About() {
           </div>
         </div>
         <div className="hex-decor">
-          <img src="/hex.svg" alt="decor" />
+          <Image src="/hex.svg" alt="decor" layout="fill" />
         </div>
       </section>
     </>

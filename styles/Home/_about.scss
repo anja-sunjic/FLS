@@ -35,14 +35,13 @@
     top: 50%;
     transform: translateY(-50%);
     height: 120%;
-
+    width: 50%;
     img {
       height: 100%;
     }
   }
   .line-decor {
     position: absolute;
-    display: none;
     left: -4rem;
     @media screen and (max-width: 1700px) {
       left: -10rem;
