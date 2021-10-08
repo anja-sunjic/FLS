@@ -4,7 +4,7 @@ export const teams = [
     members: [
       {
         name: "Haris Arnautovic",
-        title: "Head of the Organizing Committee",
+        title: "Chair of the Organizing Committee",
         li: "https://www.linkedin.com/in/harisarnautovic/",
         img: "/teams/Organizing Committee/ArnautovicHaris.jpg",
       },
@@ -25,6 +25,12 @@ export const teams = [
         title: "Organizing Committee Member",
         li: "https://www.linkedin.com/in/damirmitric/",
         img: "/teams/Organizing Committee/DamirMitric.png",
+      },
+      {
+        name: "Haris Selmanovic",
+        title: "Organizing Committee Member",
+        li: "https://www.linkedin.com/in/harisselmanovic/ ",
+        img: "/teams/Organizing Committee/HarisSelmanovic.jpg",
       },
     ],
   },

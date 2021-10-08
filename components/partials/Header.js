@@ -53,8 +53,14 @@ export default function Header() {
                 <li>
                   <Link href="/">Home</Link>
                 </li>
-                <li>
+                <li className="dropdown-trigger">
                   <Link href="/about">About</Link>
+                  <img src="/drop-arrow.png" alt="drop arrow" />
+                  <div className="dropdown-menu">
+                    <div className="dropdown-item">
+                      <Link href="/meet-the-team">Meet the Team</Link>
+                    </div>
+                  </div>
                 </li>
                 <li>
                   <Link href="/#speakers">Speakers</Link>
