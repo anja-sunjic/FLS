@@ -11,6 +11,7 @@ export default function Hero() {
             layout="fill"
             priority="true"
             placeholder="blur"
+            quality={20}
           />
         </div>
         <div className="hero-content container is-fluid">
