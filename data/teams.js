@@ -117,11 +117,12 @@ export const teams = [
   {
     name: "Web Team",
     members: [
-      // {
-      //   name: "Anja Sunjic",
-      //   title: "Web Team Lead",
-      //   li: "https://www.linkedin.com/in/anja-sunjic/",
-      // },
+      {
+        name: "Anja Sunjic",
+        title: "Web Team Lead",
+        li: "https://www.linkedin.com/in/anja-sunjic/",
+        img: "/teams/Web Team/AnjaSunjic.jpeg",
+      },
       {
         name: "Selman Patkovic",
         title: "Web Team Member",

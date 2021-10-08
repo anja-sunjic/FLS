@@ -25,14 +25,16 @@
 }
 .teams {
   padding: crem(50px) 0;
-  // .container {
-  //   &:nth-of-type(even) {
-  //     background-color: lighten(black, 15%);
-  //   }
-  // }
+  .lazyload-wrapper {
+    &:nth-of-type(even) {
+      .team-single {
+        background-color: lighten(black, 15%);
+      }
+    }
+  }
   .team-single {
-    padding: crem(50px) 0;
-
+    padding: crem(50px) 1.5rem;
+    margin-top: 2rem;
     .title-line {
       display: flex;
       justify-content: space-between;
