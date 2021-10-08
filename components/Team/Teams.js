@@ -4,13 +4,13 @@ import { teams } from "../../data/teams";
 export default function Teams() {
   return (
     <div className="section teams">
-      {teams.map((team) => {
-        return (
-          <div className="container">
-            <Team name={team.name} members={team.members} />
-          </div>
-        );
-      })}
+      <div className="container">
+        {teams.map((team) => {
+          return (
+            <Team name={team.name} members={team.members} key={team.name} />
+          );
+        })}
+      </div>
     </div>
   );
 }

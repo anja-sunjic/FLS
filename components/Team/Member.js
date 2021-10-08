@@ -4,7 +4,7 @@ export default function Member(props) {
   return (
     <>
       <div className="member">
-        <a href={props.li} target="_blank">
+        <a href={props.li} target="_blank" rel="noreferrer">
           <div className="member-img image is-1-by-1">
             <Image
               src={props.image}

@@ -16,6 +16,7 @@ export default function Team(props) {
               <Member
                 image={member.img}
                 name={member.name}
+                key={member.name}
                 li={member.li}
                 title={member.title}
               ></Member>

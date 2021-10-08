@@ -11,7 +11,7 @@ export default function Speakers() {
           <div className="hex-decor">
             <img src="/hex2.svg" alt="" />
           </div>
-          <div className="hex-decor-2 is-hidden-desktop">
+          <div className="hex-decor-2 is-hidden-desktop figure is-1-by-1">
             <img src="/hex.svg" alt="" />
           </div>
           <div className="title-line">
