@@ -68,6 +68,9 @@
       justify-content: center;
       &:not(:last-of-type) {
         margin-right: 1rem;
+        @include touch {
+          margin-right: 2rem;
+        }
       }
     }
     path {

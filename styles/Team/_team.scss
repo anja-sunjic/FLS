@@ -25,8 +25,14 @@
 }
 .teams {
   padding: crem(50px) 0;
+  // .container {
+  //   &:nth-of-type(even) {
+  //     background-color: lighten(black, 15%);
+  //   }
+  // }
   .team-single {
     padding: crem(50px) 0;
+
     .title-line {
       display: flex;
       justify-content: space-between;
