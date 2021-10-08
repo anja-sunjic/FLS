@@ -18,6 +18,14 @@
       -webkit-transform: translateY(0);
     }
   }
+  @keyframes slide-down {
+    0% {
+      -webkit-transform: translateY(-100%);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+    }
+  }
   .links {
     float: left;
     padding: 0;
@@ -46,6 +54,53 @@
       text-decoration: none;
       transition: all 0.5s;
       border-bottom: 1px solid rgba(255, 255, 255, 0.178);
+    }
+  }
+  .Collapsible {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.178);
+    padding: 1rem 0;
+    a._sibling {
+      width: -webkit-fit-content;
+      width: -moz-fit-content;
+      width: fit-content;
+      display: inline;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+    a._sub {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+    a,
+    .Collapsible__trigger {
+      display: block;
+      position: relative;
+      cursor: pointer;
+    }
+    // .Collapsible__contentInner {
+    //   padding-top: crem(14px);
+    // }
+    .Collapsible__trigger {
+      &:after {
+        content: "";
+        background-image: url("/drop-arrow.png");
+        position: absolute;
+        right: 10px;
+        top: 1rem;
+        display: block;
+        transition: transform 300ms;
+        background-size: 20px 20px;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+      }
+      &.is-open {
+        &:after {
+          transform: rotateZ(180deg);
+        }
+      }
     }
   }
 }

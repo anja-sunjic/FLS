@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { useState } from "react";
 import { useRouter } from "next/router";
+import Collapsible from "react-collapsible";
 import useDocumentScrollThrottled from "../../hooks/useDocumentScrollThrottled";
 
 export default function Header() {
@@ -108,13 +109,30 @@ export default function Header() {
             >
               <Link href="/">Home</Link>
             </li>
-            <li
-              onClick={() => {
-                setisMobileMenu(!isMobileMenu);
-              }}
+            <Collapsible
+              triggerSibling={() => (
+                <a
+                  className="_sibling"
+                  href="/about"
+                  onClick={() => {
+                    setisMobileMenu(!isMobileMenu);
+                  }}
+                >
+                  About
+                </a>
+              )}
+              trigger=" "
             >
-              <Link href="/about">About</Link>
-            </li>
+              <a
+                className="_sub"
+                onClick={() => {
+                  setisMobileMenu(!isMobileMenu);
+                }}
+                href="/meet-the-team"
+              >
+                Meet the Team
+              </a>
+            </Collapsible>
             <li
               onClick={() => {
                 setisMobileMenu(!isMobileMenu);
