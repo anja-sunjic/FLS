@@ -5,9 +5,9 @@ export default function Body(props) {
   return (
     <>
       <section className="section speaker-single">
-        <div className="hex-decor">
+        {/* <div className="hex-decor">
           <Image src="/hex.svg" alt="decor" layout="fill" />
-        </div>
+        </div> */}
         <div className="container">
           <div className="speaker-inner">
             <div className="speaker-img image">
