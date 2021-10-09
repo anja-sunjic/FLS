@@ -9,7 +9,7 @@ export default function Team() {
     <>
       <MetaData
         path="/meet-the-team"
-        title="Meet the team"
+        title="Meet the Team"
         description=""
         image="/share.png"
       />

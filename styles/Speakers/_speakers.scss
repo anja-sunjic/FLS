@@ -4,6 +4,7 @@
   justify-content: flex-start;
   flex-wrap: wrap;
   gap: 2rem;
+
   .speaker-card {
     width: calc(25% - 1.5rem);
     @include touch {
@@ -57,6 +58,10 @@
       text-align: center;
       margin-top: 0.2rem;
       font-size: crem(20px);
+    }
+    .more {
+      color: $yellow;
+      text-decoration: underline;
     }
   }
 }

@@ -1,0 +1,91 @@
+.speaker-single {
+  .hex-decor {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 120%;
+    width: 50%;
+    img {
+      height: 100%;
+    }
+  }
+  .speaker-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .speaker-img {
+    overflow: hidden;
+    -webkit-clip-path: polygon(
+      50% 0%,
+      100% 25%,
+      100% 75%,
+      50% 100%,
+      0% 75%,
+      0% 25%
+    );
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    height: crem(500px);
+    width: crem(480px);
+    overflow: hidden;
+    @include mobile {
+      height: crem(280px);
+      width: crem(250px);
+    }
+    img,
+    svg {
+      display: inline;
+      margin: 0 auto;
+      height: 100%;
+      width: 100%;
+      -o-object-fit: cover;
+      object-fit: cover;
+    }
+  }
+  .first-line {
+    display: flex;
+    align-items: center;
+    svg {
+      transition: all 0.4s;
+      path {
+        fill: $yellow;
+      }
+    }
+    &:hover {
+      path {
+        fill: white;
+      }
+    }
+    p.name {
+      color: $yellow;
+      font-size: crem(36px);
+      line-height: crem(40px);
+      text-align: center;
+      margin-left: 1rem;
+      font-family: $font-cap;
+    }
+  }
+  p.role {
+    color: white;
+    text-align: center;
+    margin-top: 0.2rem;
+    font-size: crem(24px);
+    margin-bottom: 2rem;
+  }
+  p.bio {
+    color: white;
+    text-align: center;
+    margin-top: 0.2rem;
+    font-size: crem(22px);
+    text-align: justify;
+  }
+  .right {
+    width: 60%;
+    margin-left: 3rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
