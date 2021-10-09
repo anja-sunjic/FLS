@@ -4,7 +4,7 @@ export default function Speaker(props) {
   return (
     <>
       <div className="speaker-card">
-        <a href={props.speaker.li}>
+        <a href={`/speakers/${props.speaker.slug}`}>
           <div className="member-img image">
             <Image
               src={props.speaker.img}
@@ -18,9 +18,6 @@ export default function Speaker(props) {
         </a>
         <p className="name">{props.speaker.name}</p>
         <p className="role">{props.speaker.title}</p>
-        <a href={`/speakers/${props.speaker.slug}`} className="more">
-          learn more
-        </a>
       </div>
     </>
   );
