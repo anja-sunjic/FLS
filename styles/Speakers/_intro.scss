@@ -21,6 +21,10 @@
   .hero {
     min-height: 50vh;
     height: 50vh;
+    @include touch {
+      min-height: 40vh;
+      height: 40vh;
+    }
     .inner {
       height: 100%;
       display: flex;

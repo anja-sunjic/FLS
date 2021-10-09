@@ -64,7 +64,7 @@ export default function Header() {
                   </div>
                 </li>
                 <li>
-                  <Link href="/#speakers">Speakers</Link>
+                  <Link href="/speakers">Speakers</Link>
                 </li>
                 <li>
                   <Link href="/#partners">Sponsors & Partners</Link>
@@ -140,7 +140,7 @@ export default function Header() {
                 setisMobileMenu(!isMobileMenu);
               }}
             >
-              <Link href="/#speakers">Speakers</Link>
+              <Link href="/speakers">Speakers</Link>
             </li>
             <li
               onClick={() => {
