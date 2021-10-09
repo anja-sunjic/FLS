@@ -4,7 +4,7 @@ import Header from "../components/partials/Header";
 import Decor from "../components/partials/Decor";
 import FormContainer from "../components/Contact/FormContainer";
 
-export default function Home() {
+export default function Contact() {
   return (
     <>
       <MetaData

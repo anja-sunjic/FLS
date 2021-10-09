@@ -1,3 +1,4 @@
+import { ParallaxProvider } from "react-scroll-parallax";
 import "../styles/main.scss";
 import Head from "next/head";
 
@@ -25,7 +26,9 @@ function MyApp({ Component, pageProps }) {
           href="/favicon-16x16.png"
         />
       </Head>
-      <Component {...pageProps} />
+      <ParallaxProvider>
+        <Component {...pageProps} />
+      </ParallaxProvider>
     </>
   );
 }

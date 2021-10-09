@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Parallax } from "react-scroll-parallax";
 export default function About() {
   return (
     <>
