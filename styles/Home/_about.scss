@@ -39,6 +39,10 @@
     img {
       height: 100%;
     }
+    @include touch {
+      width: 80%;
+      height: 200%;
+    }
   }
   .line-decor {
     position: absolute;

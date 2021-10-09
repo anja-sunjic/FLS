@@ -3,13 +3,16 @@
   .hex-decor {
     position: absolute;
     right: 0;
-    top: 40%;
+    top: 30%;
     transform: translateY(-50%);
     height: 80vh;
-    width: 50%;
+    width: 70%;
     z-index: -1;
     img {
       height: 100%;
+    }
+    @include touch {
+      width: 100%;
     }
   }
   .speakers-all {
