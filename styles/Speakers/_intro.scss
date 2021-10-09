@@ -25,6 +25,9 @@
       height: 100%;
       display: flex;
       align-items: center;
+      @include touch {
+        padding: 0 1.5rem;
+      }
     }
     .title-line {
       display: flex;
