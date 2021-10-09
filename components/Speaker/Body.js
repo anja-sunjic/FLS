@@ -10,7 +10,17 @@ export default function Body(props) {
         </div> */}
         <div className="container">
           <div className="speaker-inner">
-            <div className="speaker-img image">
+            <div className="speaker-img image is-square is-hidden-tablet is-hidden-desktop">
+              <Image
+                src={props.speaker.img}
+                alt={props.speaker.name}
+                layout="fill"
+                className="grayscale"
+                quality={50}
+                priority={true}
+              />
+            </div>
+            <div className="speaker-img image is-hidden-mobile">
               <Image
                 src={props.speaker.img}
                 alt={props.speaker.name}

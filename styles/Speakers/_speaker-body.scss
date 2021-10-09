@@ -15,7 +15,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    @include touch {
+    @include mobile {
       flex-direction: column;
     }
   }
@@ -34,8 +34,7 @@
     width: crem(480px);
     overflow: hidden;
     @include mobile {
-      height: crem(280px);
-      width: crem(250px);
+      width: 100%;
     }
     img,
     svg {
@@ -49,8 +48,13 @@
   }
   .first-line {
     display: flex;
-    align-items: center;
+    align-items: stretch;
+    margin-bottom: 0.5rem;
+    a {
+      height: 100%;
+    }
     svg {
+      height: 100%;
       transition: all 0.4s;
       path {
         fill: $yellow;
@@ -68,14 +72,20 @@
       text-align: center;
       margin-left: 1rem;
       font-family: $font-cap;
+      @include touch {
+        font-size: 28px;
+      }
     }
   }
   p.role {
     color: white;
-    text-align: center;
+    text-align: left;
     margin-top: 0.2rem;
     font-size: crem(24px);
     margin-bottom: 2rem;
+    @include touch {
+      font-size: 20px;
+    }
   }
   p.bio {
     color: white;
@@ -90,5 +100,10 @@
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+    @include mobile {
+      margin-left: 0;
+      width: 100%;
+      margin-top: 5rem;
+    }
   }
 }
