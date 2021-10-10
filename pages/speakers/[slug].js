@@ -53,7 +53,7 @@ export async function getStaticProps({ params }) {
 export async function getStaticPaths() {
   const paths = speakers.map((speaker) => {
     const slug = speaker.slug;
-    console.log(slug);
+
     return { params: { slug } };
   });
   // We'll pre-render only these paths at build time.

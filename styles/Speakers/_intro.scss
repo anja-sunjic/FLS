@@ -6,7 +6,6 @@
     top: 30%;
     transform: translateY(-50%);
     height: 80vh;
-    width: 70%;
     z-index: -1;
     img {
       height: 100%;
@@ -25,15 +24,20 @@
       height: 100%;
       display: flex;
       align-items: center;
+      width: 100%;
       @include touch {
         padding: 0 1.5rem;
       }
+    }
+    .container {
+      width: 100%;
     }
     .title-line {
       display: flex;
       justify-content: space-between;
       align-items: center;
       margin-top: 4rem;
+      width: 100%;
       h2 {
         margin-top: 1rem;
       }
@@ -44,6 +48,16 @@
           object-fit: scale-down;
         }
       }
+    }
+  }
+}
+._main.speaker-single {
+  .hero {
+    height: 25vh;
+    min-height: 25vh;
+    @include touch {
+      height: 20vh;
+      min-height: 20vh;
     }
   }
 }

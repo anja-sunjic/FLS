@@ -7,7 +7,7 @@ export default function Intro() {
           <div className="inner">
             <div className="title-line">
               <h2>Speaker</h2>
-              <div className="line-decor is-hidden-mobile">
+              <div className="line-decor ">
                 <img src="/dots.svg" alt="" />
               </div>
             </div>

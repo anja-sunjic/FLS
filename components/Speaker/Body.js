@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import LinkedIn from "../partials/LinkedIn";
+import { Parallax } from "react-scroll-parallax";
+
 export default function Body(props) {
   return (
     <>
@@ -32,7 +34,9 @@ export default function Body(props) {
             </div>
             <div className="right">
               <div className="first-line">
-                <LinkedIn url={props.li} />
+                <a href={props.speaker.li} target="_blank">
+                  <img src="/linkedin.png" alt="" />
+                </a>
                 <p className="name">{props.speaker.name}</p>
               </div>
 
@@ -40,6 +44,16 @@ export default function Body(props) {
               <p className="bio">{props.speaker?.bio}</p>
             </div>
           </div>
+        </div>
+        <div className="hex-decor is-hidden-touch">
+          <Parallax y={[-20, 25]} x={[0, 0]} tagOuter="figure">
+            <Image src="/hex.svg" alt="decor" height={1000} width={1000} />
+          </Parallax>
+        </div>
+        <div className="hex-decor is-hidden-desktop">
+          <Parallax y={[-20, 100]} x={[0, 0]} tagOuter="figure">
+            <Image src="/hex.svg" alt="decor" height={1000} width={1000} />
+          </Parallax>
         </div>
       </section>
     </>

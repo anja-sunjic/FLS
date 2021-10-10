@@ -3,7 +3,6 @@ import { speakers } from "../../data/speakers";
 
 import Speaker from "./Speaker";
 export default function Speakers() {
-  console.log(speakers);
   return (
     <>
       <section className="section speakers" id="speakers" name="speakers">

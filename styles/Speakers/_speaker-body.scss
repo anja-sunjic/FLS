@@ -13,7 +13,7 @@
   .speaker-inner {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
     @include mobile {
       flex-direction: column;
@@ -50,22 +50,23 @@
     display: flex;
     align-items: stretch;
     margin-bottom: 0.5rem;
+    height: crem(40px);
+    @include touch {
+      height: 28px;
+    }
     a {
       height: 100%;
       display: flex;
-    }
-    svg {
-      height: 100%;
-      transition: all 0.4s;
-      path {
-        fill: $yellow;
+      img {
+        height: 100%;
+      }
+      &:hover {
+        path {
+          fill: white;
+        }
       }
     }
-    &:hover {
-      path {
-        fill: white;
-      }
-    }
+
     p.name {
       color: $yellow;
       font-size: crem(36px);
@@ -94,6 +95,11 @@
     margin-top: 0.2rem;
     font-size: crem(22px);
     text-align: justify;
+    white-space: no-wrap;
+    padding-right: 10%;
+    @include touch {
+      padding-right: 0;
+    }
   }
   .right {
     width: 60%;
