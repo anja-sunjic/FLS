@@ -33,9 +33,6 @@
     height: crem(500px);
     width: crem(480px);
     overflow: hidden;
-    @include mobile {
-      width: 100%;
-    }
     img,
     svg {
       display: inline;
@@ -44,6 +41,9 @@
       width: 100%;
       -o-object-fit: cover;
       object-fit: cover;
+    }
+    @include mobile {
+      margin: 0 auto;
     }
   }
   .first-line {
