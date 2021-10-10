@@ -104,14 +104,20 @@
         p.name {
           color: $yellow;
           margin-top: 1.5rem;
-          font-size: crem(26px);
+          font-size: crem(27px);
           text-align: center;
+          @include mobile {
+            font-size: crem(27px);
+          }
         }
         p.role {
           color: white;
           text-align: center;
           margin-top: 0.2rem;
           font-size: crem(22px);
+          @include mobile {
+            font-size: crem(27px);
+          }
         }
       }
     }

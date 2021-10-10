@@ -31,6 +31,7 @@
     @include touch {
       margin-bottom: crem(10px);
       padding-top: crem(20px);
+      font-size: crem(27px);
     }
     &.sub {
       font-size: crem(18px);
@@ -41,7 +42,8 @@
       margin-bottom: 1rem;
       @include touch {
         padding-right: 0;
-        font-size: crem(22px);
+        font-size: crem(27px);
+        opacity: 0.9;
       }
       &.cc {
         margin-bottom: 0;

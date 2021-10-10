@@ -52,12 +52,19 @@
       margin-top: 1.5rem;
       font-size: crem(28px);
       text-align: center;
+      @include mobile {
+        font-size: crem(30px);
+      }
     }
     p.role {
       color: white;
       text-align: center;
       margin-top: 0.2rem;
       font-size: crem(20px);
+      @include mobile {
+        font-size: crem(27px);
+        opacity: 0.9;
+      }
     }
     .more {
       color: $yellow;

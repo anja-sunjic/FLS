@@ -118,6 +118,9 @@
     justify-content: flex-start;
     padding-top: 2rem;
     padding-right: 3rem;
+    @include touch {
+      padding-right: 0;
+    }
     p {
       text-align: left;
       &.name {
@@ -129,14 +132,22 @@
           font-family: $font-cap;
           font-weight: 400;
           text-transform: uppercase;
-          font-size: crem(26px);
+          font-size: crem(27px);
           color: $yellow;
+        }
+        @include touch {
+          font-size: crem(32px);
+          margin-bottom: 0.75rem;
         }
       }
       &.title {
         color: #8a9297;
         font-size: crem(22px);
         font-weight: 500;
+        @include touch {
+          font-size: crem(27px);
+          padding-right: 0;
+        }
       }
     }
     a {

@@ -99,6 +99,7 @@
     padding-right: 10%;
     @include touch {
       padding-right: 0;
+      font-size: crem(27px);
     }
   }
   .right {
