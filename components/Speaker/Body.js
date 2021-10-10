@@ -34,7 +34,7 @@ export default function Body(props) {
             </div>
             <div className="right">
               <div className="first-line">
-                <a href={props.speaker.li} target="_blank">
+                <a href={props.speaker.li} target="_blank" rel="noreferrer">
                   <img src="/linkedin.png" alt="" />
                 </a>
                 <p className="name">{props.speaker.name}</p>
