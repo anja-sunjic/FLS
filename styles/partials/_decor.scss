@@ -13,6 +13,9 @@
   @include tablet {
     margin-bottom: 35rem;
   }
+  @include desktop {
+    margin-bottom: 30rem;
+  }
   .container {
     height: 100%;
   }
