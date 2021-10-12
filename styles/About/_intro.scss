@@ -83,6 +83,20 @@
   padding: 5rem 0;
   position: relative;
   height: unset;
+  .hex-decor {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    transform: translateY(-50%);
+    height: 80vh;
+    z-index: -1;
+    img {
+      height: 100%;
+    }
+    @include touch {
+      width: 100%;
+    }
+  }
   @include touch {
     min-height: unset;
     height: auto;

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Parallax } from "react-scroll-parallax";
 import heroimg from "../../public/story.jpg";
 export default function Story() {
   return (
@@ -15,6 +16,11 @@ export default function Story() {
         </div>
 
         <div className="container">
+          <div className="hex-decor is-hidden-desktop">
+            <Parallax y={[0, 100]} x={[0, 0]} tagOuter="figure">
+              <Image src="/hex.svg" alt="decor" height={1000} width={1000} />
+            </Parallax>
+          </div>
           <div className="inner">
             <div className="title-line">
               <h2>What is our story?</h2>
