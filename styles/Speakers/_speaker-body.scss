@@ -30,9 +30,10 @@
       0% 25%
     );
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    height: crem(500px);
+    height: crem(552px);
     width: crem(480px);
     overflow: hidden;
+    flex-grow: 0;
     img,
     svg {
       display: inline;
@@ -44,6 +45,8 @@
     }
     @include mobile {
       margin: 0 auto;
+      width: crem(440px);
+      height: crem(506px);
     }
   }
   .first-line {
