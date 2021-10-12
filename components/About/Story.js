@@ -17,9 +17,7 @@ export default function Story() {
 
         <div className="container">
           <div className="hex-decor is-hidden-desktop">
-            <Parallax y={[0, 100]} x={[0, 0]} tagOuter="figure">
-              <Image src="/hex.svg" alt="decor" height={1000} width={1000} />
-            </Parallax>
+            <Image src="/hex.svg" alt="decor" height={1000} width={1000} />
           </div>
           <div className="inner">
             <div className="title-line">
