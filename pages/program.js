@@ -5,12 +5,12 @@ import Decor from "../components/partials/Decor";
 import Intro from "../components/Program/Intro";
 import ProgramTabs from "../components/Program/ProgramTabs";
 
-export default function Program() {
+export default function Schedule() {
   return (
     <>
       <MetaData
-        path="/program"
-        title="Program"
+        path="/schedule"
+        title="Schedule"
         description=""
         image="/share.png"
       />

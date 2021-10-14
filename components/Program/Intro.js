@@ -18,7 +18,7 @@ export default function Intro() {
         <div className="container">
           <div className="inner">
             <div className="title-line">
-              <h2>Program</h2>
+              <h2>Schedule</h2>
               <div className="line-decor is-hidden-touch">
                 <img src="/dots.svg" alt="" />
               </div>
