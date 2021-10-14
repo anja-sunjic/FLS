@@ -22,7 +22,7 @@ export const wed = [
   },
   {
     time: "11:00-12:00",
-    type: "Keynote",
+    type: "Workshops",
     events: [
       {
         id: 2,
@@ -36,7 +36,6 @@ export const wed = [
       },
       {
         id: 3,
-        type: "Keynote",
         title: "A very long session name goes right here",
         speakerId: 2,
         speaker: "Admir Masic",
