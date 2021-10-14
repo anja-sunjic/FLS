@@ -5,7 +5,10 @@ import "react-tabs/style/react-tabs.css";
 const createProgram = (day) => {
   return day.map((item) => {
     return (
-      <div className={`program-item ${item.type === "Break" ? "break" : ""}`}>
+      <div
+        className={`program-item ${item.type === "Break" ? "break" : ""}`}
+        key={item.time}
+      >
         <div className="left">
           <p className="time">{item.time}</p>
           <p className="type">{item.type}</p>
@@ -13,14 +16,18 @@ const createProgram = (day) => {
         <div className="right">
           {item.events.map((ev) => {
             return (
-              <div className="item-event">
+              <div className="item-event" key={ev.id}>
                 <p className="title">{ev.title}</p>
                 {ev.speaker && <p className="speaker">{ev.speaker}</p>}
                 {ev.desc && <p className="desc">{ev.desc}</p>}
                 <div className="tags">
                   {ev.tags &&
                     ev.tags.map((tag) => {
-                      return <p className="tag">{tag}</p>;
+                      return (
+                        <p className="tag" key={tag}>
+                          {tag}
+                        </p>
+                      );
                     })}
                 </div>
               </div>
