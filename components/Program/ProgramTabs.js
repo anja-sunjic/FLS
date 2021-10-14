@@ -1,6 +1,37 @@
 import { wed } from "../../data/program";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
+
+const createProgram = (day) => {
+  return day.map((item) => {
+    return (
+      <div className={`program-item ${item.type === "Break" ? "break" : ""}`}>
+        <div className="left">
+          <p className="time">{item.time}</p>
+          <p className="type">{item.type}</p>
+        </div>
+        <div className="right">
+          {item.events.map((ev) => {
+            return (
+              <div className="item-event">
+                <p className="title">{ev.title}</p>
+                {ev.speaker && <p className="speaker">{ev.speaker}</p>}
+                {ev.desc && <p className="desc">{ev.desc}</p>}
+                <div className="tags">
+                  {ev.tags &&
+                    ev.tags.map((tag) => {
+                      return <p className="tag">{tag}</p>;
+                    })}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    );
+  });
+};
+
 export default function ProgramTabs() {
   return (
     <>
@@ -18,42 +49,19 @@ export default function ProgramTabs() {
                 <h2>education track - WEDNESDAY, DECEMBER 15</h2>
                 <img src="/program-lines.png" alt="" />
               </div>
-              {wed.map((item) => {
-                return (
-                  <div
-                    className={`program-item ${
-                      item.type === "Break" ? "break" : ""
-                    }`}
-                  >
-                    <div className="left">
-                      <p className="time">{item.time}</p>
-                      <p className="type">{item.type}</p>
-                    </div>
-                    <div className="right">
-                      {item.events.map((ev) => {
-                        return (
-                          <>
-                            <p className="title">{ev.title}</p>
-                            <p className="speaker">{ev.speaker}</p>
-                            <p className="desc">{ev.desc}</p>
-                            <div className="tags">
-                              {ev.tags.map((tag) => {
-                                return <p className="tag">{tag}</p>;
-                              })}
-                            </div>
-                          </>
-                        );
-                      })}
-                    </div>
-                  </div>
-                );
-              })}
+              {createProgram(wed)}
             </TabPanel>
             <TabPanel>
-              <h2>Any content 2</h2>
+              <div className="head">
+                <h2>technology track - thursday, DECEMBER 16</h2>
+                <img src="/program-lines.png" alt="" />
+              </div>
             </TabPanel>
             <TabPanel>
-              <h2>Any content 3</h2>
+              <div className="head">
+                <h2>leadership track - friday, DECEMBER 17</h2>
+                <img src="/program-lines.png" alt="" />
+              </div>
             </TabPanel>
           </Tabs>
         </div>

@@ -34,8 +34,6 @@
     width: 100%;
     padding: 2rem;
     &.break {
-      padding-left: 0;
-      padding-right: 0;
       background-color: $yellow;
       p.time {
         color: black !important;
@@ -43,11 +41,26 @@
       p.type {
         display: none;
       }
+      p.title {
+        color: black;
+        font-weight: 900;
+        text-transform: uppercase;
+      }
+      .item-event {
+        padding: 0 !important;
+      }
     }
     .left {
       width: 30%;
       text-align: center;
       flex-shrink: 0;
+    }
+    .item-event {
+      padding-bottom: 3rem;
+    }
+    .item-event:not(:first-of-type) {
+      border-top: 1px solid $yellow;
+      padding-top: 2rem;
     }
     p.time {
       color: $yellow;

@@ -18,7 +18,7 @@ export const wed = [
   {
     time: "10:00-11:00",
     type: "Break",
-    events: [],
+    events: [{ title: "break" }],
   },
   {
     time: "11:00-12:00",
