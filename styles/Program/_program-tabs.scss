@@ -1,0 +1,97 @@
+.program-tabs {
+  .react-tabs__tab-panel {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 3rem 0;
+  }
+  .react-tabs__tab-list {
+    border-bottom: none;
+    margin-bottom: 0;
+    font-size: crem(32px);
+    line-height: crem(48px);
+    .react-tabs__tab {
+      color: rgba(255, 255, 255, 0.2);
+      padding: 0.75rem 2rem;
+      bottom: 0;
+      background: rgba(255, 255, 255, 0.025);
+      border-radius: 0;
+      margin-right: 1rem;
+      font-weight: 900;
+    }
+    .react-tabs__tab--selected {
+      background-color: rgba(255, 255, 255, 0.05);
+      border: none;
+      color: $yellow;
+    }
+  }
+  .head {
+    padding: 0 2rem;
+    img {
+      margin-bottom: crem(90px);
+    }
+  }
+  .program-item {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    &.break {
+      padding-left: 0;
+      padding-right: 0;
+      background-color: $yellow;
+      p.time {
+        color: black !important;
+      }
+      p.type {
+        display: none;
+      }
+    }
+    .left {
+      width: 30%;
+      text-align: center;
+      flex-shrink: 0;
+    }
+    p.time {
+      color: $yellow;
+      font-size: crem(32px);
+      line-height: crem(48px);
+    }
+    p.type {
+      color: white;
+      font-style: italic;
+      font-size: crem(24px);
+      line-height: crem(36px);
+    }
+    p.title {
+      color: $yellow;
+      font-size: crem(34px);
+      line-height: crem(48px);
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+    p.speaker {
+      font-size: crem(28px);
+      line-height: crem(36px);
+      color: white;
+      margin-bottom: 0.5rem;
+      font-style: italic;
+      font-weight: 900;
+    }
+    p.desc {
+      font-size: crem(24px);
+      line-height: crem(36px);
+      color: white;
+      margin-bottom: 2rem;
+    }
+    .tags {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 1rem;
+      .tag {
+        background-color: rgba(196, 196, 196, 0.1);
+        color: white;
+        font-size: crem(18px);
+        border-radius: 100px;
+      }
+    }
+  }
+}

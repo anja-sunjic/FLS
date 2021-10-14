@@ -1,0 +1,61 @@
+export const wed = [
+  {
+    time: "09:00-10:00",
+    type: "Keynote",
+    events: [
+      {
+        id: 1,
+        title: "A very long session name goes right here",
+        speakerId: 2,
+        speaker: "Admir Masic",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...",
+        fullDesc: "",
+        tags: ["F2F", "Online"],
+        company: 1,
+      },
+    ],
+  },
+  {
+    time: "10:00-11:00",
+    type: "Break",
+    events: [],
+  },
+  {
+    time: "11:00-12:00",
+    type: "Keynote",
+    events: [
+      {
+        id: 2,
+        title: "A very long session name goes right here",
+        speakerId: 2,
+        speaker: "Admir Masic",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...",
+        fullDesc: "",
+        tags: ["F2F", "Online"],
+        company: 1,
+      },
+      {
+        id: 3,
+        type: "Keynote",
+        title: "A very long session name goes right here",
+        speakerId: 2,
+        speaker: "Admir Masic",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...",
+        fullDesc: "",
+        tags: ["F2F", "Online"],
+        company: 1,
+      },
+      {
+        id: 4,
+        type: "Workshop",
+        title: "A very long session name goes right here",
+        speakerId: 2,
+        speaker: "Admir Masic",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...",
+        fullDesc: "",
+        tags: ["F2F", "Online"],
+        company: 1,
+      },
+    ],
+  },
+];
