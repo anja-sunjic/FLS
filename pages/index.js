@@ -6,6 +6,7 @@ import Partners from "../components/Home/Partners";
 import Footer from "../components/partials/Footer";
 import Header from "../components/partials/Header";
 import Decor from "../components/partials/Decor";
+import CTAsection from "../components/partials/cta-section";
 
 export default function Home() {
   return (
@@ -26,8 +27,18 @@ export default function Home() {
         <Header />
         <Hero />
         <About />
+        <CTAsection
+          button="See agenda"
+          title="discover this year’s program"
+          url="/schedule"
+        />
         <Speakers />
         <Partners />
+        <CTAsection
+          button="Learn more"
+          title="fls ‘21 health & safety protocols"
+          url="/health-and-safety"
+        />
         <Decor />
       </div>
       <Footer />

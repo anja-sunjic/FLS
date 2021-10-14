@@ -30,7 +30,7 @@ export default function About() {
                   shape today into a new tomorrow.
                 </p>
                 <Link href="/about">
-                  <a className="">Learn more</a>
+                  <a className="contact-button">Learn more</a>
                 </Link>
               </div>
             </div>

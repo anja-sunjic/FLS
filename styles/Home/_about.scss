@@ -10,12 +10,10 @@
     }
   }
   a {
-    color: white;
     font-weight: 700;
-    margin-top: 2rem;
-    display: block;
+    display: inline-block;
     font-size: crem(26px);
-    text-decoration: underline;
+    color: black;
   }
   h2 {
     z-index: 2;
