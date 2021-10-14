@@ -1,4 +1,4 @@
-import Link from "next/Link";
+import Link from "next/link";
 export default function CTAsection(props) {
   return (
     <section className="section cta-section is-hidden">
