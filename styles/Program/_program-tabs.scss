@@ -57,6 +57,9 @@
       width: 30%;
       text-align: center;
       flex-shrink: 0;
+      @include touch {
+        margin-right: 1.5rem;
+      }
     }
     .item-event {
       padding-bottom: 3rem;

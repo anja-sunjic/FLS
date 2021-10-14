@@ -71,6 +71,7 @@ export default function ProgramTabs() {
                   className="is-hidden-touch"
                 />
               </div>
+              {/* {createProgram(thu)} */}
             </TabPanel>
             <TabPanel>
               <div className="head">

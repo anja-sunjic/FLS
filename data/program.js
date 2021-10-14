@@ -6,8 +6,8 @@ export const wed = [
       {
         id: 1,
         title: "A very long session name goes right here",
-        speakerId: 2,
-        speaker: "Admir Masic",
+        speakerIds: [2],
+        speakers: ["Admir Masic"],
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...",
         fullDesc: "",
         tags: ["F2F", "Online"],
