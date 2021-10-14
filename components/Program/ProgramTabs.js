@@ -54,20 +54,32 @@ export default function ProgramTabs() {
             <TabPanel>
               <div className="head">
                 <h2>education track - WEDNESDAY, DECEMBER 15</h2>
-                <img src="/program-lines.png" alt="" />
+                <img
+                  src="/program-lines.png"
+                  alt=""
+                  className="is-hidden-touch"
+                />
               </div>
               {createProgram(wed)}
             </TabPanel>
             <TabPanel>
               <div className="head">
                 <h2>technology track - thursday, DECEMBER 16</h2>
-                <img src="/program-lines.png" alt="" />
+                <img
+                  src="/program-lines.png"
+                  alt=""
+                  className="is-hidden-touch"
+                />
               </div>
             </TabPanel>
             <TabPanel>
               <div className="head">
                 <h2>leadership track - friday, DECEMBER 17</h2>
-                <img src="/program-lines.png" alt="" />
+                <img
+                  src="/program-lines.png"
+                  alt=""
+                  className="is-hidden-touch"
+                />
               </div>
             </TabPanel>
           </Tabs>

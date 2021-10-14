@@ -1,4 +1,7 @@
 .program-tabs {
+  @include touch {
+    padding: 0 !important;
+  }
   .react-tabs__tab-panel {
     background-color: rgba(255, 255, 255, 0.05);
     padding: 3rem 0;
