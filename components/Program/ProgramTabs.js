@@ -1,4 +1,4 @@
-import { wed } from "../../data/program";
+import { wed, thu, fri } from "../../data/program";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 
@@ -71,7 +71,7 @@ export default function ProgramTabs() {
                   className="is-hidden-touch"
                 />
               </div>
-              {/* {createProgram(thu)} */}
+              {createProgram(thu)}
             </TabPanel>
             <TabPanel>
               <div className="head">
@@ -82,6 +82,7 @@ export default function ProgramTabs() {
                   className="is-hidden-touch"
                 />
               </div>
+              {createProgram(fri)}
             </TabPanel>
           </Tabs>
         </div>
