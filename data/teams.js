@@ -135,11 +135,12 @@ export const teams = [
         li: "https://www.linkedin.com/in/selman-patkovic/",
         img: "/teams/Web Team/SelmanPatkovic.jpg",
       },
-      // {
-      //   name: "Malik Huremovic",
-      //   title: "Web Team Member",
-      //   li: "https://www.linkedin.com/in/malikhuremovic01/",
-      // },
+      {
+        name: "Malik Huremovic",
+        title: "Web Team Member",
+        li: "https://www.linkedin.com/in/malikhuremovic01/",
+        img: "/teams/Web Team/MalikHuremovic.jpg",
+      },
       // {
       //   name: "Ishak Kazic",
       //   title: "Web Team Member",
