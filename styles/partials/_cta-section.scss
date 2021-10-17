@@ -4,14 +4,22 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    @include touch {
+      flex-direction: column;
+    }
     p.title {
       margin-bottom: 0;
       text-transform: uppercase;
       font-family: $font-cap;
       font-weight: normal;
-      font-size: 68px;
+      font-size: crem(68px);
       line-height: 110%;
       color: black;
+      @include touch {
+        margin-bottom: 2rem;
+        text-align: center;
+        font-size: crem(54px);
+      }
     }
     .contact-button {
       margin-top: 0;

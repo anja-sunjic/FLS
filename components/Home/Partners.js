@@ -1,4 +1,5 @@
 import Link from "next/link";
+import PartnerLogo from "../partials/PartnerLogo";
 
 export default function Partners() {
   return (
@@ -31,6 +32,25 @@ export default function Partners() {
                 />
               </a>
             </div>
+          </div>
+          <div className="other">
+            <PartnerLogo
+              url="https://htecgroup.com/"
+              img="/partners/htec.png"
+            />
+            <PartnerLogo url="https://www.dkr.ba/en/" img="/partners/DKR.png" />
+            <PartnerLogo
+              url="https://bhwomen.org/en/home-eng/"
+              img="/partners/BWBH.png"
+            />
+            <PartnerLogo
+              url="https://www.ieee.org/ "
+              img="/partners/IEEE.png"
+            />
+            <PartnerLogo
+              url="https://www.bhfuturesfoundation.org/innovation-nation-2021"
+              img="/partners/IEEEBH.png"
+            />
           </div>
           <div className="dots is-hidden-touch">
             <img src="/dots.svg" alt="" />
