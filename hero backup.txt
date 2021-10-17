@@ -1,0 +1,173 @@
+export default function Hero() {
+  return (
+    <>
+      <div className="hero">
+        <div className="hero-content">
+          <div className="hero-top">
+            <div className="hero-title-wrapper">
+              <h1 className="hero-title white">FUTURES LEADERS</h1>
+              <h1 className="hero-title black">SUMMIT &#39;21</h1>
+            </div>
+            <div className="hero-info">
+              <span className="hero-date">DECEMBER</span>
+              <span className="hero-place">Tuzla, B&H</span>
+            </div>
+          </div>
+          <div className="bottom">
+            <div className="btn">
+              <span>STEM outside the box</span>
+            </div>
+            <div className="btn">
+              <span>COMING SOON</span>
+            </div>
+          </div>
+          <div className="hero-img blur">
+            <img src="hero.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
+
+
+
+
+
+
+
+
+.hero {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+
+  .hero-content {
+    height: 100%;
+    width: max-content;
+    margin: 0 auto;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-weight: 600;
+    gap: 2rem;
+    color: $white;
+
+    h1 {
+      font-size: crem(140px);
+      text-align: left;
+      font-weight: 800;
+      font-family: $font-cap;
+    }
+
+    p {
+      font-size: crem(32px);
+      display: block;
+      text-align: center;
+      &.right {
+        font-size: crem(40px);
+      }
+    }
+
+    .btn {
+      background-color: $dark;
+      padding: 2rem 3rem;
+      height: max-content;
+      
+      span {
+        font-family: $font-cap;
+        text-transform: uppercase;
+        background-color: $dark;
+        color: $yellow;
+        font-size: crem(44px);
+        font-weight: 400;
+      }
+    }
+
+    .blur img {
+      display: block; /* remove bottom space */
+      -webkit-filter: blur(9px);
+      -moz-filter: blur(9px);
+      -ms-filter: blur(9px);
+      -o-filter: blur(9px);
+      filter: blur(9px);
+    }
+
+    .blur:before {
+      background-color: $yellow;
+      opacity: 0.8;
+    }
+  }
+
+  .hero-top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 3;
+  }
+
+  .hero-info {
+    background: $black;
+    padding: 2rem 3rem;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    height: max-content;
+    span {
+      font-family: $font-cap;
+      text-transform: uppercase;
+      color: white;
+      font-size: crem(44px);
+      font-weight: 400;
+    }
+  }
+  .hero-title-wrapper {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 3rem;
+  }
+
+  .hero-title {
+    text-align: left;
+    letter-spacing: 4px;
+  }
+
+  .white {
+    color: white;
+  }
+
+  .black {
+    color: $black;
+  }
+
+  
+  .bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex: 1;
+  }
+  
+  .hero-img {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}

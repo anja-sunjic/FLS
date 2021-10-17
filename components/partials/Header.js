@@ -61,6 +61,9 @@ export default function Header() {
                     <div className="dropdown-item">
                       <Link href="/meet-the-team">Meet the Team</Link>
                     </div>
+                    <div className="dropdown-item">
+                      <Link href="/protocols">Health and Safety Protocols</Link>
+                    </div>
                   </div>
                 </li>
                 <li>
@@ -132,6 +135,16 @@ export default function Header() {
                   }}
                 >
                   Meet the Team
+                </a>
+              </Link>
+              <Link href="/protocols">
+                <a
+                  className="_sub"
+                  onClick={() => {
+                    setisMobileMenu(!isMobileMenu);
+                  }}
+                >
+                  Health and Safety Protocols
                 </a>
               </Link>
             </Collapsible>
