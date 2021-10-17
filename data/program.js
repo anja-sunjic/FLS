@@ -17,7 +17,7 @@ export const wed = [
   },
   {
     time: "Time: TBD",
-    type: "Travel Break",
+    type: "Break",
     events: [{ title: "Break" }],
   },
   {
