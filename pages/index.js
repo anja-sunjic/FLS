@@ -37,7 +37,7 @@ export default function Home() {
         <CTAsection
           button="Learn more"
           title="fls ‘21 health & safety protocols"
-          url="/health-and-safety"
+          url="/protocols"
         />
         <Decor />
       </div>
