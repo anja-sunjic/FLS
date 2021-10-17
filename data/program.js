@@ -18,7 +18,7 @@ export const wed = [
   {
     time: "Time: TBD",
     type: "Break",
-    events: [{ title: "Break" }],
+    events: [{ title: "Travel Break" }],
   },
   {
     time: "Time: TBD",
@@ -54,11 +54,11 @@ export const wed = [
   },
   {
     time: "Time: TBD",
-    type: "Lunch Break",
+    type: "Break",
     events: [
       {
         id: 2,
-        title: "Break",
+        title: "Lunch Break",
         speakerIds: [],
         speakers: [],
         desc: "",
@@ -138,8 +138,8 @@ export const thu = [
   },
   {
     time: "Time: TBD",
-    type: "Travel Break",
-    events: [{ title: "Break" }],
+    type: "Break",
+    events: [{ title: "Travel Break" }],
   },
   {
     time: "Time: TBD",
@@ -175,7 +175,7 @@ export const thu = [
   },
   {
     time: "Time: TBD",
-    type: "Lunch Break",
+    type: "Break",
     events: [
       {
         title: "Break",
@@ -216,7 +216,7 @@ export const thu = [
   },
   {
     time: "Time: TBD",
-    type: "Coffee Break",
+    type: "Break",
     events: [
       {
         title: "Break",
@@ -276,8 +276,8 @@ export const fri = [
   },
   {
     time: "Time: TBD",
-    type: "Travel Break",
-    events: [{ title: "Break" }],
+    type: "Break",
+    events: [{ title: "Travel Break" }],
   },
   {
     time: "Time: TBD",
@@ -373,7 +373,7 @@ export const fri = [
   },
   {
     time: "Time: TBD",
-    type: "Lunch Break",
+    type: "Break",
     events: [
       {
         title: "Break",
