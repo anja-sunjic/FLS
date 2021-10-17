@@ -1,6 +1,7 @@
 import { wed, thu, fri } from "../../data/program";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
+import { speakers } from "../../data/speakers";
 
 const createProgram = (day) => {
   return day.map((item) => {
@@ -20,7 +21,11 @@ const createProgram = (day) => {
                 <p className="title">{ev.title}</p>
                 {ev.speakers &&
                   ev.speakers.map((speaker) => {
-                    return <p className="speaker">{speaker}</p>;
+                    return (
+                      <p className="speaker" key={speaker}>
+                        {speaker}
+                      </p>
+                    );
                   })}
                 {ev.desc && <p className="desc">{ev.desc}</p>}
                 <div className="tags">
