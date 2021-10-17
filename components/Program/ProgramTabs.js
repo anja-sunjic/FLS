@@ -6,7 +6,7 @@ const createProgram = (day) => {
   return day.map((item) => {
     return (
       <div
-        className={`program-item ${item.type === "Break" ? "break" : ""}`}
+        className={`program-item ${item.type.includes("Break") ? "break" : ""}`}
         key={item.time}
       >
         <div className="left">
@@ -18,7 +18,10 @@ const createProgram = (day) => {
             return (
               <div className="item-event" key={ev.id}>
                 <p className="title">{ev.title}</p>
-                {ev.speaker && <p className="speaker">{ev.speaker}</p>}
+                {ev.speakers &&
+                  ev.speakers.map((speaker) => {
+                    return <p className="speaker">{speaker}</p>;
+                  })}
                 {ev.desc && <p className="desc">{ev.desc}</p>}
                 <div className="tags">
                   {ev.tags &&
