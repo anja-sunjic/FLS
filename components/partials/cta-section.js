@@ -1,7 +1,7 @@
 import Link from "next/link";
 export default function CTAsection(props) {
   return (
-    <section className="section cta-section is-hidden">
+    <section className="section cta-section">
       <div className="container">
         <div className="inner">
           <p className="title">{props.title}</p>

@@ -141,11 +141,12 @@ export const teams = [
         li: "https://www.linkedin.com/in/malikhuremovic01/",
         img: "/teams/Web Team/MalikHuremovic.jpg",
       },
-      // {
-      //   name: "Ishak Kazic",
-      //   title: "Web Team Member",
-      //   li: "https://www.linkedin.com/in/ishak-kazi%C4%87-a760451a8/",
-      // },
+      {
+        name: "Ishak Kazic",
+        title: "Web Team Member",
+        li: "https://www.linkedin.com/in/ishak-kazi%C4%87-a760451a8/",
+        img: "/teams/Web Team/IshakKazic.jpg",
+      },
       // {
       //   name: "Zehra Zelic",
       //   title: "Web Team Member",

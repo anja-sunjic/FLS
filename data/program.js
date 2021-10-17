@@ -178,14 +178,7 @@ export const thu = [
     type: "Lunch Break",
     events: [
       {
-        id: 2,
         title: "Break",
-        speakerIds: [],
-        speakers: [],
-        desc: "",
-        fullDesc: "",
-        tags: ["F2F"],
-        company: 1,
       },
     ],
   },
@@ -226,14 +219,7 @@ export const thu = [
     type: "Coffee Break",
     events: [
       {
-        id: 2,
-        title: "",
-        speakerIds: [],
-        speakers: [],
-        desc: "",
-        fullDesc: "",
-        tags: [],
-        company: 1,
+        title: "Break",
       },
     ],
   },
@@ -390,14 +376,7 @@ export const fri = [
     type: "Lunch Break",
     events: [
       {
-        id: 10,
         title: "Break",
-        speakerIds: [],
-        speakers: [],
-        desc: "",
-        fullDesc: "",
-        tags: ["F2F"],
-        company: 1,
       },
     ],
   },
