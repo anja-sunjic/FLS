@@ -5,7 +5,7 @@ export const wed = [
     events: [
       {
         id: 1,
-        title: "",
+        title: "TBA",
         speakerIds: [],
         speakers: ["Melita Kurtović"],
         desc: "",
@@ -15,7 +15,7 @@ export const wed = [
       },
       {
         id: 1,
-        title: "",
+        title: "TBA",
         speakerIds: [],
         speakers: ["Amra Ibrić"],
         desc: "",
@@ -25,7 +25,7 @@ export const wed = [
       },
       {
         id: 1,
-        title: "",
+        title: "TBA",
         speakerIds: [],
         speakers: ["Zinka Bejtić"],
         desc: "",
@@ -35,7 +35,7 @@ export const wed = [
       },
       {
         id: 1,
-        title: "",
+        title: "TBA",
         speakerIds: [],
         speakers: ["TBA"],
         desc: "",
@@ -45,7 +45,7 @@ export const wed = [
       },
       {
         id: 1,
-        title: "",
+        title: "TBA",
         speakerIds: [],
         speakers: ["TBA"],
         desc: "",
@@ -55,7 +55,7 @@ export const wed = [
       },
       {
         id: 1,
-        title: "",
+        title: "TBA",
         speakerIds: [],
         speakers: ["TBA"],
         desc: "",
