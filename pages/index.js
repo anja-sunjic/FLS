@@ -34,11 +34,11 @@ export default function Home() {
         />
         <Speakers />
         <Partners />
-        <CTAsection
+        {/* <CTAsection
           button="Learn more"
           title="fls ‘21 health & safety protocols"
           url="/protocols"
-        />
+        /> */}
         <Decor />
       </div>
       <Footer />
