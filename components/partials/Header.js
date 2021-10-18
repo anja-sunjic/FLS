@@ -69,6 +69,9 @@ export default function Header() {
                   </div>
                 </li>
                 <li>
+                  <Link href="/schedule">Schedule</Link>
+                </li>
+                <li>
                   <Link href="/speakers">Speakers</Link>
                 </li>
                 <li>
@@ -150,6 +153,13 @@ export default function Header() {
                 </a>
               </Link>
             </Collapsible>
+            <li
+              onClick={() => {
+                setisMobileMenu(!isMobileMenu);
+              }}
+            >
+              <Link href="/schedule">Schedule</Link>
+            </li>
             <li
               onClick={() => {
                 setisMobileMenu(!isMobileMenu);

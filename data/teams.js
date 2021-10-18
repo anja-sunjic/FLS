@@ -39,7 +39,7 @@ export const teams = [
     members: [
       {
         name: "Una Karabeg",
-        title: "Event Coordinator",
+        title: "Event Coordinator & Marketing and Branding Team Lead",
         li: "https://www.linkedin.com/in/unakarabeg/",
         img: "/teams/Event Coordination/UnaKarabeg.jpg",
       },

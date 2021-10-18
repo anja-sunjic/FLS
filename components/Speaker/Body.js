@@ -1,9 +1,19 @@
 import Link from "next/link";
 import Image from "next/image";
-import LinkedIn from "../partials/LinkedIn";
 import { Parallax } from "react-scroll-parallax";
-
+import { wed, thu, fri } from "../../data/program";
 export default function Body(props) {
+  const sessions = [...wed, ...thu, ...fri];
+  const speakerSessions = [];
+  const filtered = sessions.map((slot) => {
+    return slot.events.map((ev) => {
+      if (ev.speakerIds?.includes(props.speaker.id)) {
+        speakerSessions.push(slot);
+        return { slot: slot, ev: ev };
+      }
+    });
+  });
+  console.log(speakerSessions);
   return (
     <>
       <section className="section speaker-single">
@@ -37,6 +47,7 @@ export default function Body(props) {
               ></p>
             </div>
           </div>
+          <div className="sessions">{console.log(props.speaker.id)}</div>
         </div>
         <div className="hex-decor is-hidden-touch">
           <Parallax y={[-20, 25]} x={[0, 0]} tagOuter="figure">
