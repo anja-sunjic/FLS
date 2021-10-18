@@ -72,15 +72,25 @@
       padding-top: 2rem;
     }
     p.time {
+      // color: $yellow;
+      // font-size: crem(32px);
+      // line-height: crem(48px);
       color: $yellow;
-      font-size: crem(32px);
+      font-size: crem(34px);
       line-height: crem(48px);
+      font-weight: bold;
     }
     p.type {
-      color: white;
-      font-style: italic;
-      font-size: crem(24px);
+      // color: white;
+      // font-style: italic;
+      // font-size: crem(24px);
+      // line-height: crem(36px);
+      font-size: crem(28px);
       line-height: crem(36px);
+      color: white;
+      margin-bottom: 0.5rem;
+      font-style: italic;
+      font-weight: 900;
     }
     p.title {
       color: $yellow;
