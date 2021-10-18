@@ -5,9 +5,9 @@ import emailjs from "emailjs-com";
 export default function ContactForm() {
   const [formState, setFormState] = useState("INITIAL");
   const [inquiry, setInquiry] = useState("general");
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  const [nameState, setName] = useState("");
+  const [emailState, setEmail] = useState("");
+  const [messageState, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState(null);
   const [messageTimeout, setMessageTimeout] = useState(3);
 
@@ -21,9 +21,9 @@ export default function ContactForm() {
   ];
 
   let templateParams = {
-    name: name,
-    email: email,
-    message: message,
+    name: nameState,
+    email: emailState,
+    message: messageState,
     inquiry: inquiry,
   };
 
@@ -41,11 +41,19 @@ export default function ContactForm() {
         (response) => {
           console.log("SUCCESS!", response.status, response.text);
           setFormState("SUCCESS");
+          setInquiry("");
+          setMessage("");
+          setEmail("");
+          setName("");
         },
         (err) => {
           console.log("FAILED...", err);
           setErrorMessage(err.text);
           setFormState("ERROR");
+          setInquiry("");
+          setMessage("");
+          setEmail("");
+          setName("");
         }
       );
   }
@@ -78,6 +86,7 @@ export default function ContactForm() {
       <div className="form-control">
         <div className="form-label">Your Name*</div>
         <input
+          value={nameState}
           type="text"
           onChange={(e) => setName(e.target.value)}
           disabled={formState === "LOADING"}
@@ -87,6 +96,7 @@ export default function ContactForm() {
       <div className="form-control">
         <div className="form-label">Your Email*</div>
         <input
+          value={emailState}
           type="email"
           onChange={(e) => setEmail(e.target.value)}
           disabled={formState === "LOADING"}
@@ -96,6 +106,7 @@ export default function ContactForm() {
       <div className="form-control">
         <div className="form-label">Your Message*</div>
         <textarea
+          value={messageState}
           type="text"
           onChange={(e) => setMessage(e.target.value)}
           disabled={formState === "LOADING"}
