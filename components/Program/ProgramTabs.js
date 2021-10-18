@@ -2,13 +2,14 @@ import { wed, thu, fri } from "../../data/program";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import { speakers } from "../../data/speakers";
+import { useState } from "react";
 
 const createProgram = (day) => {
-  return day.map((item) => {
+  return day.map((item, index) => {
     return (
       <div
         className={`program-item ${item.type.includes("Break") ? "break" : ""}`}
-        key={item.time}
+        key={`${item.time} ${item.type} ${index}`}
       >
         <div className="left">
           <p className="time">{item.time}</p>
@@ -17,7 +18,7 @@ const createProgram = (day) => {
         <div className="right">
           {item.events.map((ev) => {
             return (
-              <div className="item-event" key={ev.id}>
+              <div className="item-event" key={ev.id} id={ev.id}>
                 <p className="title">{ev.title}</p>
                 {ev.speakers &&
                   ev.speakerIds.map((x) => {
@@ -56,11 +57,16 @@ const createProgram = (day) => {
 };
 
 export default function ProgramTabs() {
+  const [tabIndex, setTabIndex] = useState(0);
+  console.log(tabIndex);
   return (
     <>
       <section className="section program-tabs">
         <div className="container">
-          <Tabs>
+          <Tabs
+            selectedIndex={tabIndex}
+            onSelect={(index) => setTabIndex(index)}
+          >
             <TabList>
               <Tab>Day 1</Tab>
               <Tab>Day 2</Tab>

@@ -96,7 +96,7 @@ export const teams = [
     members: [
       {
         name: "Valerija Eres",
-        title: "Marketing and Branding Team Lead",
+        title: "Marketing and Branding Team Member",
         li: "https://www.linkedin.com/in/valerija-ere%C5%A1-731a4a188/",
         img: "/teams/Marketing Team/ValerijaEres.jpg",
       },

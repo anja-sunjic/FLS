@@ -14,7 +14,7 @@ export const wed = [
         company: 1,
       },
       {
-        id: 1,
+        id: 2,
         title: "Session Name TBA",
         speakerIds: [6],
         speakers: ["Amra Ibrić"],
@@ -24,7 +24,7 @@ export const wed = [
         company: 1,
       },
       {
-        id: 1,
+        id: 3,
         title: "Session Name TBA",
         speakerIds: [1],
         speakers: ["Zinka Bejtić"],
@@ -34,7 +34,7 @@ export const wed = [
         company: 1,
       },
       {
-        id: 1,
+        id: 4,
         title: "Session Name TBA",
         speakerIds: [],
         speakers: ["TBA"],
@@ -44,7 +44,7 @@ export const wed = [
         company: 1,
       },
       {
-        id: 1,
+        id: 5,
         title: "Session Name TBA",
         speakerIds: [],
         speakers: ["TBA"],
@@ -54,7 +54,7 @@ export const wed = [
         company: 1,
       },
       {
-        id: 1,
+        id: 6,
         title: "Session Name TBA",
         speakerIds: [],
         speakers: ["TBA"],
@@ -75,7 +75,7 @@ export const wed = [
     type: "Ceremony",
     events: [
       {
-        id: 2,
+        id: 7,
         title: "Opening Ceremony",
         speakerIds: [],
         speakers: [],
@@ -91,7 +91,7 @@ export const wed = [
     type: "Keynote",
     events: [
       {
-        id: 2,
+        id: 8,
         title: "Session Name TBA",
         speakerIds: [1],
         speakers: ["Zinka Bejtić"],
@@ -107,9 +107,7 @@ export const wed = [
     type: "Break",
     events: [
       {
-        id: 2,
         title: "Lunch Break",
-        company: 1,
       },
     ],
   },
@@ -118,7 +116,7 @@ export const wed = [
     type: "Keynote",
     events: [
       {
-        id: 2,
+        id: 9,
         title: "Session Name TBA",
         speakerIds: [4],
         speakers: ["Mario Baroševčić"],
@@ -134,7 +132,7 @@ export const wed = [
     type: "Panel",
     events: [
       {
-        id: 2,
+        id: 10,
         title: "Education & Employability",
         speakerIds: [5],
         speakers: ["Melita Kurtović"],
@@ -150,7 +148,7 @@ export const wed = [
     type: "Social, Partner Event",
     events: [
       {
-        id: 2,
+        id: 11,
         title: "Showcasing STEM Superwomen from Bosnia and Herzegovina",
         speakerIds: [],
         speakers: [],
@@ -169,7 +167,7 @@ export const thu = [
     type: "Company Visit",
     events: [
       {
-        id: 1,
+        id: 12,
         title: "Session Name TBA",
         speakerIds: [],
         speakers: [],
@@ -179,7 +177,7 @@ export const thu = [
         company: 1,
       },
       {
-        id: 1,
+        id: 13,
         title: "Session Name TBA",
         speakerIds: [],
         speakers: [],
@@ -189,7 +187,7 @@ export const thu = [
         company: 1,
       },
       {
-        id: 1,
+        id: 14,
         title: "Session Name TBA",
         speakerIds: [],
         speakers: [],
@@ -199,7 +197,7 @@ export const thu = [
         company: 1,
       },
       {
-        id: 1,
+        id: 15,
         title: "Session Name TBA",
         speakerIds: [],
         speakers: [],
@@ -209,7 +207,7 @@ export const thu = [
         company: 1,
       },
       {
-        id: 1,
+        id: 16,
         title: "Session Name TBA",
         speakerIds: [],
         speakers: [],
@@ -219,7 +217,7 @@ export const thu = [
         company: 1,
       },
       {
-        id: 1,
+        id: 17,
         title: "Session Name TBA",
         speakerIds: [],
         speakers: [],
@@ -240,7 +238,7 @@ export const thu = [
     type: "Keynote",
     events: [
       {
-        id: 2,
+        id: 18,
         title: "Session Name TBA",
         speakerIds: [],
         speakers: [],
@@ -256,7 +254,7 @@ export const thu = [
     type: "Panel",
     events: [
       {
-        id: 2,
+        id: 19,
         title: "The Versatility of Engineering - The Voice of the Industry",
         speakerIds: [],
         speakers: [],
@@ -281,7 +279,7 @@ export const thu = [
     type: "Keynote",
     events: [
       {
-        id: 2,
+        id: 20,
         title: "Session Name TBA",
         speakerIds: [2],
         speakers: ["Admir Mašić"],
@@ -297,7 +295,7 @@ export const thu = [
     type: "Keynote",
     events: [
       {
-        id: 2,
+        id: 21,
         title: "Session Name TBA",
         speakerIds: [],
         speakers: [],
@@ -322,7 +320,7 @@ export const thu = [
     type: "Keynote",
     events: [
       {
-        id: 2,
+        id: 22,
         title: "Session Name TBA",
         speakerIds: [],
         speakers: [],
@@ -338,7 +336,7 @@ export const thu = [
     type: "Partner Event",
     events: [
       {
-        id: 2,
+        id: 23,
         title: "IEEE Innovation Nation Finals",
         speakerIds: [],
         speakers: [],
@@ -357,7 +355,7 @@ export const fri = [
     type: "Workshop",
     events: [
       {
-        id: 1,
+        id: 24,
         title: "Leading From a Growth Mindset",
         speakerIds: [7, 8],
         speakers: ["Anja Bundalo & Snjezana Udovicic"],
@@ -367,7 +365,7 @@ export const fri = [
         company: 1,
       },
       {
-        id: 1,
+        id: 25,
         title: "Session Name TBA",
         speakerIds: [],
         speakers: [],
@@ -377,7 +375,7 @@ export const fri = [
         company: 1,
       },
       {
-        id: 1,
+        id: 26,
         title: "Session Name TBA",
         speakerIds: [],
         speakers: [],
@@ -387,7 +385,7 @@ export const fri = [
         company: 1,
       },
       {
-        id: 1,
+        id: 27,
         title: "Session Name TBA",
         speakerIds: [],
         speakers: [],
@@ -397,7 +395,7 @@ export const fri = [
         company: 1,
       },
       {
-        id: 1,
+        id: 28,
         title: "Session Name TBA",
         speakerIds: [],
         speakers: [],
@@ -407,7 +405,7 @@ export const fri = [
         company: 1,
       },
       {
-        id: 1,
+        id: 29,
         title: "Session Name TBA",
         speakerIds: [],
         speakers: [],
@@ -428,7 +426,7 @@ export const fri = [
     type: "Keynote",
     events: [
       {
-        id: 2,
+        id: 30,
         title: "Session Name TBA",
         speakerIds: [3],
         speakers: ["Feđa Delalić"],
@@ -444,7 +442,7 @@ export const fri = [
     type: "Keynote",
     events: [
       {
-        id: 3,
+        id: 31,
         title: "Lightning Talks Powered by BH Youth -  6 Rules to Live By",
         speakerIds: [],
         speakers: [],
@@ -454,7 +452,6 @@ export const fri = [
         company: 1,
       },
       {
-        id: 4,
         title: "Be Entrepreneurial",
         speakerIds: [],
         speakers: [],
@@ -463,7 +460,6 @@ export const fri = [
         company: 1,
       },
       {
-        id: 5,
         title: "Strive for Excellence",
         speakerIds: [],
         speakers: [],
@@ -472,7 +468,6 @@ export const fri = [
         company: 1,
       },
       {
-        id: 6,
         title: "Act with integrity",
         speakerIds: [],
         speakers: [],
@@ -481,7 +476,6 @@ export const fri = [
         company: 1,
       },
       {
-        id: 7,
         title: "Value and embrace diversity",
         speakerIds: [],
         speakers: [],
@@ -490,7 +484,6 @@ export const fri = [
         company: 1,
       },
       {
-        id: 8,
         title: "Serve the community",
         speakerIds: [],
         speakers: [],
@@ -499,7 +492,6 @@ export const fri = [
         company: 1,
       },
       {
-        id: 9,
         title: "Partner with those those who share their vision",
         speakerIds: [],
         speakers: [],
@@ -523,7 +515,7 @@ export const fri = [
     type: "Keynote",
     events: [
       {
-        id: 11,
+        id: 32,
         title: "Session Name TBA",
         speakerIds: [],
         speakers: [],
@@ -539,7 +531,7 @@ export const fri = [
     type: "Ceremony",
     events: [
       {
-        id: 12,
+        id: 33,
         title: "Closing Ceremony",
         speakerIds: [],
         speakers: [],
@@ -555,7 +547,7 @@ export const fri = [
     type: "Social",
     events: [
       {
-        id: 13,
+        id: 34,
         title: "Gala Night",
         speakerIds: [],
         speakers: [],

@@ -22,15 +22,35 @@ export default function Body(props) {
         </div> */}
         <div className="container">
           <div className="speaker-inner">
-            <div className="speaker-img image">
-              <Image
-                src={props.speaker.img}
-                alt={props.speaker.name}
-                layout="fill"
-                className="grayscale"
-                quality={50}
-                priority={true}
-              />
+            <div className="left">
+              <div className="speaker-img image">
+                <Image
+                  src={props.speaker.img}
+                  alt={props.speaker.name}
+                  layout="fill"
+                  className="grayscale"
+                  quality={50}
+                  priority={true}
+                />
+              </div>
+              <div className="agenda-items">
+                {speakerSessions.map((x) => {
+                  return (
+                    <div className="item">
+                      <div className="left">
+                        <p className="time">{x.time}</p>
+                        <p className="type">{x.type}</p>
+                      </div>
+                      <div className="right">
+                        {x.events?.map((ev) => {
+                          if (ev.speakerIds.includes(props.speaker.id))
+                            return <p className="title">{ev.title}</p>;
+                        })}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
             </div>
             <div className="right">
               <div className="first-line">
