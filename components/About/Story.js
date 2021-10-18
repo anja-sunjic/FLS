@@ -16,8 +16,8 @@ export default function Story() {
         </div>
 
         <div className="container">
-          <div className="hex-decor is-hidden-desktop">
-            <Image src="/hex.svg" alt="decor" height={1000} width={1000} />
+          <div className="hex-decor-big is-hidden-desktop">
+            <Image src="/hex.svg" alt="decor" layout="fill" />
           </div>
           <div className="inner">
             <div className="title-line">

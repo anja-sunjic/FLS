@@ -62,7 +62,9 @@ export default function Header() {
                       <Link href="/meet-the-team">Meet the Team</Link>
                     </div>
                     <div className="dropdown-item">
-                      <Link href="/protocols">Health and Safety Protocols</Link>
+                      <Link href="/protocols">
+                        FLS&#39;21 Health and Safety Protocols
+                      </Link>
                     </div>
                   </div>
                 </li>
@@ -144,7 +146,7 @@ export default function Header() {
                     setisMobileMenu(!isMobileMenu);
                   }}
                 >
-                  Health and Safety Protocols
+                  FLS&#39;21 Health and Safety Protocols
                 </a>
               </Link>
             </Collapsible>

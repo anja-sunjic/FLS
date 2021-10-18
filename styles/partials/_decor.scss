@@ -5,16 +5,17 @@
   height: crem(600px);
   padding-top: 0 !important;
   padding-bottom: 0 !important;
+  margin-top: 5rem;
   margin-bottom: 30rem;
   @include mobile {
-    margin-bottom: 48rem;
+    margin-bottom: 64rem;
     height: crem(500px);
   }
   @include tablet {
-    margin-bottom: 35rem;
+    margin-bottom: 37rem;
   }
   @include desktop {
-    margin-bottom: 30rem;
+    margin-bottom: 40rem;
   }
   .container {
     height: 100%;

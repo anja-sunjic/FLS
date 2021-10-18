@@ -3,7 +3,7 @@ import heroimg from "../../public/hero.webp";
 export default function Intro() {
   return (
     <>
-      <div className="team hero">
+      <div className="team hero small-hero">
         <div className="hero-img blur">
           <Image
             src={heroimg}

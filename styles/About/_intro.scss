@@ -1,7 +1,7 @@
-.intro {
+.intro._about {
   position: relative;
   height: auto;
-  min-height: 70vh;
+  min-height: 50vh !important;
   width: 100%;
   padding-top: 13rem;
   padding-bottom: 10rem;
@@ -22,7 +22,7 @@
       margin-bottom: 0;
     }
     .line-decor {
-      width: 60%;
+      width: 50%;
       img {
         -o-object-fit: scale-down;
         object-fit: scale-down;
@@ -94,6 +94,18 @@
       height: 100%;
     }
     @include touch {
+      width: 100%;
+    }
+  }
+  .hex-decor-big {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    img {
+      height: 100%;
       width: 100%;
     }
   }

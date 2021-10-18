@@ -48,6 +48,9 @@
       &.cc {
         margin-bottom: 0;
       }
+      .yellow {
+        color: $yellow;
+      }
     }
   }
   .contact-button {
@@ -82,6 +85,26 @@
       path {
         fill: white;
       }
+    }
+    @include mobile {
+      margin: 0 auto;
+      display: block;
+      text-align: center;
+      width: -webkit-fit-content;
+      width: -moz-fit-content;
+      width: fit-content;
+    }
+  }
+  .bhff-logo {
+    width: crem(300px);
+    display: inline-block;
+    img {
+      width: 100%;
+      height: auto;
+    }
+    @include mobile {
+      margin: 0 auto;
+      display: block;
     }
   }
 }

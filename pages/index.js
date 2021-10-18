@@ -28,7 +28,7 @@ export default function Home() {
         <Hero />
         <About />
         <CTAsection
-          button="See agenda"
+          button="See Schedule"
           title="discover this year’s program"
           url="/schedule"
         />

@@ -14,21 +14,22 @@
       width: 100%;
     }
   }
-  .hex-decor-2 {
+  .hex-decor-big {
     position: absolute;
     left: 0;
-    top: 60%;
+    top: 10%;
     z-index: -1;
+    width: 100%;
+    height: 100vh;
     img {
       height: 100%;
+      width: 100%;
     }
   }
   .speakers-all {
     position: relative;
   }
   .hero {
-    min-height: 30vh;
-    height: 30vh;
     .inner {
       height: 100%;
       display: flex;
@@ -37,9 +38,6 @@
       @include touch {
         padding: 0 1.5rem;
       }
-    }
-    .container {
-      width: 100%;
     }
     .title-line {
       display: flex;

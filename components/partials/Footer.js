@@ -11,11 +11,16 @@ export default function Footer() {
               {/* <div className="logo"></div> */}
               <p>FLS&#39;21 HEALTH AND SAFETY PROTOCOLS</p>
               <p className="sub">
-                All safety measures will be in accordance with the instructions
-                of the Cantonal Crisis Staff. The organizing team will put in
-                place all measures needed to prevent the further spread of the
-                COVID-19 virus during event days. More information will be
-                published shortly.
+                All safety measures are in accordance with the orders and
+                instructions of the Federal and Cantonal Crisis Staff. The
+                organizing team will put in place all measures needed to prevent
+                the further spread of COVID-19 during event days. Your health
+                and well-being is of the utmost importance for us, which is why
+                the
+                <Link href="/protocols">
+                  <a className="yellow"> following guidelines </a>
+                </Link>
+                for prevention of COVID-19 spread are imposed.
               </p>
 
               <Link href="/contact">
@@ -85,6 +90,17 @@ export default function Footer() {
               <a className="logo is-hidden-touch">
                 <img src="logo.png" alt="" />
               </a>{" "}
+              <a
+                href="https://www.bhfuturesfoundation.org/"
+                target="_blank"
+                rel="noreferrer"
+                className="bhff-logo"
+              >
+                <img
+                  src="/partners/BHFFnegativ.png"
+                  alt="BH Futures Foundation"
+                />
+              </a>
             </div>
           </div>
           <p className="sub cc">

@@ -17,11 +17,8 @@ export default function Speakers() {
           <Image src="/hex.svg" alt="decor" height={1000} width={1000} />
         </Parallax>
       </div>
-      <div className="hex-decor is-hidden-desktop">
-        <Image src="/hex.svg" alt="decor" height={1000} width={1000} />
-      </div>
-      <div className="hex-decor-2 is-hidden-desktop">
-        <Image src="/hex.svg" alt="decor" height={1000} width={1000} />
+      <div className="hex-decor-big is-hidden-desktop">
+        <Image src="/hex.svg" alt="decor" layout="fill" />
       </div>
     </div>
   );

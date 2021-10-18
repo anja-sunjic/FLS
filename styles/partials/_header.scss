@@ -71,6 +71,9 @@
     animation: scaleZ 300ms ease-in-out forwards;
     .dropdown-item {
       display: block;
+      &:not(:last-of-type) {
+        border-bottom: 1px solid gray;
+      }
     }
   }
   &.hidden {
