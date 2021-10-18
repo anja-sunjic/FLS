@@ -31,7 +31,10 @@ export default function Body(props) {
               </div>
 
               <p className="role">{props.speaker.title}</p>
-              <p className="bio">{props.speaker?.bio}</p>
+              <p
+                className="bio"
+                dangerouslySetInnerHTML={{ __html: props.speaker?.bio }}
+              ></p>
             </div>
           </div>
         </div>

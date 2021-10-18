@@ -11,7 +11,7 @@ export default function Speaker(props) {
               alt={props.speaker.name}
               layout="fill"
               className="grayscale"
-              quality={50}
+              quality={80}
               priority={true}
             />
           </div>
