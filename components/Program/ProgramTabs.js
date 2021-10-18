@@ -27,8 +27,9 @@ const createProgram = (day) => {
                         href={`/speakers/${
                           speakers.find((speaker) => speaker.id == x).slug
                         }`}
+                        key={x.id}
                       >
-                        <p className="speaker" key={x.id}>
+                        <p className="speaker">
                           {speakers.find((speaker) => speaker.id == x).name}
                         </p>
                       </a>
