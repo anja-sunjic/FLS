@@ -105,6 +105,7 @@
     @include mobile {
       margin: 0 auto;
       display: block;
+      width: crem(200px);
     }
   }
 }
