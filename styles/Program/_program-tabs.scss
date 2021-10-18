@@ -52,9 +52,13 @@
         color: black;
         font-weight: 900;
         text-transform: uppercase;
+        margin-bottom: 0;
       }
       .item-event {
         padding: 0 !important;
+      }
+      .tags {
+        margin-top: 0;
       }
     }
     .left {
