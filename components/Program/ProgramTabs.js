@@ -20,11 +20,18 @@ const createProgram = (day) => {
               <div className="item-event" key={ev.id}>
                 <p className="title">{ev.title}</p>
                 {ev.speakers &&
-                  ev.speakers.map((speaker) => {
+                  ev.speakerIds.map((x) => {
+                    console.log(x);
                     return (
-                      <p className="speaker" key={speaker}>
-                        {speaker}
-                      </p>
+                      <a
+                        href={`/speakers/${
+                          speakers.find((speaker) => speaker.id == x).slug
+                        }`}
+                      >
+                        <p className="speaker" key={x.id}>
+                          {speakers.find((speaker) => speaker.id == x).name}
+                        </p>
+                      </a>
                     );
                   })}
                 {ev.desc && <p className="desc">{ev.desc}</p>}

@@ -6,7 +6,7 @@ export const wed = [
       {
         id: 1,
         title: "Session Name TBA",
-        speakerIds: [],
+        speakerIds: [5],
         speakers: ["Melita Kurtović"],
         desc: "",
         fullDesc: "",
@@ -16,7 +16,7 @@ export const wed = [
       {
         id: 1,
         title: "Session Name TBA",
-        speakerIds: [],
+        speakerIds: [6],
         speakers: ["Amra Ibrić"],
         desc: "",
         fullDesc: "",
@@ -26,7 +26,7 @@ export const wed = [
       {
         id: 1,
         title: "Session Name TBA",
-        speakerIds: [],
+        speakerIds: [1],
         speakers: ["Zinka Bejtić"],
         desc: "",
         fullDesc: "",
@@ -93,7 +93,7 @@ export const wed = [
       {
         id: 2,
         title: "Session Name TBA",
-        speakerIds: [],
+        speakerIds: [1],
         speakers: ["Zinka Bejtić"],
         desc: "",
         fullDesc: "",
@@ -120,7 +120,7 @@ export const wed = [
       {
         id: 2,
         title: "Session Name TBA",
-        speakerIds: [],
+        speakerIds: [4],
         speakers: ["Mario Baroševčić"],
         desc: "",
         fullDesc: "",
@@ -136,7 +136,7 @@ export const wed = [
       {
         id: 2,
         title: "Education & Employability",
-        speakerIds: [],
+        speakerIds: [5],
         speakers: ["Melita Kurtović"],
         desc: "",
         fullDesc: "",
@@ -283,7 +283,7 @@ export const thu = [
       {
         id: 2,
         title: "Session Name TBA",
-        speakerIds: [],
+        speakerIds: [2],
         speakers: ["Admir Mašić"],
         desc: "",
         fullDesc: "",
@@ -359,7 +359,7 @@ export const fri = [
       {
         id: 1,
         title: "Leading From a Growth Mindset",
-        speakerIds: [],
+        speakerIds: [7, 8],
         speakers: ["Anja Bundalo & Snjezana Udovicic"],
         desc: "",
         fullDesc: "",
@@ -430,7 +430,7 @@ export const fri = [
       {
         id: 2,
         title: "Session Name TBA",
-        speakerIds: [],
+        speakerIds: [3],
         speakers: ["Feđa Delalić"],
         desc: "",
         fullDesc: "",
