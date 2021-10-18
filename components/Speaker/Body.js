@@ -41,7 +41,7 @@ export default function Body(props) {
                         <p className="time">{x.time}</p>
                         <p className="type">{x.type}</p>
                       </div>
-                      <div className="right">
+                      <div className="_right">
                         {x.events?.map((ev) => {
                           if (ev.speakerIds.includes(props.speaker.id))
                             return <p className="title">{ev.title}</p>;

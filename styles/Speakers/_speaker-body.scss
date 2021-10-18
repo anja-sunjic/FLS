@@ -133,8 +133,14 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        @include mobile {
+          width: -webkit-fit-content;
+          width: -moz-fit-content;
+          width: fit-content;
+          margin: 0 auto;
+        }
       }
-      .right {
+      ._right {
         display: flex;
         flex-direction: column;
         justify-content: center;
