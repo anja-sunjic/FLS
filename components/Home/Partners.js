@@ -49,18 +49,20 @@ export default function Partners() {
           </div>
           {/* <div className="partner">
             <span className="role">Community partners</span>
-            <PartnerLogo
-              url="https://bhwomen.org/en/home-eng/"
-              img="/partners/BWBH.png"
-            />
-            <PartnerLogo
-              url="https://www.ieee.org/ "
-              img="/partners/IEEE.png"
-            />
-            <PartnerLogo
-              url="https://www.bhfuturesfoundation.org/innovation-nation-2021"
-              img="/partners/IEEEBH.png"
-            />
+            <div className="other">
+              <PartnerLogo
+                url="https://bhwomen.org/en/home-eng/"
+                img="/partners/BWBH.png"
+              />
+              <PartnerLogo
+                url="https://www.ieee.org/ "
+                img="/partners/IEEE.png"
+              />
+              <PartnerLogo
+                url="https://www.bhfuturesfoundation.org/innovation-nation-2021"
+                img="/partners/IEEEBH.png"
+              />
+            </div>
           </div> */}
           <div className="dots is-hidden-touch">
             <img src="/dots.svg" alt="" />

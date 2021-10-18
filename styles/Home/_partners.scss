@@ -62,6 +62,9 @@
     margin-top: 5rem;
     margin-bottom: 5rem;
     justify-content: space-evenly;
+    .role {
+      flex-shrink: 0;
+    }
     .partner-logo {
       flex-basis: 10%;
       max-height: 4rem;
@@ -101,6 +104,11 @@
     .partner-img {
       width: crem(200px);
       height: auto;
+    }
+  }
+  .partner-logo {
+    img {
+      margin-top: 1.5rem;
     }
   }
   .grayscale {
