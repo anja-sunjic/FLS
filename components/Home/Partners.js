@@ -32,13 +32,23 @@ export default function Partners() {
                 />
               </a>
             </div>
+            <div className="partner">
+              <span className="role">Platinum sponsor</span>
+              <PartnerLogo
+                url="https://htecgroup.com/"
+                img="/partners/htec.png"
+              />
+            </div>
+            <div className="partner">
+              <span className="role">Gold sponsor</span>
+              <PartnerLogo
+                url="https://www.dkr.ba/en/"
+                img="/partners/DKR.png"
+              />
+            </div>
           </div>
-          <div className="other">
-            <PartnerLogo
-              url="https://htecgroup.com/"
-              img="/partners/htec.png"
-            />
-            <PartnerLogo url="https://www.dkr.ba/en/" img="/partners/DKR.png" />
+          {/* <div className="partner">
+            <span className="role">Community partners</span>
             <PartnerLogo
               url="https://bhwomen.org/en/home-eng/"
               img="/partners/BWBH.png"
@@ -51,7 +61,7 @@ export default function Partners() {
               url="https://www.bhfuturesfoundation.org/innovation-nation-2021"
               img="/partners/IEEEBH.png"
             />
-          </div>
+          </div> */}
           <div className="dots is-hidden-touch">
             <img src="/dots.svg" alt="" />
           </div>

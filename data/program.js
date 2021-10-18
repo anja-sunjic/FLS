@@ -1,13 +1,63 @@
 export const wed = [
   {
-    time: "Time: TBD",
+    time: "TBA",
     type: "Workshop",
     events: [
       {
         id: 1,
         title: "",
         speakerIds: [],
-        speakers: ["Melita Kurtović", "Amra Ibrić", "Zinka Bejtić"],
+        speakers: ["Melita Kurtović"],
+        desc: "",
+        fullDesc: "",
+        tags: ["F2F"],
+        company: 1,
+      },
+      {
+        id: 1,
+        title: "",
+        speakerIds: [],
+        speakers: ["Amra Ibrić"],
+        desc: "",
+        fullDesc: "",
+        tags: ["F2F"],
+        company: 1,
+      },
+      {
+        id: 1,
+        title: "",
+        speakerIds: [],
+        speakers: ["Zinka Bejtić"],
+        desc: "",
+        fullDesc: "",
+        tags: ["F2F"],
+        company: 1,
+      },
+      {
+        id: 1,
+        title: "",
+        speakerIds: [],
+        speakers: ["TBA"],
+        desc: "",
+        fullDesc: "",
+        tags: ["F2F"],
+        company: 1,
+      },
+      {
+        id: 1,
+        title: "",
+        speakerIds: [],
+        speakers: ["TBA"],
+        desc: "",
+        fullDesc: "",
+        tags: ["F2F"],
+        company: 1,
+      },
+      {
+        id: 1,
+        title: "",
+        speakerIds: [],
+        speakers: ["TBA"],
         desc: "",
         fullDesc: "",
         tags: ["F2F"],
@@ -16,12 +66,12 @@ export const wed = [
     ],
   },
   {
-    time: "Time: TBD",
+    time: "TBA",
     type: "Break",
     events: [{ title: "Travel Break" }],
   },
   {
-    time: "Time: TBD",
+    time: "TBA",
     type: "Ceremony",
     events: [
       {
@@ -37,7 +87,7 @@ export const wed = [
     ],
   },
   {
-    time: "Time: TBD",
+    time: "TBA",
     type: "Keynote",
     events: [
       {
@@ -53,7 +103,7 @@ export const wed = [
     ],
   },
   {
-    time: "Time: TBD",
+    time: "TBA",
     type: "Break",
     events: [
       {
@@ -69,7 +119,7 @@ export const wed = [
     ],
   },
   {
-    time: "Time: TBD",
+    time: "TBA",
     type: "Keynote",
     events: [
       {
@@ -85,7 +135,7 @@ export const wed = [
     ],
   },
   {
-    time: "Time: TBD",
+    time: "TBA",
     type: "Panel",
     events: [
       {
@@ -101,7 +151,7 @@ export const wed = [
     ],
   },
   {
-    time: "Time: TBD",
+    time: "TBA",
     type: "Social, Partner Event",
     events: [
       {
@@ -121,7 +171,7 @@ export const wed = [
 
 export const thu = [
   {
-    time: "Time: TBD",
+    time: "TBA",
     type: "Company Visit",
     events: [
       {
@@ -137,12 +187,12 @@ export const thu = [
     ],
   },
   {
-    time: "Time: TBD",
+    time: "TBA",
     type: "Break",
     events: [{ title: "Travel Break" }],
   },
   {
-    time: "Time: TBD",
+    time: "TBA",
     type: "Keynote",
     events: [
       {
@@ -158,7 +208,7 @@ export const thu = [
     ],
   },
   {
-    time: "Time: TBD",
+    time: "TBA",
     type: "Panel",
     events: [
       {
@@ -174,7 +224,7 @@ export const thu = [
     ],
   },
   {
-    time: "Time: TBD",
+    time: "TBA",
     type: "Break",
     events: [
       {
@@ -183,7 +233,7 @@ export const thu = [
     ],
   },
   {
-    time: "Time: TBD",
+    time: "TBA",
     type: "Keynote",
     events: [
       {
@@ -199,7 +249,7 @@ export const thu = [
     ],
   },
   {
-    time: "Time: TBD",
+    time: "TBA",
     type: "Keynote",
     events: [
       {
@@ -215,7 +265,7 @@ export const thu = [
     ],
   },
   {
-    time: "Time: TBD",
+    time: "TBA",
     type: "Break",
     events: [
       {
@@ -224,7 +274,7 @@ export const thu = [
     ],
   },
   {
-    time: "Time: TBD",
+    time: "TBA",
     type: "Keynote",
     events: [
       {
@@ -240,7 +290,7 @@ export const thu = [
     ],
   },
   {
-    time: "Time: TBD",
+    time: "TBA",
     type: "IEEE Innovation Nation Finals [Partner Event]",
     events: [
       {
@@ -259,7 +309,7 @@ export const thu = [
 
 export const fri = [
   {
-    time: "Time: TBD",
+    time: "TBA",
     type: "Workshop",
     events: [
       {
@@ -275,12 +325,12 @@ export const fri = [
     ],
   },
   {
-    time: "Time: TBD",
+    time: "TBA",
     type: "Break",
     events: [{ title: "Travel Break" }],
   },
   {
-    time: "Time: TBD",
+    time: "TBA",
     type: "Keynote",
     events: [
       {
@@ -296,7 +346,7 @@ export const fri = [
     ],
   },
   {
-    time: "Time: TBD",
+    time: "TBA",
     type: "Keynote",
     events: [
       {
@@ -372,7 +422,7 @@ export const fri = [
     ],
   },
   {
-    time: "Time: TBD",
+    time: "TBA",
     type: "Break",
     events: [
       {
@@ -381,7 +431,7 @@ export const fri = [
     ],
   },
   {
-    time: "Time: TBD",
+    time: "TBA",
     type: "Keynote",
     events: [
       {
@@ -397,7 +447,7 @@ export const fri = [
     ],
   },
   {
-    time: "Time: TBD",
+    time: "TBA",
     type: "Ceremony",
     events: [
       {
@@ -413,7 +463,7 @@ export const fri = [
     ],
   },
   {
-    time: "Time: TBD",
+    time: "TBA",
     type: "Social",
     events: [
       {
