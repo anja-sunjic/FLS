@@ -25,36 +25,42 @@ export default function Speakers() {
               name="Zinka Bejtic"
               title="Professor, Head of Department of Art and Design at American University of Sharjah"
               li="https://www.linkedin.com/in/zinkabejtic/"
+              slug="zinka-bejtic"
             />
             <Speaker
               img="/speakers/Admir.jpg"
               name="Admir Masic"
               title="Associate Professor of Civil and Environmental Engineering at MIT"
               li="https://www.linkedin.com/in/admirmasic/"
+              slug="admir-masic"
             />
             <Speaker
               img="/speakers/Fele.jpg"
               name="Fedja Delalic"
               title="Manager of Games Technology and Energy at International Olympic Committee – IOC"
               li="https://www.linkedin.com/in/fedjadelalic/"
+              slug="fedja-delalic"
             />
             <Speaker
               img="/speakers/Mario.jpg"
               name="Mario Barosevcic"
               title="Principal at Emerge Education"
               li="https://www.linkedin.com/in/mario-barosevcic/"
+              slug="mario-barosevcic"
             />
             <Speaker
               img="/speakers/MelitaKurtovic.jpg"
               name="Melita Kurtovic"
               title="Talent Operations Analyst at Netflix"
               li="https://www.linkedin.com/in/melita-kurtovic-5762b6ab/"
+              slug="melita-kurtovic"
             />
             <Speaker
               img="/speakers/Amra-square.jpg"
               name="Amra Ibric"
               title=" Market & Technology Analyst at Marinomed Biotech AG"
               li="https://www.linkedin.com/in/amra-ibric-15a8a71b5/"
+              slug="amra-ibric"
             />
             <div className="column is-6">
               <div className="inner">
