@@ -45,9 +45,11 @@ export default function Body(props) {
                         {x.events?.map((ev) => {
                           if (ev.speakerIds.includes(props.speaker.id))
                             return (
-                              <a href="/schedule" key={ev.id}>
-                                <p className="title">{ev.title}</p>
-                              </a>
+                              <Link href="/schedule">
+                                <a key={ev.id}>
+                                  <p className="title">{ev.title}</p>
+                                </a>
+                              </Link>
                             );
                         })}
                       </div>
