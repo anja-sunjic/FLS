@@ -72,6 +72,12 @@ export const teams = [
         img: "/teams/Partnerships and Sponsorships Team/MiralemBulic.jpg",
       },
       {
+        name: "Nikola Bodulovic",
+        title: "Partnerships and Sponsorships Team Associate",
+        li: "https://www.linkedin.com/in/nikola-bodulovi%C4%87-04472b198/",
+        img: "/teams/Partnerships and Sponsorships Team/Nikola Bodulovic.jpg",
+      },
+      {
         name: "Belma Alispahic",
         title: "Partnerships and Sponsorships Team Member",
         li: "https://www.linkedin.com/in/balispahic/",
@@ -111,6 +117,12 @@ export const teams = [
         title: "Marketing and Branding Team Member/Graphic Designer",
         li: "https://www.linkedin.com/in/marijanaudovcic/",
         img: "/teams/Marketing Team/MarijanaUdovicic.jpg",
+      },
+      {
+        name: "Ajdin Salihovic",
+        title: "Marketing and Branding Team Member/Graphic Designer",
+        li: "https://www.linkedin.com/in/salihovic-ajdin/",
+        img: "/teams/Marketing Team/Ajdin Salihovic.jpg",
       },
       {
         name: "Efnan Merdan",
