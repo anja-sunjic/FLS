@@ -39,23 +39,6 @@
         padding: 0 1.5rem;
       }
     }
-    .title-line {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-top: 4rem;
-      width: 100%;
-      h2 {
-        margin-top: 1rem;
-      }
-      .line-decor {
-        width: 60%;
-        img {
-          -o-object-fit: scale-down;
-          object-fit: scale-down;
-        }
-      }
-    }
   }
 }
 ._main.speaker-single {

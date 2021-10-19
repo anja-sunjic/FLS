@@ -8,10 +8,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 2rem;
-    @include touch {
-      margin-bottom: 3rem;
-    }
     h2 {
       margin-bottom: 0;
     }
@@ -21,14 +17,6 @@
         -o-object-fit: scale-down;
         object-fit: scale-down;
       }
-    }
-  }
-  .hero {
-    height: 40vh;
-    min-height: 40vh;
-    @include touch {
-      height: 20vh;
-      min-height: 20vh;
     }
   }
 }

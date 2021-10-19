@@ -15,6 +15,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    .left {
+      @include touch {
+        width: 100%;
+      }
+    }
     @include mobile {
       flex-direction: column;
     }
@@ -124,6 +129,9 @@
       display: flex;
       padding: 2rem 0;
       justify-content: space-between;
+      @include touch {
+        justify-content: space-evenly;
+      }
       &:not(:last-of-type) {
         border-bottom: 1px solid $yellow;
       }
@@ -137,7 +145,6 @@
           width: -webkit-fit-content;
           width: -moz-fit-content;
           width: fit-content;
-          margin: 0 auto;
         }
       }
       ._right {

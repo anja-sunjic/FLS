@@ -30,6 +30,9 @@
       line-height: 150%;
       transition: all 0.2s;
       margin-right: 5rem;
+      @include touch {
+        margin-right: 0;
+      }
       &:hover {
         background-color: white;
         color: black;
