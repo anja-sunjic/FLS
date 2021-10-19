@@ -101,12 +101,14 @@
   .bhff-logo {
     width: crem(300px);
     display: inline-block;
+    margin-top: 1rem;
     img {
       width: 100%;
       height: auto;
     }
     @include mobile {
       margin: 0 auto;
+      margin-top: 2rem;
       display: block;
       width: crem(200px);
     }

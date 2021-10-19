@@ -8,14 +8,14 @@
   margin-top: 5rem;
   margin-bottom: 30rem;
   @include mobile {
-    margin-bottom: 60rem;
+    margin-bottom: 58rem;
     height: crem(500px);
   }
   @include tablet {
     margin-bottom: 37rem;
   }
   @include desktop {
-    margin-bottom: 40rem;
+    margin-bottom: 35rem;
   }
   .container {
     height: 100%;
