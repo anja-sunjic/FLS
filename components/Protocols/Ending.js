@@ -3,7 +3,7 @@ import heroimg from "../../public/hero.webp";
 export default function Ending() {
   return (
     <>
-      <div className="intro hero protocols">
+      <div className="intro bottom hero protocols">
         <div className="hero-img blur">
           <Image
             src={heroimg}
