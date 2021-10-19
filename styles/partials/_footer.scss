@@ -47,6 +47,9 @@
       }
       &.cc {
         margin-bottom: 0;
+        @include touch {
+          padding-top: 0;
+        }
       }
       .yellow {
         color: $yellow;

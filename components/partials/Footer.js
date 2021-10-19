@@ -88,8 +88,8 @@ export default function Footer() {
                 </div>
               </div>
               <a className="logo is-hidden-touch">
-                <img src="logo.png" alt="" />
-              </a>{" "}
+                <img src="/logo.png" alt="" />
+              </a>
               <a
                 href="https://www.bhfuturesfoundation.org/"
                 target="_blank"

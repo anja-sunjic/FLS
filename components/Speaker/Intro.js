@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function Intro() {
   return (
     <>
-      <div className="_speakers hero">
+      <div className="_speakers hero small-hero">
         <div className="container">
           <div className="inner">
             <div className="title-line">

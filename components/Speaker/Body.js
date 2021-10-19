@@ -45,9 +45,9 @@ export default function Body(props) {
                         {x.events?.map((ev) => {
                           if (ev.speakerIds.includes(props.speaker.id))
                             return (
-                              <p className="title" key={ev.id}>
-                                {ev.title}
-                              </p>
+                              <a href="/schedule" key={ev.id}>
+                                <p className="title">{ev.title}</p>
+                              </a>
                             );
                         })}
                       </div>
@@ -71,7 +71,6 @@ export default function Body(props) {
               ></p>
             </div>
           </div>
-          <div className="sessions">{console.log(props.speaker.id)}</div>
         </div>
         <div className="hex-decor is-hidden-touch">
           <Parallax y={[-20, 50]} x={[0, 0]} tagOuter="figure">

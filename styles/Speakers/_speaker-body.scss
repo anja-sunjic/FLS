@@ -22,6 +22,7 @@
     }
     @include mobile {
       flex-direction: column;
+      gap: 3rem;
     }
   }
   .speaker-img {
@@ -103,7 +104,7 @@
     text-align: center;
     margin-top: 0.2rem;
     font-size: crem(22px);
-    text-align: justify;
+    text-align: left;
     white-space: no-wrap;
     padding-right: 10%;
     @include touch {

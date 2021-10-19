@@ -43,11 +43,11 @@
 }
 ._main.speaker-single {
   .hero {
-    height: 25vh;
-    min-height: 25vh;
+    height: 40vh;
+    min-height: 40vh;
     @include touch {
-      height: 20vh;
-      min-height: 20vh;
+      height: 25vh;
+      min-height: 25vh;
     }
   }
 }
