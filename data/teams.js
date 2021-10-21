@@ -216,16 +216,16 @@ export const teams = [
         img: "/teams/Advisors/KenanKurdic.jpg",
       },
       {
-        name: "Dario Babovic",
-        title: "Design Advisor",
-        li: "https://www.linkedin.com/in/dario-babovic-40308484/",
-        img: "/teams/Advisors/DarioBabovic.jpg",
-      },
-      {
         name: "Lejla Selmanovic",
         title: "Health and Safety Advisor",
         li: "https://www.linkedin.com/in/lejlaselmanovic/",
         img: "/teams/Advisors/LejlaSelmanovic.jpg",
+      },
+      {
+        name: "Dario Babovic",
+        title: "Design Advisor",
+        li: "https://www.linkedin.com/in/dario-babovic-40308484/",
+        img: "/teams/Advisors/DarioBabovic.jpg",
       },
     ],
   },

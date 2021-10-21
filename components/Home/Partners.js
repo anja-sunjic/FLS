@@ -23,16 +23,6 @@ export default function Partners() {
               </a>
             </div>
             <div className="partner">
-              <span className="role">Organizing Partner</span>
-              <a href="https://bhing.ba/" target="_blank" rel="noreferrer">
-                <img
-                  src="/partners/bhing.png"
-                  alt="BH ING"
-                  className="grayscale"
-                />
-              </a>
-            </div>
-            <div className="partner">
               <span className="role">Platinum sponsor</span>
               <PartnerLogo
                 url="https://htecgroup.com/"
@@ -46,7 +36,16 @@ export default function Partners() {
                 img="/partners/DKR.png"
               />
             </div>
-
+            <div className="partner">
+              <span className="role">Organizing Partner</span>
+              <a href="https://bhing.ba/" target="_blank" rel="noreferrer">
+                <img
+                  src="/partners/bhing.png"
+                  alt="BH ING"
+                  className="grayscale"
+                />
+              </a>
+            </div>
             <div className="partner">
               <span className="role">Community partners</span>
               <div className="other">

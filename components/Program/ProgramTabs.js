@@ -50,8 +50,14 @@ const createProgram = (day) => {
               </div>
             );
           })}
+          {(item.type === 'Workshop' || item.type === 'Company Visit') ? 
+               <p className="note-text">
+               NOTE: Participants will be distributed for parallel sessions based on personal preference and session availability.
+             </p> : null}
         </div>
+        
       </div>
+      
     );
   });
 };
