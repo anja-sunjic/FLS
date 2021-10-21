@@ -3,7 +3,7 @@
   height: auto;
   width: 100%;
   padding-top: 13rem;
-  padding-bottom: 10rem;
+  padding-bottom: 5vh;
   min-height: unset !important;
   .protocols-list {
     color: white;
@@ -13,8 +13,8 @@
   }
   @include touch {
     padding: 0 1.5rem;
-    padding-top: 13rem;
-    padding-bottom: 10rem;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
   }
   .title-line {
     display: flex;
@@ -58,7 +58,8 @@
     font-size: 1.6rem;
   }
   background-color: $yellow;
-  padding: 5rem 0;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
   ::-moz-selection {
     color: $yellow;
     background: $dark;
@@ -69,15 +70,19 @@
   }
   @include touch {
     padding: 4rem 1.5rem;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
   }
   ._content {
     display: flex;
     align-items: left;
     flex-direction: column;
     flex-wrap: wrap;
+    
     h2 {
       font-size: 2.2rem;
       color: black;
+      margin: 0;
     }
     h4 {
       font-size: 2rem;
@@ -93,7 +98,12 @@
     }
   }
 }
-.hero.bottom.protocols {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+.intro.bottom.hero.protocols {
+  padding-top: 0;
+  padding-bottom: 0;
+  .container .inner {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
 }
+

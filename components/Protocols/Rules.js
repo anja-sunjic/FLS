@@ -48,11 +48,7 @@ export default function Rules() {
               <li>frequent hand cleaning.</li>
             </ul>
             <hr />
-
-            <h2>
-              Alcohol-based hand sanitizers will be readily available throughout
-              the venue
-            </h2>
+            <h2>Alcohol-based hand sanitizers will be readily available throughout the venue</h2>
           </div>
         </div>
       </div>
