@@ -38,12 +38,13 @@
   p.note-text {
     width: 80%;
     padding-top: 2rem;
-    display: flex; 
-    font-size: crem(24px); 
-    line-height: crem(36px); 
-    color: $yellow; 
+    display: flex;
+    font-size: crem(24px);
+    line-height: crem(36px);
+    color: $yellow;
     font-style: italic;
     margin-right: 15%;
+    padding-bottom: 1.5rem;
     @include touch {
       margin-right: 7%;
     }
@@ -52,10 +53,7 @@
     display: flex;
     width: 100%;
     padding: 2rem;
-    /*
-    &:not(:last-of-type) {
-      border-bottom: 1px solid $yellow;
-    }*/
+
     &.break {
       background-color: $yellow;
       p.time {
@@ -98,6 +96,10 @@
     }
     .item-event:not(:first-of-type) {
       padding-top: 3rem;
+    }
+    &:not(.break) {
+      padding-bottom: 0;
+      margin-bottom: -0.2rem;
     }
     p.time {
       color: $yellow;
