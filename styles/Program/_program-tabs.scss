@@ -53,11 +53,7 @@
     display: flex;
     width: 100%;
     padding: 2rem;
-    &:last-of-type {
-      .item-event {
-        border-bottom: none;
-      }
-    }
+
     &.break {
       background-color: $yellow;
       p.time {
@@ -92,10 +88,20 @@
     }
     .item-event {
       padding-bottom: 3rem;
-      border-bottom: 1px solid $yellow;
+      &:not(:last-of-type) {
+        border-bottom: 1px solid $yellow;
+      }
+      &:first-of-type {
+        border-bottom: 1px solid $yellow;
+      }
       margin-right: 15%;
       @include touch {
         margin-right: 7%;
+      }
+    }
+    &:last-of-type {
+      .item-event {
+        border-bottom: none;
       }
     }
     .item-event:not(:first-of-type) {
@@ -118,20 +124,11 @@
     }
     p.title {
       color: $yellow;
-      // font-size: crem(34px);
-      // line-height: crem(48px);
-      // font-weight: bold;
       margin-bottom: 0.5rem;
       font-size: crem(32px);
       line-height: crem(48px);
     }
     p.speaker {
-      // font-size: crem(28px);
-      // line-height: crem(36px);
-      // color: white;
-      // margin-bottom: 0.5rem;
-      // font-style: italic;
-      // font-weight: 900;
       color: white;
       font-style: italic;
       font-size: crem(24px);
