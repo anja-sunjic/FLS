@@ -1,36 +1,61 @@
-export const teams = [
+export const sponsors = [
   {
-    name: "Organizing Committee",
+    name: "Organizer",
     members: [
       {
-        name: "Haris Arnautovic",
-        title: "Chair of the Organizing Committee",
-        li: "https://www.linkedin.com/in/harisarnautovic/",
-        img: "/teams/Organizing Committee/ArnautovicHaris.jpg",
+        name: "BH Futures Foundation",
+        url: "https://www.bhfuturesfoundation.org/",
+        img: "/partners/BHFF.png",
+      },
+    ],
+  },
+  {
+    name: "Platinum sponsor",
+    members: [
+      {
+        name: "HTEC",
+        url: "https://htecgroup.com/",
+        img: "/partners/htec.png",
+      },
+    ],
+  },
+  {
+    name: "Gold sponsor",
+    members: [
+      {
+        name: "DKR",
+        url: "https://www.dkr.ba/en/",
+        img: "/partners/DKR.png",
+      },
+    ],
+  },
+  {
+    name: "Organizing Partner",
+    members: [
+      {
+        name: "BHing",
+        url: "https://bhing.ba/",
+        img: "/partners/bhing.png",
+      },
+    ],
+  },
+  {
+    name: "Community partners",
+    members: [
+      {
+        name: "bwbh",
+        url: "https://bhwomen.org/en/home-eng/",
+        img: "/partners/BWBH.png",
       },
       {
-        name: "Edhem (Eddie) Custovic",
-        title: "Organizing Committee Member",
-        li: "https://www.linkedin.com/in/ecustovic/",
-        img: "/teams/Organizing Committee/EdhemCustovic.jpg",
+        name: "ieee",
+        url: "https://www.ieee.org/",
+        img: "/partners/IEEE.png",
       },
       {
-        name: "Vernisa Rejhan Icindic",
-        title: "Organizing Committee Member",
-        li: "https://www.linkedin.com/in/vernisarejhan/",
-        img: "/teams/Organizing Committee/VernisaRejhanIcindic.jpg",
-      },
-      {
-        name: "Damir Mitric",
-        title: "Organizing Committee Member",
-        li: "https://www.linkedin.com/in/damirmitric/",
-        img: "/teams/Organizing Committee/DamirMitric.png",
-      },
-      {
-        name: "Haris Selmanovic",
-        title: "Organizing Committee Member",
-        li: "https://www.linkedin.com/in/harisselmanovic/ ",
-        img: "/teams/Organizing Committee/HarisSelmanovic.jpg",
+        name: "ieeebh",
+        url: "https://www.bhfuturesfoundation.org/innovation-nation-2021",
+        img: "/partners/IEEEBH.png",
       },
     ],
   },

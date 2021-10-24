@@ -54,7 +54,7 @@ export default function Partners() {
                   img="/partners/BWBH.png"
                 />
                 <PartnerLogo
-                  url="https://www.ieee.org/ "
+                  url="https://www.ieee.org/"
                   img="/partners/IEEE.png"
                 />
                 <PartnerLogo

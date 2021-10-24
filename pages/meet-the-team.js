@@ -14,6 +14,7 @@ export default function Team() {
         image="/share.png"
       />
       <div className="_main">
+        <h1 className="is-hidden">FLS Meet the Team</h1>
         <Header />
         <Intro />
         <Teams />

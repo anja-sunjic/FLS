@@ -14,6 +14,7 @@ export default function SpeakersAll() {
         image="/share.png"
       />
       <div className="_main speakers">
+        <h1 className="is-hidden">Speakers</h1>
         <Header />
         <Intro />
         <Speakers />

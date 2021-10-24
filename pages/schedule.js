@@ -15,6 +15,7 @@ export default function Schedule() {
         image="/share.png"
       />
       <div className="_main program">
+        <h1 className="is-hidden">FLS Schedule</h1>
         <Header />
         <Intro />
         <ProgramTabs />

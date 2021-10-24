@@ -14,6 +14,7 @@ export default function Contact() {
         image="/share.png"
       />
       <div className="_main">
+        <h1 className="is-hidden">Contact Us</h1>
         <Header />
         <FormContainer />
         <Decor />

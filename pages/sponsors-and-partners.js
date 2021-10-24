@@ -2,24 +2,21 @@ import MetaData from "../components/partials/seo-meta";
 import Footer from "../components/partials/Footer";
 import Header from "../components/partials/Header";
 import Decor from "../components/partials/Decor";
-import Intro from "../components/Protocols/Intro";
-import Rules from "../components/Protocols/Rules";
-import Ending from "../components/Protocols/Ending";
-export default function Protocols() {
+import Intro from "../components/Sponsors/Intro";
+import Teams from "../components/Sponsors/Partners";
+export default function Sponsors() {
   return (
     <>
       <MetaData
-        path="/protocols"
-        title="Health and Safety Protocols"
+        path="/sponsors-and-partners"
+        title="Sponsors and Partners"
         description=""
         image="/share.png"
       />
       <div className="_main">
-        <h1 className="is-hidden">FLS Health and Safety Protocols</h1>
         <Header />
         <Intro />
-        <Rules />
-        <Ending />
+        <Teams />
         <Decor />
       </div>
       <Footer />

@@ -31,6 +31,7 @@ export default function ServiceEntry(props) {
             image="/share.png"
           />
           <div className="_main speaker-single">
+            <h1 className="is-hidden">{speaker[0].name}</h1>
             <Header />
             <Intro />
             <Body speaker={speaker[0]} />

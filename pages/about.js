@@ -11,6 +11,7 @@ export default function Home() {
     <>
       <MetaData path="/about" title="About" description="" image="/share.png" />
       <div className="_main">
+        <h1 className="is-hidden">About Futures Leaders Summit</h1>
         <Header />
         <Intro />
         <Purpose />
