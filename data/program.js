@@ -9,7 +9,6 @@ export const wed = [
         speakerIds: [5],
         speakers: ["Melita Kurtović"],
         desc: "",
-        fullDesc: "",
         tags: ["F2F"],
         company: 1,
       },
@@ -19,7 +18,6 @@ export const wed = [
         speakerIds: [6],
         speakers: ["Amra Ibrić"],
         desc: "",
-        fullDesc: "",
         tags: ["F2F"],
         company: 1,
       },
@@ -29,7 +27,7 @@ export const wed = [
         speakerIds: [1],
         speakers: ["Zinka Bejtić"],
         desc: "",
-        fullDesc: "",
+
         tags: ["F2F"],
         company: 1,
       },
@@ -39,7 +37,6 @@ export const wed = [
         speakerIds: [],
         speakers: ["TBA"],
         desc: "",
-        fullDesc: "",
         tags: ["F2F"],
         company: 1,
       },
@@ -49,7 +46,6 @@ export const wed = [
         speakerIds: [],
         speakers: ["TBA"],
         desc: "",
-        fullDesc: "",
         tags: ["F2F"],
         company: 1,
       },
@@ -59,7 +55,6 @@ export const wed = [
         speakerIds: [],
         speakers: ["TBA"],
         desc: "",
-        fullDesc: "",
         tags: ["F2F"],
         company: 1,
       },
@@ -80,7 +75,7 @@ export const wed = [
         speakerIds: [],
         speakers: [],
         desc: "",
-        fullDesc: "",
+
         tags: ["F2F"],
         company: 1,
       },
@@ -96,7 +91,6 @@ export const wed = [
         speakerIds: [1],
         speakers: ["Zinka Bejtić"],
         desc: "",
-        fullDesc: "",
         tags: ["F2F", "Online"],
         company: 1,
       },
@@ -121,7 +115,7 @@ export const wed = [
         speakerIds: [4],
         speakers: ["Mario Baroševčić"],
         desc: "",
-        fullDesc: "",
+
         tags: ["F2F", "Online"],
         company: 1,
       },
@@ -137,7 +131,7 @@ export const wed = [
         speakerIds: [5],
         speakers: ["Melita Kurtović"],
         desc: "",
-        fullDesc: "",
+
         tags: ["F2F", "Online"],
         company: 1,
       },
@@ -153,7 +147,7 @@ export const wed = [
         speakerIds: [],
         speakers: [],
         desc: "",
-        fullDesc: "",
+
         tags: ["Invite Only"],
         company: 1,
       },
@@ -172,7 +166,7 @@ export const thu = [
         speakerIds: [],
         speakers: [],
         desc: "",
-        fullDesc: "",
+
         tags: ["F2F"],
         company: 1,
       },
@@ -182,7 +176,7 @@ export const thu = [
         speakerIds: [],
         speakers: [],
         desc: "",
-        fullDesc: "",
+
         tags: ["F2F"],
         company: 1,
       },
@@ -192,7 +186,7 @@ export const thu = [
         speakerIds: [],
         speakers: [],
         desc: "",
-        fullDesc: "",
+
         tags: ["F2F"],
         company: 1,
       },
@@ -202,7 +196,7 @@ export const thu = [
         speakerIds: [],
         speakers: [],
         desc: "",
-        fullDesc: "",
+
         tags: ["F2F"],
         company: 1,
       },
@@ -212,7 +206,7 @@ export const thu = [
         speakerIds: [],
         speakers: [],
         desc: "",
-        fullDesc: "",
+
         tags: ["F2F"],
         company: 1,
       },
@@ -222,7 +216,7 @@ export const thu = [
         speakerIds: [],
         speakers: [],
         desc: "",
-        fullDesc: "",
+
         tags: ["F2F"],
         company: 1,
       },
@@ -243,7 +237,7 @@ export const thu = [
         speakerIds: [],
         speakers: [],
         desc: "",
-        fullDesc: "",
+
         tags: ["F2F", "Online"],
         company: 1,
       },
@@ -259,7 +253,7 @@ export const thu = [
         speakerIds: [],
         speakers: [],
         desc: "",
-        fullDesc: "",
+
         tags: ["F2F", "Online"],
         company: 1,
       },
@@ -284,7 +278,7 @@ export const thu = [
         speakerIds: [2],
         speakers: ["Admir Mašić"],
         desc: "",
-        fullDesc: "",
+
         tags: ["F2F", "Online"],
         company: 1,
       },
@@ -300,7 +294,7 @@ export const thu = [
         speakerIds: [],
         speakers: [],
         desc: "",
-        fullDesc: "",
+
         tags: ["F2F", "Online"],
         company: 1,
       },
@@ -325,7 +319,7 @@ export const thu = [
         speakerIds: [],
         speakers: [],
         desc: "",
-        fullDesc: "",
+
         tags: ["F2F", "Online"],
         company: 1,
       },
@@ -341,7 +335,7 @@ export const thu = [
         speakerIds: [],
         speakers: [],
         desc: "",
-        fullDesc: "",
+
         tags: ["Invite Only"],
         company: 1,
       },
@@ -360,7 +354,7 @@ export const fri = [
         speakerIds: [7, 8],
         speakers: ["Anja Bundalo & Snjezana Udovicic"],
         desc: "",
-        fullDesc: "",
+
         tags: ["F2F"],
         company: 1,
       },
@@ -370,7 +364,7 @@ export const fri = [
         speakerIds: [],
         speakers: [],
         desc: "",
-        fullDesc: "",
+
         tags: ["F2F"],
         company: 1,
       },
@@ -380,7 +374,7 @@ export const fri = [
         speakerIds: [],
         speakers: [],
         desc: "",
-        fullDesc: "",
+
         tags: ["F2F"],
         company: 1,
       },
@@ -390,7 +384,7 @@ export const fri = [
         speakerIds: [],
         speakers: [],
         desc: "",
-        fullDesc: "",
+
         tags: ["F2F"],
         company: 1,
       },
@@ -400,7 +394,7 @@ export const fri = [
         speakerIds: [],
         speakers: [],
         desc: "",
-        fullDesc: "",
+
         tags: ["F2F"],
         company: 1,
       },
@@ -410,7 +404,7 @@ export const fri = [
         speakerIds: [],
         speakers: [],
         desc: "",
-        fullDesc: "",
+
         tags: ["F2F"],
         company: 1,
       },
@@ -431,7 +425,7 @@ export const fri = [
         speakerIds: [3],
         speakers: ["Feđa Delalić"],
         desc: "",
-        fullDesc: "",
+
         tags: ["F2F", "Online"],
         company: 1,
       },
@@ -447,7 +441,7 @@ export const fri = [
         speakerIds: [],
         speakers: [],
         desc: "",
-        fullDesc: "",
+
         tags: ["F2F", "Online"],
         company: 1,
       },
@@ -456,7 +450,7 @@ export const fri = [
         speakerIds: [],
         speakers: [],
         desc: "",
-        fullDesc: "",
+
         company: 1,
       },
       {
@@ -464,7 +458,7 @@ export const fri = [
         speakerIds: [],
         speakers: [],
         desc: "",
-        fullDesc: "",
+
         company: 1,
       },
       {
@@ -472,7 +466,7 @@ export const fri = [
         speakerIds: [],
         speakers: [],
         desc: "",
-        fullDesc: "",
+
         company: 1,
       },
       {
@@ -480,7 +474,7 @@ export const fri = [
         speakerIds: [],
         speakers: [],
         desc: "",
-        fullDesc: "",
+
         company: 1,
       },
       {
@@ -488,7 +482,7 @@ export const fri = [
         speakerIds: [],
         speakers: [],
         desc: "",
-        fullDesc: "",
+
         company: 1,
       },
       {
@@ -496,7 +490,7 @@ export const fri = [
         speakerIds: [],
         speakers: [],
         desc: "",
-        fullDesc: "",
+
         company: 1,
       },
     ],
@@ -520,7 +514,7 @@ export const fri = [
         speakerIds: [],
         speakers: [],
         desc: "",
-        fullDesc: "",
+
         tags: ["F2F", "Online"],
         company: 1,
       },
@@ -536,7 +530,7 @@ export const fri = [
         speakerIds: [],
         speakers: [],
         desc: "",
-        fullDesc: "",
+
         tags: ["F2F"],
         company: 1,
       },
@@ -552,7 +546,7 @@ export const fri = [
         speakerIds: [],
         speakers: [],
         desc: "",
-        fullDesc: "",
+
         tags: ["Invite Only"],
         company: 1,
       },
