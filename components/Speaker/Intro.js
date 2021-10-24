@@ -8,7 +8,7 @@ export default function Intro() {
             <div className="title-line">
               <h2>Speaker</h2>
               <div className="line-decor is-hidden-touch">
-                <img src="/dots.svg" alt="" />
+                <img src="/dots.svg" alt="Futures Leaders Summit" />
               </div>
             </div>
           </div>

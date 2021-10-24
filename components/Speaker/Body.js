@@ -61,7 +61,7 @@ export default function Body(props) {
             <div className="right">
               <div className="first-line">
                 <a href={props.speaker.li} target="_blank" rel="noreferrer">
-                  <img src="/linkedin.png" alt="" />
+                  <img src="/linkedin.png" alt="Futures Leaders Summit" />
                 </a>
                 <p className="name">{props.speaker.name}</p>
               </div>

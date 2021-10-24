@@ -8,15 +8,15 @@ export default function Speakers() {
       <section className="section speakers" id="speakers" name="speakers">
         <div className="container">
           <div className="hex-decor">
-            <img src="/hex2.svg" alt="" />
+            <img src="/hex2.svg" alt="Futures Leaders Summit" />
           </div>
           <div className="hex-decor-2 is-hidden-desktop figure is-1-by-1">
-            <img src="/hex.svg" alt="" />
+            <img src="/hex.svg" alt="Futures Leaders Summit" />
           </div>
           <div className="title-line">
             <h2>Speakers</h2>
             <div className="line-decor is-hidden-touch">
-              <img src="/dots.svg" alt="" />
+              <img src="/dots.svg" alt="Futures Leaders Summit" />
             </div>
           </div>
           <div className="columns is-multiline">
@@ -69,7 +69,7 @@ export default function Speakers() {
                     <div href="" className="speaker-img">
                       <img
                         src="/vernisa.jpeg"
-                        alt=""
+                        alt="Futures Leaders Summit"
                         className="grayscale anon"
                       />
                     </div>

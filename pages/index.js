@@ -15,9 +15,7 @@ export default function Home() {
         path="/"
         title="Home"
         description="Futures Leaders Summit (FLS) gathers future STEM leaders from
-                  Bosnia and Herzegovina. By establishing an event that will
-                  annually gather prospective change makers in the field of
-                  STEM, we aim to create a strong network that will change the
+                  Bosnia and Herzegovina. We aim to create a strong network that will change the
                   way we perceive the industry and the future of our
                   country's development."
         image="/share.png"

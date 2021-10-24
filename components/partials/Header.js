@@ -44,7 +44,7 @@ export default function Header() {
         <div className="inner">
           <Link href="/">
             <a className="logo">
-              <img src="/logo.png" alt="" />
+              <img src="/logo.png" alt="Futures Leaders Summit" />
             </a>
           </Link>
           <nav>

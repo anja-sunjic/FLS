@@ -22,7 +22,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="hero-img blur">
-            <img src="hero.jpeg" alt="" />
+            <img src="hero.jpeg" alt="Futures Leaders Summit"" />
           </div>
         </div>
       </div>

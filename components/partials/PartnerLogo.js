@@ -6,7 +6,7 @@ export default function PartnerLogo(props) {
       rel="noreferrer"
       className="partner-logo grayscale"
     >
-      <img src={props.img} alt="" />
+      <img src={props.img} alt="Futures Leaders Summit" />
     </a>
   );
 }

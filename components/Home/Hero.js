@@ -16,10 +16,10 @@ export default function Hero() {
         </div>
         <div className="hero-content container is-fluid">
           <div className="hero-logo">
-            <img src="/hero-logo.svg" alt="" />
+            <img src="/hero-logo.svg" alt="Futures Leaders Summit" />
           </div>
           <div className="dots is-hidden-touch">
-            <img src="/dots.svg" alt="" />
+            <img src="/dots.svg" alt="Futures Leaders Summit" />
           </div>
         </div>
       </div>

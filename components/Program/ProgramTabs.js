@@ -84,7 +84,7 @@ export default function ProgramTabs() {
                 <h2>education track - WEDNESDAY, DECEMBER 15</h2>
                 <img
                   src="/program-lines.png"
-                  alt=""
+                  alt="Futures Leaders Summit"
                   className="is-hidden-touch"
                 />
               </div>
@@ -95,7 +95,7 @@ export default function ProgramTabs() {
                 <h2>technology track - thursday, DECEMBER 16</h2>
                 <img
                   src="/program-lines.png"
-                  alt=""
+                  alt="Futures Leaders Summit"
                   className="is-hidden-touch"
                 />
               </div>
@@ -106,7 +106,7 @@ export default function ProgramTabs() {
                 <h2>leadership track - friday, DECEMBER 17</h2>
                 <img
                   src="/program-lines.png"
-                  alt=""
+                  alt="Futures Leaders Summit"
                   className="is-hidden-touch"
                 />
               </div>
