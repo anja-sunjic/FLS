@@ -37,13 +37,12 @@
       font-size: crem(18px);
       line-height: crem(31px);
       padding-right: 35%;
-      color: #e1e1e1;
+      color: white;
       font-weight: 400;
       margin-bottom: 1rem;
       @include touch {
         padding-right: 0;
         font-size: crem(27px);
-        opacity: 0.9;
       }
       &.cc {
         margin-bottom: 0;
