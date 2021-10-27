@@ -13,7 +13,13 @@ export default function Team(props) {
         </div>
         <div className="members">
           {props.members.map((member) => {
-            return <Member img={member.img} url={member.url}></Member>;
+            return (
+              <Member
+                img={member.img}
+                url={member.url}
+                key={member.url}
+              ></Member>
+            );
           })}
         </div>
       </div>
