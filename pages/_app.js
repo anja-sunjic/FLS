@@ -1,5 +1,7 @@
 import { ParallaxProvider } from "react-scroll-parallax";
 import "../styles/main.scss";
+import "../public/DatePicker.css";
+import "../public/Calendar.css";
 import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {

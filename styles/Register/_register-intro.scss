@@ -1,0 +1,41 @@
+.register.intro {
+  display: flex;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 5rem 0;
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    p.price {
+      color: white;
+      font-size: crem(120px);
+      line-height: crem(120px);
+      font-family: $font-cap;
+      margin-bottom: 1rem;
+    }
+  }
+  .left,
+  .center,
+  .right {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .center {
+    font-weight: 600;
+    font-size: crem(28px);
+    line-height: 150%;
+    color: $yellow;
+    margin-left: 2rem;
+  }
+  .right {
+    font-weight: 600;
+    font-size: crem(28px);
+    line-height: 150%;
+    color: $white;
+    margin-right: 2rem;
+  }
+}

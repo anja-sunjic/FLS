@@ -1,0 +1,76 @@
+.contact-form.register-form {
+  padding-top: 0;
+  width: 100%;
+  input {
+    max-width: 50%;
+    @include touch {
+      max-width: unset;
+    }
+    display: block;
+    font-size: crem(28px);
+  }
+  input[type="file"] {
+    background-color: transparent;
+    padding-left: 0;
+    span {
+      color: white !important;
+    }
+    input[type="button"] {
+      font: $font;
+    }
+  }
+  .PhoneInput {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+    padding: 0.75rem 1rem;
+    max-width: 50%;
+    @include touch {
+      max-width: unset;
+    }
+    input {
+      margin-bottom: 0rem;
+      background-color: transparent;
+      max-width: unset;
+      padding: 0;
+      border: none;
+    }
+  }
+  p.form-note {
+    color: rgb(240, 240, 240);
+    font-size: crem(22px);
+  }
+  .dropdown {
+    display: block;
+    max-width: 50%;
+    @include touch {
+      max-width: unset;
+    }
+    font-size: crem(28px);
+  }
+  .react-date-picker {
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    margin-left: 2rem;
+
+    input {
+      padding: 0;
+      margin-bottom: 0;
+      display: inline;
+    }
+    span {
+      margin-right: 1rem;
+    }
+    .react-date-picker__wrapper {
+      border: none;
+    }
+    .react-date-picker__inputGroup__input {
+      width: auto !important;
+      background-color: transparent;
+      color: $black;
+      font-size: crem(24px);
+    }
+  }
+}
