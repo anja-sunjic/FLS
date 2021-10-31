@@ -55,6 +55,9 @@
       max-width: unset;
     }
     font-size: crem(28px);
+    input {
+      margin-bottom: 0;
+    }
   }
   .react-date-picker {
     background-color: white;
