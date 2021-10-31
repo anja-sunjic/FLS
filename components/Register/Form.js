@@ -126,7 +126,7 @@ export default function ContactForm() {
         onSubmit={handleSubmit(handleContactFormSubmit)}
       >
         <div className="form-control">
-          <div className="form-label">Full name*</div>
+          <div className="form-label">Full name:*</div>
           <input
             type="text"
             {...register("name", { required: true })}
@@ -166,7 +166,7 @@ export default function ContactForm() {
           </p>
         </div>
         <div className="form-control">
-          <div className="form-label">Academic Status:*</div>
+          <div className="form-label">Academic status:*</div>
           <Select
             id="inquirySelect"
             instanceId="inquirySelect"
