@@ -42,6 +42,12 @@
     font-size: crem(22px);
     font-style: italic;
   }
+  input[type="checkbox"] {
+    width: auto;
+    display: inline-block;
+    margin-left: 1.5rem;
+    transform: scale(1.5);
+  }
   .dropdown {
     display: block;
     max-width: 50%;
