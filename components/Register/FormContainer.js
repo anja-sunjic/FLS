@@ -21,7 +21,7 @@ export default function FormContainer() {
         <div className="container">
           <div className="inner">
             <div className="title-line">
-              <h2>Register</h2>
+              <h2>Registration form</h2>
               <div className="line-decor is-hidden-touch">
                 <img src="/dots.svg" alt="Futures Leaders Summit" />
               </div>
@@ -53,6 +53,7 @@ export default function FormContainer() {
               promising STEM students from Bosnia and Herzegovina, covering
               Summit tickets, accommodation and travel.
             </div>
+            <div className="contact-button"></div>
           </div>
         </div>
       </div>

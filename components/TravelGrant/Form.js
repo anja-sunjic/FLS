@@ -126,7 +126,7 @@ export default function ContactForm() {
         onSubmit={handleSubmit(handleContactFormSubmit)}
       >
         <div className="form-control">
-          <div className="form-label">Full Name*</div>
+          <div className="form-label">Full name*</div>
           <input
             type="text"
             {...register("name", { required: true })}
@@ -134,7 +134,7 @@ export default function ContactForm() {
           />
         </div>
         <div className="form-control">
-          <div className="form-label">Email Address:*</div>
+          <div className="form-label">Email address:*</div>
           <input
             type="text"
             {...register("email", { required: true })}
@@ -142,7 +142,7 @@ export default function ContactForm() {
           />
         </div>
         <div className="form-control">
-          <div className="form-label">Date of Birth:*</div>
+          <div className="form-label">Date of birth:*</div>
           <input type="date" {...register("dob", { required: true })} />
         </div>
         <div className="form-control">
@@ -155,7 +155,7 @@ export default function ContactForm() {
           />
         </div>
         <div className="form-control">
-          <div className="form-label">Link to your LinkedIn profile? </div>
+          <div className="form-label">Link to your LinkedIn profile: </div>
           <input
             type="text"
             {...register("linkedin", { required: true })}
@@ -166,7 +166,7 @@ export default function ContactForm() {
           </p>
         </div>
         <div className="form-control">
-          <div className="form-label">Academic Status:*</div>
+          <div className="form-label">Academic status:*</div>
           <Select
             id="inquirySelect"
             instanceId="inquirySelect"
