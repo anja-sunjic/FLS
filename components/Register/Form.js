@@ -59,13 +59,23 @@ export default function ContactForm() {
       phone: number,
       fileInput: fileInput,
     };
-
+    let templateParams = {
+      name: emailData.name,
+      email: emailData.email,
+      dob: emailData.dob,
+      city: emailData.city,
+      faculty: emailData.faculty,
+      vaxStatus: vaxStatus,
+      academicStatus: academicStatus,
+      phone: number,
+      fileInput: fileInput,
+    };
     console.log(emailData);
     emailjs
       .send(
         "service_d7rjikp",
         "fls_registration_form",
-        emailData,
+        templateParams,
         "user_Q5L30y8LNQIOeMM8hVm1o"
       )
       .then(
