@@ -203,7 +203,7 @@ export default function ContactForm() {
         </div>
         <div className="form-control">
           <div className="form-label">
-            Do you agree to become part of the FLS'21 Talent Pool?*
+            Do you agree to become part of the FLS&#39;21 Talent Pool?*
           </div>
           <input
             type="checkbox"
@@ -213,9 +213,10 @@ export default function ContactForm() {
           <p className="form-note">
             The FLS Organizing Team is creating a summit talent pool - a
             database of individuals participating at the Futures Leaders Summit
-            '21. <br /> <br /> After the completion of the event, the database
-            will be shared with all interested Premium and Gold Sponsors for
-            further networking and internship/employment opportunities.
+            &#39;21. <br /> <br /> After the completion of the event, the
+            database will be shared with all interested Premium and Gold
+            Sponsors for further networking and internship/employment
+            opportunities.
             <br /> <br /> This could be your chance to get contacted by one of
             the leading companies in your area of study. <br /> <br />
             The Talent Pool includes the following information: full name,
@@ -244,7 +245,7 @@ export default function ContactForm() {
         </div>
         <div className="form-control">
           <div className="form-label">
-            How are you compliant with FLS'21 Health and Safety Protocols?*
+            How are you compliant with FLS&#39;21 Health and Safety Protocols?*
           </div>
           <Select
             id="inquirySelect"
@@ -280,8 +281,8 @@ export default function ContactForm() {
               <div className="inner">
                 <Image src="/check.png" height={100} width={100}></Image>
                 <p>
-                  Thank you for applying for the FLS'21 Travel Grant. Our team
-                  will get back to you in the following weeks.
+                  Thank you for applying for the FLS&#39;21 Travel Grant. Our
+                  team will get back to you in the following weeks.
                 </p>
                 <div className="button" onClick={closeModal}>
                   Continue
