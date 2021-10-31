@@ -9,7 +9,7 @@ export default function Register() {
     <>
       <MetaData
         path="/registration/register"
-        title="Regisration Form"
+        title="Registration Form"
         description=""
         image="/share.png"
       />
