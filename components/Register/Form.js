@@ -61,6 +61,21 @@ export default function ContactForm() {
     };
 
     console.log(emailData);
+    emailjs
+      .send(
+        "service_d7rjikp",
+        "fls_registration_form",
+        emailData,
+        "user_Q5L30y8LNQIOeMM8hVm1o"
+      )
+      .then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+        },
+        (err) => {
+          console.log("FAILED...", err);
+        }
+      );
     setFormState("SUCCESS");
     setOpen(true);
     reset();
@@ -111,7 +126,7 @@ export default function ContactForm() {
         onSubmit={handleSubmit(handleContactFormSubmit)}
       >
         <div className="form-control">
-          <div className="form-label">Full Name*</div>
+          <div className="form-label">Full name*</div>
           <input
             type="text"
             {...register("name", { required: true })}
@@ -119,7 +134,7 @@ export default function ContactForm() {
           />
         </div>
         <div className="form-control">
-          <div className="form-label">Email Address:*</div>
+          <div className="form-label">Email address:*</div>
           <input
             type="text"
             {...register("email", { required: true })}
@@ -127,7 +142,7 @@ export default function ContactForm() {
           />
         </div>
         <div className="form-control">
-          <div className="form-label">Date of Birth:*</div>
+          <div className="form-label">Date of birth:*</div>
           <input type="date" {...register("dob", { required: true })} />
         </div>
         <div className="form-control">
@@ -140,10 +155,10 @@ export default function ContactForm() {
           />
         </div>
         <div className="form-control">
-          <div className="form-label">Link to your LinkedIn profile? </div>
+          <div className="form-label">Link to your LinkedIn profile:</div>
           <input
             type="text"
-            {...register("linkedin", { required: true })}
+            {...register("linkedin", { required: false })}
             disabled={formState === "LOADING"}
           />
           <p className="form-note">
@@ -282,8 +297,9 @@ export default function ContactForm() {
             <div className="inner">
               <Image src="/check.png" height={100} width={100}></Image>
               <p>
-                Thank you for applying for the FLS&#39;21 Travel Grant. Our team
-                will get back to you in the following weeks.
+                Thank you for your registration. Check your email inbox
+                (Junk/Spam as well) for further information regarding
+                FLS&#39;21.
               </p>
               <div className="button" onClick={closeModal}>
                 Continue
