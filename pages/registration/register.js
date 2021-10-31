@@ -9,12 +9,12 @@ export default function Register() {
     <>
       <MetaData
         path="/registration/register"
-        title="Register"
+        title="Regisration Form"
         description=""
         image="/share.png"
       />
       <div className="_main">
-        <h1 className="is-hidden">Register</h1>
+        <h1 className="is-hidden">Registration Form FLS</h1>
         <Header />
         <FormContainer />
         <Decor />

@@ -65,6 +65,7 @@ export default function ContactForm() {
       dob: emailData.dob,
       city: emailData.city,
       faculty: emailData.faculty,
+      field: emailData.field,
       vaxStatus: vaxStatus,
       academicStatus: academicStatus,
       phone: number,

@@ -29,13 +29,6 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .left {
-    align-items: flex-end;
-    justify-content: flex-end;
-    @include touch {
-      align-items: center;
-    }
-  }
   .center {
     font-weight: 600;
     font-size: crem(28px);
@@ -53,8 +46,13 @@
     line-height: 150%;
     color: $white;
     margin-right: 2rem;
+    align-items: flex-start;
     @include touch {
       text-align: center;
+    }
+    .contact-button {
+      margin: 0;
+      margin-top: 2rem;
     }
   }
 }
