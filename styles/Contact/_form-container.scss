@@ -2,8 +2,15 @@
   background-color: $dark;
   position: relative;
   padding-top: crem(150px);
+
   @include touch {
     padding-top: crem(200px) !important;
+  }
+  &.register {
+    padding-top: crem(40px);
+    @include touch {
+      padding-top: crem(40px) !important;
+    }
   }
   button:focus {
     outline: 0 !important;

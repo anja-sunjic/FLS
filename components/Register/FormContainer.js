@@ -29,7 +29,7 @@ export default function FormContainer() {
           </div>
         </div>
       </div>
-      <div className="register intro">
+      <div className="section register intro">
         <div className="columns">
           <div className="column is-4">
             <div className="left">
@@ -40,7 +40,6 @@ export default function FormContainer() {
             </div>
           </div>
           <div className="column is-3">
-            {" "}
             <div className="center">
               <p className="line">8 Keynote Speakers</p>
               <p className="line">2 Panel Discussions</p>
@@ -57,7 +56,7 @@ export default function FormContainer() {
           </div>
         </div>
       </div>
-      <section className="section form-container">
+      <section className="section form-container register">
         <div className="hex-decor">
           <img src="/hex.svg" alt="Futures Leaders Summit" />
         </div>
