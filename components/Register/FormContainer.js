@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import heroimg from "../../public/hero.webp";
 
 import Form from "./Form";
@@ -52,9 +53,11 @@ export default function FormContainer() {
               In case you missed it, we are giving away travel grants for
               promising STEM students from Bosnia and Herzegovina, covering
               Summit tickets, accommodation and travel.
-              <div className="contact-button">
-                <span>Learn More</span>
-              </div>
+              <Link href="/registration/travel-grant-application">
+                <a className="contact-button">
+                  <span>Learn More</span>
+                </a>
+              </Link>
             </div>
           </div>
         </div>
