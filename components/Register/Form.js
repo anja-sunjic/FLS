@@ -273,24 +273,20 @@ export default function ContactForm() {
         ) : null}
       </form>
       {open && (
-        <Popup
-          open={open}
-          closePopup={closeModal}
-          children={
-            <>
-              <div className="inner">
-                <Image src="/check.png" height={100} width={100}></Image>
-                <p>
-                  Thank you for applying for the FLS&#39;21 Travel Grant. Our
-                  team will get back to you in the following weeks.
-                </p>
-                <div className="button" onClick={closeModal}>
-                  Continue
-                </div>
+        <Popup open={open} closePopup={closeModal}>
+          <>
+            <div className="inner">
+              <Image src="/check.png" height={100} width={100}></Image>
+              <p>
+                Thank you for applying for the FLS&#39;21 Travel Grant. Our team
+                will get back to you in the following weeks.
+              </p>
+              <div className="button" onClick={closeModal}>
+                Continue
               </div>
-            </>
-          }
-        />
+            </div>
+          </>
+        </Popup>
       )}
     </>
   );
