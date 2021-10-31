@@ -230,6 +230,10 @@ export default function ContactForm() {
             onChange={setFileInput}
             disabled={formState === "LOADING"}
           />
+          <p className="form-note">
+            If you agreed to become part of the FLS’21 Talent Pool, it is
+            mandatory to upload your resume.
+          </p>
         </div>
         <div className="form-control">
           <div className="form-label">Discount code:</div>
