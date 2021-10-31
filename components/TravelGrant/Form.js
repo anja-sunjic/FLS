@@ -69,37 +69,44 @@ export default function ContactForm() {
     };
 
     console.log(emailData);
+    emailjs
+      .send(
+        "service_d7rjikp",
+        "fls_registration_form",
+        emailData,
+        "user_Q5L30y8LNQIOeMM8hVm1o"
+      )
+      .then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+        },
+        (err) => {
+          console.log("FAILED...", err);
+        }
+      );
     setFormState("SUCCESS");
     setOpen(true);
     reset();
   };
   function sendEmail(e) {
-    // emailjs
-    //   .send(
-    //     "service_bf6vot6",
-    //     "fls_contact_form",
-    //     templateParams,
-    //     "user_VJGu25NurbZTbZc1QQ5Tx"
-    //   )
-    //   .then(
-    //     (response) => {
-    //       console.log("SUCCESS!", response.status, response.text);
-    //       setFormState("SUCCESS");
-    //       setInquiry("");
-    //       setMessage("");
-    //       setEmail("");
-    //       setName("");
-    //     },
-    //     (err) => {
-    //       console.log("FAILED...", err);
-    //       setErrorMessage(err.text);
-    //       setFormState("ERROR");
-    //       setInquiry("");
-    //       setMessage("");
-    //       setEmail("");
-    //       setName("");
-    //     }
-    //   );
+    emailjs
+      .send(
+        "service_d7rjikp",
+        "fls_registration_form",
+        templateParams,
+        "user_Q5L30y8LNQIOeMM8hVm1o"
+      )
+      .then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+          setFormState("SUCCESS");
+        },
+        (err) => {
+          console.log("FAILED...", err);
+          setErrorMessage(err.text);
+          setFormState("ERROR");
+        }
+      );
     console.log(register, dob, number, fileInput, academicStatus, vaxStatus);
   }
   useEffect(() => {
