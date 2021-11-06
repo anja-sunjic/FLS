@@ -1,26 +1,17 @@
 import React from 'react';
 import Countdown from 'react-countdown';
-import {
-	StyledCountDownContainer,
-	StyledHeader,
-	Heading,
-	StyledCountDown,
-	StyledComplete,
-} from './CountdownStyle';
 
 const CountdownComponent = () => {
-	const Completionist = () => (
-		<StyledComplete>We are online and ready to go!</StyledComplete>
-	);
+	const Completionist = () => <div>We are online and ready to go!</div>;
 
 	return (
-		<StyledCountDownContainer>
-			<Heading>Opening in</Heading>
-			<StyledCountDown>
+		<div className='styledcountdowncontainer'>
+			<h1 className='headingstyle'>Opening in</h1>
+			<div className='styledcountdown'>
 				<Countdown date={Date.now() + 1639522800} />
-			</StyledCountDown>
-			<StyledHeader>days hours mintues seconds</StyledHeader>
-		</StyledCountDownContainer>
+			</div>
+			<h2 className='styleheader'>days hours mintues seconds</h2>
+		</div>
 	);
 };
 
