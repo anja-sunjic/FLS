@@ -36,6 +36,15 @@ export const Heading = styled.h1`
 	text-transform: uppercase;
 `;
 
+export const StyledComplete = styled.h1`
+	margin: 5rem;
+	font-size: 5rem;
+	color: white;
+	text-align: center;
+	justify-content: center;
+	text-transform: uppercase;
+`;
+
 export const StyledCountDown = styled.h1`
 	font-family: Anton;
 	font-size: 12rem;
