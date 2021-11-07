@@ -1,48 +1,40 @@
 .registration.hero {
 }
 .registration_container {
-	justify-content: center;
-	text-align: center;
-	color: #efe200;
-	font-weight: ligther;
-	width: 100%;
-	height: 100%;
-	font-size: 2rem;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	padding: crem(40px) 0;
+  justify-content: center;
+  text-align: center;
+  color: #efe200;
+  font-weight: ligther;
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: crem(40px) 0;
 }
 
 .registration_heading {
-<<<<<<< HEAD
-	font-size: crem(40px);
-	line-height: crem(60px);
-	font-family: $font;
-	font-weight: 900;
-	padding: 0 10%;
-=======
   font-size: crem(40px);
   line-height: crem(60px);
   font-family: $font;
   font-weight: 900;
   padding: 0 10%;
   margin-bottom: 2.5rem;
->>>>>>> 1124485cb95fd13301f46397c9c6041ac67f863f
 }
 
 .contact-button {
-	margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .reg_ending_container {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .discountheader {
-	font-family: Anton;
-	font-size: 5rem;
-	color: #f1dc13;
+  font-family: Anton;
+  font-size: 5rem;
+  color: #f1dc13;
 }

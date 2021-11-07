@@ -10,6 +10,7 @@ import emailjs from "emailjs-com";
 export default function ContactForm() {
   const [open, setOpen] = useState(false);
   const closeModal = () => setOpen(false);
+  const [discount, setDiscount] = useState("");
   const { register, handleSubmit, reset, errors } = useForm();
 
   const [number, setNumber] = useState();
@@ -306,6 +307,23 @@ export default function ContactForm() {
           </div>
         ) : null}
       </form>
+      {open && (
+        <Popup open={open} closePopup={closeModal}>
+          <>
+            <div className="inner">
+              <Image src="/check.png" height={100} width={100}></Image>
+              <p>
+                Thank you for your registration. Check your email inbox
+                (Junk/Spam as well) for further information regarding
+                FLS&#39;21.
+              </p>
+              <div className="button" onClick={closeModal}>
+                Continue
+              </div>
+            </div>
+          </>
+        </Popup>
+      )}
       {open && (
         <Popup open={open} closePopup={closeModal}>
           <>
