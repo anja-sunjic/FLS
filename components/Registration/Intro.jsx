@@ -25,8 +25,8 @@ export default function Intro() {
             12 Workshops <br />
             6 Company Visits <br />
           </h3>
-          <div className="contact-button">
-            <span> Get your ticket now</span>
+          <div className="contact-button reg">
+            <span>Get your ticket now</span>
           </div>
           <h4>Have a discount code?</h4>
         </div>
