@@ -16,8 +16,7 @@ export default function Purpose() {
               FLS'21 Health and Safety Protocols here.
             </p>
             <h2>
-              FLS&#39;21 HEALTH AND <br className="is-hidden-touch" /> SAFETY
-              PROTOCOLS
+              FLS&#39;21 HEALTH AND <br /> SAFETY PROTOCOLS
             </h2>
           </div>
         </div>
