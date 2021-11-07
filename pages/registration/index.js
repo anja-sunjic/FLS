@@ -4,7 +4,7 @@ import Header from '../../components/partials/Header';
 import Decor from '../../components/partials/Decor';
 import Intro from '../../components/Registration/Intro';
 import Rules from '../../components/Protocols/Rules';
-import Ending from '../../components/Protocols/Ending';
+import Ending from '../../components/Registration/Ending';
 
 export default function Registration() {
 	return (
