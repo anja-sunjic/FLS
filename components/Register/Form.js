@@ -10,8 +10,7 @@ import emailjs from "emailjs-com";
 export default function ContactForm() {
   const [open, setOpen] = useState(false);
   const closeModal = () => setOpen(false);
-  const [discount, setDiscount] = useState("");
-  const { register, handleSubmit, reset, errors } = useForm();
+  const { register, handleSubmit, reset, formState: { errors } } = useForm();
 
   const [number, setNumber] = useState();
   const [fileInput, setFileInput] = useState();
@@ -52,7 +51,6 @@ export default function ContactForm() {
 
   const handleContactFormSubmit = async (data) => {
     setFormState("LOADING");
-
     const emailData = {
       ...data,
       vaxStatus: vaxStatus,
@@ -76,7 +74,7 @@ export default function ContactForm() {
       phone: number,
       fileInput: fileInput,
     };
-    console.log(emailData);
+
     emailjs
       .send(
         "service_d7rjikp",
@@ -96,35 +94,7 @@ export default function ContactForm() {
     setOpen(true);
     reset();
   };
-  function sendEmail(e) {
-    // emailjs
-    //   .send(
-    //     "service_bf6vot6",
-    //     "fls_contact_form",
-    //     templateParams,
-    //     "user_VJGu25NurbZTbZc1QQ5Tx"
-    //   )
-    //   .then(
-    //     (response) => {
-    //       console.log("SUCCESS!", response.status, response.text);
-    //       setFormState("SUCCESS");
-    //       setInquiry("");
-    //       setMessage("");
-    //       setEmail("");
-    //       setName("");
-    //     },
-    //     (err) => {
-    //       console.log("FAILED...", err);
-    //       setErrorMessage(err.text);
-    //       setFormState("ERROR");
-    //       setInquiry("");
-    //       setMessage("");
-    //       setEmail("");
-    //       setName("");
-    //     }
-    //   );
-    console.log(register, dob, number, fileInput, academicStatus, vaxStatus);
-  }
+
   useEffect(() => {
     // Timer to display notifications below the form
     if (formState === "SUCCESS" || formState === "ERROR") {
@@ -148,6 +118,9 @@ export default function ContactForm() {
             {...register("name", { required: true })}
             disabled={formState === "LOADING"}
           />
+          {errors.name && errors.name.type === "required" && (
+            <span className="field-error">Full name is required</span>
+          )}
         </div>
         <div className="form-control">
           <div className="form-label">Email address:*</div>
@@ -156,16 +129,24 @@ export default function ContactForm() {
             {...register("email", { required: true })}
             disabled={formState === "LOADING"}
           />
+          {errors.email && errors.email.type === "required" && (
+            <span className="field-error">Email is required</span>
+          )}
         </div>
         <div className="form-control">
           <div className="form-label">Date of birth:*</div>
           <input type="date" {...register("dob", { required: true })} />
+          {errors.dob && errors.dob.type === "required" && (
+            <span className="field-error">Date of Birth is required</span>
+          )}
         </div>
         <div className="form-control">
           <div className="form-label">Contact number:*</div>
           <PhoneInput
+            defaultCountry="BA"
             countrySelectProps={{ unicodeFlags: true }}
             name="phone"
+            id="phone-input"
             value={number}
             onChange={setNumber}
           />
@@ -194,6 +175,9 @@ export default function ContactForm() {
             classNamePrefix="dropdown"
             disabled={formState === "LOADING"}
           />
+          {!academicStatus && (
+            <span className="field-error">Academic status is required</span>
+          )}
         </div>
         <div className="form-control">
           <div className="form-label">
@@ -204,6 +188,9 @@ export default function ContactForm() {
             {...register("faculty", { required: true })}
             disabled={formState === "LOADING"}
           />
+          {errors.faculty && errors.faculty.type === "required" && (
+            <span className="field-error">Educational Institution is required</span>
+          )}
         </div>
         <div className="form-control">
           <div className="form-label">Field of study:*</div>
@@ -212,6 +199,9 @@ export default function ContactForm() {
             {...register("field", { required: true })}
             disabled={formState === "LOADING"}
           />
+          {errors.field && errors.field.type === "required" && (
+            <span className="field-error">Field of study is required</span>
+          )}
         </div>
         <div className="form-control">
           <div className="form-label">Graduation year:*</div>
@@ -220,6 +210,9 @@ export default function ContactForm() {
             {...register("gradYear", { required: true })}
             disabled={formState === "LOADING"}
           />
+          {errors.gradYear && errors.gradYear.type === "required" && (
+            <span className="field-error">Graduation year is required</span>
+          )}
           <p className="form-note">
             The year you graduated in or expected graduation year.
           </p>
@@ -231,6 +224,9 @@ export default function ContactForm() {
             {...register("city", { required: true })}
             disabled={formState === "LOADING"}
           />
+          {errors.city && errors.city.type === "required" && (
+            <span className="field-error">City is required</span>
+          )}
         </div>
         <div className="form-control">
           <div className="form-label">
@@ -241,6 +237,9 @@ export default function ContactForm() {
             {...register("talent", { required: true })}
             disabled={formState === "LOADING"}
           />
+          {errors.talent && errors.talent.type === "required" && (
+            <span className="field-error">Talent pool selection is required</span>
+          )}
           <p className="form-note">
             The FLS Organizing Team is creating a summit talent pool - a
             database of individuals participating at the Futures Leaders Summit
@@ -293,6 +292,9 @@ export default function ContactForm() {
             classNamePrefix="dropdown"
             disabled={formState === "LOADING"}
           />
+          {!vaxStatus && (
+            <span className="field-error">Health compliance is required</span>
+          )}
         </div>
         <input
           className="contact-button"
