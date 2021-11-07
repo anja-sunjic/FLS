@@ -19,6 +19,16 @@
       font: $font;
     }
   }
+  .field-error::before {
+    display: inline;
+    content: " ⚠ ";
+  }
+
+  .field-error {
+    color: #bf1650;
+    font-weight: 700;
+  }
+  
   .PhoneInput {
     display: flex;
     align-items: center;
