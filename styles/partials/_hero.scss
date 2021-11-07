@@ -3,6 +3,7 @@
   min-height: 100vh;
   width: 100%;
   position: relative;
+
   &.small-hero {
     height: 50vh;
     min-height: 50vh;
@@ -33,5 +34,11 @@
   @include touch {
     height: 50vh;
     min-height: 50vh;
+  }
+  &.registration {
+    @include touch {
+      height: 100vh;
+      min-height: 100vh;
+    }
   }
 }

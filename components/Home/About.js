@@ -1,9 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Parallax } from "react-scroll-parallax";
+import CountdownComponent from "../Countdown/Countdown";
 export default function About() {
   return (
     <>
+      <CountdownComponent />
       <section className="section about" id="about" name="about">
         <div className="line-decor">
           <img src="/about-lines.svg" alt="decor" />

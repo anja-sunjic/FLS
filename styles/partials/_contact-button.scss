@@ -1,25 +1,72 @@
 .contact-button {
-  padding: 1rem 3rem;
-  background-color: $yellow;
-  display: inline-table;
-  align-items: center;
-  justify-content: center;
-  border-radius: 200px;
-  margin-top: 6rem;
-  cursor: pointer;
-  transition: all 0.2s;
-  overflow: hidden;
-  span {
-    color: black;
-    font-size: crem(28px);
-    line-height: crem(30px);
-    font-weight: 700;
-    font-family: $font;
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-  }
-  &:hover {
-    background: white;
-  }
+	padding: 1rem 3rem;
+	background-color: $yellow;
+	display: inline-table;
+	align-items: center;
+	justify-content: center;
+	border-radius: 200px;
+	margin-top: 6rem;
+	cursor: pointer;
+	transition: all 0.2s;
+	overflow: hidden;
+	span {
+		color: black;
+		font-size: crem(28px);
+		line-height: crem(30px);
+		font-weight: 700;
+		font-family: $font;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+	}
+	&:hover {
+		background: white;
+	}
+}
+
+.get_your_ticket_now {
+	border-radius: 100px;
+	font-size: 1.7rem;
+	padding: 24px 32px;
+	width: 370px;
+	height: 85px;
+	border: none;
+	background-color: #efe200;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 200px;
+	text-decoration: none;
+	margin-top: 10rem;
+	margin-bottom: 1rem;
+	font-weight: bold;
+	transition: 0.5s ease-in-out;
+
+	&:hover {
+		cursor: pointer;
+		transform: scale(1.1);
+		transition: 0.5s ease-in-out;
+		box-shadow: 10px 4px 4px rgba(0, 0, 0, 0.5);
+	}
+}
+
+.travelgrant {
+	border-radius: 100px;
+	font-size: 1.3rem;
+	padding: 1rem;
+	width: 170px;
+	height: 50px;
+	border: none;
+	background-color: #efe200;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 200px;
+	text-decoration: none;
+	margin-top: 10rem;
+	margin-bottom: 1rem;
+	font-weight: bold;
+	transition: 0.5s ease-in-out;
+
+	&:hover {
+		transform: scale(1.1);
+		transition: 0.5s ease-in-out;
+		cursor: pointer;
+	}
 }

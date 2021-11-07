@@ -1,0 +1,46 @@
+.styledcountdowncontainer {
+  justify-content: center;
+  text-align: center;
+}
+
+.styleheader {
+  padding: 0;
+  font-size: 2rem;
+  color: #efe200;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  word-spacing: 9rem;
+  @include touch {
+    font-size: 1.5rem;
+    word-spacing: 2rem;
+  }
+}
+
+.headingstyle {
+  font-weight: 1000;
+  margin: 5rem 0 0 0;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.styledcomplete {
+  margin: 5rem;
+  font-size: 5rem;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.styledcountdown {
+  font-family: Anton;
+  font-size: 12rem;
+  color: white;
+  @include touch {
+    font-size: crem(86px);
+  }
+}

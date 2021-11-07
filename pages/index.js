@@ -7,7 +7,7 @@ import Footer from "../components/partials/Footer";
 import Header from "../components/partials/Header";
 import Decor from "../components/partials/Decor";
 import CTAsection from "../components/partials/cta-section";
-
+//fix
 export default function Home() {
   return (
     <>
@@ -23,6 +23,7 @@ export default function Home() {
       <div className="_main home">
         <h1 className="is-hidden">Futures Leaders Summit</h1>
         <Header />
+
         <Hero />
         <About />
         <CTAsection

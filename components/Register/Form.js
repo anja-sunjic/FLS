@@ -320,6 +320,23 @@ export default function ContactForm() {
           </>
         </Popup>
       )}
+      {open && (
+        <Popup open={open} closePopup={closeModal}>
+          <>
+            <div className="inner">
+              <Image src="/check.png" height={100} width={100}></Image>
+              <p>
+                Thank you for your registration. Check your email inbox
+                (Junk/Spam as well) for further information regarding
+                FLS&#39;21.
+              </p>
+              <div className="button" onClick={closeModal}>
+                Continue
+              </div>
+            </div>
+          </>
+        </Popup>
+      )}
     </>
   );
 }
