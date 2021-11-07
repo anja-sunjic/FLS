@@ -38,14 +38,25 @@
   }
   .right {
     text-align: right;
+    @include touch {
+      text-align: center;
+      margin-top: 2rem;
+    }
     p {
       padding-right: 0;
       padding-left: 10%;
+      @include touch {
+        padding-left: 0;
+      }
       color: $yellow;
+      .italic {
+        font-style: italic;
+      }
     }
   }
   @include touch {
     flex-direction: column;
+    text-align: center;
   }
 }
 

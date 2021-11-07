@@ -24,10 +24,13 @@ export default function Ending() {
                 Bosnia and Herzegovina).
                 <br /> <br /> More details about the grant&#39;s scalability you
                 can find on the Travel Grant Registration Page.
-                <br /> <br /> Note: Bosnia and Herzegovina Futures Foundation
-                Senior Scholars and selected volunteers automatically receive
-                the travel grant based on their scholarships and active
-                engagement as volunteers.
+                <br /> <br />
+                <div className="italic">
+                  Note: Bosnia and Herzegovina Futures Foundation Senior
+                  Scholars and selected volunteers automatically receive the
+                  travel grant based on their scholarships and active engagement
+                  as volunteers.
+                </div>
               </p>
             </div>
           </div>
