@@ -175,6 +175,9 @@ export default function ContactForm() {
             classNamePrefix="dropdown"
             disabled={formState === "LOADING"}
           />
+          {!academicStatus && (
+            <span className="field-error">Academic status is required</span>
+          )}
         </div>
         <div className="form-control">
           <div className="form-label">
@@ -289,6 +292,9 @@ export default function ContactForm() {
             classNamePrefix="dropdown"
             disabled={formState === "LOADING"}
           />
+          {!vaxStatus && (
+            <span className="field-error">Health compliancy is required</span>
+          )}
         </div>
         <input
           className="contact-button"
