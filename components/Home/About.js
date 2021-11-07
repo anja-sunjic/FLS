@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Parallax } from "react-scroll-parallax";
-import CountdownComponent from "../CountdownComponent";
+import CountdownComponent from "../Countdown/Countdown";
 export default function About() {
   return (
     <>
