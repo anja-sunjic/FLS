@@ -293,7 +293,7 @@ export default function ContactForm() {
             disabled={formState === "LOADING"}
           />
           {!vaxStatus && (
-            <span className="field-error">Health compliancy is required</span>
+            <span className="field-error">Health compliance is required</span>
           )}
         </div>
         <input
