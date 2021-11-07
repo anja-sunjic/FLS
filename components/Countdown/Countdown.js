@@ -9,7 +9,7 @@ const CountdownComponent = () => {
 
 	return (
 		<div className='styledcountdowncontainer'>
-			<h1 className='headingstyle'>Opening in</h1>
+			<h1 className='headingstyle'>FLS'21 OPENING IN</h1>
 			<div className='styledcountdown'>
 				<Countdown date={countDate} />
 			</div>
