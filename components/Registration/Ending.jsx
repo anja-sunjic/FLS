@@ -3,15 +3,15 @@ import heroimg from "../../public/hero.webp";
 export default function Ending() {
   return (
     <>
-      <div className="intro bottom hero protocols">
+      <section className="intro bottom hero protocols">
         <div className="container">
           <div className="hero-img blur"></div>
           <div className="reg_ending_container">
-            <div>
+            <div className="left">
               <h1 className="discountheader">You want a 100% discount?</h1>
               <button className="travelgrant">Get travel grant</button>
             </div>
-            <div>
+            <div className="right">
               <p>
                 Together with our sponsors and partners, we are giving away
                 Travel Grants for promising STEM students and recent graduates
@@ -28,7 +28,7 @@ export default function Ending() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

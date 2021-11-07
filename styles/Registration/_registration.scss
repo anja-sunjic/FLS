@@ -29,8 +29,23 @@
 }
 
 .reg_ending_container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 3rem 0;
+  .left {
+    min-width: 40%;
+  }
+  .right {
+    text-align: right;
+    p {
+      padding-right: 0;
+      padding-left: 10%;
+    }
+  }
+  @include touch {
+    flex-direction: column;
+  }
 }
 
 .discountheader {
