@@ -5,32 +5,24 @@ import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
 import Select from "react-select";
 import Popup from "../partials/Popup";
-import emailjs from "emailjs-com";
-import { init } from 'emailjs-com';
-
+import emailjs, { init } from "emailjs-com";
 
 export default function ContactForm() {
   init("user_Q5L30y8LNQIOeMM8hVm1o");
+
   const form = useRef();
 
   const [selectedFile, setSelectedFile] = useState();
-  const [selectedFileName, setSelectedFileName] = useState();
 
   const changeHandler = (event) => {
     setSelectedFile(event.target.files[0]);
-    setSelectedFileName(event.target.files[0]?.name)
   };
-
-  // const handleSubmission = () => {
-  // };
-
 
   const [open, setOpen] = useState(false);
   const closeModal = () => setOpen(false);
   const { register, handleSubmit, reset, formState: { errors } } = useForm();
 
   const [number, setNumber] = useState();
-  const [fileInput, setFileInput] = useState();
   const [academicStatus, setAcademicStatus] = useState();
   const [vaxStatus, setVaxStatus] = useState();
 
@@ -66,77 +58,19 @@ export default function ContactForm() {
     },
   ];
 
-  const handleContactFormSubmit = async (data) => {
-    console.log(data);
+  const sendEmail = (e) => {
+    e.preventDefault();
     setFormState("LOADING");
-    // const emailData = {
-    //   ...data,
-    //   vaxStatus: vaxStatus,
-    //   academicStatus: academicStatus,
-    //   phone: number,
-    //   // selectedFile: selectedFile,
-    // };
-    // let templateParams = {
-    //   name: emailData.name,
-    //   email: emailData.email,
-    //   dob: emailData.dob,
-    //   city: emailData.city,
-    //   faculty: emailData.faculty,
-    //   field: emailData.field,
-    //   discount: emailData.discount,
-    //   gradYear: emailData.gradYear,
-    //   talent: emailData.talent,
-    //   linkedin: emailData.linkedin,
-    //   vaxStatus: vaxStatus,
-    //   academicStatus: academicStatus,
-    //   phone: number,
-    //   selectedFile: selectedFile,
-    //   selectedFileName: selectedFileName
-    // };
-    // console.log(templateParams);
-    // emailjs
-    //   .send(
-    //     "service_d7rjikp",
-    //     "fls_registration_form",
-    //     templateParams,
-    //     "user_Q5L30y8LNQIOeMM8hVm1o"
-    //   )
-    //   .then(
-    //     (response) => {
-    //       console.log("SUCCESS!", response.status, response.text);
-    //     },
-    //     (err) => {
-    //       console.log("FAILED...", err);
-    //     }
-    //   );
     emailjs.sendForm('service_d7rjikp', 'fls_registration_form', form.current, 'user_Q5L30y8LNQIOeMM8hVm1o')
       .then((result) => {
-        console.log(result.text);
-
+        setFormState("SUCCESS");
+        setOpen(true);
+        reset();
       }, (error) => {
-        console.log(error.text);
+        setFormState("ERROR");
+        setOpen(false);
       });
-    setFormState("SUCCESS");
-    setOpen(true);
-    reset();
   };
-
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
-  //   setFormState("LOADING");
-
-
-  //   emailjs.sendForm('service_d7rjikp', 'fls_registration_form', form.current, 'user_Q5L30y8LNQIOeMM8hVm1o')
-  //     .then((result) => {
-  //       console.log(result.text);
-
-  //     }, (error) => {
-  //       console.log(error.text);
-  //     });
-  //   setFormState("SUCCESS");
-  //   setOpen(true);
-  //   reset();
-  // };
 
   useEffect(() => {
     // Timer to display notifications below the form
@@ -153,17 +87,18 @@ export default function ContactForm() {
       <form ref={form}
         encType="multipart/form-data"
         className="contact-form register-form"
-        onSubmit={handleSubmit(handleContactFormSubmit)}
+        onSubmit={sendEmail}
       >
         <div className="form-control">
           <div className="form-label">Full name:*</div>
           <input
             type="text"
+            id="name"
             name="name"
-            {...register("name", { required: true })}
+            {...register("fullName", { required: true })}
             disabled={formState === "LOADING"}
-          />
-          {errors.name && errors.name.type === "required" && (
+            required />
+          {errors.fullName && errors.fullName.type === "required" && (
             <span className="field-error">Full name is required</span>
           )}
         </div>
@@ -174,14 +109,14 @@ export default function ContactForm() {
             name="email"
             {...register("email", { required: true })}
             disabled={formState === "LOADING"}
-          />
+            required />
           {errors.email && errors.email.type === "required" && (
             <span className="field-error">Email is required</span>
           )}
         </div>
         <div className="form-control">
           <div className="form-label">Date of birth:*</div>
-          <input type="date" name="dob" {...register("dob", { required: true })} />
+          <input type="date" name="dob" {...register("dob", { required: true })} required />
           {errors.dob && errors.dob.type === "required" && (
             <span className="field-error">Date of Birth is required</span>
           )}
@@ -195,6 +130,7 @@ export default function ContactForm() {
             id="phone-input"
             value={number}
             onChange={setNumber}
+            required={true}
           />
         </div>
         <div className="form-control">
@@ -221,6 +157,8 @@ export default function ContactForm() {
             className="dropdown"
             classNamePrefix="dropdown"
             disabled={formState === "LOADING"}
+            aria-required={true}
+            required={true}
           />
           {!academicStatus && (
             <span className="field-error">Academic status is required</span>
@@ -235,7 +173,7 @@ export default function ContactForm() {
             name="faculty"
             {...register("faculty", { required: true })}
             disabled={formState === "LOADING"}
-          />
+            required />
           {errors.faculty && errors.faculty.type === "required" && (
             <span className="field-error">Educational Institution is required</span>
           )}
@@ -247,7 +185,7 @@ export default function ContactForm() {
             name="field"
             {...register("field", { required: true })}
             disabled={formState === "LOADING"}
-          />
+            required />
           {errors.field && errors.field.type === "required" && (
             <span className="field-error">Field of study is required</span>
           )}
@@ -259,7 +197,7 @@ export default function ContactForm() {
             name="gradYear"
             {...register("gradYear", { required: true })}
             disabled={formState === "LOADING"}
-          />
+            required />
           {errors.gradYear && errors.gradYear.type === "required" && (
             <span className="field-error">Graduation year is required</span>
           )}
@@ -274,7 +212,7 @@ export default function ContactForm() {
             name="city"
             {...register("city", { required: true })}
             disabled={formState === "LOADING"}
-          />
+            required />
           {errors.city && errors.city.type === "required" && (
             <span className="field-error">City is required</span>
           )}
@@ -288,7 +226,7 @@ export default function ContactForm() {
             name="talent"
             {...register("talent", { required: true })}
             disabled={formState === "LOADING"}
-          />
+            required />
           {errors.talent && errors.talent.type === "required" && (
             <span className="field-error">Talent pool selection is required</span>
           )}
@@ -313,7 +251,7 @@ export default function ContactForm() {
             disabled={formState === "LOADING"}
           /> */}
 
-          <input accept=".doc,.docx,.pdf" type="file" name="selectedFile" onChange={changeHandler} />
+          <input accept=".doc,.docx,.pdf" type="file" name="selectedFile" onChange={changeHandler} required />
           {selectedFile ? (
             <div>
               <p>Filename: {selectedFile.name}</p>
@@ -354,6 +292,7 @@ export default function ContactForm() {
             className="dropdown"
             classNamePrefix="dropdown"
             disabled={formState === "LOADING"}
+            aria-required={true}
           />
           {!vaxStatus && (
             <span className="field-error">Health compliance is required</span>
