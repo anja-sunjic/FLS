@@ -32,7 +32,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 3rem 0;
+  padding: 4rem 0;
   .left {
     min-width: 40%;
   }
@@ -41,6 +41,7 @@
     p {
       padding-right: 0;
       padding-left: 10%;
+      color: $yellow;
     }
   }
   @include touch {
@@ -52,4 +53,5 @@
   font-family: Anton;
   font-size: 5rem;
   color: #f1dc13;
+  text-transform: uppercase;
 }
