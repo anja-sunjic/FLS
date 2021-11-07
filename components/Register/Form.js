@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import Image from "next/image";
 import { useForm, ErrorMessage } from "react-hook-form";
 import "react-phone-number-input/style.css";
@@ -6,8 +6,25 @@ import PhoneInput from "react-phone-number-input";
 import Select from "react-select";
 import Popup from "../partials/Popup";
 import emailjs from "emailjs-com";
+import { init } from 'emailjs-com';
+
 
 export default function ContactForm() {
+  init("user_Q5L30y8LNQIOeMM8hVm1o");
+  const form = useRef();
+
+  const [selectedFile, setSelectedFile] = useState();
+  const [selectedFileName, setSelectedFileName] = useState();
+
+  const changeHandler = (event) => {
+    setSelectedFile(event.target.files[0]);
+    setSelectedFileName(event.target.files[0]?.name)
+  };
+
+  // const handleSubmission = () => {
+  // };
+
+
   const [open, setOpen] = useState(false);
   const closeModal = () => setOpen(false);
   const { register, handleSubmit, reset, formState: { errors } } = useForm();
@@ -50,50 +67,76 @@ export default function ContactForm() {
   ];
 
   const handleContactFormSubmit = async (data) => {
+    console.log(data);
     setFormState("LOADING");
-    const emailData = {
-      ...data,
-      vaxStatus: vaxStatus,
-      academicStatus: academicStatus,
-      phone: number,
-      fileInput: fileInput,
-    };
-    let templateParams = {
-      name: emailData.name,
-      email: emailData.email,
-      dob: emailData.dob,
-      city: emailData.city,
-      faculty: emailData.faculty,
-      field: emailData.field,
-      discount: emailData.discount,
-      gradYear: emailData.gradYear,
-      talent: emailData.talent,
-      linkedin: emailData.linkedin,
-      vaxStatus: vaxStatus,
-      academicStatus: academicStatus,
-      phone: number,
-      fileInput: fileInput,
-    };
+    // const emailData = {
+    //   ...data,
+    //   vaxStatus: vaxStatus,
+    //   academicStatus: academicStatus,
+    //   phone: number,
+    //   // selectedFile: selectedFile,
+    // };
+    // let templateParams = {
+    //   name: emailData.name,
+    //   email: emailData.email,
+    //   dob: emailData.dob,
+    //   city: emailData.city,
+    //   faculty: emailData.faculty,
+    //   field: emailData.field,
+    //   discount: emailData.discount,
+    //   gradYear: emailData.gradYear,
+    //   talent: emailData.talent,
+    //   linkedin: emailData.linkedin,
+    //   vaxStatus: vaxStatus,
+    //   academicStatus: academicStatus,
+    //   phone: number,
+    //   selectedFile: selectedFile,
+    //   selectedFileName: selectedFileName
+    // };
+    // console.log(templateParams);
+    // emailjs
+    //   .send(
+    //     "service_d7rjikp",
+    //     "fls_registration_form",
+    //     templateParams,
+    //     "user_Q5L30y8LNQIOeMM8hVm1o"
+    //   )
+    //   .then(
+    //     (response) => {
+    //       console.log("SUCCESS!", response.status, response.text);
+    //     },
+    //     (err) => {
+    //       console.log("FAILED...", err);
+    //     }
+    //   );
+    emailjs.sendForm('service_d7rjikp', 'fls_registration_form', form.current, 'user_Q5L30y8LNQIOeMM8hVm1o')
+      .then((result) => {
+        console.log(result.text);
 
-    emailjs
-      .send(
-        "service_d7rjikp",
-        "fls_registration_form",
-        templateParams,
-        "user_Q5L30y8LNQIOeMM8hVm1o"
-      )
-      .then(
-        (response) => {
-          console.log("SUCCESS!", response.status, response.text);
-        },
-        (err) => {
-          console.log("FAILED...", err);
-        }
-      );
+      }, (error) => {
+        console.log(error.text);
+      });
     setFormState("SUCCESS");
     setOpen(true);
     reset();
   };
+
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
+  //   setFormState("LOADING");
+
+
+  //   emailjs.sendForm('service_d7rjikp', 'fls_registration_form', form.current, 'user_Q5L30y8LNQIOeMM8hVm1o')
+  //     .then((result) => {
+  //       console.log(result.text);
+
+  //     }, (error) => {
+  //       console.log(error.text);
+  //     });
+  //   setFormState("SUCCESS");
+  //   setOpen(true);
+  //   reset();
+  // };
 
   useEffect(() => {
     // Timer to display notifications below the form
@@ -107,7 +150,8 @@ export default function ContactForm() {
 
   return (
     <>
-      <form
+      <form ref={form}
+        encType="multipart/form-data"
         className="contact-form register-form"
         onSubmit={handleSubmit(handleContactFormSubmit)}
       >
@@ -115,6 +159,7 @@ export default function ContactForm() {
           <div className="form-label">Full name:*</div>
           <input
             type="text"
+            name="name"
             {...register("name", { required: true })}
             disabled={formState === "LOADING"}
           />
@@ -126,6 +171,7 @@ export default function ContactForm() {
           <div className="form-label">Email address:*</div>
           <input
             type="text"
+            name="email"
             {...register("email", { required: true })}
             disabled={formState === "LOADING"}
           />
@@ -135,7 +181,7 @@ export default function ContactForm() {
         </div>
         <div className="form-control">
           <div className="form-label">Date of birth:*</div>
-          <input type="date" {...register("dob", { required: true })} />
+          <input type="date" name="dob" {...register("dob", { required: true })} />
           {errors.dob && errors.dob.type === "required" && (
             <span className="field-error">Date of Birth is required</span>
           )}
@@ -155,6 +201,7 @@ export default function ContactForm() {
           <div className="form-label">Link to your LinkedIn profile:</div>
           <input
             type="text"
+            name="linkedin"
             {...register("linkedin", { required: false })}
             disabled={formState === "LOADING"}
           />
@@ -185,6 +232,7 @@ export default function ContactForm() {
           </div>
           <input
             type="text"
+            name="faculty"
             {...register("faculty", { required: true })}
             disabled={formState === "LOADING"}
           />
@@ -196,6 +244,7 @@ export default function ContactForm() {
           <div className="form-label">Field of study:*</div>
           <input
             type="text"
+            name="field"
             {...register("field", { required: true })}
             disabled={formState === "LOADING"}
           />
@@ -207,6 +256,7 @@ export default function ContactForm() {
           <div className="form-label">Graduation year:*</div>
           <input
             type="text"
+            name="gradYear"
             {...register("gradYear", { required: true })}
             disabled={formState === "LOADING"}
           />
@@ -221,6 +271,7 @@ export default function ContactForm() {
           <div className="form-label">City you are currently based in:*</div>
           <input
             type="text"
+            name="city"
             {...register("city", { required: true })}
             disabled={formState === "LOADING"}
           />
@@ -234,6 +285,7 @@ export default function ContactForm() {
           </div>
           <input
             type="checkbox"
+            name="talent"
             {...register("talent", { required: true })}
             disabled={formState === "LOADING"}
           />
@@ -255,11 +307,21 @@ export default function ContactForm() {
         </div>
         <div className="form-control">
           <div className="form-label">Upload your resume:</div>
-          <input
+          {/* <input
             type="file"
             onChange={setFileInput}
             disabled={formState === "LOADING"}
-          />
+          /> */}
+
+          <input accept=".doc,.docx,.pdf" type="file" name="selectedFile" onChange={changeHandler} />
+          {selectedFile ? (
+            <div>
+              <p>Filename: {selectedFile.name}</p>
+            </div>
+          ) : (
+            <p>Upload a file (PDF, DOCX)</p>
+          )}
+
           <p className="form-note">
             If you agreed to become part of the FLS’21 Talent Pool, it is
             mandatory to upload your resume.
@@ -269,6 +331,7 @@ export default function ContactForm() {
           <div className="form-label">Discount code:</div>
           <input
             type="text"
+            name="discount"
             {...register(
               "discount",
               { required: false },
