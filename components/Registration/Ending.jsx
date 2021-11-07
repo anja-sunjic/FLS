@@ -22,7 +22,7 @@ export default function Ending() {
 							Registration Page. Note: Bosnia and Herzegovina Futures Foundation
 							Senior Scholars and selected volunteers automatically receive the
 							travel grant based on their scholarships and active engagement as
-							volunteers.asdas
+							volunteers.
 						</p>
 					</div>
 				</div>
