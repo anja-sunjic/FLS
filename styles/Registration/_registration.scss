@@ -16,11 +16,20 @@
 }
 
 .registration_heading {
+<<<<<<< HEAD
 	font-size: crem(40px);
 	line-height: crem(60px);
 	font-family: $font;
 	font-weight: 900;
 	padding: 0 10%;
+=======
+  font-size: crem(40px);
+  line-height: crem(60px);
+  font-family: $font;
+  font-weight: 900;
+  padding: 0 10%;
+  margin-bottom: 2.5rem;
+>>>>>>> 1124485cb95fd13301f46397c9c6041ac67f863f
 }
 
 .contact-button {
