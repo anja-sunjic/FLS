@@ -1,5 +1,4 @@
-import Image from "next/image";
-import heroimg from "../../public/hero.webp";
+import Link from "next/link";
 export default function Ending() {
   return (
     <>
@@ -9,9 +8,11 @@ export default function Ending() {
           <div className="reg_ending_container">
             <div className="left">
               <h1 className="discountheader">You want a 100% discount?</h1>
-              <div className="contact-button">
-                <span>Get travel grant</span>
-              </div>
+              <Link href="/registration/travel-grant-application">
+                <div className="contact-button">
+                  <span>Get travel grant</span>
+                </div>
+              </Link>
             </div>
             <div className="right">
               <p>

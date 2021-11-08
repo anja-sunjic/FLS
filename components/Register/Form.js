@@ -20,7 +20,12 @@ export default function ContactForm() {
 
   const [open, setOpen] = useState(false);
   const closeModal = () => setOpen(false);
-  const { register, handleSubmit, reset, formState: { errors } } = useForm();
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors },
+  } = useForm();
 
   const [number, setNumber] = useState();
   const [academicStatus, setAcademicStatus] = useState();
@@ -61,15 +66,24 @@ export default function ContactForm() {
   const sendEmail = (e) => {
     e.preventDefault();
     setFormState("LOADING");
-    emailjs.sendForm('service_d7rjikp', 'fls_registration_form', form.current, 'user_Q5L30y8LNQIOeMM8hVm1o')
-      .then((result) => {
-        setFormState("SUCCESS");
-        setOpen(true);
-        reset();
-      }, (error) => {
-        setFormState("ERROR");
-        setOpen(false);
-      });
+    emailjs
+      .sendForm(
+        "service_d7rjikp",
+        "fls_registration_form",
+        form.current,
+        "user_Q5L30y8LNQIOeMM8hVm1o"
+      )
+      .then(
+        (result) => {
+          setFormState("SUCCESS");
+          setOpen(true);
+          reset();
+        },
+        (error) => {
+          setFormState("ERROR");
+          setOpen(false);
+        }
+      );
   };
 
   useEffect(() => {
@@ -84,7 +98,8 @@ export default function ContactForm() {
 
   return (
     <>
-      <form ref={form}
+      <form
+        ref={form}
         encType="multipart/form-data"
         className="contact-form register-form"
         onSubmit={sendEmail}
@@ -96,7 +111,8 @@ export default function ContactForm() {
             name="fullName"
             {...register("fullName", { required: true })}
             disabled={formState === "LOADING"}
-            required />
+            required
+          />
           {errors.fullName && errors.fullName.type === "required" && (
             <span className="field-error">Full name is required</span>
           )}
@@ -108,14 +124,20 @@ export default function ContactForm() {
             name="email"
             {...register("email", { required: true })}
             disabled={formState === "LOADING"}
-            required />
+            required
+          />
           {errors.email && errors.email.type === "required" && (
             <span className="field-error">Email is required</span>
           )}
         </div>
         <div className="form-control">
           <div className="form-label">Date of birth:*</div>
-          <input type="date" name="dob" {...register("dob", { required: true })} required />
+          <input
+            type="date"
+            name="dob"
+            {...register("dob", { required: true })}
+            required
+          />
           {errors.dob && errors.dob.type === "required" && (
             <span className="field-error">Date of Birth is required</span>
           )}
@@ -172,9 +194,12 @@ export default function ContactForm() {
             name="faculty"
             {...register("faculty", { required: true })}
             disabled={formState === "LOADING"}
-            required />
+            required
+          />
           {errors.faculty && errors.faculty.type === "required" && (
-            <span className="field-error">Educational Institution is required</span>
+            <span className="field-error">
+              Educational Institution is required
+            </span>
           )}
         </div>
         <div className="form-control">
@@ -184,7 +209,8 @@ export default function ContactForm() {
             name="field"
             {...register("field", { required: true })}
             disabled={formState === "LOADING"}
-            required />
+            required
+          />
           {errors.field && errors.field.type === "required" && (
             <span className="field-error">Field of study is required</span>
           )}
@@ -196,7 +222,8 @@ export default function ContactForm() {
             name="gradYear"
             {...register("gradYear", { required: true })}
             disabled={formState === "LOADING"}
-            required />
+            required
+          />
           {errors.gradYear && errors.gradYear.type === "required" && (
             <span className="field-error">Graduation year is required</span>
           )}
@@ -211,7 +238,8 @@ export default function ContactForm() {
             name="city"
             {...register("city", { required: true })}
             disabled={formState === "LOADING"}
-            required />
+            required
+          />
           {errors.city && errors.city.type === "required" && (
             <span className="field-error">City is required</span>
           )}
@@ -223,12 +251,9 @@ export default function ContactForm() {
           <input
             type="checkbox"
             name="talent"
-            {...register("talent", { required: true })}
+            {...register("talent", { required: false })}
             disabled={formState === "LOADING"}
-            required />
-          {errors.talent && errors.talent.type === "required" && (
-            <span className="field-error">Talent pool selection is required</span>
-          )}
+          />
           <p className="form-note">
             The FLS Organizing Team is creating a summit talent pool - a
             database of individuals participating at the Futures Leaders Summit
@@ -250,7 +275,13 @@ export default function ContactForm() {
             disabled={formState === "LOADING"}
           /> */}
 
-          <input accept=".doc,.docx,.pdf" type="file" name="selectedFile" onChange={changeHandler} required />
+          <input
+            accept=".doc,.docx,.pdf"
+            type="file"
+            name="selectedFile"
+            onChange={changeHandler}
+            required
+          />
           {selectedFile ? (
             <div>
               <p>Filename: {selectedFile.name}</p>

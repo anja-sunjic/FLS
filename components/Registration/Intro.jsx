@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import heroimg from "../../public/hero.webp";
 
 export default function Intro() {
@@ -25,10 +26,14 @@ export default function Intro() {
             12 Workshops <br />
             6 Company Visits <br />
           </h3>
-          <div className="contact-button reg">
-            <span>Get your ticket now</span>
-          </div>
-          <h4>Have a discount code?</h4>
+          <Link href="/registration/register">
+            <div className="contact-button reg">
+              <span>Get your ticket now</span>
+            </div>
+          </Link>
+          <Link href="/registration/register">
+            <h4 className="_link">Have a discount code?</h4>
+          </Link>
         </div>
       </div>
     </>
