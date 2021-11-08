@@ -93,8 +93,7 @@ export default function ContactForm() {
           <div className="form-label">Full name:*</div>
           <input
             type="text"
-            id="name"
-            name="name"
+            name="fullName"
             {...register("fullName", { required: true })}
             disabled={formState === "LOADING"}
             required />
