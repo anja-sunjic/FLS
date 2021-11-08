@@ -322,6 +322,7 @@ export default function ContactForm() {
             classNamePrefix="dropdown"
             disabled={formState === "LOADING"}
             aria-required={true}
+            required={true}
           />
           {!vaxStatus && (
             <span className="field-error">Health compliance is required</span>
