@@ -280,7 +280,6 @@ export default function ContactForm() {
             type="file"
             name="selectedFile"
             onChange={changeHandler}
-            required
           />
           {selectedFile ? (
             <div>
