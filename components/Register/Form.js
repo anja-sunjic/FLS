@@ -18,8 +18,10 @@ export default function ContactForm() {
     setSelectedFile(event.target.files[0]);
   };
 
+  const [discount, setDiscount] = useState("");
   const [open, setOpen] = useState(false);
   const closeModal = () => setOpen(false);
+
   const {
     register,
     handleSubmit,
@@ -32,7 +34,6 @@ export default function ContactForm() {
   const [vaxStatus, setVaxStatus] = useState();
 
   const [formState, setFormState] = useState("INITIAL");
-  const [messageTimeout, setMessageTimeout] = useState(3);
 
   const handleAcademicSelect = (e) => {
     setAcademicStatus(e.value);
@@ -66,24 +67,46 @@ export default function ContactForm() {
   const sendEmail = (e) => {
     e.preventDefault();
     setFormState("LOADING");
-    emailjs
-      .sendForm(
-        "service_d7rjikp",
-        "fls_registration_form",
-        form.current,
-        "user_Q5L30y8LNQIOeMM8hVm1o"
-      )
-      .then(
-        (result) => {
-          setFormState("SUCCESS");
-          setOpen(true);
-          reset();
-        },
-        (error) => {
-          setFormState("ERROR");
-          setOpen(false);
-        }
-      );
+    console.log(form.current);
+    if (discount === "") {
+      emailjs
+        .sendForm(
+          "service_d7rjikp",
+          "fls_registration_form",
+          form.current,
+          "user_Q5L30y8LNQIOeMM8hVm1o"
+        )
+        .then(
+          (result) => {
+            setFormState("SUCCESS");
+            setOpen(true);
+            reset();
+          },
+          (error) => {
+            setFormState("ERROR");
+            setOpen(false);
+          }
+        );
+    } else {
+      emailjs
+        .sendForm(
+          "service_d7rjikp",
+          "fls_registration_form_dc",
+          form.current,
+          "user_Q5L30y8LNQIOeMM8hVm1o"
+        )
+        .then(
+          (result) => {
+            setFormState("SUCCESS");
+            setOpen(true);
+            reset();
+          },
+          (error) => {
+            setFormState("ERROR");
+            setOpen(false);
+          }
+        );
+    }
   };
 
   useEffect(() => {
@@ -305,6 +328,9 @@ export default function ContactForm() {
               { pattern: { message: "Greskicaaaa", value: /[A-Za-z]/ } }
             )}
             disabled={formState === "LOADING"}
+            onChange={(e) => {
+              setDiscount(e.target.value);
+            }}
           />
         </div>
         <div className="form-control">
