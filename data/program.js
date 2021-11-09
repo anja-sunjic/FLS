@@ -133,7 +133,7 @@ export const wed = [
 				title: 'Education & Employability',
 				speakerIds: [5],
 				speakers: ['Melita Kurtović'],
-				desc: 'Design the career you want: From skills to finding your North Star',
+				desc: '',
 
 				tags: ['F2F', 'Online'],
 				company: 1,
