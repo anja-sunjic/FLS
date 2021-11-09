@@ -320,9 +320,9 @@ export default function ContactForm() {
             name="discount"
             {...register("discount", {
               required: false,
-              maxLength: 20,
-              minLength: 20,
             })}
+            maxLength={20}
+            minLength={20}
             disabled={formState === "LOADING"}
             onChange={(e) => {
               setDiscount(e.target.value);
