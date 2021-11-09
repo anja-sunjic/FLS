@@ -309,7 +309,7 @@ export default function ContactForm() {
               <p>Filename: {selectedFile.name}</p>
             </div>
           ) : (
-            <p>Upload a file (PDF, DOCX)</p>
+            <p>Upload a file (PDF, DOCX), file size limit is 2MB</p>
           )}
 
           <p className="form-note">
@@ -331,6 +331,8 @@ export default function ContactForm() {
             onChange={(e) => {
               setDiscount(e.target.value);
             }}
+            minLength={20}
+            maxLength={20}
           />
         </div>
         <div className="form-control">
@@ -367,7 +369,7 @@ export default function ContactForm() {
           </div>
         ) : null}
       </form>
-      {open && (
+      {open && discount !== "" && (
         <Popup open={open} closePopup={closeModal}>
           <>
             <div className="inner">
@@ -384,15 +386,15 @@ export default function ContactForm() {
           </>
         </Popup>
       )}
-      {open && (
+      {open && discount === "" && (
         <Popup open={open} closePopup={closeModal}>
           <>
             <div className="inner">
               <Image src="/check.png" height={100} width={100}></Image>
               <p>
                 Thank you for your registration. Check your email inbox
-                (Junk/Spam as well) for further information regarding
-                FLS&#39;21.
+                (Junk/Spam as well) for payment instructions and further
+                information regarding FLS'21.
               </p>
               <div className="button" onClick={closeModal}>
                 Continue
