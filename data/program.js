@@ -25,7 +25,7 @@ export const wed = [
 			},
 			{
 				id: 3,
-				title: 'Session Name BA',
+				title: 'Session Name TBA',
 				speakerIds: [],
 				speakers: [],
 				desc: '',
@@ -89,8 +89,7 @@ export const wed = [
 		events: [
 			{
 				id: 8,
-				title:
-					'Take the knowledge out of the box and play with it: Creating your own educational pathway through interdisciplinary approaches and significant learning',
+				title: '',
 				speakerIds: [1],
 				speakers: ['Zinka Bejtić'],
 				desc: '',
