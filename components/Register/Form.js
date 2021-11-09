@@ -69,6 +69,7 @@ export default function ContactForm() {
     setFormState("LOADING");
     console.log(form.current);
     if (discount === "") {
+      console.log("without discount");
       emailjs
         .sendForm(
           "service_d7rjikp",
@@ -88,6 +89,7 @@ export default function ContactForm() {
           }
         );
     } else {
+      console.log("with discount");
       emailjs
         .sendForm(
           "service_d7rjikp",
@@ -292,12 +294,6 @@ export default function ContactForm() {
         </div>
         <div className="form-control">
           <div className="form-label">Upload your resume:</div>
-          {/* <input
-            type="file"
-            onChange={setFileInput}
-            disabled={formState === "LOADING"}
-          /> */}
-
           <input
             accept=".doc,.docx,.pdf"
             type="file"
@@ -322,18 +318,19 @@ export default function ContactForm() {
           <input
             type="text"
             name="discount"
-            {...register(
-              "discount",
-              { required: false },
-              { pattern: { message: "Greskicaaaa", value: /[A-Za-z]/ } }
-            )}
+            {...register("discount", {
+              required: false,
+              maxLength: 20,
+              minLength: 20,
+            })}
             disabled={formState === "LOADING"}
             onChange={(e) => {
               setDiscount(e.target.value);
             }}
-            minLength={20}
-            maxLength={20}
           />
+          {errors.name && errors.name.type === "maxLength" && (
+            <span>Code must be 20 chars long</span>
+          )}
         </div>
         <div className="form-control">
           <div className="form-label">
