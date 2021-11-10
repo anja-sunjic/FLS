@@ -30,21 +30,25 @@ export default function Partners() {
 							/>
 						</div>
 						<div className='partner'>
-							<span className='role'>Gold sponsor</span>
+							<span className='role'>Gold sponsors</span>
 							<PartnerLogo
 								url='https://www.dkr.ba/en/'
 								img='/partners/DKR.png'
 							/>
+							<PartnerLogo
+								url='https://www.porschebh.ba/'
+								img='/partners/PorscheBHallwhite.png'
+							/>
 						</div>
 						<div className='partner'>
-							<span className='role'>Bronze sponsor</span>
+							<span className='role'>Bronze sponsors</span>
 							<PartnerLogo
 								url='https://tehnograd-company.ba/'
 								img='/partners/TehnogradCompany.png'
 							/>
 						</div>
 						<div className='partner'>
-							<span className='role'>Organizing Partner</span>
+							<span className='role'>Organizing Partners</span>
 							<a href='https://bhing.ba/' target='_blank' rel='noreferrer'>
 								<img
 									src='/partners/bhing.png'
@@ -67,6 +71,10 @@ export default function Partners() {
 								<PartnerLogo
 									url='https://www.bhfuturesfoundation.org/innovation-nation-2021'
 									img='/partners/IEEEBH.png'
+								/>
+								<PartnerLogo
+									url='https://www.softhouse.se/en/kontakt/sarajevo/'
+									img='/partners/Softhouse.png'
 								/>
 							</div>
 						</div>
