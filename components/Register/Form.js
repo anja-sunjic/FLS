@@ -67,8 +67,7 @@ export default function ContactForm() {
   const sendEmail = (e) => {
     e.preventDefault();
     setFormState("LOADING");
-    console.log(form.current);
-    if (discount === "") {
+    if (discount.length === 13) {
       console.log("without discount");
       emailjs
         .sendForm(
@@ -321,15 +320,13 @@ export default function ContactForm() {
             {...register("discount", {
               required: false,
             })}
-            maxLength={20}
-            minLength={20}
             disabled={formState === "LOADING"}
             onChange={(e) => {
               setDiscount(e.target.value);
             }}
           />
           {errors.name && errors.name.type === "maxLength" && (
-            <span>Code must be 20 chars long</span>
+            <span>Discount code must be 13 chars long</span>
           )}
         </div>
         <div className="form-control">
