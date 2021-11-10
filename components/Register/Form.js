@@ -391,7 +391,7 @@ export default function ContactForm() {
               <p>
                 Thank you for your registration. Check your email inbox
                 (Junk/Spam as well) for payment instructions and further
-                information regarding FLS'21.
+                information regarding FLS&apos;21.
               </p>
               <div className="button" onClick={closeModal}>
                 Continue
