@@ -79,7 +79,7 @@ export default function AdminDashboard() {
     }, [])
 
     return authenticated ? (
-        <div className="admin-dashboard">
+        <div>
             <div className="container">
                 <div className="text-box pt-4">
                     <h2>FLS registrations</h2>
@@ -139,7 +139,7 @@ export default function AdminDashboard() {
                 </div>
             </div>
         </div>
-    ) : <div className="home">
+    ) : <div className="admin-dashboard">
             <Form.Group controlId="formBasicEmail">
                 <Form.Label>Enter your email address</Form.Label>
                 <Form.Control type="email" placeholder="Your email address" value={email}  onChange={e => setEmail(e.target.value)}/>
