@@ -20,12 +20,10 @@ export default function Intro() {
             Join a community of future STEM leaders that are shaping their and
             the future of Bosnia and Herzegovina!
           </h1>
-          <h3>
-            8 Keynote Speakers <br />
-            2 Panel Discussions <br />
-            12 Workshops <br />
-            6 Company Visits <br />
-          </h3>
+          <h3>8 Keynote Speakers</h3>
+          <h3>2 Panel Discussions</h3>
+          <h3>10 Workshops</h3>
+          <h3>5 Tech Tutorials/Company Visits</h3>
           <Link href="/registration/register">
             <div className="contact-button reg">
               <span>Get your ticket now</span>
