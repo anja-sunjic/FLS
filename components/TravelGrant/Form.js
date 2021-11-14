@@ -289,42 +289,6 @@ export default function ContactForm() {
     }
   };
 
-  // const validateDiscountCode = () => {
-  //   if (discountCode != "" && discountCode.length != 13) {
-  //     formFilled[16].valid = false;
-  //     return false;
-  //   } else {
-  //     formFilled[16].valid = true;
-  //     return true;
-  //   }
-  // };
-
-  const sendMail = (email) => {
-    if (discountCode != "") {
-      db.collection("mail").add({
-        to: email,
-        template: {
-          name: "up9AECosZr2vUzVK7pLq",
-          data: {
-            username: "BHFF",
-            usersEmail: email,
-          },
-        },
-      });
-    } else {
-      db.collection("mail").add({
-        to: email,
-        template: {
-          name: "aUrEhaugc1xApLSxbDrI",
-          data: {
-            username: "BHFF",
-            usersEmail: email,
-          },
-        },
-      });
-    }
-  };
-
   //Method for validation of input Data. This is called on clink "Submit"
   const validateOnSubmit = () => {
     var countValidData = 0;
@@ -351,6 +315,10 @@ export default function ContactForm() {
         fileDownloadLink: fileDownloadLink,
         ref: fileRef,
       };
+      let today = new Date();
+      let date = today.getFullYear() + '-' + (today.getMonth()+1) + '-' + today.getDate();
+      let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+      let dateTime = date + ' ' + time;
       let registrationObject = {
         id: generateID(26),
         usersEmail: email,
@@ -366,18 +334,24 @@ export default function ContactForm() {
         usersVaxStatus: vaxStatus,
         usersTalentPool: talentPool,
         usersResume: fileInfo,
+        usersMotivation: motivation,
+        usersImpact: impact,
+        usersExternalFactors: externalFactors,
+        usersHousehold: household,
+        usersAccommodation: accommodation,
+        usersTravel: travel,
+        usersTimeOfRegistration: dateTime
       };
       registrationObject.usersDiscountCode = discountCode
         ? discountCode
         : ""
         ? discountCode
         : "no discount code";
-      db.collection("flsregistrations")
+      db.collection("fls-travel-grants")
         .doc(registrationObject.id)
         .set(registrationObject)
         .then(() => {
           setOpen(true);
-          sendMail(email);
           setLoadingFile(false);
           setFileLoaded(false);
         })
