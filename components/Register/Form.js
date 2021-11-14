@@ -259,7 +259,7 @@ export default function ContactForm() {
       .reverse()
       .forEach((item) => {
         if (!item.valid) {
-          console.log(item);
+          // console.log(item);
           setAllInputValid({ valid: false, invalidField: item.filedName });
           document.getElementById(item.id).focus();
           countValidData--;
@@ -336,7 +336,7 @@ export default function ContactForm() {
         let fileUpload = storageRef.put(file);
         fileUpload.on(
           "state_changed",
-          (snapshot) => {},
+          (snapshot) => { },
           (error) => {
             // Handle unsuccessful uploads
           },
@@ -618,7 +618,7 @@ export default function ContactForm() {
           Field {allInputValid.invalidField} is required. Please fill it!
         </p>
       ) : null}
-      {open && discount && (
+      {open && discountCode && (
         <Popup open={open} closePopup={toggleModal}>
           <>
             <div className="inner">
@@ -635,7 +635,7 @@ export default function ContactForm() {
           </>
         </Popup>
       )}
-      {open && (
+      {open && !discountCode && (
         <Popup open={open} closePopup={toggleModal}>
           <>
             <div className="inner">
