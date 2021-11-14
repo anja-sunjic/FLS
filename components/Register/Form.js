@@ -232,8 +232,7 @@ export default function ContactForm() {
         template: {
           name: "up9AECosZr2vUzVK7pLq",
           data: {
-            username: "BHFF",
-            usersEmail: email,
+            usersEmail: email
           },
         },
       });
@@ -243,8 +242,7 @@ export default function ContactForm() {
         template: {
           name: "aUrEhaugc1xApLSxbDrI",
           data: {
-            username: "BHFF",
-            usersEmail: email,
+            usersEmail: email
           },
         },
       });
@@ -277,6 +275,10 @@ export default function ContactForm() {
         fileDownloadLink: fileDownloadLink,
         ref: fileRef,
       };
+      let today = new Date();
+      let date = today.getFullYear() + '-' + (today.getMonth()+1) + '-' + today.getDate();
+      let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+      let dateTime = date + ' ' + time;
       let registrationObject = {
         id: generateID(26),
         usersEmail: email,
@@ -292,11 +294,12 @@ export default function ContactForm() {
         usersVaxStatus: vaxStatus,
         usersTalentPool: talentPool,
         usersResume: fileInfo,
+        usersTimeOfRegistration: dateTime
       };
       registrationObject.usersDiscountCode = discountCode
         ? discountCode
         : "no discount code";
-      db.collection("flsregistrations")
+      db.collection("fls-registrations")
         .doc(registrationObject.id)
         .set(registrationObject)
         .then(() => {
