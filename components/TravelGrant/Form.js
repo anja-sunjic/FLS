@@ -69,6 +69,7 @@ export default function ContactForm() {
   const [fileRef, setFileRef] = useState("");
   const [fileErrorMessage, setFileErrorMessage] = useState("");
 
+  //comment for commit
   //State which indicates is form ready to submit
   const [allInputValid, setAllInputValid] = useState({
     valid: false,
@@ -358,7 +359,7 @@ export default function ContactForm() {
         usersTalentPool: talentPool,
         usersResume: fileInfo,
       };
-      registrationObject.usersDiscountCode = discountCode?discountCode:""
+      registrationObject.usersDiscountCode = discountCode ? discountCode : ""
         ? discountCode
         : "no discount code";
       db.collection("flsregistrations")
@@ -401,7 +402,7 @@ export default function ContactForm() {
         let fileUpload = storageRef.put(file);
         fileUpload.on(
           "state_changed",
-          (snapshot) => {},
+          (snapshot) => { },
           (error) => {
             // Handle unsuccessful uploads
           },
