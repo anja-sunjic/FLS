@@ -35,6 +35,7 @@ const formFilled = [
   { id: "external_factors", filedName: "External factors", valid: false },
   { id: "household", filedName: "Household pool survey", valid: false },
   { id: "accommodation", filedName: "Accommodation pool survey", valid: false },
+  { id: "travel_from_tuzla", filedName: "Travel survey", valid: false },
   { id: "talent_pool", filedName: "FLS talent pool survey", valid: false },
   { id: "vax_pool", filedName: "Health protocol survey", valid: false },
   // { id: "discount_code", filedName: "Discount code", valid: false },
@@ -58,6 +59,7 @@ export default function ContactForm() {
   const [externalFactors, setExternalFactors] = useState("");
   const [household, setHousehold] = useState();
   const [accommodation, setAccommodation] = useState();
+  const [travel, setTravel] = useState();
   const [talentPool, setTalentPool] = useState();
   const [vaxStatus, setVaxStatus] = useState();
   const [loadingFile, setLoadingFile] = useState(false);
@@ -257,9 +259,8 @@ export default function ContactForm() {
       return true;
     }
   };
-
-  const validateTalentPool = () => {
-    if (talentPool) {
+  const validateTravelSurvey = () => {
+    if (travel) {
       formFilled[14].valid = true;
       return false;
     } else {
@@ -268,12 +269,22 @@ export default function ContactForm() {
     }
   };
 
-  const validateVaxComplience = () => {
-    if (vaxStatus) {
+  const validateTalentPool = () => {
+    if (talentPool) {
       formFilled[15].valid = true;
       return false;
     } else {
       formFilled[15].valid = false;
+      return true;
+    }
+  };
+
+  const validateVaxComplience = () => {
+    if (vaxStatus) {
+      formFilled[16].valid = true;
+      return false;
+    } else {
+      formFilled[16].valid = false;
       return true;
     }
   };
@@ -329,7 +340,7 @@ export default function ContactForm() {
         }
         countValidData++;
       });
-    if (countValidData == 16) {
+    if (countValidData == 17) {
       setAllInputValid({ valid: true, invalidField: "" });
       //sendEmail();
       //This is place for calling POST API nad registring. This console log print all data collected on form!
@@ -667,6 +678,25 @@ export default function ContactForm() {
           styles={classes.lista}
         />
         {validateAccommodationSurvey() && (
+          <p className={classes.required_field}>This is required</p>
+        )}
+      </div>
+      <div className="form-control">
+        <div tabIndex="-1" id="travel_from_tuzla" className="form-label">
+          Do you need travel expenses covered to and from Tuzla?*
+        </div>
+        <Select
+          instanceId="travel_select"
+          options={[
+            { value: "Yes", label: "Yes" },
+            { value: "No", label: "No" },
+          ]}
+          onChange={(e) => setTravel(e.value)}
+          placeholder="Select"
+          required
+          styles={classes.lista}
+        />
+        {validateTravelSurvey() && (
           <p className={classes.required_field}>This is required</p>
         )}
       </div>
