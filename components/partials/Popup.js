@@ -1,7 +1,6 @@
 import React from "react";
 //import { FaTimes } from "@react-icons/all-files/fa/FaTimes";
 export default function Popup(props) {
-  console.log(props);
   return (
     <>
       <div className={`_popup ${props.open ? "open" : ""}`}>

@@ -1,11 +1,24 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
 import Select from "react-select";
 import Popup from "../partials/Popup";
-import emailjs, { init } from "emailjs-com";
 import classes from "./stil.module.css";
+import { fb, db } from '../../backend/firebase'
+import Swal from "sweetalert2";
+
+const Toast = Swal.mixin({
+  toast: true,
+  position: "top-end",
+  showConfirmButton: false,
+  timer: 3000,
+  timerProgressBar: true,
+  onOpen: (toast) => {
+    toast.addEventListener("mouseenter", Swal.stopTimer);
+    toast.addEventListener("mouseleave", Swal.resumeTimer);
+  },
+});
 
 var formFilled = [
   { id: "full_name", filedName: "Full name", valid: false },
@@ -18,14 +31,11 @@ var formFilled = [
   { id: "graduation_year", filedName: "Graduation year", valid: false },
   { id: "city_of_living", filedName: "City of living", valid: false },
   { id: "talent_pool", filedName: "FLS talent pool survey", valid: false },
-  { id: "vax_pool", filedName: "Healt protocol survey", valid: false },
-  { id: "discount_code", filedName: "Discount code", valid: false },
+  { id: "vax_pool", filedName: "Health protocol survey", valid: false },
+  { id: "discount_code", filedName: "Discount code", valid: false }
 ];
 
 export default function ContactForm() {
-  init("user_Q5L30y8LNQIOeMM8hVm1o");
-  const form = useRef();
-
   //States of the form fields
   const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
@@ -37,10 +47,17 @@ export default function ContactForm() {
   const [fieldOfStudy, setfieldOfStudy] = useState("");
   const [finalYearOfStudy, setfinalYearOfStudy] = useState("");
   const [cityOfStudy, setCityOfStudy] = useState("");
-  const [selectedFile, setSelectedFile] = useState();
   const [discountCode, setDiscountCode] = useState("");
   const [talentPool, setTalentPool] = useState();
   const [vaxStatus, setVaxStatus] = useState();
+  const [loadingFile, setLoadingFile] = useState(false)
+  const [fileLoaded, setFileLoaded] = useState(false)
+  const [fileName, setFileName] = useState("")
+  const [fileDownloadLink, setFileDownloadLink] = useState("")
+  const [fileType, setFileType] = useState("");
+  const [fileSize, setFileSize] = useState(0);
+  const [fileRef, setFileRef] = useState("");
+  const [fileErrorMessage, setFileErrorMessage] = useState("");
 
   //State which indicates is form ready to submit
   const [allInputValid, setAllInputValid] = useState({
@@ -77,68 +94,6 @@ export default function ContactForm() {
         "I will have proof of COVID-19 recovery issued by my doctor not older than 6 months by the event date",
     },
   ];
-
-  //Methods for validation of required fields
-  const sendEmail = () => {
-    if (discount.length === 13) {
-      console.log("without discount");
-      emailjs
-        .sendForm(
-          "service_d7rjikp",
-          "fls_registration_form",
-          ( fullName,
-            email,
-            dob,
-            number,
-            linkedInProfile,
-            academicStatus,
-            university,
-            fieldOfStudy,
-            finalYearOfStudy,
-            cityOfStudy,
-            selectedFile,
-            talentPool,
-            discountCode,
-            vaxStatus),
-          "user_Q5L30y8LNQIOeMM8hVm1o"
-        )
-        .then(
-          (result) => {
-            console.log(result);
-          },
-          (error) => {
-          }
-        );
-    } else {
-      console.log("with discount");
-      emailjs
-        .sendForm(
-          "service_d7rjikp",
-          "fls_registration_form_dc",
-          ( fullName,
-            email,
-            dob,
-            number,
-            linkedInProfile,
-            academicStatus,
-            university,
-            fieldOfStudy,
-            finalYearOfStudy,
-            cityOfStudy,
-            selectedFile,
-            talentPool,
-            discountCode,
-            vaxStatus),
-          "user_Q5L30y8LNQIOeMM8hVm1o"
-        ).then(
-          (result) => {
-            console.log(result);
-          },
-          (error) => {
-          }
-        );
-    }
-  };
 
   const validateName = () => {
     if (fullName.length < 3) {
@@ -220,7 +175,7 @@ export default function ContactForm() {
   };
 
   const validateYearOfStudyEnd = (finalYearOfStudy) => {
-    const regex = /^[1-9]{4}$/;
+    const regex = /^[0-9]{4}$/;
     const yearOfStudyValid = regex.test(String(finalYearOfStudy).toLowerCase());
     if (!yearOfStudyValid) {
       formFilled[7].valid = false;
@@ -272,6 +227,32 @@ export default function ContactForm() {
     }
   };
 
+  const sendMail = (email) => {
+    if(discountCode != "") {
+      db.collection('mail').add({
+        to: email,
+        template: {
+          name: 'up9AECosZr2vUzVK7pLq',
+          data: {
+            username: "BHFF",
+            usersEmail: email
+          }
+        },
+      })
+    } else {
+      db.collection('mail').add({
+        to: email,
+        template: {
+          name: 'aUrEhaugc1xApLSxbDrI',
+          data: {
+            username: "BHFF",
+            usersEmail: email
+          }
+        },
+      })
+    }
+  }
+
   //Method for validation of input Data. This is called on clink "Submit"
   const validateOnSubmit = () => {
     var countValidData=0;
@@ -284,35 +265,92 @@ export default function ContactForm() {
       }
       countValidData++;
     });
-    console.log(countValidData);
-    if(countValidData==12){
+    if(countValidData==12) {
       setAllInputValid({valid:true, invalidField: "" });
-
-      //all inputs are valid so we open pop up modal
-      setOpen(true);
-      sendEmail();
+      //sendEmail();
       //This is place for calling POST API nad registring. This console log print all data collected on form!
-      console.log(
-        fullName,
-        email,
-        dob,
-        number,
-        linkedInProfile,
-        academicStatus,
-        university,
-        fieldOfStudy,
-        finalYearOfStudy,
-        cityOfStudy,
-        selectedFile,
-        talentPool,
-        discountCode,
-        vaxStatus
-      );
+      let fileInfo = {
+        name: fileName,
+        fileType: fileType,
+        fileSize: fileSize,
+        fileDownloadLink: fileDownloadLink,
+        ref: fileRef
+      }
+      let registrationObject = {
+        id: generateID(26),
+        usersEmail: email,
+        usersFullName: fullName,
+        usersBirthDate: dob,
+        usersGraduationYear: finalYearOfStudy,
+        usersUniversity: university,
+        usersNumber: number,
+        usersAcademicStatus: academicStatus,
+        usersCity: cityOfStudy,
+        usersLinkedinProfile: linkedInProfile,
+        usersFieldOfStudy: fieldOfStudy,
+        usersVaxStatus: vaxStatus,
+        usersTalentPool: talentPool,
+        usersResume: fileInfo
+      }
+      registrationObject.usersDiscountCode = discountCode ?  discountCode : "no discount code"
+      db.collection("flsregistrations")
+        .doc(registrationObject.id)
+        .set(registrationObject)
+        .then(() => {
+            setOpen(true);
+            sendMail(email)
+            setLoadingFile(false)
+            setFileLoaded(false)
+        })
+        .catch(error => {
+            Toast.fire({
+                icon: "error",
+                title: error,
+            });
+        }); 
     }
   };
 
-  // console.log(allInputValid);
-  // console.log(formFilled);
+  const generateID = (length) => {
+    var ret = "";
+    while (ret.length < length) {
+      ret += Math.random().toString(16).substring(2);
+    }
+    return ret.substring(0, length);
+  }
+
+  const addFile = (e) => {
+    if (e.target.files[0]) {
+      if(e.target.files[0].size > 2500000) {
+        setFileErrorMessage("File is too large.")
+        return
+      } else {
+        setFileErrorMessage("")
+        setLoadingFile(true)
+        let file = e.target.files[0];
+        let fileReference = "files/" + Math.random() + "_" + fileName
+        var storageRef = fb.storage().ref(fileReference);
+        let fileUpload = storageRef.put(file);
+        fileUpload.on("state_changed", (snapshot) => {},
+                (error) => {
+                // Handle unsuccessful uploads
+                },
+                () => {
+                // Handle successful uploads on complete
+                // For instance, get the download URL: https://firebasestorage.googleapis.com/...
+                fileUpload.snapshot.ref.getDownloadURL().then((downloadURL) => {
+                    setFileName(file.name);
+                    setFileDownloadLink(downloadURL);
+                    setFileType(file.type)
+                    setFileSize(file.size)
+                    setFileRef(fileReference)
+                    setFileLoaded(true)
+                });
+            }
+        );
+      }
+    }
+  } 
 
   return (
     <div style={{ width: "75%" }}>
@@ -500,16 +538,20 @@ export default function ContactForm() {
         <input
           accept=".doc,.docx,.pdf"
           type="file"
-          name="selectedFile"
-          onChange={(event) => setSelectedFile(event.target.files[0])}
+          name="resume"
+          onChange={e => addFile(e)}
         />
-        {selectedFile ? (
+        {fileName ? (
           <div>
-            <p>Filename: {selectedFile.name}</p>
+            <p>Filename: {fileName}</p>
           </div>
         ) : (
           <p>Upload a file (PDF, DOCX), file size limit is 2MB</p>
         )}
+        <p className={classes.required_field}> {fileErrorMessage}</p>
+        {loadingFile == false && fileLoaded == false ? <p></p> : 
+        loadingFile == true && fileLoaded == false ? <p>"Please wait for the file to load.."</p> : 
+        <p>File Loaded successfully</p>}
 
         <p className="form-note">
           If you agreed to become part of the FLS’21 Talent Pool, it is
