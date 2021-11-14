@@ -561,7 +561,7 @@ export default function ContactForm() {
         {loadingFile == false && fileLoaded == false ? (
           <p></p>
         ) : loadingFile == true && fileLoaded == false ? (
-          <p>"Please wait for the file to load.."</p>
+          <p>&#34;Please wait for the file to load..&#34;</p>
         ) : (
           <p>File Loaded successfully</p>
         )}
