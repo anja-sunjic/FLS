@@ -480,7 +480,7 @@ export default function ContactForm() {
       </div>
       <div className="form-control">
         <div className="form-label">
-          Graduation year(or expected year of graduation):*
+          Graduation year (or expected year of graduation):*
         </div>
         <input
           id="graduation_year"
