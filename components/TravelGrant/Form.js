@@ -52,7 +52,7 @@ export default function ContactForm() {
   const [fieldOfStudy, setfieldOfStudy] = useState("");
   const [finalYearOfStudy, setfinalYearOfStudy] = useState("");
   const [cityOfStudy, setCityOfStudy] = useState("");
-  // const [discountCode, setDiscountCode] = useState("");
+  const [discountCode, setDiscountCode] = useState("");
   const [motivation, setMotivation] = useState("");
   const [impact, setImpact] = useState("");
   const [externalFactors, setExternalFactors] = useState("");
@@ -331,7 +331,7 @@ export default function ContactForm() {
         }
         countValidData++;
       });
-    if (countValidData == 14) {
+    if (countValidData == 16) {
       setAllInputValid({ valid: true, invalidField: "" });
       //sendEmail();
       //This is place for calling POST API nad registring. This console log print all data collected on form!
@@ -358,7 +358,7 @@ export default function ContactForm() {
         usersTalentPool: talentPool,
         usersResume: fileInfo,
       };
-      registrationObject.usersDiscountCode = discountCode
+      registrationObject.usersDiscountCode = discountCode?discountCode:""
         ? discountCode
         : "no discount code";
       db.collection("flsregistrations")
