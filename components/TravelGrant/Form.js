@@ -288,8 +288,6 @@ export default function ContactForm() {
   //   }
   // };
 
-
-
   const sendMail = (email) => {
     if (discountCode != "") {
       db.collection("mail").add({
@@ -358,7 +356,9 @@ export default function ContactForm() {
         usersTalentPool: talentPool,
         usersResume: fileInfo,
       };
-      registrationObject.usersDiscountCode = discountCode?discountCode:""
+      registrationObject.usersDiscountCode = discountCode
+        ? discountCode
+        : ""
         ? discountCode
         : "no discount code";
       db.collection("flsregistrations")
@@ -722,7 +722,7 @@ export default function ContactForm() {
         {loadingFile == false && fileLoaded == false ? (
           <p></p>
         ) : loadingFile == true && fileLoaded == false ? (
-          <p>"Please wait for the file to load.."</p>
+          <p>&#34;Please wait for the file to load..&#34;</p>
         ) : (
           <p>File Loaded successfully</p>
         )}
