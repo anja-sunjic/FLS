@@ -26,12 +26,12 @@ export default function Ending() {
                 <br /> <br /> More details about the grant&#39;s scalability you
                 can find on the Travel Grant Registration Page.
                 <br /> <br />
-                <div className="italic">
+                <span className="italic">
                   Note: Bosnia and Herzegovina Futures Foundation Senior
                   Scholars and selected volunteers automatically receive the
                   travel grant based on their scholarships and active engagement
                   as volunteers.
-                </div>
+                </span>
               </p>
             </div>
           </div>
