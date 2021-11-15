@@ -1,5 +1,7 @@
 import Image from "next/image";
 import heroimg from "../../public/hero.webp";
+import Link from "next/link";
+
 export default function Hero() {
   return (
     <>
@@ -19,7 +21,11 @@ export default function Hero() {
             <img src="/hero-logo.svg" alt="Futures Leaders Summit" />
           </div>
           <div className="dots is-hidden-touch">
-            <img src="/dots.svg" alt="Futures Leaders Summit" />
+            <Link href="/registration" >
+              <a className="contact-button is-hidden-touch">
+                <span>Get Tickets</span>
+              </a>
+            </Link>
           </div>
         </div>
       </div>
