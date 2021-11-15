@@ -37,9 +37,8 @@ export default function Header() {
   return (
     <>
       <header
-        className={`header ${shadowStyle}  ${
-          isMobileMenu ? "active" : "not-active"
-        } ${isMobileMenu ? "" : hiddenStyle}`}
+        className={`header ${shadowStyle}  ${isMobileMenu ? "active" : "not-active"
+          } ${isMobileMenu ? "" : hiddenStyle}`}
       >
         <div className="inner">
           <Link href="/">
@@ -80,9 +79,9 @@ export default function Header() {
               </ul>
             </div>
           </nav>
-          <Link href="/contact">
+          <Link href="/registration">
             <a className="contact-button is-hidden-touch">
-              <span>Contact Us</span>
+              <span>Get Tickets</span>
             </a>
           </Link>
           <div
@@ -101,9 +100,8 @@ export default function Header() {
       </header>
       {isMobileMenu && (
         <div
-          className={`mobile-menu is-hidden-desktop ${
-            isMobileMenu ? "active" : "not-active"
-          }`}
+          className={`mobile-menu is-hidden-desktop ${isMobileMenu ? "active" : "not-active"
+            }`}
         >
           <ul className="links">
             <li
