@@ -316,7 +316,7 @@ export default function ContactForm() {
         ref: fileRef,
       };
       let today = new Date();
-      let date = today.getFullYear() + '-' + (today.getMonth()+1) + '-' + today.getDate();
+      let date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
       let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
       let dateTime = date + ' ' + time;
       let registrationObject = {
@@ -345,8 +345,8 @@ export default function ContactForm() {
       registrationObject.usersDiscountCode = discountCode
         ? discountCode
         : ""
-        ? discountCode
-        : "no discount code";
+          ? discountCode
+          : "no discount code";
       db.collection("fls-travel-grants")
         .doc(registrationObject.id)
         .set(registrationObject)
@@ -386,7 +386,7 @@ export default function ContactForm() {
         let fileUpload = storageRef.put(file);
         fileUpload.on(
           "state_changed",
-          (snapshot) => {},
+          (snapshot) => { },
           (error) => {
             // Handle unsuccessful uploads
           },
@@ -530,7 +530,7 @@ export default function ContactForm() {
       </div>
       <div className="form-control">
         <div className="form-label">
-          Graduation year(or expected year of graduation):*
+          Graduation year (or expected year of graduation):*
         </div>
         <input
           id="graduation_year"
