@@ -38,6 +38,11 @@ export default function Home() {
           title="fls ‘21 health & safety protocols"
           url="/protocols"
         /> */}
+        <CTAsection
+          button="Get Tickets"
+          title="Don't miss this opportunity"
+          url="/registration"
+        />
         <Decor />
       </div>
       <Footer />
