@@ -16,13 +16,15 @@ export default function Purpose() {
                 recovery issued by your doctor not older than 6 months. For those
                 attendees who would need to do the test, the FLS Organizing Team
                 will provide advice and guidelines. <br /> <br /> Read more about
-                FLS&#39;21 Health and Safety Protocols <Link href="/protocols"><a>here</a></Link>.
+                FLS&#39;21 Health and Safety Protocols <Link href="/protocols"><a className="link-black-bold-underline">here</a></Link>.
               </p>
             </div>
             <div className="health-safety-center">
-              <h2>
-                FLS&#39;21 HEALTH AND <br /> SAFETY PROTOCOLS
-              </h2>
+              <Link href="/protocols">
+                <h2>
+                  <a className="link-black">FLS&#39;21 HEALTH AND <br /> SAFETY PROTOCOLS</a>
+                </h2>
+              </Link>
             </div>
           </div>
         </div>

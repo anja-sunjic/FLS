@@ -82,6 +82,26 @@ img {
 		outline: none;
 	}
 }
+
+.center-text {
+	text-align: center;
+}
+
+.link-black {
+	color: black;
+}
+
+.link-black-bold-underline {
+	color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.health-safety-center {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
 //import all files
 @import './partials/all';
 @import './animations';
