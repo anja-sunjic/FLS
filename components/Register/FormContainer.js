@@ -34,7 +34,7 @@ export default function FormContainer() {
         <div className="columns">
           <div className="column is-4">
             <div className="left">
-              <p className="price">120 BAM</p>
+              <p className="price">90 BAM</p>
               <div className="line-decor is-hidden-touch">
                 <img src="/dots.svg" alt="Futures Leaders Summit" />
               </div>

@@ -19,7 +19,7 @@ export default function Ending() {
                 Together with our sponsors and partners, we are giving away
                 Travel Grants for promising STEM students and recent graduates
                 coming from any faculty from Bosnia and Herzegovina.
-                <br /> <br /> The worth of a maximum Travel Grant is 250 BAM,
+                <br /> <br /> The worth of a maximum Travel Grant is 200 BAM,
                 and it covers your Summit ticket, accommodation (max. three
                 nights) and travel expenses (to and from Tuzla from any town in
                 Bosnia and Herzegovina).
