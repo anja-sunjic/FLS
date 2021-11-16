@@ -74,6 +74,9 @@ export default function FormContainer() {
             After the submission of your application, our team will reach out to
             you in a couple of weeks.
           </p>
+          <div className="line-decor is-hidden-touch">
+            <img src="/dots.svg" alt="Futures Leaders Summit" />
+          </div>
         </div>
       </div>
       <section className="section form-container register">
