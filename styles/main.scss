@@ -85,6 +85,7 @@ img {
 
 .fls-list { 
   padding: 0;
+	font-size: crem(27px);
 }
 
 .fls-list-item {
@@ -117,6 +118,12 @@ img {
 
 .link-black-bold-underline {
 	color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.link-yellow-bold-underline {
+	color: #f1dc13;
   font-weight: bold;
   text-decoration: underline;
 }
