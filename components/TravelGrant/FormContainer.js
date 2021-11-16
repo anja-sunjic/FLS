@@ -42,13 +42,13 @@ export default function FormContainer() {
             multiple travel grant tiers where we cover:
           </p>
           <p>
-            <ul>
-              <li>TIER #1: only the Summit ticket (90 KM)</li>
-              <li>
+            <ul className="fls-list">
+              <li className="fls-list-item">TIER #1: only the Summit ticket (90 KM)</li>
+              <li className="fls-list-item">
                 TIER #2: the Summit Ticket and travel expenses (90 KM +
                 ticket/fuel reimbursement)
               </li>
-              <li>
+              <li className="fls-list-item">
                 TIER #3: the Summit Ticket, travel expenses, and accommodation
                 (90 KM + ticket/fuel reimbursement + costs of max. three nights
                 stay).
