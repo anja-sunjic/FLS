@@ -43,14 +43,14 @@ export default function FormContainer() {
           </p>
           <p>
             <ul>
-              <li>TIER #1: only the Summit ticket (120KM)</li>
+              <li>TIER #1: only the Summit ticket (90 KM)</li>
               <li>
-                TIER #2: the Summit Ticket and travel expenses (120 KM +
+                TIER #2: the Summit Ticket and travel expenses (90 KM +
                 ticket/fuel reimbursement)
               </li>
               <li>
                 TIER #3: the Summit Ticket, travel expenses, and accommodation
-                (120 KM + ticket/fuel reimbursement + costs of max. three nights
+                (90 KM + ticket/fuel reimbursement + costs of max. three nights
                 stay).
               </li>
             </ul>
