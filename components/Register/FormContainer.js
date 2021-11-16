@@ -44,8 +44,8 @@ export default function FormContainer() {
             <div className="center">
               <p className="line">8 Keynote Speakers</p>
               <p className="line">2 Panel Discussions</p>
-              <p className="line">12 Workshops</p>
-              <p className="line">6 Company Visits</p>
+              <p className="line">10 Workshops</p>
+              <p className="line">5 Tech Tutorials/Company Visits</p>
             </div>
           </div>
           <div className="column is-5">

@@ -24,7 +24,10 @@ export default function Ending() {
                 nights) and travel expenses (to and from Tuzla from any town in
                 Bosnia and Herzegovina).
                 <br /> <br /> More details about the grant&#39;s scalability you
-                can find on the Travel Grant Registration Page.
+                can find on the <br /> 
+                <Link href="/registration/travel-grant-application">
+                  <a className="link-yellow-bold-underline">Travel Grant Registration Page.</a>
+                </Link>
                 <br /> <br />
                 <span className="italic">
                   Note: Bosnia and Herzegovina Futures Foundation Senior

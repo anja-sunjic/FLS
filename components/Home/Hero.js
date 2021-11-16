@@ -20,9 +20,9 @@ export default function Hero() {
           <div className="hero-logo">
             <img src="/hero-logo.svg" alt="Futures Leaders Summit" />
           </div>
-          <div className="dots is-hidden-touch">
+          <div className="dots">
             <Link href="/registration" >
-              <a className="contact-button is-hidden-touch">
+              <a className="contact-button">
                 <span>Get Tickets</span>
               </a>
             </Link>

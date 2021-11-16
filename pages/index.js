@@ -40,7 +40,7 @@ export default function Home() {
         /> */}
         <CTAsection
           button="Get Tickets"
-          title="Don't miss this opportunity"
+          title="Don't miss this opportunity!"
           url="/registration"
         />
         <Decor />
