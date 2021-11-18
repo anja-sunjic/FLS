@@ -41,20 +41,18 @@ export default function FormContainer() {
             Travel grants are divided in the following three tiers, there are
             multiple travel grant tiers where we cover:
           </p>
-          <p>
-            <ul>
-              <li>TIER #1: only the Summit ticket (90 KM)</li>
-              <li>
-                TIER #2: the Summit Ticket and travel expenses (90 KM +
-                ticket/fuel reimbursement)
-              </li>
-              <li>
-                TIER #3: the Summit Ticket, travel expenses, and accommodation
-                (90 KM + ticket/fuel reimbursement + costs of max. three nights
-                stay).
-              </li>
-            </ul>
-          </p>
+          <ul className="fls-list">
+            <li className="fls-list-item">TIER #1: only the Summit ticket (90 KM)</li>
+            <li className="fls-list-item">
+              TIER #2: the Summit Ticket and travel expenses (90 KM +
+              ticket/fuel reimbursement)
+            </li>
+            <li className="fls-list-item">
+              TIER #3: the Summit Ticket, travel expenses, and accommodation
+              (90 KM + ticket/fuel reimbursement + costs of max. three nights
+              stay).
+            </li>
+          </ul>
           <p>
             In accordance with the needs and requirements, the FLS Organizing
             Team will provide as much as possible TIER #3 grants. In case of
@@ -74,6 +72,9 @@ export default function FormContainer() {
             After the submission of your application, our team will reach out to
             you in a couple of weeks.
           </p>
+          <div className="line-decor is-hidden-touch">
+            <img src="/dots.svg" alt="Futures Leaders Summit" />
+          </div>
         </div>
       </div>
       <section className="section form-container register">
