@@ -89,7 +89,7 @@ export const wed = [
 		events: [
 			{
 				id: 8,
-				title: '',
+				title: 'Take the knowledge out of the box and play with it: Creating your own educational pathway through interdisciplinary approaches and significant learning',
 				speakerIds: [1],
 				speakers: ['Zinka Bejtić'],
 				desc: '',
