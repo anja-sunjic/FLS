@@ -22,7 +22,7 @@ export default function Body(props) {
         </div> */}
         <div className="container">
           <div className="speaker-inner">
-            <div className="left">
+            <div className="left speaker-info">
               <div className="speaker-img image">
                 <Image
                   src={props.speaker.img}
