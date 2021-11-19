@@ -514,9 +514,9 @@ export const wed = [
 	  events: [
 		{
 		  id: 32,
-		  title: 'Session Name TBA',
-		  speakerIds: [],
-		  speakers: [],
+		  title: 'Being Excellent: Your Career as a Journey',
+		  speakerIds: [1],
+		  speakers: ['Miralem Salihovic'],
 		  desc: '',
   
 		  tags: ['F2F', 'Online'],
