@@ -7,6 +7,7 @@ export const speakers = [
       "Professor, Head of Department of Art and Design at American University of Sharjah",
     li: "https://www.linkedin.com/in/zinkabejtic",
     img: "/speakers/zinka.jpg",
+    bio: "Dr. Zinka Bejtic is the Head of the Department of Art and Design at the American University of Sharjah in the United Arab Emirates, where she also teaches film and digital media courses. With a Ph.D. in Educational Psychology and 24 years of teaching experience, Zinka is dedicated to examining and advancing pedagogies of creative studio-based disciplines. Her research helps educators develop and enhance distinct teaching modalities that target individual students' needs, enhance their motivation and engagement, and constitute relaxed and nurturing learning environments."
   },
   {
     id: 2,
