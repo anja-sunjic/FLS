@@ -41,7 +41,7 @@ export default function Partners() {
 							/>
 						</div>
 						<div className='partner'>
-							<span className='role'>Silver sponsor</span>
+							<span className='role'>Silver Sponsor</span>
 							<PartnerLogo
 								url='https://www.mistral.ba/'
 								img='/partners/Mistral.png'
