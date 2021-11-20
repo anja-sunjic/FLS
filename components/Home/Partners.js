@@ -35,10 +35,12 @@ export default function Partners() {
 								<PartnerLogo
 									url='https://www.dkr.ba/en/'
 									img='/partners/DKR.png'
+									size='3.5rem'
 								/>
 								<PartnerLogo
 									url='https://www.porschebh.ba/'
 									img='/partners/PorscheBHallwhite.png'
+									size='3.5rem'
 								/>
 							</div>
 						</div>
@@ -47,7 +49,7 @@ export default function Partners() {
 							<PartnerLogo
 								url='https://www.mistral.ba/'
 								img='/partners/Mistral.png'
-								size="10rem"
+								size="9rem"
 							/>
 						</div>
 						<div className='partner'>
@@ -55,7 +57,7 @@ export default function Partners() {
 							<PartnerLogo
 								url='https://tehnograd-company.ba/'
 								img='/partners/TehnogradCompany.png'
-								size="9rem"
+								size="7rem"
 							/>
 						</div>
 						<div className='partner'>
