@@ -59,7 +59,7 @@ export default function Partners() {
 							/>
 						</div>
 						<div className='partner'>
-							<span className='role'>Organizing Partner</span>
+							<span className='role'>Organizing Partners</span>
 							<a href='https://bhing.ba/' target='_blank' rel='noreferrer'>
 								<img
 									src='/partners/bhing.png'
