@@ -30,7 +30,10 @@ export default function Intro() {
             </div>
           </Link>
           <Link href="/registration/register">
-            <h4 className="_link">Have a discount code?</h4>
+            <h3 className="_link">Have a discount code?</h3>
+          </Link>
+          <Link href="/registration/travel-grant-application">
+            <h4 className="_link">Apply for a travel grant now!</h4>
           </Link>
         </div>
       </div>
