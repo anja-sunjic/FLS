@@ -31,14 +31,16 @@ export default function Partners() {
 						</div>
 						<div className='partner'>
 							<span className='role'>Gold sponsors</span>
-							<PartnerLogo
-								url='https://www.dkr.ba/en/'
-								img='/partners/DKR.png'
-							/>
-							<PartnerLogo
-								url='https://www.porschebh.ba/'
-								img='/partners/PorscheBHallwhite.png'
-							/>
+							<div className='other'>
+								<PartnerLogo
+									url='https://www.dkr.ba/en/'
+									img='/partners/DKR.png'
+								/>
+								<PartnerLogo
+									url='https://www.porschebh.ba/'
+									img='/partners/PorscheBHallwhite.png'
+								/>
+							</div>
 						</div>
 						<div className='partner'>
 							<span className='role'>Bronze sponsors</span>
