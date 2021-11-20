@@ -83,6 +83,10 @@ export default function Partners() {
 									url='https://www.softhouse.se/en/kontakt/sarajevo/'
 									img='/partners/Softhouse.png'
 								/>
+								<PartnerLogo
+									url='https://liderlab.center/'
+									img='/partners/LiderLab.png'
+								/>
 							</div>
 						</div>
 					</div>
