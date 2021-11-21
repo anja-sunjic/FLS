@@ -51,15 +51,6 @@ export const wed = [
 				tags: ['F2F'],
 				company: 1,
 			},
-			{
-				id: 6,
-				title: 'Session Name TBA',
-				speakerIds: [],
-				speakers: ['TBA'],
-				desc: '',
-				tags: ['F2F'],
-				company: 1,
-			},
 		],
 	},
 	{
@@ -142,16 +133,16 @@ export const wed = [
 	},
 	{
 		time: 'TBA',
-		type: 'Social, Partner Event',
+		type: 'Social',
 		events: [
 			{
 				id: 11,
-				title: 'Showcasing STEM Superwomen from Bosnia and Herzegovina',
+				title: 'FLS\'21 get-together - Holidays edition',
 				speakerIds: [],
 				speakers: [],
 				desc: '',
 
-				tags: ['Invite Only'],
+				tags: ['F2F'],
 				company: 1,
 			},
 		],
@@ -161,7 +152,7 @@ export const wed = [
 export const thu = [
 	{
 		time: 'TBA',
-		type: 'Company Visit',
+		type: 'Tech Tutorial/Company Visit',
 		events: [
 			{
 				id: 12,
@@ -205,16 +196,6 @@ export const thu = [
 			},
 			{
 				id: 16,
-				title: 'Session Name TBA',
-				speakerIds: [],
-				speakers: [],
-				desc: '',
-
-				tags: ['F2F'],
-				company: 1,
-			},
-			{
-				id: 17,
 				title: 'Session Name TBA',
 				speakerIds: [],
 				speakers: [],
@@ -393,16 +374,6 @@ export const fri = [
 			},
 			{
 				id: 28,
-				title: 'Session Name TBA',
-				speakerIds: [],
-				speakers: [],
-				desc: '',
-
-				tags: ['F2F'],
-				company: 1,
-			},
-			{
-				id: 29,
 				title: 'Session Name TBA',
 				speakerIds: [],
 				speakers: [],
