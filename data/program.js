@@ -382,16 +382,6 @@ export const wed = [
 		  tags: ['F2F'],
 		  company: 1,
 		},
-		{
-		  id: 29,
-		  title: 'Session Name TBA',
-		  speakerIds: [],
-		  speakers: [],
-		  desc: '',
-
-		  tags: ['F2F'],
-		  company: 1,
-		},
 	  ],
 	},
 	{
