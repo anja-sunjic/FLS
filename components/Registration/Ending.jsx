@@ -2,7 +2,7 @@ import Link from "next/link";
 export default function Ending() {
   return (
     <>
-      <section className="intro bottom hero protocols">
+      <section className="intro bottom hero protocols bg-decor">
         <div className="container">
           <div className="hero-img blur"></div>
           <div className="reg_ending_container">
@@ -13,6 +13,9 @@ export default function Ending() {
                   <span>Get travel grant</span>
                 </div>
               </Link>
+              <div className="line-decor is-hidden-touch discount-line">
+                <img src="/dots.svg" alt="Futures Leaders Summit" />
+              </div>
             </div>
             <div className="right">
               <p>
