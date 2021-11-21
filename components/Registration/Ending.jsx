@@ -9,7 +9,7 @@ export default function Ending() {
             <div className="left">
               <h1 className="discountheader">You want a 100% discount?</h1>
               <Link href="/registration/travel-grant-application">
-                <div className="contact-button">
+                <div className="contact-button mobile-margin">
                   <span>Get travel grant</span>
                 </div>
               </Link>
