@@ -1,66 +1,57 @@
 export const wed = [
 	{
-	  time: 'TBA',
-	  type: 'Workshop',
-	  events: [
-		{
-		  id: 1,
-		  title:
-			'Design the career you want: From skills to finding your North Star',
-		  speakerIds: [6],
-		  speakers: ['Melita Kurtović'],
-		  desc: '',
-		  tags: ['F2F'],
-		  company: 1,
-		},
-		{
-		  id: 2,
-		  title:
-			'Interdisciplinary integration as a pillar of pharmaceutical industry ',
-		  speakerIds: [7],
-		  speakers: ['Amra Ibrić'],
-		  desc: ' ',
-		  tags: ['F2F'],
-		  company: 1,
-		},
-		{
-		  id: 3,
-		  title: 'Session Name TBA',
-		  speakerIds: [],
-		  speakers: [],
-		  desc: '',
-  
-		  tags: ['F2F'],
-		  company: 1,
-		},
-		{
-		  id: 4,
-		  title: 'Session Name TBA',
-		  speakerIds: [],
-		  speakers: ['TBA'],
-		  desc: '',
-		  tags: ['F2F'],
-		  company: 1,
-		},
-		{
-		  id: 5,
-		  title: 'Session Name TBA',
-		  speakerIds: [],
-		  speakers: ['TBA'],
-		  desc: '',
-		  tags: ['F2F'],
-		  company: 1,
-		},
-		{
-		  id: 6,
-		  title: 'Session Name TBA',
-		  speakerIds: [],
-		  speakers: ['TBA'],
-		  desc: '',
-		  tags: ['F2F'],
-		  company: 1,
-		},
-	  ],
+		time: 'TBA',
+		type: 'Workshop',
+		events: [
+			{
+				id: 1,
+				title:
+					'Design the career you want: From skills to finding your North Star',
+				speakerIds: [5],
+				speakers: ['Melita Kurtović'],
+				desc: '',
+				tags: ['F2F'],
+				company: 1,
+			},
+			{
+				id: 2,
+				title:
+					'Interdisciplinary integration as a pillar of pharmaceutical industry ',
+				speakerIds: [6],
+				speakers: ['Amra Ibrić'],
+				desc: ' ',
+				tags: ['F2F'],
+				company: 1,
+			},
+			{
+				id: 3,
+				title: 'Session Name TBA',
+				speakerIds: [],
+				speakers: [],
+				desc: '',
+
+				tags: ['F2F'],
+				company: 1,
+			},
+			{
+				id: 4,
+				title: 'Session Name TBA',
+				speakerIds: [],
+				speakers: ['TBA'],
+				desc: '',
+				tags: ['F2F'],
+				company: 1,
+			},
+			{
+				id: 5,
+				title: 'Session Name TBA',
+				speakerIds: [],
+				speakers: ['TBA'],
+				desc: '',
+				tags: ['F2F'],
+				company: 1,
+			},
+		],
 	},
 	{
 	  time: 'TBA',
@@ -77,7 +68,7 @@ export const wed = [
 		  speakerIds: [],
 		  speakers: [],
 		  desc: '',
-  
+
 		  tags: ['F2F'],
 		  company: 1,
 		},
@@ -118,7 +109,7 @@ export const wed = [
 		  speakerIds: [5],
 		  speakers: ['Mario Baroševčić'],
 		  desc: '',
-  
+
 		  tags: ['F2F', 'Online'],
 		  company: 1,
 		},
@@ -134,96 +125,86 @@ export const wed = [
 		  speakerIds: [6],
 		  speakers: ['Melita Kurtović'],
 		  desc: '',
-  
+
 		  tags: ['F2F', 'Online'],
 		  company: 1,
 		},
 	  ],
 	},
 	{
-	  time: 'TBA',
-	  type: 'Social, Partner Event',
-	  events: [
-		{
-		  id: 11,
-		  title: 'Showcasing STEM Superwomen from Bosnia and Herzegovina',
-		  speakerIds: [],
-		  speakers: [],
-		  desc: '',
-  
-		  tags: ['Invite Only'],
-		  company: 1,
-		},
-	  ],
+		time: 'TBA',
+		type: 'Social',
+		events: [
+			{
+				id: 11,
+				title: 'FLS\'21 get-together - Holidays edition',
+				speakerIds: [],
+				speakers: [],
+				desc: '',
+
+				tags: ['F2F'],
+				company: 1,
+			},
+		],
 	},
   ];
-  
+
   export const thu = [
 	{
-	  time: 'TBA',
-	  type: 'Company Visit',
-	  events: [
-		{
-		  id: 12,
-		  title: 'Session Name TBA',
-		  speakerIds: [],
-		  speakers: [],
-		  desc: '',
-  
-		  tags: ['F2F'],
-		  company: 1,
-		},
-		{
-		  id: 13,
-		  title: 'Session Name TBA',
-		  speakerIds: [],
-		  speakers: [],
-		  desc: '',
-  
-		  tags: ['F2F'],
-		  company: 1,
-		},
-		{
-		  id: 14,
-		  title: 'Session Name TBA',
-		  speakerIds: [],
-		  speakers: [],
-		  desc: '',
-  
-		  tags: ['F2F'],
-		  company: 1,
-		},
-		{
-		  id: 15,
-		  title: 'Session Name TBA',
-		  speakerIds: [],
-		  speakers: [],
-		  desc: '',
-  
-		  tags: ['F2F'],
-		  company: 1,
-		},
-		{
-		  id: 16,
-		  title: 'Session Name TBA',
-		  speakerIds: [],
-		  speakers: [],
-		  desc: '',
-  
-		  tags: ['F2F'],
-		  company: 1,
-		},
-		{
-		  id: 17,
-		  title: 'Session Name TBA',
-		  speakerIds: [],
-		  speakers: [],
-		  desc: '',
-  
-		  tags: ['F2F'],
-		  company: 1,
-		},
-	  ],
+		time: 'TBA',
+		type: 'Tech Tutorial/Company Visit',
+		events: [
+			{
+				id: 12,
+				title: 'Session Name TBA',
+				speakerIds: [],
+				speakers: [],
+				desc: '',
+
+				tags: ['F2F'],
+				company: 1,
+			},
+			{
+				id: 13,
+				title: 'Session Name TBA',
+				speakerIds: [],
+				speakers: [],
+				desc: '',
+
+				tags: ['F2F'],
+				company: 1,
+			},
+			{
+				id: 14,
+				title: 'Session Name TBA',
+				speakerIds: [],
+				speakers: [],
+				desc: '',
+
+				tags: ['F2F'],
+				company: 1,
+			},
+			{
+				id: 15,
+				title: 'Session Name TBA',
+				speakerIds: [],
+				speakers: [],
+				desc: '',
+
+				tags: ['F2F'],
+				company: 1,
+			},
+			{
+				id: 16,
+				title: 'Session Name TBA',
+				speakerIds: [],
+				speakers: [],
+				desc: '',
+
+				tags: ['F2F'],
+				company: 1,
+			},
+		],
 	},
 	{
 	  time: 'TBA',
@@ -240,7 +221,7 @@ export const wed = [
 		  speakerIds: [],
 		  speakers: [],
 		  desc: '',
-  
+
 		  tags: ['F2F', 'Online'],
 		  company: 1,
 		},
@@ -256,7 +237,7 @@ export const wed = [
 		  speakerIds: [],
 		  speakers: [],
 		  desc: '',
-  
+
 		  tags: ['F2F', 'Online'],
 		  company: 1,
 		},
@@ -281,7 +262,7 @@ export const wed = [
 		  speakerIds: [3],
 		  speakers: ['Admir Mašić'],
 		  desc: '',
-  
+
 		  tags: ['F2F', 'Online'],
 		  company: 1,
 		},
@@ -297,7 +278,7 @@ export const wed = [
 		  speakerIds: [],
 		  speakers: [],
 		  desc: '',
-  
+
 		  tags: ['F2F', 'Online'],
 		  company: 1,
 		},
@@ -322,7 +303,7 @@ export const wed = [
 		  speakerIds: [],
 		  speakers: [],
 		  desc: '',
-  
+
 		  tags: ['F2F', 'Online'],
 		  company: 1,
 		},
@@ -338,14 +319,14 @@ export const wed = [
 		  speakerIds: [],
 		  speakers: [],
 		  desc: '',
-  
+
 		  tags: ['Invite Only'],
 		  company: 1,
 		},
 	  ],
 	},
   ];
-  
+
   export const fri = [
 	{
 	  time: 'TBA',
@@ -357,7 +338,7 @@ export const wed = [
 		  speakerIds: [8, 9],
 		  speakers: ['Anja Bundalo & Snjezana Udovicic'],
 		  desc: '',
-  
+
 		  tags: ['F2F'],
 		  company: 1,
 		},
@@ -367,7 +348,7 @@ export const wed = [
 		  speakerIds: [],
 		  speakers: [],
 		  desc: '',
-  
+
 		  tags: ['F2F'],
 		  company: 1,
 		},
@@ -377,7 +358,7 @@ export const wed = [
 		  speakerIds: [],
 		  speakers: [],
 		  desc: '',
-  
+
 		  tags: ['F2F'],
 		  company: 1,
 		},
@@ -387,7 +368,7 @@ export const wed = [
 		  speakerIds: [],
 		  speakers: [],
 		  desc: '',
-  
+
 		  tags: ['F2F'],
 		  company: 1,
 		},
@@ -397,7 +378,7 @@ export const wed = [
 		  speakerIds: [],
 		  speakers: [],
 		  desc: '',
-  
+
 		  tags: ['F2F'],
 		  company: 1,
 		},
@@ -407,7 +388,7 @@ export const wed = [
 		  speakerIds: [],
 		  speakers: [],
 		  desc: '',
-  
+
 		  tags: ['F2F'],
 		  company: 1,
 		},
@@ -429,7 +410,7 @@ export const wed = [
 		  speakerIds: [4],
 		  speakers: ['Feđa Delalić'],
 		  desc: '',
-  
+
 		  tags: ['F2F', 'Online'],
 		  company: 1,
 		},
@@ -445,7 +426,7 @@ export const wed = [
 		  speakerIds: [],
 		  speakers: [],
 		  desc: '',
-  
+
 		  tags: ['F2F', 'Online'],
 		  company: 1,
 		},
@@ -454,7 +435,7 @@ export const wed = [
 		  speakerIds: [],
 		  speakers: [],
 		  desc: '',
-  
+
 		  company: 1,
 		},
 		{
@@ -462,7 +443,7 @@ export const wed = [
 		  speakerIds: [],
 		  speakers: [],
 		  desc: '',
-  
+
 		  company: 1,
 		},
 		{
@@ -470,7 +451,7 @@ export const wed = [
 		  speakerIds: [],
 		  speakers: [],
 		  desc: '',
-  
+
 		  company: 1,
 		},
 		{
@@ -478,7 +459,7 @@ export const wed = [
 		  speakerIds: [],
 		  speakers: [],
 		  desc: '',
-  
+
 		  company: 1,
 		},
 		{
@@ -486,7 +467,7 @@ export const wed = [
 		  speakerIds: [],
 		  speakers: [],
 		  desc: '',
-  
+
 		  company: 1,
 		},
 		{
@@ -494,7 +475,7 @@ export const wed = [
 		  speakerIds: [],
 		  speakers: [],
 		  desc: '',
-  
+
 		  company: 1,
 		},
 	  ],
@@ -518,7 +499,7 @@ export const wed = [
 		  speakerIds: [1],
 		  speakers: ['Miralem Salihovic'],
 		  desc: '',
-  
+
 		  tags: ['F2F', 'Online'],
 		  company: 1,
 		},
@@ -534,7 +515,7 @@ export const wed = [
 		  speakerIds: [],
 		  speakers: [],
 		  desc: '',
-  
+
 		  tags: ['F2F'],
 		  company: 1,
 		},
@@ -550,11 +531,10 @@ export const wed = [
 		  speakerIds: [],
 		  speakers: [],
 		  desc: '',
-  
+
 		  tags: ['Invite Only'],
 		  company: 1,
 		},
 	  ],
 	},
   ];
-  
