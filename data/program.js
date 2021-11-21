@@ -1,57 +1,66 @@
 export const wed = [
 	{
-		time: 'TBA',
-		type: 'Workshop',
-		events: [
-			{
-				id: 1,
-				title:
-					'Design the career you want: From skills to finding your North Star',
-				speakerIds: [5],
-				speakers: ['Melita Kurtović'],
-				desc: '',
-				tags: ['F2F'],
-				company: 1,
-			},
-			{
-				id: 2,
-				title:
-					'Interdisciplinary integration as a pillar of pharmaceutical industry ',
-				speakerIds: [6],
-				speakers: ['Amra Ibrić'],
-				desc: ' ',
-				tags: ['F2F'],
-				company: 1,
-			},
-			{
-				id: 3,
-				title: 'Session Name TBA',
-				speakerIds: [],
-				speakers: [],
-				desc: '',
-
-				tags: ['F2F'],
-				company: 1,
-			},
-			{
-				id: 4,
-				title: 'Session Name TBA',
-				speakerIds: [],
-				speakers: ['TBA'],
-				desc: '',
-				tags: ['F2F'],
-				company: 1,
-			},
-			{
-				id: 5,
-				title: 'Session Name TBA',
-				speakerIds: [],
-				speakers: ['TBA'],
-				desc: '',
-				tags: ['F2F'],
-				company: 1,
-			},
-		],
+	  time: 'TBA',
+	  type: 'Workshop',
+	  events: [
+		{
+		  id: 1,
+		  title:
+			'Design the career you want: From skills to finding your North Star',
+		  speakerIds: [7],
+		  speakers: ['Melita Kurtović'],
+		  desc: '',
+		  tags: ['F2F'],
+		  company: 1,
+		},
+		{
+		  id: 2,
+		  title:
+			'Interdisciplinary integration as a pillar of pharmaceutical industry ',
+		  speakerIds: [8],
+		  speakers: ['Amra Ibrić'],
+		  desc: ' ',
+		  tags: ['F2F'],
+		  company: 1,
+		},
+		{
+		  id: 3,
+		  title: 'Session Name TBA',
+		  speakerIds: [],
+		  speakers: [],
+		  desc: '',
+  
+		  tags: ['F2F'],
+		  company: 1,
+		},
+		{
+		  id: 4,
+		  title: 'Session Name TBA',
+		  speakerIds: [],
+		  speakers: ['TBA'],
+		  desc: '',
+		  tags: ['F2F'],
+		  company: 1,
+		},
+		{
+		  id: 5,
+		  title: 'Session Name TBA',
+		  speakerIds: [],
+		  speakers: ['TBA'],
+		  desc: '',
+		  tags: ['F2F'],
+		  company: 1,
+		},
+		{
+		  id: 6,
+		  title: 'Session Name TBA',
+		  speakerIds: [],
+		  speakers: ['TBA'],
+		  desc: '',
+		  tags: ['F2F'],
+		  company: 1,
+		},
+	  ],
 	},
 	{
 	  time: 'TBA',
@@ -122,7 +131,7 @@ export const wed = [
 		{
 		  id: 10,
 		  title: 'Education & Employability',
-		  speakerIds: [6],
+		  speakerIds: [7],
 		  speakers: ['Melita Kurtović'],
 		  desc: '',
 
@@ -335,7 +344,7 @@ export const wed = [
 		{
 		  id: 24,
 		  title: 'Leading From a Growth Mindset',
-		  speakerIds: [8, 9],
+		  speakerIds: [10, 11],
 		  speakers: ['Anja Bundalo & Snjezana Udovicic'],
 		  desc: '',
 
