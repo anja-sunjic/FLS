@@ -1,5 +1,6 @@
 import LinkedIn from "../partials/LinkedIn";
 import { speakers } from "../../data/speakers";
+import Link from "next/link";
 
 import Speaker from "./Speaker";
 export default function Speakers() {
@@ -20,7 +21,7 @@ export default function Speakers() {
             </div>
           </div>
           <div className="columns is-multiline">
-          <Speaker
+            <Speaker
               img="/speakers/Miralem.jpg"
               name="Miralem Salihovic"
               title="Head of Solutions and Technology at Apple"
@@ -69,25 +70,12 @@ export default function Speakers() {
               li="https://www.linkedin.com/in/amra-ibric-15a8a71b5/"
               slug="amra-ibric"
             />
-            <div className="column is-6">
-              <div className="inner">
-                <div className="columns is-mobile is-vcentered">
-                  <div className="column is-narrow">
-                    <div href="" className="speaker-img">
-                      <img
-                        src="/vernisa.jpeg"
-                        alt="Futures Leaders Summit"
-                        className="grayscale anon"
-                      />
-                    </div>
-                  </div>
-                  <div className="column is-8">
-                    <div className="speaker">
-                      <p className="name anon">More Speakers coming soon...</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div className="column btn">
+              <Link href="speakers">
+                <a className="contact-button">
+                  <span>View All Speakers</span>
+                </a>
+              </Link>
             </div>
           </div>
         </div>
