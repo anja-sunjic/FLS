@@ -226,9 +226,9 @@ export const wed = [
 	  events: [
 		{
 		  id: 18,
-		  title: 'Session Name TBA',
-		  speakerIds: [],
-		  speakers: [],
+		  title: "Let's Make Oil Europe's History",
+		  speakerIds: [6],
+		  speakers: ['Selma Zilic'],
 		  desc: '',
 
 		  tags: ['F2F', 'Online'],
@@ -353,9 +353,9 @@ export const wed = [
 		},
 		{
 		  id: 25,
-		  title: 'Session Name TBA',
-		  speakerIds: [],
-		  speakers: [],
+		  title: 'Vision of the Future: Can Creativity Solve Every Problem?',
+		  speakerIds: [9],
+		  speakers: ['Edina Seleskovic'],
 		  desc: '',
 
 		  tags: ['F2F'],
