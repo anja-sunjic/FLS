@@ -31,20 +31,25 @@ export default function Partners() {
 						</div>
 						<div className='partner'>
 							<span className='role'>Gold Sponsors</span>
-							<PartnerLogo
-								url='https://www.dkr.ba/en/'
-								img='/partners/DKR.png'
-							/>
-							<PartnerLogo
-								url='https://www.porschebh.ba/'
-								img='/partners/PorscheBHallwhite.png'
-							/>
+							<div className='other'>
+								<PartnerLogo
+									url='https://www.dkr.ba/en/'
+									img='/partners/DKR.png'
+									size='3.5rem'
+								/>
+								<PartnerLogo
+									url='https://www.porschebh.ba/'
+									img='/partners/PorscheBHallwhite.png'
+									size='3.5rem'
+								/>
+							</div>
 						</div>
 						<div className='partner'>
 							<span className='role'>Silver Sponsor</span>
 							<PartnerLogo
 								url='https://www.mistral.ba/'
 								img='/partners/Mistral.png'
+								size="9rem"
 							/>
 						</div>
 						<div className='partner'>
@@ -52,10 +57,11 @@ export default function Partners() {
 							<PartnerLogo
 								url='https://tehnograd-company.ba/'
 								img='/partners/TehnogradCompany.png'
+								size="7rem"
 							/>
 						</div>
 						<div className='partner'>
-							<span className='role'>Organizing Partner</span>
+							<span className='role'>Organizing Partners</span>
 							<a href='https://bhing.ba/' target='_blank' rel='noreferrer'>
 								<img
 									src='/partners/bhing.png'
