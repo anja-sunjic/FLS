@@ -69,3 +69,10 @@
   color: #f1dc13;
   text-transform: uppercase;
 }
+
+.mobile-margin {
+  @include touch{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+}
