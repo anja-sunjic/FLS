@@ -354,7 +354,7 @@ export const wed = [
 		{
 		  id: 24,
 		  title: 'Leading From a Growth Mindset',
-		  speakerIds: [8, 9],
+		  speakerIds: [9, 10],
 		  speakers: ['Anja Bundalo & Snjezana Udovicic'],
 		  desc: '',
   
