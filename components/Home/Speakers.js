@@ -50,6 +50,13 @@ export default function Speakers() {
               slug="fedja-delalic"
             />
             <Speaker
+              img="/speakers/Selma.jpg"
+              name="Selma Zilic"
+              title="R&D Cylindrical Production Manager at Northvolt"
+              li="https://www.linkedin.com/in/selma-zilic-9a8b3a46/?originalSubdomain=se"
+              slug="selma-zilic"
+            />
+            <Speaker
               img="/speakers/Mario.jpg"
               name="Mario Barosevcic"
               title="Principal at Emerge Education"
@@ -62,13 +69,6 @@ export default function Speakers() {
               title="Talent Operations Analyst at Netflix"
               li="https://www.linkedin.com/in/melita-kurtovic-5762b6ab/"
               slug="melita-kurtovic"
-            />
-            <Speaker
-              img="/speakers/Amra-square.jpg"
-              name="Amra Ibric"
-              title=" Market & Technology Analyst at Marinomed Biotech AG"
-              li="https://www.linkedin.com/in/amra-ibric-15a8a71b5/"
-              slug="amra-ibric"
             />
             <div className="column btn">
               <Link href="speakers">
