@@ -76,3 +76,17 @@
     margin-bottom: 5rem;
   }
 }
+
+.bg-decor {
+  background: url(/hex2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: -15rem;
+}
+
+.discount-line {
+    margin-top: 5rem;
+    @include touch {
+      display: none;
+    }
+}
