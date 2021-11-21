@@ -54,6 +54,15 @@ export const speakers = [
   },
   {
     id: 6,
+    slug: "selma-zilic",
+    name: "Selma Zilic",
+    title: "R&D Cylindrical Production Manager at Northvolt",
+    li: "https://www.linkedin.com/in/selma-zilic-9a8b3a46/?originalSubdomain=se",
+    img: "/speakers/Selma.jpg",
+    bio: "",
+  },
+  {
+    id: 7,
     slug: "melita-kurtovic",
     name: "Melita Kurtovic",
     title: "Talent Operations Analyst at Netflix",
@@ -62,7 +71,7 @@ export const speakers = [
     bio: "Melita was born in the beautiful town of Bihac and raised and schooled in Valdobbiadene, Italy after moving there in 1993. She landed her first job at the age of 14 as a waitress in the town’s one and only cafe. Like many refugee families the beginning was very difficult and Melita was eager to contribute financially to her family as soon as she could. Since then she took on many different jobs, working for a micro-credit financial provider, picking grapes to for wineries, managing events for Expats in the Netherlands. <br/><br/> She studied foreign languages and communication at the University of Padova and relocated to the Netherlands in 2015 to complete a masters in Consultancy and Entrepreneurship at the Rotterdam Business School. Shortly after graduating, she landed a role with Align Technologies where she focused on talent acquisition. At the end of 2019, Melita landed a role with household entertainment name, Netflix! E<br/><br/>At Netflix, Melita is leading People Analytics and Tools for the Europe, the Middle East and Africa (EMEA) region. <br/><br/>She is combining art and science to equip the Human Resources teams with the tools, the knowledge and the data acumen to do their best work with our employees and candidates. She is focused on automation, product development, system integrations with an aim of creating more space for HR teams to add value and create meaningful connections.  <br/><br/>Melita’s goal is to equip future generations with the personal development tools needed to succeed by creating the best careers and lives for themselves.",
   },
   {
-    id: 7,
+    id: 8,
     slug: "amra-ibric",
     name: "Amra Ibric",
     title: "Market & Technology Analyst at Marinomed Biotech AG",
@@ -70,7 +79,7 @@ export const speakers = [
     img: "/speakers/Amra-square.jpg",
   },
   {
-    id: 8,
+    id: 9,
     slug: "edina-seleskovic",
     name: "Edina Seleskovic",
     title:
@@ -94,7 +103,7 @@ export const speakers = [
     Edina je i govornica na konferencijama poput Weekend Media Festivala, OPEN FEST-a, STEPS i CEO konferencije, EPD konferencija u Pragu, Češka, ILA Global u Sjedinjenim Američkim Državama, AoMo u Liverpolu, VB i Sarajevo Innovation Summit. Gostujuća je profesorica na IEDC Bled School of Management. Edina živi i radi u New Yorku, Sarajevu i Tuzli.`,
   },
   {
-    id: 9,
+    id: 10,
     slug: "anja-bundalo",
     name: "Anja Bundalo",
     title:
@@ -104,7 +113,7 @@ export const speakers = [
     bio: "She is 34 years old. She holds her PhD degree from the university François-Rabelais of Tours (France) since 2018, and has published articles and presented papers at conferences on the subject of French Enlightenment. She is currently a professor of French literature at the University of Banja Luka. She has also finished Law studies (four year curricula- 240 ECTS).<br/><br/>She is the contact person for the international projects at her University. She obtained the French government scholarship for her Master and doctoral studies, the staff scholarship for the observation of doctoral schools at the University of Poitiers, as well as Coimbra scholarship. She regularly participates in all the workshops concerning the implementation of Erasmus+ programs organized by hers and by the partner’s universities. <br/><br/>She fluently speaks Serbian/Bosnian (mother tongue), French, English, Italian and Russian and is very interested in developing “soft skills” and teaching capacities in the classroom. She is a professional Coach (licensed by ECA), NLP Trainer and a Transactional analyst- Practitioner (TA). She is a co-founder and director of the Center for education, coaching and self-development “LiderLab”, through which she is spreading the culture of leadership, assertive communication and self-awareness, that she also promotes in every classroom that she enters.",
   },
   {
-    id: 10,
+    id: 11,
     slug: "snjezana-udovicic",
     name: "Snjezana Udovicic",
     title:

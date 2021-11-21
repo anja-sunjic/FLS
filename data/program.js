@@ -7,7 +7,7 @@ export const wed = [
 		  id: 1,
 		  title:
 			'Design the career you want: From skills to finding your North Star',
-		  speakerIds: [6],
+		  speakerIds: [7],
 		  speakers: ['Melita Kurtović'],
 		  desc: '',
 		  tags: ['F2F'],
@@ -17,7 +17,7 @@ export const wed = [
 		  id: 2,
 		  title:
 			'Interdisciplinary integration as a pillar of pharmaceutical industry ',
-		  speakerIds: [7],
+		  speakerIds: [8],
 		  speakers: ['Amra Ibrić'],
 		  desc: ' ',
 		  tags: ['F2F'],
@@ -131,7 +131,7 @@ export const wed = [
 		{
 		  id: 10,
 		  title: 'Education & Employability',
-		  speakerIds: [6],
+		  speakerIds: [7],
 		  speakers: ['Melita Kurtović'],
 		  desc: '',
   
@@ -354,7 +354,7 @@ export const wed = [
 		{
 		  id: 24,
 		  title: 'Leading From a Growth Mindset',
-		  speakerIds: [9, 10],
+		  speakerIds: [10, 11],
 		  speakers: ['Anja Bundalo & Snjezana Udovicic'],
 		  desc: '',
   
