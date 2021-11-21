@@ -95,7 +95,15 @@ export default function Partners() {
 								/>
 							</div>
 						</div>
+						<div className='partner'>
+							<span className='role'>Academic Partner</span>
+							<PartnerLogo
+								url='http://www.untz.ba/'
+								img='/partners/untz.png'
+							/>
+						</div>
 					</div>
+
 					<div className='dots is-hidden-touch'>
 						<img src='/dots.svg' alt='Futures Leaders Summit' />
 					</div>
