@@ -20,6 +20,13 @@ export default function Speakers() {
             </div>
           </div>
           <div className="columns is-multiline">
+          <Speaker
+              img="/speakers/Miralem.jpg"
+              name="Miralem Salihovic"
+              title="Head of Solutions and Technology at Apple"
+              li="https://www.linkedin.com/in/miralemsalihovic/"
+              slug="miralem-salihovic"
+            />
             <Speaker
               img="/speakers/zinka.jpg"
               name="Zinka Bejtic"
