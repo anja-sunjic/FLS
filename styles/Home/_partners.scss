@@ -130,36 +130,107 @@
 }
 
 .slider_wrapper::-webkit-scrollbar {
-	background-color: #12191d;
-	border-radius: 100px;
-	margin: 10px;
-	width: 12px;
-}
-
-.slider_wrapper::-webkit-scrollbar-thumb {
-	background-color: #f1dc13;
-	border-radius: 50px;
-	width: 12px;
+	width: 0;
 }
 
 .slider_wrapper .slider_item {
 	height: 10rem;
+	width: auto;
 	margin: 6.5rem 6rem;
 	line-height: 110px;
 	text-align: center;
+	filter: brightness(0) invert(1);
+	transition: 0.5s ease-in-out;
+
+	&:hover {
+		filter: brightness(1) invert(0);
+		transition: 0.5s ease-in-out;
+	}
 }
 
 .slideranim {
-	animation: slide 15s linear infinite;
+	margin-left: 2rem;
+	animation: slide 50s linear infinite;
+	transition: 15s ease-in-out;
+}
+
+.slider_div {
+	height: 10rem;
+
+	margin: 4rem;
+	justify-self: center;
+}
+
+.slider_div img {
+	height: 10rem;
+	width: 25rem;
+	margin: 6.5rem 6rem;
+	line-height: 110px;
+	text-align: center;
+	filter: brightness(0) invert(1);
+	transition: 0.5s ease-in-out;
+
+	&:hover {
+		filter: brightness(1) invert(0);
+		transition: 0.5s ease-in-out;
+	}
 }
 
 @keyframes slide {
 	0% {
+		transition: 15s ease-in-out;
 		transform: translate3d(0, 0, 0);
 	}
 	100% {
-		transform: translate3d(-100%, 0, 0); /* The image width */
+		transition: 15s ease-in-out;
+		transform: translate3d(-8060px, 0, 0); /* The image width */
 	}
 }
 
-/* Track */
+.sponsors_and_partners {
+	font-family: Anton;
+	font-size: 68px;
+	line-height: 110%;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	margin: 10px 10rem;
+	color: #efe200;
+}
+
+@media screen and(max-width: 600px) {
+	.sponsors_and_partners {
+		font-size: 38px;
+		margin: 5rem 10rem;
+	}
+
+	.slider_wrapper .slider_item {
+		filter: none;
+	}
+}
+
+@media screen and(max-width: 800px) {
+	.sponsors_and_partners {
+		font-size: 50px;
+		margin: 5rem 10rem;
+	}
+
+	.slider_wrapper .slider_item {
+		filter: none;
+	}
+}
+
+@media screen and(max-width: 500px) {
+	.sponsors_and_partners {
+		font-size: 28px;
+		margin: 5rem 10rem;
+	}
+
+	.slider_wrapper .slider_item {
+		filter: none;
+	}
+}
+
+.sponsors_decor {
+	margin: 70px 10rem;
+}
