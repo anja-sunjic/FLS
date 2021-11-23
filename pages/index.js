@@ -33,6 +33,7 @@ export default function Home() {
 					url='/schedule'
 				/>
 				<Speakers />
+				{/*<MoveablePartners /> Uncomment this code & delete "<Partners />" if you want to have moveable track. */}
 				<Partners />
 				{/* <CTAsection
           button="Learn more"
