@@ -1,6 +1,4 @@
-import React from 'react';
 import HorizontalScroll from 'react-horizontal-scrolling';
-
 const partnerImages = [
 	{ url: '/partners/BHFF.png' },
 	{ url: '/partners/htec.png' },
@@ -20,7 +18,7 @@ const partnerImages = [
 export default function Partners() {
 	return (
 		<div>
-			<HorizontalScroll>
+			<HorizontalScroll scrollWithArrows={true} hideScrollbar={true}>
 				{partnerImages.map((item, index) => (
 					<img
 						style={{
