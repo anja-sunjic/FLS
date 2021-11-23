@@ -1,5 +1,4 @@
 import React from 'react';
-import HorizontalScroll from 'react-horizontal-scrolling';
 
 const partnerImages = [
 	{ url: '/partners/BHFF.png' },
@@ -19,21 +18,17 @@ const partnerImages = [
 
 export default function Partners() {
 	return (
-		<div>
-			<HorizontalScroll>
+		<>
+			<div className='slider_wrapper'>
 				{partnerImages.map((item, index) => (
 					<img
-						style={{
-							height: '15rem',
-							verticalAlign: 'center',
-							margin: '10rem',
-						}}
+						className='slider_item'
 						src={item.url}
 						key={index}
 						alt={item.url}
 					/>
 				))}
-			</HorizontalScroll>
-		</div>
+			</div>
+		</>
 	);
 }
