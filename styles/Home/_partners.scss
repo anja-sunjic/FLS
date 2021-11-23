@@ -127,19 +127,30 @@
 	display: flex;
 	overflow-x: scroll;
 	overflow-y: hidden;
-	margin: '';
 }
 
-.wrapper::-webkit-scrollbar {
-	width: 0;
+.slider_wrapper::-webkit-scrollbar {
+	background-color: #12191d;
+	border-radius: 100px;
+	margin: 10px;
+	width: 12px;
+}
+
+.slider_wrapper::-webkit-scrollbar-thumb {
+	background-color: #f1dc13;
+	border-radius: 50px;
+	width: 12px;
 }
 
 .slider_wrapper .slider_item {
-	animation: slide 15s linear infinite;
 	height: 10rem;
 	margin: 6.5rem 6rem;
 	line-height: 110px;
 	text-align: center;
+}
+
+.slideranim {
+	animation: slide 15s linear infinite;
 }
 
 @keyframes slide {
@@ -150,3 +161,5 @@
 		transform: translate3d(-100%, 0, 0); /* The image width */
 	}
 }
+
+/* Track */
