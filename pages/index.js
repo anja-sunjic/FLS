@@ -2,7 +2,7 @@ import MetaData from '../components/partials/seo-meta';
 import About from '../components/Home/About';
 import Hero from '../components/Home/Hero';
 import Speakers from '../components/Home/Speakers';
-import MoveblePartners from '../components/Home/MoveblePartners';
+import MoveablePartners from '../components/Home/MoveablePartners';
 import Footer from '../components/partials/Footer';
 import Header from '../components/partials/Header';
 import Decor from '../components/partials/Decor';
@@ -32,7 +32,7 @@ export default function Home() {
 					url='/schedule'
 				/>
 				<Speakers />
-				<MoveblePartners />
+				<MoveablePartners />
 				{/* <CTAsection
           button="Learn more"
           title="fls ‘21 health & safety protocols"
