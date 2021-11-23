@@ -1,5 +1,6 @@
 import LinkedIn from "../partials/LinkedIn";
 import { speakers } from "../../data/speakers";
+import Link from "next/link";
 
 import Speaker from "./Speaker";
 export default function Speakers() {
@@ -20,7 +21,7 @@ export default function Speakers() {
             </div>
           </div>
           <div className="columns is-multiline">
-          <Speaker
+            <Speaker
               img="/speakers/Miralem.jpg"
               name="Miralem Salihovic"
               title="Head of Solutions and Technology at Apple"
@@ -49,6 +50,13 @@ export default function Speakers() {
               slug="fedja-delalic"
             />
             <Speaker
+              img="/speakers/Selma.jpg"
+              name="Selma Zilic"
+              title="R&D Cylindrical Production Manager at Northvolt"
+              li="https://www.linkedin.com/in/selma-zilic-9a8b3a46/?originalSubdomain=se"
+              slug="selma-zilic"
+            />
+            <Speaker
               img="/speakers/Mario.jpg"
               name="Mario Barosevcic"
               title="Principal at Emerge Education"
@@ -62,32 +70,12 @@ export default function Speakers() {
               li="https://www.linkedin.com/in/melita-kurtovic-5762b6ab/"
               slug="melita-kurtovic"
             />
-            <Speaker
-              img="/speakers/Amra-square.jpg"
-              name="Amra Ibric"
-              title=" Market & Technology Analyst at Marinomed Biotech AG"
-              li="https://www.linkedin.com/in/amra-ibric-15a8a71b5/"
-              slug="amra-ibric"
-            />
-            <div className="column is-6">
-              <div className="inner">
-                <div className="columns is-mobile is-vcentered">
-                  <div className="column is-narrow">
-                    <div href="" className="speaker-img">
-                      <img
-                        src="/vernisa.jpeg"
-                        alt="Futures Leaders Summit"
-                        className="grayscale anon"
-                      />
-                    </div>
-                  </div>
-                  <div className="column is-8">
-                    <div className="speaker">
-                      <p className="name anon">More Speakers coming soon...</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div className="column btn">
+              <Link href="speakers">
+                <a className="contact-button">
+                  <span>View All Speakers</span>
+                </a>
+              </Link>
             </div>
           </div>
         </div>
