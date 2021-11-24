@@ -7,7 +7,7 @@ export const wed = [
         id: 1,
         title:
           "Design the career you want: From skills to finding your North Star",
-        speakerIds: [7],
+        speakerIds: [8],
         speakers: ["Melita Kurtović"],
         desc: "",
         tags: ["F2F"],
@@ -17,7 +17,7 @@ export const wed = [
         id: 2,
         title:
           "Interdisciplinary integration as a pillar of pharmaceutical industry ",
-        speakerIds: [8],
+        speakerIds: [10],
         speakers: ["Amra Ibrić"],
         desc: " ",
         tags: ["F2F"],
@@ -116,7 +116,7 @@ export const wed = [
         id: 9,
         title:
           "The importance of interdisciplinary thinking and skills for the future",
-        speakerIds: [5],
+        speakerIds: [6],
         speakers: ["Mario Baroševčić"],
         desc: "",
 
@@ -132,7 +132,7 @@ export const wed = [
       {
         id: 10,
         title: "Education & Employability",
-        speakerIds: [7],
+        speakerIds: [8],
         speakers: ["Melita Kurtović"],
         desc: "",
 
@@ -228,7 +228,7 @@ export const thu = [
       {
         id: 18,
         title: "Let's Make Oil Europe's History",
-        speakerIds: [6],
+        speakerIds: [7],
         speakers: ["Selma Zilic"],
         desc: "",
 
@@ -269,7 +269,7 @@ export const thu = [
       {
         id: 20,
         title: "Session Name TBA",
-        speakerIds: [3],
+        speakerIds: [4],
         speakers: ["Admir Mašić"],
         desc: "",
 
@@ -345,7 +345,7 @@ export const fri = [
       {
         id: 24,
         title: "Leading From a Growth Mindset",
-        speakerIds: [10, 11],
+        speakerIds: [11, 12],
         speakers: ["Anja Bundalo & Snjezana Udovicic"],
         desc: "",
 
@@ -355,7 +355,7 @@ export const fri = [
       {
         id: 25,
         title: "Vision of the Future: Can Creativity Solve Every Problem?",
-        speakerIds: [9],
+        speakerIds: [10],
         speakers: ["Edina Seleskovic"],
         desc: "",
 
@@ -407,7 +407,7 @@ export const fri = [
         id: 30,
         title:
           "Chasing The Flame: Delivering Olympic mega-events in ever-changing world",
-        speakerIds: [4],
+        speakerIds: [5],
         speakers: ["Feđa Delalić"],
         desc: "",
 
