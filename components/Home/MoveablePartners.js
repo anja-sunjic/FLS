@@ -16,7 +16,7 @@ const partnerImages = [
 	{ url: '/partners/untz.png' },
 ];
 
-export default function Partners() {
+export default function MoveablePartners() {
 	return (
 		<>
 			<img
