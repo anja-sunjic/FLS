@@ -14,6 +14,7 @@ const partnerImages = [
 	{ url: '/partners/Softhouse.png' },
 	{ url: '/partners/LiderLab.png' },
 	{ url: '/partners/untz.png' },
+	{ url: '/partners/IPIAkademija.png' },
 ];
 
 export default function MoveablePartners() {
