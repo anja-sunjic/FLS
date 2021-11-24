@@ -364,9 +364,9 @@ export const fri = [
       },
       {
         id: 26,
-        title: "Session Name TBA",
-        speakerIds: [],
-        speakers: [],
+        title: "Leadership skills for the ongoing Industrial Revolution 4.0",
+        speakerIds: [10],
+        speakers: ["Erol Mujanovic"],
         desc: "",
 
         tags: ["F2F"],
