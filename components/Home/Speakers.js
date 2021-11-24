@@ -36,6 +36,13 @@ export default function Speakers() {
               slug="zinka-bejtic"
             />
             <Speaker
+              img="/speakers/MirzaCifric.png"
+              name="Mirza Cifric"
+              title="CEO & Co-Founder at Veritas"
+              li="https://www.linkedin.com/in/mcifric/"
+              slug="mirza-cifric"
+            />
+            <Speaker
               img="/speakers/Admir.jpg"
               name="Admir Masic"
               title="Associate Professor of Civil and Environmental Engineering at MIT"

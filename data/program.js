@@ -310,7 +310,7 @@ export const thu = [
       {
         id: 22,
         title: "Session Name TBA",
-        speakerIds: [],
+        speakerIds: [3],
         speakers: [],
         desc: "",
 
