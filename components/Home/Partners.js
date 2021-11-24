@@ -49,7 +49,7 @@ export default function Partners() {
 							<PartnerLogo
 								url='https://www.mistral.ba/'
 								img='/partners/Mistral.png'
-								size="9rem"
+								size='9rem'
 							/>
 						</div>
 						<div className='partner'>
@@ -57,7 +57,7 @@ export default function Partners() {
 							<PartnerLogo
 								url='https://tehnograd-company.ba/'
 								img='/partners/TehnogradCompany.png'
-								size="7rem"
+								size='7rem'
 							/>
 						</div>
 						<div className='partner'>
@@ -97,10 +97,7 @@ export default function Partners() {
 						</div>
 						<div className='partner'>
 							<span className='role'>Academic Partner</span>
-							<PartnerLogo
-								url='http://www.untz.ba/'
-								img='/partners/untz.png'
-							/>
+							<PartnerLogo url='http://www.untz.ba/' img='/partners/untz.png' />
 						</div>
 					</div>
 
