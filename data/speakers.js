@@ -16,7 +16,7 @@ export const speakers = [
       "Professor, Head of Department of Art and Design at American University of Sharjah",
     li: "https://www.linkedin.com/in/zinkabejtic",
     img: "/speakers/zinka.jpg",
-    bio: "Dr. Zinka Bejtic is the Head of the Department of Art and Design at the American University of Sharjah in the United Arab Emirates, where she also teaches film and digital media courses. With a Ph.D. in Educational Psychology and 24 years of teaching experience, Zinka is dedicated to examining and advancing pedagogies of creative studio-based disciplines. Her research helps educators develop and enhance distinct teaching modalities that target individual students' needs, enhance their motivation and engagement, and constitute relaxed and nurturing learning environments."
+    bio: "Dr. Zinka Bejtic is the Head of the Department of Art and Design at the American University of Sharjah in the United Arab Emirates, where she also teaches film and digital media courses. With a Ph.D. in Educational Psychology and 24 years of teaching experience, Zinka is dedicated to examining and advancing pedagogies of creative studio-based disciplines. Her research helps educators develop and enhance distinct teaching modalities that target individual students' needs, enhance their motivation and engagement, and constitute relaxed and nurturing learning environments.",
   },
   {
     id: 3,
@@ -72,6 +72,23 @@ export const speakers = [
   },
   {
     id: 8,
+    slug: "senad-santic",
+    name: "Senad Santic",
+    title: "CEO & Co-Founder at ZenDev",
+    li: "https://www.linkedin.com/in/senad-santic/",
+    img: "/speakers/SenadZenDev.jpg",
+    bio: `Senad Šantić is an entrepreneur, founder, and CEO of ZenDev. Senad graduated from Chalmers University in Gothenburg. He holds a  bachelor’s degree in information technology and a master’s degree in entrepreneurship and business development.<br/><br/>
+ 
+    Throughout his professional career, he has been focused on starting his own business.<br/><br/>
+    
+    Together with his friend Nikola Mirković, Senad founded ZenDev in 2016. ZenDev is an IT consulting company, which offers web and mobile application development services and e-commerce solutions for clients around the world.<br/><br/>
+    
+    More than anything else, Senad is driven by the process of creating new great products.
+    Therefore it is not surprising that ZenDev strives in that direction and works on developing its products in addition to the services it provides to its customers.<br/><br/>
+    `,
+  },
+  {
+    id: 9,
     slug: "amra-ibric",
     name: "Amra Ibric",
     title: "Market & Technology Analyst at Marinomed Biotech AG",
@@ -79,11 +96,10 @@ export const speakers = [
     img: "/speakers/Amra-square.jpg",
   },
   {
-    id: 9,
+    id: 10,
     slug: "edina-seleskovic",
     name: "Edina Seleskovic",
-    title:
-      "Interdisciplinary artist",
+    title: "Interdisciplinary Asrtist",
     li: "https://www.linkedin.com/in/edina-seleskovic-76053a150",
     img: "/speakers/Edina.png",
     bio: `EDINA SELESKOVIC is an interdisciplinary artist with international exhibiting experience. Seeking answers to the questions about the role of culture in our society, her public art installations on their global mission, generate a public dialogue connecting young people and creativity, cultural institutions and communities, art, and new technologies.
@@ -103,7 +119,7 @@ export const speakers = [
     Edina je i govornica na konferencijama poput Weekend Media Festivala, OPEN FEST-a, STEPS i CEO konferencije, EPD konferencija u Pragu, Češka, ILA Global u Sjedinjenim Američkim Državama, AoMo u Liverpolu, VB i Sarajevo Innovation Summit. Gostujuća je profesorica na IEDC Bled School of Management. Edina živi i radi u New Yorku, Sarajevu i Tuzli.`,
   },
   {
-    id: 10,
+    id: 11,
     slug: "anja-bundalo",
     name: "Anja Bundalo",
     title:
@@ -113,7 +129,7 @@ export const speakers = [
     bio: "She is 34 years old. She holds her PhD degree from the university François-Rabelais of Tours (France) since 2018, and has published articles and presented papers at conferences on the subject of French Enlightenment. She is currently a professor of French literature at the University of Banja Luka. She has also finished Law studies (four year curricula- 240 ECTS).<br/><br/>She is the contact person for the international projects at her University. She obtained the French government scholarship for her Master and doctoral studies, the staff scholarship for the observation of doctoral schools at the University of Poitiers, as well as Coimbra scholarship. She regularly participates in all the workshops concerning the implementation of Erasmus+ programs organized by hers and by the partner’s universities. <br/><br/>She fluently speaks Serbian/Bosnian (mother tongue), French, English, Italian and Russian and is very interested in developing “soft skills” and teaching capacities in the classroom. She is a professional Coach (licensed by ECA), NLP Trainer and a Transactional analyst- Practitioner (TA). She is a co-founder and director of the Center for education, coaching and self-development “LiderLab”, through which she is spreading the culture of leadership, assertive communication and self-awareness, that she also promotes in every classroom that she enters.",
   },
   {
-    id: 11,
+    id: 12,
     slug: "snjezana-udovicic",
     name: "Snjezana Udovicic",
     title:
