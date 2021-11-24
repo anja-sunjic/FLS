@@ -8,6 +8,7 @@ import Footer from '../components/partials/Footer';
 import Header from '../components/partials/Header';
 import Decor from '../components/partials/Decor';
 import CTAsection from '../components/partials/cta-section';
+
 //fix
 export default function Home() {
 	return (
