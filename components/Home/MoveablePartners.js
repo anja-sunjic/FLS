@@ -20,16 +20,28 @@ const partnerImages = [
 export default function MoveablePartners() {
 	return (
 		<>
+			<img
+				className='sponsors_decor line-decor is-hidden-touch'
+				src='/dots.svg'
+				alt='decor_lines'
+			/>
+			<h3 className='sponsors_and_partners'>Our Sponsors & Partners</h3>
+
 			<div className='slider_wrapper'>
 				{partnerImages.map((item, index) => (
 					<img
-						className='slider_item'
+						className='slider_item slideranim'
 						src={item.url}
 						key={index}
 						alt={item.url}
 					/>
 				))}
 			</div>
+			<img
+				className='sponsors_decor line-decor is-hidden-touch'
+				src='/dots.svg'
+				alt='decor_lines'
+			/>
 		</>
 	);
 }

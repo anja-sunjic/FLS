@@ -7,6 +7,7 @@ import Header from '../components/partials/Header';
 import Decor from '../components/partials/Decor';
 import CTAsection from '../components/partials/cta-section';
 import Partners from '../components/Home/Partners';
+import MoveablePartners from '../components/Home/MoveablePartners';
 //fix
 export default function Home() {
 	return (
@@ -32,7 +33,7 @@ export default function Home() {
 					url='/schedule'
 				/>
 				<Speakers />
-				<Partners />
+				<MoveablePartners />
 				{/* <CTAsection
           button="Learn more"
           title="fls ‘21 health & safety protocols"
