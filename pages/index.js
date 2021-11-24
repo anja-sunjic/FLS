@@ -33,7 +33,7 @@ export default function Home() {
 					url='/schedule'
 				/>
 				<Speakers />
-				<MoveablePartners />
+				<Partners />
 				{/* <CTAsection
           button="Learn more"
           title="fls ‘21 health & safety protocols"
