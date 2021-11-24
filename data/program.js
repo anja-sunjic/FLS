@@ -345,7 +345,7 @@ export const fri = [
       {
         id: 24,
         title: "Leading From a Growth Mindset",
-        speakerIds: [11, 12],
+        speakerIds: [13, 14],
         speakers: ["Anja Bundalo & Snjezana Udovicic"],
         desc: "",
 
@@ -355,7 +355,7 @@ export const fri = [
       {
         id: 25,
         title: "Vision of the Future: Can Creativity Solve Every Problem?",
-        speakerIds: [10],
+        speakerIds: [11],
         speakers: ["Edina Seleskovic"],
         desc: "",
 

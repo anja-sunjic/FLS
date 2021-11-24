@@ -116,7 +116,7 @@ export const speakers = [
     id: 11,
     slug: "edina-seleskovic",
     name: "Edina Seleskovic",
-    title: "Interdisciplinary Asrtist",
+    title: "Interdisciplinary Artist",
     li: "https://www.linkedin.com/in/edina-seleskovic-76053a150",
     img: "/speakers/Edina.png",
     bio: `EDINA SELESKOVIC is an interdisciplinary artist with international exhibiting experience. Seeking answers to the questions about the role of culture in our society, her public art installations on their global mission, generate a public dialogue connecting young people and creativity, cultural institutions and communities, art, and new technologies.
@@ -137,6 +137,15 @@ export const speakers = [
   },
   {
     id: 12,
+    slug: "denis-kraljevic",
+    name: "Denis Kraljevic",
+    title: "CEO at Derubis Yachts",
+    li: "https://www.linkedin.com/in/denis-kraljevic-633b73214/",
+    img: "/speakers/Denis.png",
+    bio: "",
+  },
+  {
+    id: 13,
     slug: "anja-bundalo",
     name: "Anja Bundalo",
     title:
@@ -146,7 +155,7 @@ export const speakers = [
     bio: "She is 34 years old. She holds her PhD degree from the university François-Rabelais of Tours (France) since 2018, and has published articles and presented papers at conferences on the subject of French Enlightenment. She is currently a professor of French literature at the University of Banja Luka. She has also finished Law studies (four year curricula- 240 ECTS).<br/><br/>She is the contact person for the international projects at her University. She obtained the French government scholarship for her Master and doctoral studies, the staff scholarship for the observation of doctoral schools at the University of Poitiers, as well as Coimbra scholarship. She regularly participates in all the workshops concerning the implementation of Erasmus+ programs organized by hers and by the partner’s universities. <br/><br/>She fluently speaks Serbian/Bosnian (mother tongue), French, English, Italian and Russian and is very interested in developing “soft skills” and teaching capacities in the classroom. She is a professional Coach (licensed by ECA), NLP Trainer and a Transactional analyst- Practitioner (TA). She is a co-founder and director of the Center for education, coaching and self-development “LiderLab”, through which she is spreading the culture of leadership, assertive communication and self-awareness, that she also promotes in every classroom that she enters.",
   },
   {
-    id: 13,
+    id: 14,
     slug: "snjezana-udovicic",
     name: "Snjezana Udovicic",
     title:
