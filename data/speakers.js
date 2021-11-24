@@ -106,6 +106,25 @@ export const speakers = [
   },
   {
     id: 10,
+    slug: "erol-mujanovic",
+    name: "Erol Mujanovic",
+    title:
+      "PhD Economics & Entrepreneurship, Deputy Director at Economic Development Office, USAID BIH",
+    li: "https://www.linkedin.com/in/erol-mujanovic-721b59/",
+    img: "/speakers/Erol.png",
+    bio: `Reliable senior leader and economic development expert, PhD. in economics & entrepreneurship, marathon runner & Ironman triathlon finisher. He loves working with startups particularly blockchain related and teaching.<br/><br/>
+
+    Erol led teams and projects for top level governments and international organizations in Western Balkans implementing complex economic & business development projects.  Depending on assignments, he worked as a manager, consultant, or trainer (leadership, business plan & business skills development, entrepreneurship, blockchain).<br/><br/>
+    
+    His lifelong learning includes numerous diplomatic & business skills training in Paris, London, Brussels and Washington DC, in the fields such as leadership, business development, strategic management,  entrepreneurship.<br/><br/>
+    
+    He is a co-founder of the Sarajevo "Marathon" Association that organizes mass participation events and boosts healthy lifestyle. Erol is also a co-founder of  the Association of business service leaders in BiH (ABSL) that promotes BPO (Business processes outsourcing) in the region. As a founder of the first running club in Sarajevo he has motivated and empowered thousands of persons to improve daily habits.<br/><br/>
+    
+    In the past 25 years his daily routine has been very simple, based on discipline and focusing on priorities, and always starts with the morning workout.
+    `,
+  },
+  {
+    id: 11,
     slug: "amra-ibric",
     name: "Amra Ibric",
     title: "Market & Technology Analyst at Marinomed Biotech AG",
@@ -113,7 +132,7 @@ export const speakers = [
     img: "/speakers/Amra-square.jpg",
   },
   {
-    id: 11,
+    id: 12,
     slug: "edina-seleskovic",
     name: "Edina Seleskovic",
     title: "Interdisciplinary Artist",
@@ -125,18 +144,10 @@ export const speakers = [
 
     Edina is also one of the founders of the Williamsburg artist community in New York and the collaboratives The Stoodio and Anie Rexe. She also founded the first Artist in Residence program in BiH in partnership with the International Portrait Gallery Ismet Mujezinović. Today, she is known as one of the most famous contemporary artists in Bosnia and Herzegovina as well. Edina has won numerous awards including the Sculpture Space Fellowship, and Sam and the Adele Golden Foundation Fellowship in New York. She is the winner of the global award for socially engaged visual artists, World Citizen Artists Award 2020. In 2021, her installation RSD Sloboda won the gold No Limit award in Sarajevo and her installation Think Freedom received Primio Arbiter Fata Verde SyArt Award by Sorrento Foundation in Sorrento, Italy. Her resume also includes working with NASA, establishing Contemporary Woman Festival, mentoring, rebranding the national basketball team, and more. She is a member of the International Academy of Science and Arts in Bosnia and Herzegovina.<br/><br/>
     
-    She is also a frequent speaker at conferences such as Weekend Media Festival in Croatia, OPEN FEST, CEO conference and Sarajevo Innovation Summit in Bosnia and Herzegovina, EPD conference in the Czech Republic, ILA Global in the USA, AoMo in Liverpool, UK, and a visiting professor at the IEDC Bled School of Management in Slovenia. Edina lives and works in New York, Sarajevo and Tuzla.<br/><br/>
-    
-    EDINA SELESKOVIĆ je interdisciplinarna savremena umjetnica s dugogodišnjim međunarodnim iskustvom. Tražeći odgovore na pitanja o ulozi kulture u našem društvu, Edina mijenja percepciju o umjetnosti i umjetniku, a njene public art instalacije na svojoj globalnoj misiji aktiviraju javni dijalog, povezujući mlade ljude i kreativnost, kulturne institucije i zajednice, umjetnost i nove tehnologije.<br/><br/>
-    
-    Edina Selesković je rođena u Bosni i Hercegovini, a u Sjedinjenim Američkim Državama živi još od 1991. godine. Diplomirala sa poznate likovne akademije Corcoran School of Art u Washingtonu na odsjeku skulpture. Iz ateljea u Njujorku, njeni radovi su izloženi na preko 100 samostalnih i grupnih izložbi u galerijama širom Sjedinjenih Država, te u Europi i Aziji. Saradnja s etabliranim i mladim umjetnicima dovela je do karijere orijentisane ka 'artifikaciji' društva, motivisane savremenom umjetnošću i inspirisane dijalogom.<br/><br/>
-    
-    Edina je također jedna od osnivača umjetničke zajednice Williamsburg u New Yorku i umjetničkih kolaborativa The Stoodio i Anie Rexe. Osnovala je i prvi program Artist in Residence u BiH u partnerstvu s Međunarodnom galerijom portreta Ismetom Mujezinovićem. Njezin životopis također uključuje rad s NASA-om, uspostavljanje Festivala savremene žene, mentorstvo, rebrendiranje nacionalne košarkaške reprezentacije i još mnogo toga. Edina je dobitnica brojnih nagrada uključujući Sculpture Space Fellowship, Sam i Adele Golden Foundation Fellowship u New Yorku. 2020. godine dobitnica je i Svjetske nagrade za vizuelne umjetnike (World Citizen Artist), a 2021. njena instalacija RSD Sloboda je dobila No Limit zlatnu nagradu, a instalacija Think Freedom nagradu Primio Arbiter Fata Verde SyArt Award od Sorrento Fondacije u Sorrentu, Italija.. Članica je Internacionalne akademije nauka i umjetnosti u Bosni i Hercegovini.<br/><br/>
-    
-    Edina je i govornica na konferencijama poput Weekend Media Festivala, OPEN FEST-a, STEPS i CEO konferencije, EPD konferencija u Pragu, Češka, ILA Global u Sjedinjenim Američkim Državama, AoMo u Liverpolu, VB i Sarajevo Innovation Summit. Gostujuća je profesorica na IEDC Bled School of Management. Edina živi i radi u New Yorku, Sarajevu i Tuzli.`,
+    She is also a frequent speaker at conferences such as Weekend Media Festival in Croatia, OPEN FEST, CEO conference and Sarajevo Innovation Summit in Bosnia and Herzegovina, EPD conference in the Czech Republic, ILA Global in the USA, AoMo in Liverpool, UK, and a visiting professor at the IEDC Bled School of Management in Slovenia. Edina lives and works in New York, Sarajevo and Tuzla.<br/><br/>`,
   },
   {
-    id: 12,
+    id: 13,
     slug: "denis-kraljevic",
     name: "Denis Kraljevic",
     title: "CEO at Derubis Yachts",
@@ -145,7 +156,7 @@ export const speakers = [
     bio: "",
   },
   {
-    id: 13,
+    id: 14,
     slug: "anja-bundalo",
     name: "Anja Bundalo",
     title:
@@ -155,7 +166,7 @@ export const speakers = [
     bio: "She is 34 years old. She holds her PhD degree from the university François-Rabelais of Tours (France) since 2018, and has published articles and presented papers at conferences on the subject of French Enlightenment. She is currently a professor of French literature at the University of Banja Luka. She has also finished Law studies (four year curricula- 240 ECTS).<br/><br/>She is the contact person for the international projects at her University. She obtained the French government scholarship for her Master and doctoral studies, the staff scholarship for the observation of doctoral schools at the University of Poitiers, as well as Coimbra scholarship. She regularly participates in all the workshops concerning the implementation of Erasmus+ programs organized by hers and by the partner’s universities. <br/><br/>She fluently speaks Serbian/Bosnian (mother tongue), French, English, Italian and Russian and is very interested in developing “soft skills” and teaching capacities in the classroom. She is a professional Coach (licensed by ECA), NLP Trainer and a Transactional analyst- Practitioner (TA). She is a co-founder and director of the Center for education, coaching and self-development “LiderLab”, through which she is spreading the culture of leadership, assertive communication and self-awareness, that she also promotes in every classroom that she enters.",
   },
   {
-    id: 14,
+    id: 15,
     slug: "snjezana-udovicic",
     name: "Snjezana Udovicic",
     title:
