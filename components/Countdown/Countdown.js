@@ -13,7 +13,6 @@ const CountdownComponent = () => {
 			<div className='styledcountdown'>
 				<Countdown date={countDate} />
 			</div>
-			<h2 className='styleheader'>days hours mintues seconds</h2>
 		</div>
 	);
 };
