@@ -1,16 +1,11 @@
-import Image from 'next/image';
-import Team from './Tier';
+import Tier from './Tier';
 import { sponsors } from '../../data/sponsors';
-export default function Teams() {
+export default function Partners() {
 	return (
 		<div className='section teams'>
 			<div className='container'>
-				{sponsors.map((sponsor) => (
-					<Team
-						name={sponsor.name}
-						members={sponsor.members}
-						key={sponsor.name}
-					/>
+				{sponsors.map(({ name, members }) => (
+					<Tier name={name} members={members} key={name} />
 				))}
 			</div>
 		</div>

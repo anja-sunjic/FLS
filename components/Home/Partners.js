@@ -10,17 +10,12 @@ export default function Partners() {
 					<div className='top-partners'>
 						<div className='partner'>
 							<span className='role'>Organizer</span>
-							<a
-								href='https://www.bhfuturesfoundation.org/'
-								target='_blank'
-								rel='noreferrer'
-							>
-								<img
-									src='/partners/BHFF.png'
-									alt='BH Futures Foundation'
-									className='grayscale'
-								/>
-							</a>
+
+							<PartnerLogo
+								url='https://www.bhfuturesfoundation.org/'
+								img='/partners/BHFF.png'
+								size='6rem'
+							/>
 						</div>
 						<div className='partner'>
 							<span className='role'>Platinum Sponsor</span>
@@ -57,7 +52,7 @@ export default function Partners() {
 							<PartnerLogo
 								url='https://tehnograd-company.ba/'
 								img='/partners/TehnogradCompany.png'
-								size='7rem'
+								size='9rem'
 							/>
 						</div>
 						<div className='partner'>
@@ -105,7 +100,10 @@ export default function Partners() {
 						</div>
 						<div className='partner'>
 							<span className='role'>Media Partner</span>
-							<PartnerLogo url='http://www.untz.ba/' img='/partners/untz.png' />
+							<PartnerLogo
+								url='https://radiokameleon.ba/'
+								img='/partners/Kameleon.png'
+							/>
 						</div>
 					</div>
 
