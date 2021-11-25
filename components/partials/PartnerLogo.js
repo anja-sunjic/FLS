@@ -11,7 +11,7 @@ export default function PartnerLogo({ url, img, size }) {
 			<img
 				src={img}
 				alt='Futures Leaders Summit'
-				style={size ? { height: `${size}` } : { height: `5rem` }}
+				style={size ? { height: `${size}` } : { height: `4rem` }}
 			/>
 		</a>
 	);
