@@ -77,6 +77,36 @@ export const sponsors = [
 				url: 'https://www.softhouse.se/en/kontakt/sarajevo/',
 				img: '/partners/Softhouse.png',
 			},
+			{
+				name: 'ZenDev',
+				url: 'https://www.zendev.se/en',
+				img: '/partners/ZenDev.png',
+			},
+		],
+	},
+	{
+		name: 'Academic Partners',
+		members: [
+			{
+				name: 'UNTZ',
+				url: 'http://www.untz.ba/',
+				img: '/partners/untz.png',
+			},
+			{
+				name: 'IPI Akademija',
+				url: 'https://ipi-akademija.ba/',
+				img: '/partners/IPIAkademija.png',
+			},
+		],
+	},
+	{
+		name: 'Media Partner',
+		members: [
+			{
+				name: 'Radio Kameleon',
+				url: 'https://radiokameleon.ba/',
+				img: '/partners/Kameleon.png',
+			},
 		],
 	},
 ];

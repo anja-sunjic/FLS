@@ -98,6 +98,14 @@ export default function Partners() {
 						<div className='partner'>
 							<span className='role'>Academic Partner</span>
 							<PartnerLogo url='http://www.untz.ba/' img='/partners/untz.png' />
+							<PartnerLogo
+								url='https://ipi-akademija.ba/'
+								img='/partners/IPIAkademija.png'
+							/>
+						</div>
+						<div className='partner'>
+							<span className='role'>Media Partner</span>
+							<PartnerLogo url='http://www.untz.ba/' img='/partners/untz.png' />
 						</div>
 					</div>
 
