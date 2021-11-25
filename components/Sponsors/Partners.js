@@ -5,11 +5,13 @@ export default function Teams() {
 	return (
 		<div className='section teams'>
 			<div className='container'>
-				{sponsors.map((team) => {
-					return (
-						<Team name={team.name} members={team.members} key={team.name} />
-					);
-				})}
+				{sponsors.map((sponsor) => (
+					<Team
+						name={sponsor.name}
+						members={sponsor.members}
+						key={sponsor.name}
+					/>
+				))}
 			</div>
 		</div>
 	);
