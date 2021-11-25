@@ -70,7 +70,7 @@ export default function ContactForm() {
   return (
     <form className="contact-form" onSubmit={sendEmail}>
       <div className="form-control">
-        <label className="form-label">Inquiry type</label>
+        <label className="form-label">Inquiry type:*</label>
         <Select
           id="inquirySelect"
           instanceId="inquirySelect"
@@ -84,7 +84,7 @@ export default function ContactForm() {
         />
       </div>
       <div className="form-control">
-        <div className="form-label">Your Name*</div>
+        <div className="form-label">Your name:*</div>
         <input
           value={nameState}
           type="text"
@@ -94,7 +94,7 @@ export default function ContactForm() {
         />
       </div>
       <div className="form-control">
-        <div className="form-label">Your Email*</div>
+        <div className="form-label">Your email:*</div>
         <input
           value={emailState}
           type="email"
@@ -104,7 +104,7 @@ export default function ContactForm() {
         />
       </div>
       <div className="form-control">
-        <div className="form-label">Your Message*</div>
+        <div className="form-label">Your message:*</div>
         <textarea
           value={messageState}
           type="text"
