@@ -88,6 +88,10 @@ export default function Partners() {
 									url='https://liderlab.center/'
 									img='/partners/LiderLab.png'
 								/>
+								<PartnerLogo
+									url='https://www.zendev.se/en'
+									img='/partners/ZenDev.png'
+								/>
 							</div>
 						</div>
 						<div className='partner'>
