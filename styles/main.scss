@@ -83,29 +83,29 @@ img {
 	}
 }
 
-.fls-list { 
-  padding: 0;
+.fls-list {
+	padding: 0;
 	font-size: crem(27px);
 }
 
 .fls-list-item {
-  list-style: none;
-  position: relative;
-  padding-left: 1.25em;
+	list-style: none;
+	position: relative;
+	padding-left: 1.25em;
 	margin-bottom: 1em;
 }
 
 .fls-list-item:after {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  content: '';
-  background: transparent url(../public/hexa-bullet.svg) 0 50% no-repeat;
-  width: 1em;
-  height: 1em;
-  display: inline-block;
-  background-size: cover;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	content: '';
+	background: transparent url(../public/hexa-bullet.svg) 0 50% no-repeat;
+	width: 1em;
+	height: 1em;
+	display: inline-block;
+	background-size: cover;
 }
 
 .center-text {
@@ -118,20 +118,20 @@ img {
 
 .link-black-bold-underline {
 	color: black;
-  font-weight: bold;
-  text-decoration: underline;
+	font-weight: bold;
+	text-decoration: underline;
 }
 
 .link-yellow-bold-underline {
 	color: #f1dc13;
-  font-weight: bold;
-  text-decoration: underline;
+	font-weight: bold;
+	text-decoration: underline;
 }
 
 .health-safety-center {
 	display: flex;
-  align-items: center;
-  justify-content: center;
+	align-items: center;
+	justify-content: center;
 }
 //import all files
 @import './partials/all';
@@ -148,3 +148,4 @@ img {
 @import './Countdown/all';
 @import './Registration/_all';
 @import './AdminDashboard/_all';
+@import './Sponsors/_all';

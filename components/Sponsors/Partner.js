@@ -1,8 +1,8 @@
 import PartnerLogo from '../partials/PartnerLogo';
-export default function Partner({ props, url, img }) {
+export default function Partner({ url, img }) {
 	return (
 		<>
-			<div className='member'>
+			<div>
 				<PartnerLogo url={url} img={img} />
 			</div>
 		</>
