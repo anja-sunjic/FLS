@@ -44,7 +44,7 @@ export default function Partners() {
 							<PartnerLogo
 								url='https://www.mistral.ba/'
 								img='/partners/Mistral.png'
-								size='9rem'
+								size='11rem'
 							/>
 						</div>
 						<div className='partner'>
