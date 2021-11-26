@@ -79,6 +79,7 @@ export default function Partners() {
 								<PartnerLogo
 									url='https://www.bhfuturesfoundation.org/innovation-nation-2021'
 									img='/partners/IEEEBH.png'
+									size='9rem'
 								/>
 								<PartnerLogo
 									url='https://www.softhouse.se/en/kontakt/sarajevo/'

@@ -1,34 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# FLS
+
+Futures Leaders Summit (FLS) gathers future STEM leaders from Bosnia and Herzegovina. By establishing an event that will annually gather prospective change makers in the field of STEM, we aim to create a strong network that will change the way we perceive the industry and the future of our country's development.
+
+This year, the big idea behind the event is the importance of interdisciplinarity in STEM, and we will welcome STEM students and recent graduates in person in Tuzla combined with an opportunity for numerous other enthusiasts to follow the keynote speakers online. Become a part of a story that will shape today into a new tomorrow.
 
 ## Getting Started
 
-First, run the development server:
+- npm init / npm install / npm i
+- npm run dev / yarn dev
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Commiting Notes
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Manji commitovi
+- Main glavni branch
+- Napraviti PR i poslati Aliju i Harisu
+- Nakon zavrsenog PR-a pullat main i pocet radit
+- Branch imenovati broj-imetaska
