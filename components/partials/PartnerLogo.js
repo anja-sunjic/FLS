@@ -1,15 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 import { Image } from 'next/dist/client/image';
 export default function PartnerLogo({ url, img, size, name }) {
-	console.log(name);
-
 	function SortOfDynamicStyling() {
 		if (name === 'ieeebh') {
 			return (
 				<img
 					src={img}
 					alt='Futures Leaders Summit'
-					style={{ height: '7rem', margin: '0' }}
+					style={{ height: '10rem', marginTop: '-3rem' }}
 				/>
 			);
 		} else if (name === 'ZenDev') {
@@ -25,7 +23,7 @@ export default function PartnerLogo({ url, img, size, name }) {
 				<img
 					src={img}
 					alt='Futures Leaders Summit'
-					style={{ height: '3rem' }}
+					style={{ height: '3.5rem' }}
 				/>
 			);
 		} else if (name === 'Tehnograd Company') {
@@ -48,12 +46,7 @@ export default function PartnerLogo({ url, img, size, name }) {
 	}
 
 	return (
-		<a
-			href={url}
-			target='_blank'
-			rel='noreferrer'
-			className='partner-logo grayscale'
-		>
+		<a href={url} target='_blank' rel='noreferrer' className='grayscale'>
 			{<SortOfDynamicStyling />}
 		</a>
 	);
