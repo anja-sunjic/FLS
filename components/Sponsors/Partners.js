@@ -4,8 +4,8 @@ export default function Partners() {
 	return (
 		<div className='section teams'>
 			<div className='container'>
-				{sponsors.map(({ name, members }) => (
-					<Tier name={name} members={members} key={name} />
+				{sponsors.map(({ name, members }, index) => (
+					<Tier name={name} members={members} key={index} />
 				))}
 			</div>
 		</div>

@@ -11,8 +11,8 @@ export default function Tier({ members, name }) {
 					</div>
 				</div>
 				<div className='members'>
-					{members.map(({ img, url }) => (
-						<Partner img={img} url={url} key={url} />
+					{members.map(({ img, url, name }) => (
+						<Partner img={img} url={url} key={url} name={name} />
 					))}
 				</div>
 			</div>
