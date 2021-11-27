@@ -175,4 +175,14 @@ export const speakers = [
     img: "/speakers/SnjezanaUdovicic.jpg",
     bio: "Snježana is a General manager at Publica Language Studio, and a Co-Founder & NLP Trainer at LiderLab Center. She graduated from the Banja Luka College, and went on to work as a Radio Host, first at NES Radio, and then at Big Radio Banja Luka. Over time, she has tackled Public Relations Management, Project Management, and NLP, gaining several specializations in the latter. Some of her many certificates include NLP Master IANLP, Professional Certified Coach (PCC), ECA, and NLP Practitioner IANLP. Currently, she is most actively involved in managing the Publiva Language Studio which conducts localization services, voiceover and translation, and audio and podcast production. Additionally, she invests her time in personal development coaching at the aforementioned LiderLab Center.",
   },
+  {
+    id: 16,
+    slug: "goran-vukalovic",
+    name: "Goran Vukalovic",
+    title:
+      "Brand Manager at City Gecko@Telemax d.o.o. Banja Luka",
+    li: "https://www.linkedin.com/in/goranvukalovic/",
+    img: "/speakers/Goran.png",
+    bio: "",
+  },
 ];
