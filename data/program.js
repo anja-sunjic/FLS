@@ -122,7 +122,7 @@ export const wed = [
     events: [
       {
         id: 10,
-        title: "Education & Employability",
+        title: "Uniting Academia and Industry: Perspective on the BH market",
         speakerIds: [8],
         speakers: ["Melita Kurtović"],
         desc: "",
