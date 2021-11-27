@@ -81,10 +81,11 @@ export const wed = [
       {
         id: 8,
         title:
-          "Take the knowledge out of the box and play with it: Creating your own educational pathway through interdisciplinary approaches and significant learning",
-        speakerIds: [2],
-        speakers: ["Zinka Bejtić"],
+          "The importance of interdisciplinary thinking and skills for the future",
+        speakerIds: [6],
+        speakers: ["Mario Baroševčić"],
         desc: "",
+
         tags: ["F2F", "Online"],
         company: 1,
       },
@@ -106,13 +107,13 @@ export const wed = [
       {
         id: 9,
         title:
-          "The importance of interdisciplinary thinking and skills for the future",
-        speakerIds: [6],
-        speakers: ["Mario Baroševčić"],
+          "Take the knowledge out of the box and play with it: Creating your own educational pathway through interdisciplinary approaches and significant learning",
+        speakerIds: [2],
+        speakers: ["Zinka Bejtić"],
         desc: "",
-
         tags: ["F2F", "Online"],
         company: 1,
+
       },
     ],
   },
