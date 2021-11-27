@@ -71,11 +71,11 @@ export default function Speakers() {
               slug="mario-barosevcic"
             />
             <Speaker
-              img="/speakers/MelitaKurtovic.jpg"
-              name="Melita Kurtovic"
-              title="Talent Operations Analyst at Netflix"
-              li="https://www.linkedin.com/in/melita-kurtovic-5762b6ab/"
-              slug="melita-kurtovic"
+              img="/speakers/DarkoTodorovic.png"
+              name="Darko Todorovic"
+              title="VP of Engineering and Delivery at HTEC"
+              li="https://www.linkedin.com/in/darko-todorovic-b8079826/"
+              slug="darko-todorovic"
             />
             <div className="column btn">
               <Link href="speakers">
