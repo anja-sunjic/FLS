@@ -17,7 +17,7 @@ export const wed = [
 		  id: 2,
 		  title:
 			'Interdisciplinary integration as a pillar of pharmaceutical industry ',
-		  speakerIds: [11],
+		  speakerIds: [12],
 		  speakers: ['Amra Ibrić'],
 		  desc: ' ',
 		  tags: ['F2F'],
@@ -337,7 +337,7 @@ export const fri = [
       {
         id: 24,
         title: "Leading From a Growth Mindset",
-        speakerIds: [14, 15],
+        speakerIds: [15, 16],
         speakers: ["Anja Bundalo & Snjezana Udovicic"],
         desc: "",
 
@@ -347,7 +347,7 @@ export const fri = [
       {
         id: 25,
         title: "Vision of the Future: Can Creativity Solve Every Problem?",
-        speakerIds: [12],
+        speakerIds: [13],
         speakers: ["Edina Seleskovic"],
         desc: "",
 
@@ -357,7 +357,7 @@ export const fri = [
       {
         id: 26,
         title: "Leadership skills for the ongoing Industrial Revolution 4.0",
-        speakerIds: [10],
+        speakerIds: [11],
         speakers: ["Erol Mujanovic"],
         desc: "",
 
