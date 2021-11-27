@@ -188,6 +188,16 @@ export const speakers = [
   },
   {
     id: 17,
+    slug: "sanela-klaric",
+    name: "Sanela Klaric",
+    title:
+      "PhD Architecture",
+    li: "https://www.linkedin.com/in/sanela-klaric-5916616a/",
+    img: "/speakers/SanelaKlaric.png",
+    bio: "",
+  },
+  {
+    id: 18,
     slug: "goran-vukalovic",
     name: "Goran Vukalovic",
     title:
