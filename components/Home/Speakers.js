@@ -79,7 +79,7 @@ export default function Speakers() {
             />
             <div className="column btn">
               <Link href="speakers">
-                <a className="contact-button">
+                <a className="contact-button contact-btn">
                   <span>View All Speakers</span>
                 </a>
               </Link>
