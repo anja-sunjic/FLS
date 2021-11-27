@@ -7,7 +7,7 @@ export const wed = [
 		  id: 1,
 		  title:
 			'Design the career you want: From skills to finding your North Star',
-		  speakerIds: [7],
+		  speakerIds: [8],
 		  speakers: ['Melita Kurtović'],
 		  desc: '',
 		  tags: ['F2F'],
@@ -17,7 +17,7 @@ export const wed = [
 		  id: 2,
 		  title:
 			'Interdisciplinary integration as a pillar of pharmaceutical industry ',
-		  speakerIds: [8],
+		  speakerIds: [11],
 		  speakers: ['Amra Ibrić'],
 		  desc: ' ',
 		  tags: ['F2F'],
