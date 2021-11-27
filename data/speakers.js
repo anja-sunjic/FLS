@@ -168,6 +168,15 @@ export const speakers = [
   },
   {
     id: 15,
+    slug: "srdjan-jovanovic",
+    name: "Srdjan Jovanovic",
+    title: "VP of People Operations at HTEC",
+    li: "https://www.linkedin.com/in/jovanovicsrdjan/",
+    img: "/speakers/Srdjan.png",
+    bio: "",
+  },
+  {
+    id: 16,
     slug: "denis-kraljevic",
     name: "Denis Kraljevic",
     title: "CEO at Derubis Yachts",
@@ -176,7 +185,7 @@ export const speakers = [
     bio: "",
   },
   {
-    id: 16,
+    id: 17,
     slug: "anja-bundalo",
     name: "Anja Bundalo",
     title:
@@ -186,7 +195,7 @@ export const speakers = [
     bio: "She is 34 years old. She holds her PhD degree from the university François-Rabelais of Tours (France) since 2018, and has published articles and presented papers at conferences on the subject of French Enlightenment. She is currently a professor of French literature at the University of Banja Luka. She has also finished Law studies (four year curricula- 240 ECTS).<br/><br/>She is the contact person for the international projects at her University. She obtained the French government scholarship for her Master and doctoral studies, the staff scholarship for the observation of doctoral schools at the University of Poitiers, as well as Coimbra scholarship. She regularly participates in all the workshops concerning the implementation of Erasmus+ programs organized by hers and by the partner’s universities. <br/><br/>She fluently speaks Serbian/Bosnian (mother tongue), French, English, Italian and Russian and is very interested in developing “soft skills” and teaching capacities in the classroom. She is a professional Coach (licensed by ECA), NLP Trainer and a Transactional analyst- Practitioner (TA). She is a co-founder and director of the Center for education, coaching and self-development “LiderLab”, through which she is spreading the culture of leadership, assertive communication and self-awareness, that she also promotes in every classroom that she enters.",
   },
   {
-    id: 17,
+    id: 18,
     slug: "snjezana-udovicic",
     name: "Snjezana Udovicic",
     title:
@@ -196,7 +205,7 @@ export const speakers = [
     bio: "Snježana is a General manager at Publica Language Studio, and a Co-Founder & NLP Trainer at LiderLab Center. She graduated from the Banja Luka College, and went on to work as a Radio Host, first at NES Radio, and then at Big Radio Banja Luka. Over time, she has tackled Public Relations Management, Project Management, and NLP, gaining several specializations in the latter. Some of her many certificates include NLP Master IANLP, Professional Certified Coach (PCC), ECA, and NLP Practitioner IANLP. Currently, she is most actively involved in managing the Publiva Language Studio which conducts localization services, voiceover and translation, and audio and podcast production. Additionally, she invests her time in personal development coaching at the aforementioned LiderLab Center.",
   },
   {
-    id: 18,
+    id: 19,
     slug: "sanela-klaric",
     name: "Sanela Klaric",
     title:
@@ -206,7 +215,7 @@ export const speakers = [
     bio: "",
   },
   {
-    id: 19,
+    id: 20,
     slug: "goran-vukalovic",
     name: "Goran Vukalovic",
     title:
