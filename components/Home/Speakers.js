@@ -77,9 +77,9 @@ export default function Speakers() {
               li="https://www.linkedin.com/in/darko-todorovic-b8079826/"
               slug="darko-todorovic"
             />
-            <div className="column btn">
+            <div className="column btn-container">
               <Link href="speakers">
-                <a className="contact-button contact-btn">
+                <a className="contact-button btn">
                   <span>View All Speakers</span>
                 </a>
               </Link>
