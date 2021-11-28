@@ -166,11 +166,18 @@
       }
     }
   }
-  .btn {
+  .btn-container {
     padding-right: 6rem;
     @include mobile {
       padding-right: 0;
-      padding-bottom: 7rem;
+      padding-bottom: 5rem;
+    }
+  }
+  .btn {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    @include mobile {
+      margin-bottom: 0rem;
     }
   }
 }
