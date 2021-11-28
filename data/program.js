@@ -139,7 +139,7 @@ export const wed = [
     events: [
       {
         id: 11,
-        title: "FLS'21 get-together - Holidays edition",
+        title: "FLS'21 get-together - Holidays Edition",
         speakerIds: [],
         speakers: [],
         desc: "",
