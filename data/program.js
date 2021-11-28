@@ -7,7 +7,7 @@ export const wed = [
 		  id: 1,
 		  title:
 			'Design the career you want: From skills to finding your North Star',
-		  speakerIds: [7],
+		  speakerIds: [8],
 		  speakers: ['Melita Kurtović'],
 		  desc: '',
 		  tags: ['F2F'],
@@ -17,7 +17,7 @@ export const wed = [
 		  id: 2,
 		  title:
 			'Interdisciplinary integration as a pillar of pharmaceutical industry ',
-		  speakerIds: [8],
+		  speakerIds: [11],
 		  speakers: ['Amra Ibrić'],
 		  desc: ' ',
 		  tags: ['F2F'],
@@ -81,10 +81,11 @@ export const wed = [
       {
         id: 8,
         title:
-          "Take the knowledge out of the box and play with it: Creating your own educational pathway through interdisciplinary approaches and significant learning",
-        speakerIds: [2],
-        speakers: ["Zinka Bejtić"],
+          "The importance of interdisciplinary thinking and skills for the future",
+        speakerIds: [6],
+        speakers: ["Mario Baroševčić"],
         desc: "",
+
         tags: ["F2F", "Online"],
         company: 1,
       },
@@ -106,13 +107,13 @@ export const wed = [
       {
         id: 9,
         title:
-          "The importance of interdisciplinary thinking and skills for the future",
-        speakerIds: [6],
-        speakers: ["Mario Baroševčić"],
+          "Take the knowledge out of the box and play with it: Creating your own educational pathway through interdisciplinary approaches and significant learning",
+        speakerIds: [2],
+        speakers: ["Zinka Bejtić"],
         desc: "",
-
         tags: ["F2F", "Online"],
         company: 1,
+
       },
     ],
   },
@@ -122,7 +123,7 @@ export const wed = [
     events: [
       {
         id: 10,
-        title: "Education & Employability",
+        title: "Uniting Academia and Industry: Perspective on the BH market",
         speakerIds: [8],
         speakers: ["Melita Kurtović"],
         desc: "",
