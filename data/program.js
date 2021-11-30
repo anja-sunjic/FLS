@@ -84,8 +84,7 @@ export const wed = [
           "The importance of interdisciplinary thinking and skills for the future",
         speakerIds: [6],
         speakers: ["Mario Baroševčić"],
-        desc: "",
-
+        desc: "Demystification of the academia-industry transition process. Hear how the top performing academic institutions ensure their students stand out among their peers",
         tags: ["F2F", "Online"],
         company: 1,
       },
