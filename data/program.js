@@ -7,8 +7,8 @@ export const wed = [
         id: 1,
         title:
           "Design the career you want: From skills to finding your North Star",
-        speakerIds: [9],
-        speakers: ["Melita Kurtović"],
+        speakerIds: [9, 15],
+        speakers: ["Melita Kurtović & Srdjan Jovanovic"],
         desc: "",
         tags: ["F2F"],
         company: 1,
