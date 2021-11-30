@@ -233,8 +233,8 @@ export const thu = [
       {
         id: 19,
         title: "The Versatility of Engineering - The Voice of the Industry",
-        speakerIds: [],
-        speakers: [],
+        speakerIds: [19, 16, 20],
+        speakers: ["Sanela Klaric & Denis Kraljevic & Goran Vukalovic"],
         desc: "",
 
         tags: ["F2F", "Online"],
