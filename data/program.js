@@ -102,10 +102,26 @@ export const wed = [
   },
   {
     time: "TBA",
-    type: "Keynote",
+    type: "Panel",
     events: [
       {
         id: 9,
+        title: "Uniting Academia and Industry: Perspective on the BH market",
+        speakerIds: [9],
+        speakers: ["Melita Kurtović"],
+        desc: "",
+
+        tags: ["F2F", "Online"],
+        company: 1,
+      },
+    ],
+  },
+  {
+    time: "TBA",
+    type: "Keynote",
+    events: [
+      {
+        id: 10,
         title:
           "Take the knowledge out of the box and play with it: Creating your own educational pathway through interdisciplinary approaches and significant learning",
         speakerIds: [2],
@@ -114,22 +130,6 @@ export const wed = [
         tags: ["F2F", "Online"],
         company: 1,
 
-      },
-    ],
-  },
-  {
-    time: "TBA",
-    type: "Panel",
-    events: [
-      {
-        id: 10,
-        title: "Uniting Academia and Industry: Perspective on the BH market",
-        speakerIds: [9],
-        speakers: ["Melita Kurtović"],
-        desc: "",
-
-        tags: ["F2F", "Online"],
-        company: 1,
       },
     ],
   },
