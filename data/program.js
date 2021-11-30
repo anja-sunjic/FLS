@@ -365,9 +365,10 @@ export const fri = [
       },
       {
         id: 27,
-        title: "Session Name TBA",
-        speakerIds: [],
-        speakers: [],
+        title:
+          "Unlocking Assertiveness: Changing 6 Key Beliefs That Hinder Our Social Confidence",
+        speakerIds: [11],
+        speakers: ["Mustafa Suvalija"],
         desc: "",
 
         tags: ["F2F"],
