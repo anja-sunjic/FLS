@@ -367,7 +367,7 @@ export const fri = [
           "Unlocking Assertiveness: Changing 6 Key Beliefs That Hinder Our Social Confidence",
         speakerIds: [11],
         speakers: ["Mustafa Suvalija"],
-        desc: "",
+        desc: "Development of assertiveness - the ability to respectfully speak out and stand up for ourselves - can be constrained by a number of limiting beliefs. These misconceptions provide the rationale for why being shy, tolerating disrespectful behavior or giving in to unreasonable demands of others is the better option by predicting negative or less favorable outcomes for acting assertively.",
 
         tags: ["F2F"],
         company: 1,
