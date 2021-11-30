@@ -126,7 +126,7 @@ export const wed = [
           "Take the knowledge out of the box and play with it: Creating your own educational pathway through interdisciplinary approaches and significant learning",
         speakerIds: [2],
         speakers: ["Zinka Bejtić"],
-        desc: "",
+        desc: "A roadmap to integrating knowledge, dismissing imposed conformity  and making connections between concepts across disciplines, in a world where the education system failis to keep pace with it's fast-changing requirements. Transform your attitude towards learning and positively influence your future career pursuits.",
         tags: ["F2F", "Online"],
         company: 1,
       },
