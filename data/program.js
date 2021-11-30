@@ -220,8 +220,7 @@ export const thu = [
         title: "Let's Make Oil Europe's History",
         speakerIds: [7],
         speakers: ["Selma Zilic"],
-        desc: "",
-
+        desc: "Be bold. Tame the energy. Change the world.",
         tags: ["F2F", "Online"],
         company: 1,
       },
