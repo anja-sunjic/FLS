@@ -356,7 +356,7 @@ export const fri = [
         title: "Leadership skills for the ongoing Industrial Revolution 4.0",
         speakerIds: [12],
         speakers: ["Erol Mujanovic"],
-        desc: "",
+        desc: "An interactive and practical online session about key success factors for a modern leadership that creates trust and leads organizations towards a huge success. Leadership is currently going through an unprecedented crisis and challenges, due to several contextual factors, and participants will learn more about why and how leaders need to take care of an organization both from human and business perspective",
 
         tags: ["F2F"],
         company: 1,
