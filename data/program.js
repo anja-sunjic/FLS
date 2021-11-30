@@ -19,7 +19,7 @@ export const wed = [
           "Interdisciplinary integration as a pillar of pharmaceutical industry ",
         speakerIds: [13],
         speakers: ["Amra Ibrić"],
-        desc: " ",
+        desc: "Insight into the world of drug development and pharmasuticals, with a strong emphasis of how a number of entirely different disciplines come together to create one final product",
         tags: ["F2F"],
         company: 1,
       },
