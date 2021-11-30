@@ -336,7 +336,7 @@ export const fri = [
         title: "Leading From a Growth Mindset",
         speakerIds: [17, 18],
         speakers: ["Anja Bundalo & Snjezana Udovicic"],
-        desc: "",
+        desc: "A workshop teaching the foundation of Leadership on the basic principles of Positive Psychology. An interdisciplinary approach to management skills, interactive work and exercises, and a guid to understand the intertwining of leadership with emotional intelligence and psychology overall.",
 
         tags: ["F2F"],
         company: 1,
