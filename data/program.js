@@ -399,8 +399,7 @@ export const fri = [
           "Chasing The Flame: Delivering Olympic mega-events in ever-changing world",
         speakerIds: [5],
         speakers: ["Feđa Delalić"],
-        desc: "",
-
+        desc: "A window into the world of the Olympic Games– the goal, the challenges, the people, the mission. See what lies beyond the magic",
         tags: ["F2F", "Online"],
         company: 1,
       },
