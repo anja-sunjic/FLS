@@ -1,6 +1,6 @@
 export const wed = [
   {
-    time: "TBA",
+    time: "9:00 - 12:00",
     type: "Workshop",
     events: [
       {
@@ -54,12 +54,12 @@ export const wed = [
     ],
   },
   {
-    time: "TBA",
+    time: "12:00 - 13:00",
     type: "Break",
     events: [{ title: "Travel Break" }],
   },
   {
-    time: "TBA",
+    time: "13:00 - 13:30",
     type: "Ceremony",
     events: [
       {
@@ -75,7 +75,7 @@ export const wed = [
     ],
   },
   {
-    time: "TBA",
+    time: "13:30 - 14:15",
     type: "Keynote",
     events: [
       {
@@ -91,7 +91,7 @@ export const wed = [
     ],
   },
   {
-    time: "TBA",
+    time: "14:15 - 15:15",
     type: "Break",
     events: [
       {
@@ -100,7 +100,7 @@ export const wed = [
     ],
   },
   {
-    time: "TBA",
+    time: "15:15 - 16:30",
     type: "Panel",
     events: [
       {
@@ -116,7 +116,7 @@ export const wed = [
     ],
   },
   {
-    time: "TBA",
+    time: "16:30 -17:15",
     type: "Keynote",
     events: [
       {
@@ -132,7 +132,7 @@ export const wed = [
     ],
   },
   {
-    time: "TBA",
+    time: "19h",
     type: "Social",
     events: [
       {
@@ -151,7 +151,7 @@ export const wed = [
 
 export const thu = [
   {
-    time: "TBA",
+    time: "8:00 - 12:00",
     type: "Tech Tutorial/Company Visit",
     events: [
       {
@@ -207,12 +207,12 @@ export const thu = [
     ],
   },
   {
-    time: "TBA",
+    time: "12:00 - 13:00",
     type: "Break",
     events: [{ title: "Travel Break" }],
   },
   {
-    time: "TBA",
+    time: "13:00 - 13:45",
     type: "Keynote",
     events: [
       {
@@ -227,7 +227,7 @@ export const thu = [
     ],
   },
   {
-    time: "TBA",
+    time: "13:45 - 15:00",
     type: "Panel",
     events: [
       {
@@ -243,7 +243,7 @@ export const thu = [
     ],
   },
   {
-    time: "TBA",
+    time: "15:00 - 16:00",
     type: "Break",
     events: [
       {
@@ -252,7 +252,7 @@ export const thu = [
     ],
   },
   {
-    time: "TBA",
+    time: "16:00 - 16:45",
     type: "Keynote",
     events: [
       {
@@ -268,7 +268,7 @@ export const thu = [
     ],
   },
   {
-    time: "TBA",
+    time: "16:45 - 17:30",
     type: "Keynote",
     events: [
       {
@@ -284,7 +284,7 @@ export const thu = [
     ],
   },
   {
-    time: "TBA",
+    time: "17:30 - 17:45",
     type: "Break",
     events: [
       {
@@ -293,7 +293,7 @@ export const thu = [
     ],
   },
   {
-    time: "TBA",
+    time: "17:45 - 18:30",
     type: "Keynote",
     events: [
       {
@@ -309,7 +309,7 @@ export const thu = [
     ],
   },
   {
-    time: "TBA",
+    time: "19:30h",
     type: "Partner Event",
     events: [
       {
@@ -328,7 +328,7 @@ export const thu = [
 
 export const fri = [
   {
-    time: "TBA",
+    time: "8:00 - 10:30",
     type: "Workshop",
     events: [
       {
@@ -385,12 +385,12 @@ export const fri = [
     ],
   },
   {
-    time: "TBA",
+    time: "10:30 - 11:30",
     type: "Break",
     events: [{ title: "Travel Break" }],
   },
   {
-    time: "TBA",
+    time: "11:30 - 12:15",
     type: "Keynote",
     events: [
       {
@@ -406,7 +406,7 @@ export const fri = [
     ],
   },
   {
-    time: "TBA",
+    time: "12:15 - 13:15",
     type: "Keynote",
     events: [
       {
@@ -470,7 +470,7 @@ export const fri = [
     ],
   },
   {
-    time: "TBA",
+    time: "13:15 - 14:15",
     type: "Break",
     events: [
       {
@@ -479,7 +479,7 @@ export const fri = [
     ],
   },
   {
-    time: "TBA",
+    time: "14:15 - 15:00",
     type: "Keynote",
     events: [
       {
@@ -495,7 +495,7 @@ export const fri = [
     ],
   },
   {
-    time: "TBA",
+    time: "15:00 - 15:30",
     type: "Ceremony",
     events: [
       {
@@ -511,7 +511,7 @@ export const fri = [
     ],
   },
   {
-    time: "TBA",
+    time: "19h",
     type: "Social",
     events: [
       {
