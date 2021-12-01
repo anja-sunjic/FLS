@@ -143,6 +143,30 @@ export const teams = [
 				img: '/teams/Web Team/SelmanPatkovic.jpg',
 			},
 			{
+				name: 'Safet Pojskic',
+				title: 'Web Team Member',
+				li: 'https://www.linkedin.com/in/mrpojskic/',
+				img: '/teams/Web Team/SafetPojskic.jpg',
+			},
+			{
+				name: 'Faris Begic',
+				title: 'Web Team Member',
+				li: 'https://www.linkedin.com/in/begicfaris/',
+				img: '/teams/Web Team/FarisBegic.jpg',
+			},
+			{
+				name: 'Ilma Kazazic',
+				title: 'Web Team Member',
+				li: 'https://www.linkedin.com/in/ilma-kazazic/',
+				img: '/teams/Web Team/IlmaKazazic.jpg',
+			},
+			{
+				name: 'Elvira Delic',
+				title: 'Web Team Member',
+				li: 'https://www.linkedin.com/in/elvira-deli%C4%87-63a483174/',
+				img: '/teams/Web Team/ElviraDelic.jpeg',
+			},
+			{
 				name: 'Malik Huremovic',
 				title: 'Web Team Member',
 				li: 'https://www.linkedin.com/in/malikhuremovic01/',
