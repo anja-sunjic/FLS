@@ -229,6 +229,12 @@ export const teams = [
 		name: 'Advisors',
 		members: [
 			{
+				name: 'Ali Mokayes',
+				title: 'Tech Advisor',
+				li: 'https://www.linkedin.com/in/ali-mokayes/',
+				img: '/teams/Advisors/AliMokayes.jpg',
+			},
+			{
 				name: 'Kenan Kurdic',
 				title: 'Marketing Advisor',
 				li: 'https://www.linkedin.com/in/kurdic/',
@@ -245,6 +251,18 @@ export const teams = [
 				title: 'Design Advisor',
 				li: 'https://www.linkedin.com/in/dario-babovic-40308484/',
 				img: '/teams/Advisors/DarioBabovic.jpg',
+			},
+			{
+				name: 'Momcilo Amovic',
+				title: 'Tech Advisor',
+				li: 'https://www.linkedin.com/in/amovic/',
+				img: '/teams/Advisors/MomciloAmovic.jpg',
+			},
+			{
+				name: 'Denis Becirovic',
+				title: 'Academic Advisor',
+				li: 'https://www.facebook.com/people/Denis-Be%C4%87irovi%C4%87/100008288680215/',
+				img: '/teams/Advisors/DenisBecirovic.jpg',
 			},
 		],
 	},
