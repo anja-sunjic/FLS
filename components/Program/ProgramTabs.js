@@ -49,7 +49,7 @@ const createProgram = (day) => {
 							</div>
 						);
 					})}
-					{item.type === 'Workshop' || item.type === 'Company Visit' ? (
+					{item.type === 'Workshop' || item.type === 'Company Visit' || item.type === 'Tech Tutorial/Company Visit' ? (
 						<p className='note-text'>
 							NOTE: Participants will be distributed for parallel sessions based
 							on personal preference and session availability.

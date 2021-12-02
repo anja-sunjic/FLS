@@ -36,6 +36,13 @@ export default function Speakers() {
               slug="zinka-bejtic"
             />
             <Speaker
+              img="/speakers/MirzaCifric.png"
+              name="Mirza Cifric"
+              title="CEO & Co-Founder at Veritas"
+              li="https://www.linkedin.com/in/mcifric/"
+              slug="mirza-cifric"
+            />
+            <Speaker
               img="/speakers/Admir.jpg"
               name="Admir Masic"
               title="Associate Professor of Civil and Environmental Engineering at MIT"
@@ -64,15 +71,15 @@ export default function Speakers() {
               slug="mario-barosevcic"
             />
             <Speaker
-              img="/speakers/MelitaKurtovic.jpg"
-              name="Melita Kurtovic"
-              title="Talent Operations Analyst at Netflix"
-              li="https://www.linkedin.com/in/melita-kurtovic-5762b6ab/"
-              slug="melita-kurtovic"
+              img="/speakers/DarkoTodorovic.png"
+              name="Darko Todorovic"
+              title="VP of Engineering and Delivery at HTEC"
+              li="https://www.linkedin.com/in/darko-todorovic-b8079826/"
+              slug="darko-todorovic"
             />
-            <div className="column btn">
+            <div className="column btn-container">
               <Link href="speakers">
-                <a className="contact-button">
+                <a className="contact-button btn">
                   <span>View All Speakers</span>
                 </a>
               </Link>

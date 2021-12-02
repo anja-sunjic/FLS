@@ -8,6 +8,7 @@ import classes from "../Register/stil.module.css";
 import { fb, db } from "../../backend/firebase";
 import Swal from "sweetalert2";
 
+/*
 const Toast = Swal.mixin({
   toast: true,
   position: "top-end",
@@ -40,6 +41,7 @@ const formFilled = [
   { id: "vax_pool", filedName: "Health protocol survey", valid: false },
   // { id: "discount_code", filedName: "Discount code", valid: false },
 ];
+*/
 
 export default function ContactForm() {
   //States of the form fields
@@ -80,7 +82,7 @@ export default function ContactForm() {
   //This state needs to be handlede after You check is discount code valid
   const [discount, setDiscount] = useState(false);
   //State for opening pop up
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
   const toggleModal = () => setOpen(!open);
 
   //options for select fields
@@ -106,6 +108,7 @@ export default function ContactForm() {
     },
   ];
 
+  /*
   const validateName = () => {
     if (fullName.length < 3) {
       formFilled[0].valid = false;
@@ -405,7 +408,7 @@ export default function ContactForm() {
         );
       }
     }
-  };
+  };*/
 
   return (
     <div style={{ width: "75%" }}>
@@ -418,11 +421,12 @@ export default function ContactForm() {
           required
           onChange={(e) => setFullName(e.target.value)}
         />
+        {/*
         {!validateName() && (
           <>
             <p className={classes.required_field}> Full name is required</p>
           </>
-        )}
+        )}*/}
       </div>
       <div className="form-control">
         <div className="form-label">Email address:*</div>
@@ -433,11 +437,12 @@ export default function ContactForm() {
           onChange={(e) => setEmail(e.target.value)}
           required
         />
+        {/*
         {!validateEmail() ? (
           <p className={classes.required_field}>
             Correct format of Email is required
           </p>
-        ) : null}
+        ) : null}*/}
       </div>
       <div className="form-control">
         <div className="form-label">Date of birth:*</div>
@@ -448,9 +453,10 @@ export default function ContactForm() {
           required
           onChange={(e) => setDob(e.target.value)}
         />
+        {/*
         {!validateDob() && (
           <p className={classes.required_field}>Date of Birth is required</p>
-        )}
+        )}*/}
       </div>
       <div className="form-control">
         <div className="form-label">Contact number:*</div>
@@ -463,11 +469,12 @@ export default function ContactForm() {
           onChange={(phoneNumber) => setNumber(phoneNumber)}
           required={true}
         />
+        {/*
         {!validatePhoneNumber() ? (
           <p className={classes.required_field}>
             Correct format of phone number is required
           </p>
-        ) : null}
+        ) : null}*/}
       </div>
       <div className="form-control">
         <div className="form-label">Link to your LinkedIn profile:</div>
@@ -494,9 +501,10 @@ export default function ContactForm() {
           required={true}
           styles={classes.lista}
         />
+        {/*
         {validateAcademicStatus() && (
           <p className={classes.required_field}>Academic status is required</p>
-        )}
+        )}*/}
       </div>
       <div className="form-control">
         <div className="form-label">
@@ -509,11 +517,12 @@ export default function ContactForm() {
           required
           onChange={(e) => setUniverity(e.target.value)}
         />
+        {/*
         {!validateUniversity() && (
           <>
             <p className={classes.required_field}> University is required</p>
           </>
-        )}
+        )}*/}
       </div>
       <div className="form-control">
         <div className="form-label">Field of study:*</div>
@@ -524,9 +533,10 @@ export default function ContactForm() {
           onChange={(e) => setfieldOfStudy(e.target.value)}
           required
         />
+        {/*
         {!validatefieldOfStudy() ? (
           <p className={classes.required_field}>Field study is required</p>
-        ) : null}
+        ) : null}*/}
       </div>
       <div className="form-control">
         <div className="form-label">
@@ -539,11 +549,12 @@ export default function ContactForm() {
           onChange={(e) => setfinalYearOfStudy(e.target.value)}
           required
         />
+        {/*
         {!validateYearOfStudyEnd(finalYearOfStudy) ? (
           <p className={classes.required_field}>
             Valid format of final year of study is required
           </p>
-        ) : null}
+        ) : null}*/}
       </div>
       <div className="form-control">
         <div className="form-label">City you are currently based in:*</div>
@@ -554,11 +565,12 @@ export default function ContactForm() {
           required
           onChange={(e) => setCityOfStudy(e.target.value)}
         />
+        {/*
         {!validateCityOfResidence() && (
           <>
             <p className={classes.required_field}> City is required!</p>
           </>
-        )}
+        )}*/}
       </div>
       <div className="form-control">
         <div className="form-label">
@@ -572,11 +584,12 @@ export default function ContactForm() {
           required
           onChange={(e) => setMotivation(e.target.value)}
         />
+        {/*
         {!validateMotivation() && (
           <>
             <p className={classes.required_field}>This is required</p>
           </>
-        )}
+        )}*/}
       </div>
       <div className="form-control">
         <div className="form-label">
@@ -590,11 +603,12 @@ export default function ContactForm() {
           required
           onChange={(e) => setImpact(e.target.value)}
         />
+        {/*
         {!validateImpact() && (
           <>
             <p className={classes.required_field}>This is required</p>
           </>
-        )}
+        )}*/}
       </div>
       <div className="form-control">
         <div className="form-label">
@@ -609,11 +623,12 @@ export default function ContactForm() {
           required
           onChange={(e) => setExternalFactors(e.target.value)}
         />
+        {/*
         {!validateExternalFactors() && (
           <>
             <p className={classes.required_field}>This is required</p>
           </>
-        )}
+        )}*/}
       </div>
 
       <div className="form-control">
@@ -632,9 +647,10 @@ export default function ContactForm() {
           required
           styles={classes.lista}
         />
+        {/*
         {validateHouseholdSurvey() && (
           <p className={classes.required_field}>This is required</p>
-        )}
+        )}*/}
       </div>
       <div className="form-control">
         <div tabIndex="-1" id="accommodation" className="form-label">
@@ -651,9 +667,10 @@ export default function ContactForm() {
           required
           styles={classes.lista}
         />
+        {/*
         {validateAccommodationSurvey() && (
           <p className={classes.required_field}>This is required</p>
-        )}
+        )}*/}
       </div>
       <div className="form-control">
         <div tabIndex="-1" id="travel_from_tuzla" className="form-label">
@@ -670,9 +687,10 @@ export default function ContactForm() {
           required
           styles={classes.lista}
         />
+        {/*
         {validateTravelSurvey() && (
           <p className={classes.required_field}>This is required</p>
-        )}
+        )}*/}
       </div>
       <div className="form-control">
         <div tabIndex="-1" id="talent_pool" className="form-label">
@@ -689,9 +707,10 @@ export default function ContactForm() {
           required
           styles={classes.lista}
         />
+        {/*
         {validateTalentPool() && (
           <p className={classes.required_field}>This is required</p>
-        )}
+        )}*/}
 
         <p className={classes.explanation}>
           The FLS Organizing Team is creating a summit talent pool - a database
@@ -707,11 +726,11 @@ export default function ContactForm() {
       </div>
       <div className="form-control">
         <div className="form-label">Upload your resume:</div>
+        {/*onChange={(e) => addFile(e)}*/}
         <input
           accept=".doc,.docx,.pdf"
           type="file"
           name="resume"
-          onChange={(e) => addFile(e)}
         />
         {fileName ? (
           <div>
@@ -767,12 +786,14 @@ export default function ContactForm() {
             required={true}
           />
         </div>
+        {/*
         {validateVaxComplience() && (
           <p className={classes.required_field}>
             Health compliance is required
           </p>
-        )}
+        )}*/}
       </div>
+      {/* Submit button
       <input
         className="contact-button"
         type="submit"
@@ -782,7 +803,8 @@ export default function ContactForm() {
         <p className={classes.required_field}>
           Field {allInputValid.invalidField} is required. Please fill it!
         </p>
-      ) : null}
+      ) : null}*/}
+      {/* Old popup
       {open && (
         <Popup open={open} closePopup={toggleModal}>
           <>
@@ -794,6 +816,21 @@ export default function ContactForm() {
               </p>
               <div className="button" onClick={toggleModal}>
                 Continue
+              </div>
+            </div>
+          </>
+        </Popup>
+      )}*/}
+      {open && (
+        <Popup open={open} closePopup={toggleModal}>
+          <>
+            <div className="inner">
+              {/*<Image src="/check.png" height={100} width={100}></Image>*/}
+              <p>
+                We regret to inform you that the deadline for Travel Grant applications was November 30th.
+              </p>
+              <div className="button" onClick={toggleModal}>
+                Close
               </div>
             </div>
           </>
