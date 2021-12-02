@@ -40,6 +40,16 @@ export const sponsors = [
 		],
 	},
 	{
+		name: 'Silver sponsor',
+		members: [
+			{
+				name: 'Mistral',
+				url: 'https://www.mistral.ba/',
+				img: '/partners/mistral.png',
+			},
+		],
+	},
+	{
 		name: 'Bronze sponsor',
 		members: [
 			{
@@ -123,11 +133,6 @@ export const sponsors = [
 				img: '/partners/untz.png',
 			},
 			{
-				name: 'IPI Akademija',
-				url: 'https://ipi-akademija.ba/',
-				img: '/partners/IPIAkademija.png',
-			},
-			{
 				name: 'Mašinski fakultet Tuzla',
 				url: 'https://mf.untz.ba/',
 				img: '/partners/mftz.png',
@@ -141,6 +146,11 @@ export const sponsors = [
 				name: 'Fakultet elektrotehnike',
 				url: 'http://www.fe.untz.ba/',
 				img: '/partners/fetz.png',
+			},
+			{
+				name: 'IPI Akademija',
+				url: 'https://ipi-akademija.ba/',
+				img: '/partners/IPIAkademija.png',
 			},
 		],
 	},

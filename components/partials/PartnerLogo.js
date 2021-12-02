@@ -48,6 +48,55 @@ export default function PartnerLogo({ url, img, size, name }) {
 						style={{ height: '10rem' }}
 					/>
 				);
+			case 'MPTK':
+				return (
+					<img
+						src={img}
+						alt='Futures Leaders Summit'
+						style={{ height: '7rem' }}
+					/>
+				);
+			case 'Radio Kameleon':
+				return (
+					<img
+						src={img}
+						alt='Futures Leaders Summit'
+						style={{ height: '4.5rem' }}
+					/>
+				);
+			case 'Bingo D.O.O':
+				return (
+					<img
+						src={img}
+						alt='Futures Leaders Summit'
+						style={{ height: '4.5rem', marginTop: '2rem' }}
+					/>
+				);
+			case 'Bingo D.O.O':
+				return (
+					<img
+						src={img}
+						alt='Futures Leaders Summit'
+						style={{ height: '4.5rem', marginTop: '2rem' }}
+					/>
+				);
+			case 'Mistral':
+				return (
+					<img
+						src={img}
+						alt='Futures Leaders Summit'
+						style={{ height: '12rem' }}
+					/>
+				);
+			case 'City Gecko':
+				return (
+					<img
+						src={img}
+						alt='Futures Leaders Summit'
+						style={{ height: '4rem' }}
+					/>
+				);
+
 			default:
 				return (
 					<img
