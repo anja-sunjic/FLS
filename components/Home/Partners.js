@@ -10,17 +10,12 @@ export default function Partners() {
 					<div className='top-partners'>
 						<div className='partner'>
 							<span className='role'>Organizer</span>
-							<a
-								href='https://www.bhfuturesfoundation.org/'
-								target='_blank'
-								rel='noreferrer'
-							>
-								<img
-									src='/partners/BHFF.png'
-									alt='BH Futures Foundation'
-									className='grayscale'
-								/>
-							</a>
+
+							<PartnerLogo
+								url='https://www.bhfuturesfoundation.org/'
+								img='/partners/BHFF.png'
+								size='6rem'
+							/>
 						</div>
 						<div className='partner'>
 							<span className='role'>Platinum Sponsor</span>
@@ -49,7 +44,7 @@ export default function Partners() {
 							<PartnerLogo
 								url='https://www.mistral.ba/'
 								img='/partners/Mistral.png'
-								size='9rem'
+								size='11rem'
 							/>
 						</div>
 						<div className='partner'>
@@ -57,7 +52,7 @@ export default function Partners() {
 							<PartnerLogo
 								url='https://tehnograd-company.ba/'
 								img='/partners/TehnogradCompany.png'
-								size='7rem'
+								size='9rem'
 							/>
 						</div>
 						<div className='partner'>
@@ -84,6 +79,7 @@ export default function Partners() {
 								<PartnerLogo
 									url='https://www.bhfuturesfoundation.org/innovation-nation-2021'
 									img='/partners/IEEEBH.png'
+									size='9rem'
 								/>
 								<PartnerLogo
 									url='https://www.softhouse.se/en/kontakt/sarajevo/'
@@ -93,11 +89,26 @@ export default function Partners() {
 									url='https://liderlab.center/'
 									img='/partners/LiderLab.png'
 								/>
+								<PartnerLogo
+									url='https://www.zendev.se/en'
+									img='/partners/ZenDev.png'
+								/>
 							</div>
 						</div>
 						<div className='partner'>
 							<span className='role'>Academic Partner</span>
 							<PartnerLogo url='http://www.untz.ba/' img='/partners/untz.png' />
+							<PartnerLogo
+								url='https://ipi-akademija.ba/'
+								img='/partners/IPIAkademija.png'
+							/>
+						</div>
+						<div className='partner'>
+							<span className='role'>Media Partner</span>
+							<PartnerLogo
+								url='https://radiokameleon.ba/'
+								img='/partners/Kameleon.png'
+							/>
 						</div>
 					</div>
 

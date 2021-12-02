@@ -1,100 +1,100 @@
 .teams {
-  padding: crem(50px) 0;
-  .team-single:nth-of-type(even) {
-    background-color: lighten(black, 15%);
-  }
+	padding: crem(50px) 0;
+	.team-single:nth-of-type(even) {
+		background-color: lighten(black, 15%);
+	}
 
-  .team-single {
-    padding: 2rem 2rem;
-    margin-top: 2rem;
-    .title-line {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 3rem;
-      h2 {
-        margin-bottom: 0;
-      }
-      .line-decor {
-        width: 45%;
-        img {
-          -o-object-fit: scale-down;
-          object-fit: scale-down;
-        }
-      }
-    }
-    .members {
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-start;
-      flex-wrap: wrap;
-      gap: 2rem;
-      .member {
-        width: calc(25% - 1.5rem);
-        @include touch {
-          width: calc(33% - 1.5rem);
-        }
-        @include mobile {
-          width: calc(50% - 1.5rem);
-        }
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        .member-img {
-          overflow: hidden;
-          -webkit-clip-path: polygon(
-            50% 0%,
-            100% 25%,
-            100% 75%,
-            50% 100%,
-            0% 75%,
-            0% 25%
-          );
-          clip-path: polygon(
-            50% 0%,
-            100% 25%,
-            100% 75%,
-            50% 100%,
-            0% 75%,
-            0% 25%
-          );
-          height: crem(345px);
-          width: crem(300px);
-          overflow: hidden;
-          @include mobile {
-            height: crem(280px);
-            width: crem(250px);
-          }
-          img,
-          svg {
-            display: inline;
-            margin: 0 auto;
-            height: 100%;
-            width: 100%;
-            -o-object-fit: cover;
-            object-fit: cover;
-          }
-        }
-        p.name {
-          color: $yellow;
-          margin-top: 1.5rem;
-          font-size: crem(27px);
-          text-align: center;
-          @include mobile {
-            font-size: crem(27px);
-          }
-        }
-        p.role {
-          color: white;
-          text-align: center;
-          margin-top: 0.2rem;
-          font-size: crem(22px);
-          @include mobile {
-            font-size: crem(27px);
-          }
-        }
-      }
-    }
-  }
+	.team-single {
+		padding: 2rem 2rem;
+		margin-top: 2rem;
+		.title-line {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-bottom: 3rem;
+			h2 {
+				margin-bottom: 0;
+			}
+			.line-decor {
+				width: 45%;
+				img {
+					-o-object-fit: scale-down;
+					object-fit: scale-down;
+				}
+			}
+		}
+		.members {
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-start;
+			flex-wrap: wrap;
+			gap: 2rem;
+			.member {
+				width: calc(25% - 1.5rem);
+				@include touch {
+					width: calc(33% - 1.5rem);
+				}
+				@include mobile {
+					width: calc(50% - 1.5rem);
+				}
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-start;
+				align-items: center;
+				.member-img {
+					overflow: hidden;
+					-webkit-clip-path: polygon(
+						50% 0%,
+						100% 25%,
+						100% 75%,
+						50% 100%,
+						0% 75%,
+						0% 25%
+					);
+					clip-path: polygon(
+						50% 0%,
+						100% 25%,
+						100% 75%,
+						50% 100%,
+						0% 75%,
+						0% 25%
+					);
+					height: crem(345px);
+					width: crem(300px);
+					overflow: hidden;
+					@include mobile {
+						height: crem(280px);
+						width: crem(250px);
+					}
+					img,
+					svg {
+						display: inline;
+						margin: 0 auto;
+						height: 100%;
+						width: 100%;
+						-o-object-fit: cover;
+						object-fit: cover;
+					}
+				}
+				p.name {
+					color: $yellow;
+					margin-top: 1.5rem;
+					font-size: crem(27px);
+					text-align: center;
+					@include mobile {
+						font-size: crem(27px);
+					}
+				}
+				p.role {
+					color: white;
+					text-align: center;
+					margin-top: 0.2rem;
+					font-size: crem(22px);
+					@include mobile {
+						font-size: crem(27px);
+					}
+				}
+			}
+		}
+	}
 }

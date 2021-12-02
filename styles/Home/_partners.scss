@@ -38,7 +38,9 @@
 		align-items: center;
 		span.role {
 			font: $font;
-			font-size: crem(27px);
+			font-size: crem(40px);
+			font-weight: bold;
+			color: #efe200;
 		}
 		.partner {
 			width: 100%;
@@ -101,6 +103,7 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
+
 		.partner-img {
 			width: crem(200px);
 			height: auto;
