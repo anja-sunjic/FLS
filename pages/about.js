@@ -5,7 +5,6 @@ import Decor from '../components/partials/Decor';
 import Intro from '../components/About/Intro';
 import Purpose from '../components/About/Purpose';
 import Story from '../components/About/Story';
-import CountdownComponent from '../components/Countdown/Countdown';
 
 export default function Home() {
 	return (

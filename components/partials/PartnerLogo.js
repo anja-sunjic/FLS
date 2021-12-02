@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
-import { Image } from 'next/dist/client/image';
+
 export default function PartnerLogo({ url, img, size, name }) {
+	console.log(name);
 	function SortOfDynamicStyling() {
 		if (name === 'ieeebh') {
 			return (
@@ -32,6 +33,22 @@ export default function PartnerLogo({ url, img, size, name }) {
 					src={img}
 					alt='Futures Leaders Summit'
 					style={{ height: '10rem' }}
+				/>
+			);
+		} else if (name == 'DKR') {
+			return (
+				<img
+					src={img}
+					alt='Futures Leaders Summit'
+					style={{ height: '4rem' }}
+				/>
+			);
+		} else if ((name = 'Porsche Bosnia and Herzegovina')) {
+			return (
+				<img
+					src={img}
+					alt='Futures Leaders Summit'
+					style={{ height: '4rem' }}
 				/>
 			);
 		} else {
