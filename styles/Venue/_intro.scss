@@ -1,0 +1,156 @@
+.intro._venue {
+  position: relative;
+  height: auto;
+  min-height: 50vh !important;
+  width: 100%;
+  padding-top: 13rem;
+  padding-bottom: 10rem;
+  @include touch {
+    padding: 0 1.5rem;
+    padding-top: 13rem;
+    padding-bottom: 10rem;
+  }
+  .title-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+    @include touch {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      margin-bottom: 0;
+    }
+    .line-decor {
+      width: 50%;
+      img {
+        -o-object-fit: scale-down;
+        object-fit: scale-down;
+      }
+    }
+  }
+  p {
+    color: white;
+    &:not(:last-of-type) {
+      margin-bottom: 2rem;
+    }
+    @include touch {
+      padding-right: 0;
+    }
+  }
+  .accented-venue {
+    color: $yellow;
+    font-weight: 700;
+    padding: 0;
+  }
+}
+.purpose {
+  background-color: $yellow;
+  padding: 5rem 0;
+  ::-moz-selection {
+    color: $yellow;
+    background: $dark;
+  }
+  ::selection {
+    color: $yellow;
+    background: $dark;
+  }
+  @include touch {
+    padding: 4rem 1.5rem;
+  }
+  .venue-content {
+    display: flex;
+    flex-direction: row;
+    @include touch {
+      flex-direction: column-reverse;
+    }
+    p {
+      width: 100%;
+      padding-right: 10%;
+      font-weight: 600;
+      color: black;
+      @include touch {
+        padding-right: 0;
+      }
+    }
+    h2 {
+      text-align: right;
+      width: 100%;
+      font-size: 3.2rem;
+      color: black;
+    }
+  }
+}
+.story {
+  padding: 5rem 0;
+  position: relative;
+  height: unset;
+  .hex-decor {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    transform: translateY(-50%);
+    height: 80vh;
+    z-index: -1;
+    img {
+      height: 100%;
+    }
+    @include touch {
+      width: 100%;
+    }
+  }
+  .hex-decor-big {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  @include touch {
+    min-height: unset;
+    height: auto;
+    padding: 4rem 1.5rem;
+  }
+
+  .inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .title-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+    width: 100%;
+    h2 {
+      margin-bottom: 0;
+    }
+    @include touch {
+      margin-bottom: 2rem;
+    }
+    .line-decor {
+      width: 60%;
+      img {
+        -o-object-fit: scale-down;
+        object-fit: scale-down;
+      }
+    }
+  }
+  p {
+    color: white;
+    padding-left: 40%;
+    &:not(:last-of-type) {
+      margin-bottom: 2rem;
+    }
+    @include touch {
+      padding-left: 0;
+    }
+  }
+}
