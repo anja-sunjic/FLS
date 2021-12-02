@@ -12,7 +12,6 @@ export default function Venue() {
             <div className='_main'>
                 <h1 className='is-hidden'>About Futures Leaders Summit</h1>
                 <Header />
-                <Parking />
                 <Decor />
             </div>
             <Footer />
