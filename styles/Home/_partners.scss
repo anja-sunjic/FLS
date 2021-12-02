@@ -115,8 +115,10 @@
 		}
 	}
 	.grayscale {
-		-webkit-filter: brightness(0) invert(1);
-		filter: brightness(0) invert(1);
+		-webkit-filter: grayscale(100%);
+		-moz-filter: grayscale(0%);
+		-ms-filter: grayscale(0%);
+		-o-filter: grayscale(0%);
 		&:hover {
 			-webkit-filter: none;
 			filter: none;
@@ -146,7 +148,7 @@
 	transition: 0.5s ease-in-out;
 
 	&:hover {
-		filter: brightness(1) invert(0);
+		filter: none;
 		transition: 0.5s ease-in-out;
 	}
 }
