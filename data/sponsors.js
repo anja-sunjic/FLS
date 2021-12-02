@@ -32,6 +32,11 @@ export const sponsors = [
 				url: 'https://www.porschebh.ba/',
 				img: '/partners/PorscheBHallwhite.png',
 			},
+			{
+				name: 'EPBiH',
+				url: 'https://www.epbih.ba/',
+				img: '/partners/epbh.png',
+			},
 		],
 	},
 	{
@@ -41,6 +46,11 @@ export const sponsors = [
 				name: 'Tehnograd Company',
 				url: 'https://tehnograd-company.ba/',
 				img: '/partners/TehnogradCompany.png',
+			},
+			{
+				name: 'Bingo D.O.O',
+				url: 'https://www.bingotuzla.ba/',
+				img: '/partners/bingo.png',
 			},
 		],
 	},
@@ -82,6 +92,26 @@ export const sponsors = [
 				url: 'https://www.zendev.se/en',
 				img: '/partners/ZenDev.png',
 			},
+			{
+				name: 'GirlThing',
+				url: 'https://girlthing.ba/',
+				img: '/partners/girlthing.png',
+			},
+			{
+				name: 'EESTEC LC Tuzla',
+				url: 'https://eestec-tz.ba/',
+				img: '/partners/lctuzla.png',
+			},
+			{
+				name: 'BIT Centar Tuzla',
+				url: 'http://www.bitcentar.com/',
+				img: '/partners/bitcentar.png',
+			},
+			{
+				name: 'City Gecko',
+				url: 'https://citygecko.solar/',
+				img: '/partners/citygecko.png',
+			},
 		],
 	},
 	{
@@ -111,6 +141,16 @@ export const sponsors = [
 				name: 'Fakultet elektrotehnike',
 				url: 'http://www.fe.untz.ba/',
 				img: '/partners/fetz.png',
+			},
+		],
+	},
+	{
+		name: 'Supporter',
+		members: [
+			{
+				name: 'MPTK',
+				url: 'http://www.vladatk.kim.ba/ministarstva-tk/ministarstvo-privrede',
+				img: '/partners/MPTK.png',
 			},
 		],
 	},

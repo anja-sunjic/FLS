@@ -37,6 +37,11 @@ export default function Partners() {
 									img='/partners/PorscheBHallwhite.png'
 									size='3.5rem'
 								/>
+								<PartnerLogo
+									url='https://www.epbih.ba/'
+									img='/partners/epbh.png'
+									size='3.5rem'
+								/>
 							</div>
 						</div>
 						<div className='partner'>
@@ -95,8 +100,25 @@ export default function Partners() {
 									img='/partners/ZenDev.png'
 									size='4rem'
 								/>
+								<PartnerLogo
+									url='https://girlthing.ba/'
+									img='/partners/girlthing.png'
+								/>
+								<PartnerLogo
+									url='https://eestec-tz.ba/'
+									img='/partners/lctuzla.png'
+								/>
+								<PartnerLogo
+									url='http://www.bitcentar.com/'
+									img='/partners/bitcentar.png'
+								/>
+								<PartnerLogo
+									url='https://citygecko.solar/'
+									img='/partners/citygecko.png'
+								/>
 							</div>
 						</div>
+
 						<div className='partner'>
 							<span className='role'>Academic Partner</span>
 							<PartnerLogo url='http://www.untz.ba/' img='/partners/untz.png' />
@@ -120,6 +142,15 @@ export default function Partners() {
 								/>
 							</div>
 						</div>
+
+						<div className='partner'>
+							<span className='role'>Supporter</span>
+							<PartnerLogo
+								url='http://www.vladatk.kim.ba/ministarstva-tk/ministarstvo-privrede'
+								img='/partners/MPTK.png'
+							/>
+						</div>
+
 						<div className='partner'>
 							<span className='role'>Media Partner</span>
 							<PartnerLogo
