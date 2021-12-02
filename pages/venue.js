@@ -6,7 +6,7 @@ import Decor from "../components/partials/Decor";
 import Locations from "../components/Venue/Locations";
 import Parking from "../components/Venue/Parking";
 
-export default function Home() {
+export default function Venue() {
     return (
         <>
             <div className='_main'>

@@ -1,5 +1,3 @@
-import Image from "next/image";
-import heroimg from "../../public/hero.webp";
 export default function Intro() {
     return (
         <>
