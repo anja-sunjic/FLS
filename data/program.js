@@ -375,8 +375,8 @@ export const fri = [
       {
         id: 28,
         title: "Session Name TBA",
-        speakerIds: [],
-        speakers: [],
+        speakerIds: [10],
+        speakers: ["Senad Santic"],
         desc: "",
 
         tags: ["F2F"],
