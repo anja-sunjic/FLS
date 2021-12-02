@@ -52,7 +52,7 @@ export default function Partners() {
 							<PartnerLogo
 								url='https://tehnograd-company.ba/'
 								img='/partners/TehnogradCompany.png'
-								size='9rem'
+								size='8rem'
 							/>
 						</div>
 						<div className='partner'>
@@ -84,6 +84,7 @@ export default function Partners() {
 								<PartnerLogo
 									url='https://www.softhouse.se/en/kontakt/sarajevo/'
 									img='/partners/Softhouse.png'
+									size='4rem'
 								/>
 								<PartnerLogo
 									url='https://liderlab.center/'
@@ -92,6 +93,7 @@ export default function Partners() {
 								<PartnerLogo
 									url='https://www.zendev.se/en'
 									img='/partners/ZenDev.png'
+									size='4rem'
 								/>
 							</div>
 						</div>
@@ -102,6 +104,21 @@ export default function Partners() {
 								url='https://ipi-akademija.ba/'
 								img='/partners/IPIAkademija.png'
 							/>
+							<div>
+								<PartnerLogo
+									url='http://mf.untz.ba/'
+									img='/partners/mftz.png'
+								/>
+
+								<PartnerLogo
+									url=' http://www.fe.untz.ba/'
+									img='/partners/fetz.png'
+								/>
+								<PartnerLogo
+									url='http://pf.untz.ba/'
+									img='/partners/pftz.png'
+								/>
+							</div>
 						</div>
 						<div className='partner'>
 							<span className='role'>Media Partner</span>
