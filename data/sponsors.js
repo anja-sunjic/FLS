@@ -97,6 +97,21 @@ export const sponsors = [
 				url: 'https://ipi-akademija.ba/',
 				img: '/partners/IPIAkademija.png',
 			},
+			{
+				name: 'Mašinski fakultet Tuzla',
+				url: 'https://mf.untz.ba/',
+				img: '/partners/mftz.png',
+			},
+			{
+				name: 'Pravni fakultet Tuzla',
+				url: 'http://pf.untz.ba/',
+				img: '/partners/pftz.png',
+			},
+			{
+				name: 'Fakultet elektrotehnike',
+				url: 'http://www.fe.untz.ba/',
+				img: '/partners/fetz.png',
+			},
 		],
 	},
 	{
