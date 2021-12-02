@@ -29,7 +29,7 @@ export default function PartnerLogo({ url, img, size, name }) {
 					<img
 						src={img}
 						alt='Futures Leaders Summit'
-						style={{ height: '3rem', margin: '0' }}
+						style={{ height: '3rem', marginTop: '1rem' }}
 					/>
 				);
 			case 'Softhouse':
@@ -94,6 +94,14 @@ export default function PartnerLogo({ url, img, size, name }) {
 						src={img}
 						alt='Futures Leaders Summit'
 						style={{ height: '4rem' }}
+					/>
+				);
+			case 'BHing':
+				return (
+					<img
+						src={img}
+						alt='Futures Leaders Summit'
+						style={{ height: '5rem' }}
 					/>
 				);
 

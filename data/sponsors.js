@@ -45,7 +45,7 @@ export const sponsors = [
 			{
 				name: 'Mistral',
 				url: 'https://www.mistral.ba/',
-				img: '/partners/mistral.png',
+				img: '/partners/Mistral.png',
 			},
 		],
 	},
