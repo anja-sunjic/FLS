@@ -13,10 +13,17 @@ const Intro = () => {
                             </div>
                         </div>
                         <p className="accented-venue">
-                            Together with our sponsors and partners, we are giving away Travel Grants for promising STEM students and recent graduates coming from any faculty from Bosnia and Herzegovina.
-                            The worth of a maximum Travel Grant is 250 BAM, and it covers your Summit ticket, accommodation (max. three nights) and travel expenses (to and from Tuzla from any town in Bosnia and Herzegovina).
-                            More details about the grant's scalability you can find on the Travel Grant Registration Page. >
-                            Note: Bosnia and Herzegovina Futures Foundation Senior Scholars and selected volunteers automatically receive the travel grant based on their scholarships and active engagement as volunteers.
+                            The Public Institution Bosnian Cultural Center of Tuzla Canton Tuzla (BKC) was founded on November 25, 1997 with its headquarters in Tuzla. It is located in one of the most representative buildings in Mije Keroševića Guje Street No. 3.
+                            <br/>
+                            <br/>
+                            In its long-term work, BKC Tuzla has gained the image of a public institution with international credibility, achieving successful cooperation with many countries in Europe and the world.
+                            <br/>
+                            <br/>
+                            The establishment of BKC was aimed at affirming intellectual and artistic activities, preserving cultural traditions of people and their adequate presentation, bringing together various cultures, and shaping public opinion. From the very beginning, it primarily dealt with important topics and works of contemporary art and cultural heritage through various forms and media.
+                            <br/>
+                            <br/>
+                            BKC Tuzla will serve as the main stage of the Futures Leaders Summit ‘21 covering the opening and closing ceremonies, all keynotes and panel discussions, as well as some partner events.
+
                         </p>
                     </div>
                 </div>

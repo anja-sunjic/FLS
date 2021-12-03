@@ -26,21 +26,23 @@ export default function Intro() {
                             <div className="empty-div" />
                             <div className="parking-details">
                                 <p className="parking-text">
-                                    Ever since its inception, Bosnia & Herzegovina Futures Foundation has a long term goal to grow to a
-                                    community of 10,000 change makers by 2030 who strive for the advancement of quality of life in our country.
+                                    Event parking is possible at the premises of BKC Tuzla free of charge. Please have in mind that due to a large volume of
+                                    participants and guests, parking slots will be limited. Within 100 meters from the venue, parking is possible at a nearby mall.
                                 </p>
                                 <div className="travel-information">
                                     <div className="travel-type">
                                         <img src="bus.png" alt="bus" className="travel-icon"/>
                                         <h2 className="travel-type-text">By Bus</h2>
-                                        <p>Our mission brings us closer to reaching our vision - by empowering the
-                                            youth through education, technology and leadership, we shape the next generation of change makers. </p>
+                                        <p>For in-town travel you can use Tuzla Public Transport services. They are cheap and the nearest bus
+                                            station is a 5-minute walk from the main venue - BKC Tuzla. More information can be found &nbsp;
+                                            <a href="https://www.gipstk.com/" target="_blank" className="link-white-bold-underline">here</a>
+                                        </p>
                                     </div>
                                     <div className="travel-type">
                                         <img src="taxi.png" alt="taxi" className="travel-icon"/>
                                         <h2 className="travel-type-text">By taxi</h2>
-                                        <p>Our mission brings us closer to reaching our vision - by empowering the youth
-                                            through education, technology and leadership, we shape the next generation of change makers. </p>
+                                        <p>Another option for in-town travel is by taxi. They have good coverage and are relatively cheap.
+                                            Ask a local or your host for recommendations which taxi provider to call.</p>
                                     </div>
                                 </div>
                             </div>
