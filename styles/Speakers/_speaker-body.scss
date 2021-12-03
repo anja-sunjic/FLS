@@ -139,8 +139,10 @@
     margin-top: 2rem;
     .item {
       display: flex;
-      margin: 1rem 0;
       justify-content: space-between;
+      flex-direction: column;
+      align-items: center;
+      margin: 1rem 0;
       @include touch {
         justify-content: space-evenly;
       }
