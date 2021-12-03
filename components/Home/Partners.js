@@ -59,6 +59,10 @@ export default function Partners() {
 								img='/partners/TehnogradCompany.png'
 								size='8rem'
 							/>
+							<PartnerLogo
+								url='https://www.bingotuzla.ba/'
+								img='/partners/bingo.png'
+							/>
 						</div>
 						<div className='partner'>
 							<span className='role'>Organizing Partners</span>
@@ -98,7 +102,7 @@ export default function Partners() {
 								<PartnerLogo
 									url='https://www.zendev.se/en'
 									img='/partners/ZenDev.png'
-									size='4rem'
+									size='3.3rem'
 								/>
 								<PartnerLogo
 									url='https://girlthing.ba/'
@@ -107,6 +111,7 @@ export default function Partners() {
 								<PartnerLogo
 									url='https://eestec-tz.ba/'
 									img='/partners/lctuzla.png'
+									size='6.5rem'
 								/>
 								<PartnerLogo
 									url='http://www.bitcentar.com/'
@@ -115,6 +120,7 @@ export default function Partners() {
 								<PartnerLogo
 									url='https://citygecko.solar/'
 									img='/partners/citygecko.png'
+									size='3.5rem'
 								/>
 							</div>
 						</div>
@@ -148,6 +154,7 @@ export default function Partners() {
 							<PartnerLogo
 								url='http://www.vladatk.kim.ba/ministarstva-tk/ministarstvo-privrede'
 								img='/partners/MPTK.png'
+								size='7rem'
 							/>
 						</div>
 
