@@ -77,6 +77,9 @@ export default function Header() {
 								<li>
 									<Link href='/sponsors-and-partners'>Sponsors & Partners</Link>
 								</li>
+								<li>
+									<Link href='/venue'>Venue</Link>
+								</li>
 							</ul>
 						</div>
 					</nav>
