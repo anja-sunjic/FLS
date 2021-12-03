@@ -224,4 +224,14 @@ export const speakers = [
     img: "/speakers/Goran.png",
     bio: "",
   },
+  {
+    id: 21,
+    slug: "suad-halilcevic",
+    name: "Suad Halilcevic",
+    title:
+        "PhD, Full Professor, Head of the Department of Power and Energy Engineering at Faculty of Electrical Engineering, University of Tuzla",
+    li: "https://www.researchgate.net/profile/Suad-Halilcevic",
+    img: "/speakers/suadhalilcevic.png",
+    bio: "Suad S. Halilčević graduated in electrical engineering at the University of Tuzla, received his master's degree from the University of Zagreb, Croatia and his doctorate from the University of Tuzla, Bosnia and Herzegovina, under the mentorship of Prof. Ferdinand Gubina, from the University of Ljubljana, Slovenia. He worked at Elektrodistribucija Tuzla, BiH, for nine years. He has been working at the University of Tuzla since 1993, currently as a full professor and head of the Department of Power and Energy Engineering. He has twice received an award from the DAAD postdoctoral research fellowship at the Universities of Dortmund and Aachen. He won a Fulbright scholarship at Iowa State University in the 2004/2005 academic year. His special areas of interest include the operation and control of electric power and energy systems, energy policy and economics, and risk management.  ",
+  }
 ];
