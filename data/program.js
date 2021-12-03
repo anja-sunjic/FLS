@@ -25,11 +25,10 @@ export const wed = [
       },
       {
         id: 3,
-        title: "Session Name TBA",
-        speakerIds: [],
-        speakers: [],
+        title: "How to write an academic paper?",
+        speakerIds: [21],
+        speakers: ["Suad Halilcevic"],
         desc: "",
-
         tags: ["F2F"],
         company: 1,
       },
