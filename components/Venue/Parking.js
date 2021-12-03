@@ -35,7 +35,7 @@ export default function Intro() {
                                         <h2 className="travel-type-text">By Bus</h2>
                                         <p>For in-town travel you can use Tuzla Public Transport services. They are cheap and the nearest bus
                                             station is a 5-minute walk from the main venue - BKC Tuzla. More information can be found &nbsp;
-                                            <a href="https://www.gipstk.com/" target="_blank" className="link-white-bold-underline">here</a>
+                                            <a href="https://www.gipstk.com/" target="_blank" rel="noreferrer" className="link-white-bold-underline">here</a>
                                         </p>
                                     </div>
                                     <div className="travel-type">
