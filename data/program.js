@@ -256,10 +256,10 @@ export const thu = [
     events: [
       {
         id: 20,
-        title: "Session Name TBA",
+        title: "Building Resilience in Humans and Materials",
         speakerIds: [4],
         speakers: ["Admir Mašić"],
-        desc: "",
+        desc: "The lifespan of humans as well as of materials is finite and limited. Through my life I have witnessed the deterioration and destruction of both things and people. In this talk I will weave together my personal story as a Bosnian war refugee and professional experience as a scientist and professor to demonstrate the importance of resilience in the human and material worlds.",
 
         tags: ["F2F", "Online"],
         company: 1,

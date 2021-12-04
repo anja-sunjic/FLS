@@ -34,7 +34,7 @@ export default function ServiceEntry(props) {
             <h1 className="is-hidden">{speaker[0].name}</h1>
             <Header />
             <Intro />
-            <Body speaker={speaker[0]} />
+            <Body speaker={speaker[0]}/>
             <Decor />
           </div>
           <Footer />
