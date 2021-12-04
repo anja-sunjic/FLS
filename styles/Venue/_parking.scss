@@ -1,0 +1,30 @@
+.parking-information {
+  display: flex;
+}
+
+.empty-div, .parking-details {
+  width: 100%;
+}
+
+.empty-div{
+  @include touch{
+    display: none;
+  }
+}
+
+.travel-information {
+  display: flex;
+  margin: 50px 0;
+}
+
+.travel-type:last-child {
+  margin-left: 40px;
+}
+
+.travel-icon {
+  height: 80px;
+}
+
+.travel-type-text {
+  text-transform: none;
+}
