@@ -80,6 +80,9 @@
 }
 .venue-heading {
   text-align: center;
+  @include touch {
+    text-align: left;
+  }
 }
 .story {
   padding: 5rem 0;

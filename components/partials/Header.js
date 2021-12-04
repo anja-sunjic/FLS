@@ -49,7 +49,7 @@ export default function Header() {
 					</Link>
 					<nav>
 						<div className='container'>
-							<input id='nav-toggle' type='checkbox'></input>
+							<input id='nav-toggle' type='checkbox' />
 							<ul className='links'>
 								<li>
 									<Link href='/'>Home</Link>
@@ -176,6 +176,13 @@ export default function Header() {
 							}}
 						>
 							<Link href='/#partners'>Sponsors & Partners</Link>
+						</li>
+						<li
+							onClick={() => {
+								setisMobileMenu(!isMobileMenu);
+							}}
+						>
+							<Link href='/venue'>Venue</Link>
 						</li>
 					</ul>
 				</div>
