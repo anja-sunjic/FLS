@@ -22,7 +22,7 @@ export default function Locations() {
                             <a href="https://g.page/dkr-tuzla?share" target="_blank" rel="noreferrer" className="link-black-bold-underline">DRK - German Center for Robotics</a>, &nbsp;
                             <a href="https://goo.gl/maps/EEaY1eaQuaXBXvHM6" target="_blank" rel="noreferrer" className="link-black-bold-underline">TEHNOGRAD-company</a>, &nbsp;
                             <a href="https://goo.gl/maps/Ft5YeV22WLNY6rVf6" target="_blank" rel="noreferrer" className="link-black-bold-underline">Tuzla Thermal Power Plant</a>, and the &nbsp;
-                            <a href="https://goo.gl/maps/F95t92WZSx8aTFqQA" target="_blank" rel="noreferrer" className="link-black-bold-underline">Faculty of Mechanical Engineering Tuzla</a>, &nbsp;
+                            <a href="https://goo.gl/maps/F95t92WZSx8aTFqQA" target="_blank" rel="noreferrer" className="link-black-bold-underline">Faculty of Mechanical Engineering Tuzla</a>. &nbsp;
                         </p>
                         <h2 className="venue-heading">Workshop, Tech Tutorial and Company Visit locations</h2>
                     </div>
