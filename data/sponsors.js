@@ -17,6 +17,11 @@ export const sponsors = [
 				url: 'https://htecgroup.com/',
 				img: '/partners/htec.png',
 			},
+			{
+				name: 'telemach',
+				url: 'https://telemach.ba/',
+				img: '/partners/telemach.png',
+			},
 		],
 	},
 	{
@@ -46,6 +51,16 @@ export const sponsors = [
 				name: 'Mistral',
 				url: 'https://www.mistral.ba/',
 				img: '/partners/Mistral.png',
+			},
+			{
+				name: 'C.J. Bihac',
+				url: ' http://www.cj-doo.com/onama.php',
+				img: '/partners/bihac.png',
+			},
+			{
+				name: 'BEMA',
+				url: ' http://www.bema.ba/index.php/en/',
+				img: '/partners/bema.png',
 			},
 		],
 	},
@@ -152,6 +167,11 @@ export const sponsors = [
 				url: 'https://ipi-akademija.ba/',
 				img: '/partners/IPIAkademija.png',
 			},
+			{
+				name: 'finra.png',
+				url: 'https://finra.edu.ba/',
+				img: '/partners/finra.png',
+			},
 		],
 	},
 	{
@@ -167,6 +187,11 @@ export const sponsors = [
 	{
 		name: 'Media Partner',
 		members: [
+			{
+				name: 'Klix',
+				url: 'https://www.klix.ba/',
+				img: '/partners/klix.png',
+			},
 			{
 				name: 'Radio Kameleon',
 				url: 'https://radiokameleon.ba/',

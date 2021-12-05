@@ -6,6 +6,7 @@ export default function PartnerLogo({ url, img, size, name }) {
 		switch (name) {
 			case 'DKR':
 				return <img src={img} alt='FLS' style={{ height: '4rem' }} />;
+
 			case 'Porsche Bosnia and Herzegovina':
 				return <img src={img} alt='FLS' style={{ height: '4rem' }} />;
 			case 'EESTEC LC Tuzla':
@@ -72,14 +73,7 @@ export default function PartnerLogo({ url, img, size, name }) {
 						style={{ height: '4.5rem', marginTop: '2rem' }}
 					/>
 				);
-			case 'Bingo D.O.O':
-				return (
-					<img
-						src={img}
-						alt='Futures Leaders Summit'
-						style={{ height: '4.5rem', marginTop: '2rem' }}
-					/>
-				);
+
 			case 'Mistral':
 				return (
 					<img
@@ -104,7 +98,10 @@ export default function PartnerLogo({ url, img, size, name }) {
 						style={{ height: '5rem' }}
 					/>
 				);
-
+			case 'C.J. Bihac':
+				return <img src={img} alt='FLS' style={{ marginBottom: '-8rem' }} />;
+			case 'BEMA':
+				return <img src={img} alt='FLS' style={{ marginBottom: '-6rem' }} />;
 			default:
 				return (
 					<img
