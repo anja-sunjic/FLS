@@ -297,10 +297,10 @@ export const thu = [
     events: [
       {
         id: 22,
-        title: "Session Name TBA",
+        title: "How COVID Accelerated Digital Transformation of Healthcare",
         speakerIds: [3],
-        speakers: [],
-        desc: "",
+        speakers: ["Mirza Cifric"],
+        desc: "How PCR became a household word overnight. An insight into both the temporary changes and those that are here to stay.",
 
         tags: ["F2F", "Online"],
         company: 1,
