@@ -413,55 +413,55 @@ export const fri = [
         title: "Lightning Talks Powered by BH Youth -  6 Rules to Live By",
         speakerIds: [],
         speakers: [],
-        desc: "",
+        desc: "Strong core values give community members a shared sense of commitment, allowing them to rally behind a united cause. It is very important to live your core values, and here are six BH Futures Foundation students who will tell you how they live the community's core values each day.",
 
         tags: ["F2F", "Online"],
         company: 1,
       },
       {
         title: "Be Entrepreneurial",
-        speakerIds: [],
-        speakers: [],
+        speakerIds: [22],
+        speakers: ["Mirza Celegija"],
         desc: "",
 
         company: 1,
       },
       {
         title: "Strive for Excellence",
-        speakerIds: [],
-        speakers: [],
+        speakerIds: [23],
+        speakers: ["Zorana Staka"],
         desc: "",
 
         company: 1,
       },
       {
-        title: "Act with integrity",
-        speakerIds: [],
-        speakers: [],
+        title: "Act with Integrity",
+        speakerIds: [24],
+        speakers: ["Jasmina Kadic"],
         desc: "",
 
         company: 1,
       },
       {
-        title: "Value and embrace diversity",
-        speakerIds: [],
-        speakers: [],
+        title: "Value and Embrace Diversity",
+        speakerIds: [25],
+        speakers: ["Evel Ribo"],
         desc: "",
 
         company: 1,
       },
       {
-        title: "Serve the community",
-        speakerIds: [],
-        speakers: [],
+        title: "Serve the Community",
+        speakerIds: [26],
+        speakers: ["Enisa Lisnjic"],
         desc: "",
 
         company: 1,
       },
       {
-        title: "Partner with those those who share their vision",
-        speakerIds: [],
-        speakers: [],
+        title: "Partner with Those Who Share Our Vision",
+        speakerIds: [27],
+        speakers: ["Azra Velic"],
         desc: "",
 
         company: 1,
