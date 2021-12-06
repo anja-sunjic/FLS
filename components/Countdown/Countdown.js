@@ -5,7 +5,7 @@ const CountdownComponent = () => {
 	const Completionist = () => <div>We are online and ready to go!</div>;
 
 	const now = new Date().getTime();
-	const countDate = new Date('December 14, 2021 00:00:00').getTime();
+	const countDate = new Date('December 16, 2021 00:00:00').getTime();
 
 	return (
 		<div className='styledcountdowncontainer'>
