@@ -122,6 +122,11 @@ export const sponsors = [
 				url: 'https://citygecko.solar/',
 				img: '/partners/citygecko.png',
 			},
+			{
+				name: 'LiderLab',
+				url: 'https://liderlab.center/',
+				img: '/partners/LiderLab.png',
+			}
 		],
 	},
 	{
