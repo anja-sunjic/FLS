@@ -68,8 +68,10 @@ export default function ContactForm() {
 	//This state needs to be handlede after You check is discount code valid
 	const [discount, setDiscount] = useState(false);
 	//State for opening pop up
+	const [openWarningModal, setOpenWarningModal] = useState(true);
 	const [open, setOpen] = useState(false);
 	const toggleModal = () => setOpen(!open);
+	const toggleWarningModal = () => setOpenWarningModal(!openWarningModal);
 
 	//options for select fields
 	const academicStatuses = [
@@ -659,6 +661,21 @@ export default function ContactForm() {
 							</div>
 						</div>
 					</>
+				</Popup>
+			)}
+			{openWarningModal && (
+				<Popup open={openWarningModal} closePopup={toggleWarningModal}>
+				<>
+					<div className="inner">
+					{/*<Image src="/check.png" height={100} width={100}></Image>*/}
+					<p>
+						Sorry, registration for the Futures Leaders Summit '21 is now closed.
+					</p>
+					<div className="button" onClick={toggleWarningModal}>
+						Close
+					</div>
+					</div>
+				</>
 				</Popup>
 			)}
 		</div>
