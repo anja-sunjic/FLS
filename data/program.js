@@ -155,51 +155,51 @@ export const thu = [
     events: [
       {
         id: 12,
-        title: "Session Name TBA",
+        title: "HTEC Group",
         speakerIds: [],
         speakers: [],
         desc: "",
-
+        link: "https://htecgroup.com/",
         tags: ["F2F"],
         company: 1,
       },
       {
         id: 13,
-        title: "Session Name TBA",
+        title: "German Center for Robotics",
         speakerIds: [],
         speakers: [],
         desc: "",
-
+        link: "https://www.dkr.ba/en/",
         tags: ["F2F"],
         company: 1,
       },
       {
         id: 14,
-        title: "Session Name TBA",
+        title: "Faculty of Mechanical Engineering Tuzla, Laboratory Complex",
         speakerIds: [],
         speakers: [],
         desc: "",
-
+        link: "http://mf.untz.ba/",
         tags: ["F2F"],
         company: 1,
       },
       {
         id: 15,
-        title: "Session Name TBA",
+        title: "TEHNOGRAD-company",
         speakerIds: [],
         speakers: [],
         desc: "",
-
+        link: "https://tehnograd-company.ba/",
         tags: ["F2F"],
         company: 1,
       },
       {
         id: 16,
-        title: "Session Name TBA",
+        title: "Tuzla Thermal Power Plant",
         speakerIds: [],
         speakers: [],
         desc: "",
-
+        link: "https://www.epbih.ba/foto/9549/termoelektrana-tuzla",
         tags: ["F2F"],
         company: 1,
       },
