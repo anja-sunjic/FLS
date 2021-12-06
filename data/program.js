@@ -246,7 +246,7 @@ export const thu = [
     type: "Break",
     events: [
       {
-        title: "Break",
+        title: "Lunch Break",
       },
     ],
   },
@@ -287,7 +287,7 @@ export const thu = [
     type: "Break",
     events: [
       {
-        title: "Break",
+        title: "Coffee Break",
       },
     ],
   },
@@ -473,7 +473,7 @@ export const fri = [
     type: "Break",
     events: [
       {
-        title: "Break",
+        title: "Lunch Break",
       },
     ],
   },
