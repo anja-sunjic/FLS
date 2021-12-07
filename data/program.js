@@ -165,7 +165,7 @@ export const thu = [
       },
       {
         id: 13,
-        title: "German Center for Robotics",
+        title: "DKR - German Center for Robotics",
         speakerIds: [],
         speakers: [],
         desc: "",
