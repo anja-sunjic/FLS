@@ -17,8 +17,7 @@ export default function Locations() {
                             <a href="https://goo.gl/maps/fNuC7tXqCcrngb5x9" target="_blank" rel="noreferrer" className="link-black-bold-underline">FINra</a>.
                             <br/>
                             <br/>
-                            Tech tutorials or workshops will be held at &nbsp;
-                            <a href="https://goo.gl/maps/7C3KbNXM1DZjJJiu5" target="_blank" rel="noreferrer" className="link-black-bold-underline">FINra powered by HTEC</a>, &nbsp;
+                            Tech tutorials or company visits will be held at <a href="https://goo.gl/maps/7C3KbNXM1DZjJJiu5" target="_blank" rel="noreferrer" className="link-black-bold-underline">FINra powered by HTEC</a>, &nbsp;
                             <a href="https://g.page/dkr-tuzla?share" target="_blank" rel="noreferrer" className="link-black-bold-underline">DRK - German Center for Robotics</a>, &nbsp;
                             <a href="https://goo.gl/maps/EEaY1eaQuaXBXvHM6" target="_blank" rel="noreferrer" className="link-black-bold-underline">TEHNOGRAD-company</a>, &nbsp;
                             <a href="https://goo.gl/maps/Ft5YeV22WLNY6rVf6" target="_blank" rel="noreferrer" className="link-black-bold-underline">Tuzla Thermal Power Plant</a>, and the &nbsp;
