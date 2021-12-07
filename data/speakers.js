@@ -6,7 +6,7 @@ export const speakers = [
     title: "Head of Solutions and Technology at Apple",
     li: "https://www.linkedin.com/in/miralemsalihovic/",
     img: "/speakers/Miralem.jpg",
-    bio: "",
+    bio: "Miralem Salihovic is a technology leader currently working as the Head of Solutions & Technology at Apple in Cupertino. He has more than 10 years of experience in leadership roles across Silicon Valley working in multiple industries in Business Operations, Product Management, Engineering, and management roles. Outside of work, he is very active in philanthropy and mentoring, especially in his home country of Bosnia and Herzegovina.",
   },
   {
     id: 2,
