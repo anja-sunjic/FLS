@@ -202,6 +202,16 @@ export const thu = [
         tags: ["F2F"],
         company: 1,
       },
+      {
+        id: 17,
+        title: "Telemach",
+        speakerIds: [],
+        speakers: [],
+        desc: "",
+        link: "https://telemach.ba/",
+        tags: ["F2F"],
+        company: 1,
+      },
     ],
   },
   {
