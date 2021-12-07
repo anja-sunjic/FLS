@@ -301,4 +301,13 @@ export const speakers = [
     
     Her greatest passion since primary school days is the automotive industry and she believes that one day she will become a changemaker in that industry. Interestingly, she writes and publishes both prose and poetry. She is currently learning Italian and Python for Data Science."`,
   },
+  {
+    id: 28,
+    slug: "maja-tursunovic",
+    name: "Maja Tursunovic",
+    title: "Director at Telemach Fondacija",
+    li: "https://www.linkedin.com/in/maja-tursunovic-6bb0b130/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAZrxa8B9WNjnGf7xk6yDYbpRxz_p5_OoXY",
+    img: "/speakers/MajaTursunovic.jpg",
+    bio: ``,
+  },
 ];
