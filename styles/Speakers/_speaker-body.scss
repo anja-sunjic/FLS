@@ -24,7 +24,7 @@
       flex-direction: column;
       gap: 3rem;
     }
-    .speaker-info{
+    .speaker-info {
       width: 50%;
       display: flex;
       flex-direction: column;
@@ -34,7 +34,6 @@
         width: 100%;
       }
     }
-    
   }
   .speaker-img {
     overflow: hidden;
@@ -171,6 +170,7 @@
         color: $yellow;
         font-size: crem(28px);
         line-height: crem(36px);
+        width: max-content;
       }
       p.type {
         color: gray;

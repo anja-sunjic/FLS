@@ -15,11 +15,10 @@ export const wed = [
       },
       {
         id: 2,
-        title:
-          "Interdisciplinary integration as a pillar of pharmaceutical industry ",
-        speakerIds: [13],
-        speakers: ["Amra Ibrić"],
-        desc: "Insight into the world of drug development and pharmasuticals, with a strong emphasis of how a number of entirely different disciplines come together to create one final product.",
+        title: "Vision of the Future: Can Creativity Solve Every Problem?",
+        speakerIds: [14],
+        speakers: ["Edina Seleskovic"],
+        desc: "",
         tags: ["F2F"],
         company: 1,
       },
@@ -34,10 +33,10 @@ export const wed = [
       },
       {
         id: 4,
-        title: "Session Name TBA",
-        speakerIds: [],
-        speakers: ["TBA"],
-        desc: "",
+        title: "Job Lab – Skills for the Future,",
+        speakerIds: [28],
+        speakers: ["Maja Tursunovic"],
+        desc: "Job Lab - Skills for the Future is an education that aims to career counsalt young people through an interactive presentation of the labor market of the future, skills and competencies for developing the X-Factor and key strategies for their development.",
         tags: ["F2F"],
         company: 1,
       },
@@ -342,11 +341,11 @@ export const fri = [
       },
       {
         id: 25,
-        title: "Vision of the Future: Can Creativity Solve Every Problem?",
-        speakerIds: [14],
-        speakers: ["Edina Seleskovic"],
-        desc: "",
-
+        title:
+          "Interdisciplinary integration as a pillar of pharmaceutical industry ",
+        speakerIds: [13],
+        speakers: ["Amra Ibrić"],
+        desc: "Insight into the world of drug development and pharmasuticals, with a strong emphasis of how a number of entirely different disciplines come together to create one final product.",
         tags: ["F2F"],
         company: 1,
       },
@@ -373,7 +372,7 @@ export const fri = [
       },
       {
         id: 28,
-        title: "Session Name TBA",
+        title: "Leading with Innovation and Creativity",
         speakerIds: [10],
         speakers: ["Senad Santic"],
         desc: "",
