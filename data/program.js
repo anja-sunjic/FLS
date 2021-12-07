@@ -372,7 +372,7 @@ export const fri = [
       },
       {
         id: 28,
-        title: "Session Name TBA",
+        title: "Leading with Innovation and Creativity",
         speakerIds: [10],
         speakers: ["Senad Santic"],
         desc: "",

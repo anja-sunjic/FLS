@@ -76,7 +76,13 @@ export const speakers = [
     title: "R&D Cylindrical Production Manager at Northvolt",
     li: "https://www.linkedin.com/in/selma-zilic-9a8b3a46/?originalSubdomain=se",
     img: "/speakers/Selma.jpg",
-    bio: "",
+    bio: `Born 25-02-1982, grew up in Tuzla, BiH, where she graduated from primary, secondary medical school and the Department of Chemistry at UNTZ PMF. The only child. She played handball, was a member of the young generation of RK Jedinstvo in one period. <br><br/>
+    After graduation, in 2005, she went to the USA to work as a waitress on a cruise for 8 months, with tours of the Gulf of Mexico and Caribbean, where she gained a great experience and met people from all over the world.
+    Upon her return to Tuzla, she applied for a scholarship program for ex-Yugoslav students, by the Government of the Czech Republic, through the Embassy in Sarajevo. She receives a scholarship for a master's degree in biochemistry in 2007. at Palackeho University in Olomouc, Czech Republic where she spends two years.<br><br/>
+    In 2009, Selma got a job as an external associate-assistant at the Faculty of Natural Sciences, UNTZ. She works with students of Pharmacy, Technology and PMF in various subjects. Due to the impossibility of permanent employment at UNTZ and unregulated status, as well as due to the impossibility of finding a job in BH, as the only biochemist in Tuzla Canton, she decides to leave UNTZ in 2011. She goes to the Middle East to work for the U.S. Government as an analyst in the Engineering Department at a civilian logistics company that worked for NATO and the U.S. military.<br><br/>
+    She returned to Tuzla in 2014. and spends the next 2 years traveling, applying for jobs in BH and around the world, and in 2017 she goes to Sweden and starts working as a laboratory technician and later as an engineer in Lund in a research company dealing with new solar cell technology. She spent 2 years working in Lund, and in 2019, Selma gets a job at Northvolt first as a technician, to build herself into a team leader working on prototyping different models of cylindrical cells for wide use.<br><br/>
+    Selma intends to stay in Sweden for the rest of her life.
+    `,
   },
   {
     id: 8,
