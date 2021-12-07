@@ -128,6 +128,12 @@ img {
 	text-decoration: underline;
 }
 
+.link-white-bold-underline {
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
 .health-safety-center {
 	display: flex;
 	align-items: center;
@@ -149,3 +155,4 @@ img {
 @import './Registration/_all';
 @import './AdminDashboard/_all';
 @import './Sponsors/_all';
+@import './Venue/_all';

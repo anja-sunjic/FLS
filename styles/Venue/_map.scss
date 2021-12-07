@@ -1,0 +1,10 @@
+.venue-location {
+  position: relative;
+  width: 100%;
+  top: 100px;
+  height: 500px;
+
+  @include touch{
+    top: 80px;
+  }
+}

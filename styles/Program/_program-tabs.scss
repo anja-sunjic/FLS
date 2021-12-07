@@ -127,6 +127,13 @@
       font-size: crem(32px);
       line-height: crem(48px);
     }
+    a.title-link{
+      color: $yellow;
+      margin-bottom: 0.5rem;
+      font-size: crem(32px);
+      line-height: crem(48px);
+      font-weight: 600;
+    }
     p.speaker {
       color: white;
       font-style: italic;

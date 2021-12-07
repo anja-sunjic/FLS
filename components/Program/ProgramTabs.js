@@ -19,7 +19,9 @@ const createProgram = (day) => {
 					{item.events.map((ev) => {
 						return (
 							<div className='item-event' key={ev.id} id={ev.id}>
-								<p className='title'>{ev.title}</p>
+								{ev.link == null ? (
+									<p className='title'>{ev.title}</p>
+								) : (<a href={ev.link} target="_blank" rel="noreferrer" className='title-link'>{ev.title}</a>)}
 								{ev.speakers &&
 									ev.speakerIds.map((x) => {
 										return (
