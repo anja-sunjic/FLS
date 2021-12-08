@@ -250,7 +250,12 @@ export const speakers = [
     title: "Director at Telemach Fondacija",
     li: "https://www.linkedin.com/in/maja-tursunovic-6bb0b130/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAZrxa8B9WNjnGf7xk6yDYbpRxz_p5_OoXY",
     img: "/speakers/MajaTursunovic.jpg",
-    bio: ``,
+    bio: `Maja is the director of Telemach foundation, one of the few cooperative foundations in B&H which, through their socially responsible program, contributes to the nation’s societal development. 
+    Education is the key to realising the opportunities that the digital transformation of society brings. From ensuring children can access and navigate the digital world safely, to supporting STEM education initiatives, Telemach Foundation supports educational programmes and initiatives that provide the tools young people need to make the most of their education. <br/><br/>
+    She has 20 years of experience in the NGO sector, of which 15 have been spent on positions dealing with creating strategic activities, managing people and processes, as well as direct terrain work in socially responsible business activities. Alongside designing and managing the programs and processes, she has more narrowly focused her work towards the sector of child and youth protection, and has through a counselling role dedicated her involvement to the wellbeing of the most vulnerable children, youth, and their families in B&H. <br/><br/>
+    She graduated with a bachelors from the Faculty of Defectology at the University of Tuzla, and received her masters in the Management of the State and Humanitarian Organizations, at the Center for Interdisciplinary Postgraduate Studies, University of Sarajevo. She is motivated by solidarity, challenges and constructive teamwork which leads to resolving the challenges
+    
+    `,
   },
   {
     id: 23,
