@@ -419,7 +419,7 @@ export const fri = [
       },
       {
         title: "Be Entrepreneurial",
-        speakerIds: [23],
+        speakerIds: [24],
         speakers: ["Mirza Celegija"],
         desc: "",
 
@@ -427,7 +427,7 @@ export const fri = [
       },
       {
         title: "Strive for Excellence",
-        speakerIds: [24],
+        speakerIds: [25],
         speakers: ["Zorana Staka"],
         desc: "",
 
@@ -435,7 +435,7 @@ export const fri = [
       },
       {
         title: "Act with Integrity",
-        speakerIds: [25],
+        speakerIds: [26],
         speakers: ["Jasmina Kadic"],
         desc: "",
 
@@ -443,7 +443,7 @@ export const fri = [
       },
       {
         title: "Value and Embrace Diversity",
-        speakerIds: [26],
+        speakerIds: [27],
         speakers: ["Evel Ribo"],
         desc: "",
 
@@ -451,7 +451,7 @@ export const fri = [
       },
       {
         title: "Serve the Community",
-        speakerIds: [27],
+        speakerIds: [28],
         speakers: ["Enisa Lisnjic"],
         desc: "",
 
@@ -459,7 +459,7 @@ export const fri = [
       },
       {
         title: "Partner with Those Who Share Our Vision",
-        speakerIds: [28],
+        speakerIds: [29],
         speakers: ["Azra Velic"],
         desc: "",
 
