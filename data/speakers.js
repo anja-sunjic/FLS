@@ -133,8 +133,7 @@ export const speakers = [
     id: 12,
     slug: "erol-mujanovic",
     name: "Erol Mujanovic",
-    title:
-      "PhD Economics & Entrepreneurship, Deputy Director at Economic Development Office, USAID BIH",
+    title: "PhD Economics & Entrepreneurship",
     li: "https://www.linkedin.com/in/erol-mujanovic-721b59/",
     img: "/speakers/Erol.png",
     bio: `Reliable senior leader and economic development expert, PhD. in economics & entrepreneurship, marathon runner & Ironman triathlon finisher. He loves working with startups particularly blockchain related and teaching.<br/><br/>
@@ -152,9 +151,12 @@ export const speakers = [
     id: 13,
     slug: "amra-ibric",
     name: "Amra Ibric",
-    title: "Market & Technology Analyst at Marinomed Biotech AG",
+    title: "Market & Technology Analyst in Pharma/Biotech",
     li: "https://www.linkedin.com/in/amra-ibric-15a8a71b5/",
     img: "/speakers/Amra-square.jpg",
+    bio: `Amra Ibric graduated in Pharmacy from University of Vienna in 2012 and pursued thereafter her public pharmacist training year to be awarded a certificate of registered pharmacist by Austrian Chamber of Pharmacists in 2013. She remained loyal to her public pharmacist's duties also during her doctoral studies. From 2013 she held the position of Lecturer at the University of Vienna and served as an Assistant Lecturer at the University of Applied Sciences in Vienna, Austria. Among her many accomplishments, she was awarded by the Austrian Federal Ministry of Science and Research with a High Honours Award for her outstanding academic achievements. Amra received her doctoral degree in Medicinal Chemistry from University of Vienna and holds a master’s degree in Pharmaceutical Quality Management. More recently she switched to industry to fill the role of pharmaceutical lead of freshly established business unit and helped its formation in her current company. In 2021 Amra took the position of Market & Technology Analyst. <br><br/>
+    Recently, Amra enrolled for the Strategic Business & Management professional studies at the University of Cambridge, UK.
+    `,
   },
   {
     id: 14,
@@ -225,7 +227,10 @@ export const speakers = [
     title: "Brand Manager at City Gecko@Telemax d.o.o. Banja Luka",
     li: "https://www.linkedin.com/in/goranvukalovic/",
     img: "/speakers/Goran.png",
-    bio: "",
+    bio: `Currently employed at Telemax d.o.o. where he leads and manages marketing and branding activities of smart urban materials City Gecko. He has gained multiple years of experience in  marketing through work in marketing agencies and the non-government sector. <br><br/>
+    He made the decision to join Telemax, more specifically their work on developing the City Gecko brand, due to his firm beliefs in its potential. The positive atmosphere and possibilities of constant learning and work on the brand - and himself - are the factors that motivate him daily.<br><br/>
+    He connects his technical background and marketing abilities, which is successfully reflected in the brand that in and of itself also represents the synergy of smart technologies, top quality design, and a positive impact on the living environment
+    `,
   },
   {
     id: 21,
@@ -239,6 +244,29 @@ export const speakers = [
   },
   {
     id: 22,
+    slug: "maja-tursunovic",
+    name: "Maja Tursunovic",
+    title: "Director at Telemach Fondacija",
+    li: "https://www.linkedin.com/in/maja-tursunovic-6bb0b130/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAZrxa8B9WNjnGf7xk6yDYbpRxz_p5_OoXY",
+    img: "/speakers/MajaTursunovic.jpg",
+    bio: `Maja is the director of Telemach foundation, one of the few cooperative foundations in B&H which, through their socially responsible program, contributes to the nation’s societal development. 
+    Education is the key to realising the opportunities that the digital transformation of society brings. From ensuring children can access and navigate the digital world safely, to supporting STEM education initiatives, Telemach Foundation supports educational programmes and initiatives that provide the tools young people need to make the most of their education. <br/><br/>
+    She has 20 years of experience in the NGO sector, of which 15 have been spent on positions dealing with creating strategic activities, managing people and processes, as well as direct terrain work in socially responsible business activities. Alongside designing and managing the programs and processes, she has more narrowly focused her work towards the sector of child and youth protection, and has through a counselling role dedicated her involvement to the wellbeing of the most vulnerable children, youth, and their families in B&H. <br/><br/>
+    She graduated with a bachelors from the Faculty of Defectology at the University of Tuzla, and received her masters in the Management of the State and Humanitarian Organizations, at the Center for Interdisciplinary Postgraduate Studies, University of Sarajevo. She is motivated by solidarity, challenges and constructive teamwork which leads to resolving the challenges
+    
+    `,
+  },
+  {
+    id: 23,
+    slug: "amir-zonic",
+    name: "Amir Zonic",
+    title: "Executive Manager at Kameleon M&M Group",
+    li: "https://www.linkedin.com/in/amir-zonić-a010a4194",
+    img: "/speakers/AmirZonic.png",
+    bio: ``,
+  },
+  {
+    id: 24,
     slug: "mirza-celegija",
     name: "Mirza Celegija",
     title:
@@ -248,7 +276,7 @@ export const speakers = [
     bio: "Mirza Čeligija is a Software Developer at Mistral and our Senior scholar and volunteer. He is completing his studies at the Faculty of Information Technologies in Mostar. In addition, Mirza leads the Futures Makerspace BiH portfolio within the Bosnia and Herzegovina Futures Foundation. Because of his passion for entrepreneurship and psychology, Mirza began his journey in a mental health startup from the UK working as a Tech Executive. He is in love with the idea of minimalism and self-actualization.",
   },
   {
-    id: 23,
+    id: 25,
     slug: "zorana-staka",
     name: "Zorana Staka",
     title:
@@ -259,7 +287,7 @@ export const speakers = [
     She is awarded the Vera Snajder award, which is awarded to the young promising female scientist. Zorana is Advisor for 387 Labs, which aims to create economic and technological opportunities using Artificial Intelligence, and Board member of the Agency for Development of Higher Education and Quality Assurance. She is a proud distinguished alumni member of the Bosnia and Herzegovina Futures Foundation `,
   },
   {
-    id: 24,
+    id: 26,
     slug: "jasmina-kadic",
     name: "Jasmina Kadic",
     title:
@@ -270,7 +298,7 @@ export const speakers = [
     ""A ship in harbor is safe - but that is not what ships are built for!"" - John A. Shedd."`,
   },
   {
-    id: 25,
+    id: 27,
     slug: "evel-ribo",
     name: "Evel Ribo",
     title:
@@ -284,7 +312,7 @@ export const speakers = [
     Evel's greatest passion is the combination of spirituality and the cybersecurity industry and he aims to become a changemaker in the field. He is currently preparing for the CompTIA Security+ certification exam, and he works as an IT Security Analyst at Fall River Florist Supply."`,
   },
   {
-    id: 26,
+    id: 28,
     slug: "enisa-lisnjic",
     name: "Enisa Lisnjic",
     title:
@@ -294,7 +322,7 @@ export const speakers = [
     bio: `My name is Enisa Lisnjic, and I am a 3rd-year student of Mechanical Engineering at the University of Zenica, at the department of Engineering Product Design. I am a Senior Scholar and volunteer in BH Futures Foundation. I love volunteering, and I have been a volunteer in many different organizations for six years. I am interested in design and product development, but I also love photography. Besides photography, my hobbies are sewing, reading, and drawing.`,
   },
   {
-    id: 27,
+    id: 29,
     slug: "azra-velic",
     name: "Azra Velic",
     title:
@@ -306,14 +334,5 @@ export const speakers = [
     Furthermore, Azra volunteers within the Ambassadors program in BH Futures Foundation.<br><br/>
     
     Her greatest passion since primary school days is the automotive industry and she believes that one day she will become a changemaker in that industry. Interestingly, she writes and publishes both prose and poetry. She is currently learning Italian and Python for Data Science."`,
-  },
-  {
-    id: 28,
-    slug: "maja-tursunovic",
-    name: "Maja Tursunovic",
-    title: "Director at Telemach Fondacija",
-    li: "https://www.linkedin.com/in/maja-tursunovic-6bb0b130/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAZrxa8B9WNjnGf7xk6yDYbpRxz_p5_OoXY",
-    img: "/speakers/MajaTursunovic.jpg",
-    bio: ``,
   },
 ];

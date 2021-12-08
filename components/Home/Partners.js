@@ -20,7 +20,7 @@ export default function Partners() {
     <>
       <section className="section partners" id="partners" name="partners">
         <div className="container">
-          <h2>Sponsors & Partners</h2>
+          <h2>OUR SPONSORS & PARTNERS</h2>
           <Swiper
             spaceBetween={30}
             centeredSlides={true}
@@ -349,14 +349,14 @@ export default function Partners() {
           <div className="dots is-hidden-touch">
             <img src="/dots.svg" alt="Futures Leaders Summit" />
           </div>
-          <div className="cta-sec">
+          {/* <div className="cta-sec">
             <h3>FLS&#39;21 IS LOOKING FOR SPONSORS!</h3>
             <Link href="/contact">
               <a className="contact-button _shine">
                 <span>Become a Sponsor</span>
               </a>
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
     </>

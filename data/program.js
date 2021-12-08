@@ -18,7 +18,7 @@ export const wed = [
         title: "Vision of the Future: Can Creativity Solve Every Problem?",
         speakerIds: [14],
         speakers: ["Edina Seleskovic"],
-        desc: "",
+        desc: "Which qualities make a visionary? In a world that undermines the value of creativity, reignite yours and make a revolutionary change.",
         tags: ["F2F"],
         company: 1,
       },
@@ -27,14 +27,14 @@ export const wed = [
         title: "How to write an academic paper?",
         speakerIds: [21],
         speakers: ["Suad Halilcevic"],
-        desc: "",
+        desc: "What makes an academic paper truly great? How do we decide what we want to publish, and where to publish it? Learn to write a paper you will be proud of.",
         tags: ["F2F"],
         company: 1,
       },
       {
         id: 4,
-        title: "Job Lab – Skills for the Future,",
-        speakerIds: [28],
+        title: "Job Lab – Skills for the Future",
+        speakerIds: [22],
         speakers: ["Maja Tursunovic"],
         desc: "Job Lab - Skills for the Future is an education that aims to career counsalt young people through an interactive presentation of the labor market of the future, skills and competencies for developing the X-Factor and key strategies for their development.",
         tags: ["F2F"],
@@ -42,10 +42,10 @@ export const wed = [
       },
       {
         id: 5,
-        title: "Session Name TBA",
-        speakerIds: [],
-        speakers: ["TBA"],
-        desc: "",
+        title: "Media-Education-Leadership in 2021",
+        speakerIds: [23],
+        speakers: ["Amir Zonic"],
+        desc: "What media and communication represent in the lives of young leaders? How to use social media in everyday life, work and through education? Are we aware of the impact that the media has on society as a whole? Answers to these and similar questions, along with several practical tricks in self-promotion and communication with the media at the workshop Media-Education-Leadership in 2021.",
         tags: ["F2F"],
         company: 1,
       },
@@ -119,11 +119,10 @@ export const wed = [
     events: [
       {
         id: 10,
-        title:
-          "Take the knowledge out of the box and play with it: Creating your own educational pathway through interdisciplinary approaches and significant learning",
+        title: "Break Away from the Mold and Live Creatively",
         speakerIds: [2],
         speakers: ["Zinka Bejtić"],
-        desc: "A roadmap to integrating knowledge, dismissing imposed conformity  and making connections between concepts across disciplines, in a world where the education system failis to keep pace with it's fast-changing requirements. Transform your attitude towards learning and positively influence your future career pursuits.",
+        desc: "Creativity is not only reserved for artists or innovators, those who embrace it defy the norm with their unique outlooks and original ideas that directly impact the quality of their personal and professional lives. Learn how to regain the courage and confidence you need to pursue the extraordinary in any aspect of your life.",
         tags: ["F2F", "Online"],
         company: 1,
       },
@@ -355,7 +354,7 @@ export const fri = [
           "Interdisciplinary integration as a pillar of pharmaceutical industry ",
         speakerIds: [13],
         speakers: ["Amra Ibrić"],
-        desc: "Insight into the world of drug development and pharmasuticals, with a strong emphasis of how a number of entirely different disciplines come together to create one final product.",
+        desc: "Keen to learn how drug development works and what disciplines pharmaceutical industry needs for a successful product launch? Take a sneak peek at the daily pharma business and let Dr. Amra Ibric guide you through a life cycle of pharmaceutical products.",
         tags: ["F2F"],
         company: 1,
       },
@@ -385,7 +384,7 @@ export const fri = [
         title: "Leading with Innovation and Creativity",
         speakerIds: [10],
         speakers: ["Senad Santic"],
-        desc: "",
+        desc: "Key takeaways from different stages of a company’s development and examples of innovation and creativity roles at every stage. Interactive session about business and people development.",
 
         tags: ["F2F"],
         company: 1,
@@ -429,7 +428,7 @@ export const fri = [
       },
       {
         title: "Be Entrepreneurial",
-        speakerIds: [22],
+        speakerIds: [24],
         speakers: ["Mirza Celegija"],
         desc: "",
 
@@ -437,7 +436,7 @@ export const fri = [
       },
       {
         title: "Strive for Excellence",
-        speakerIds: [23],
+        speakerIds: [25],
         speakers: ["Zorana Staka"],
         desc: "",
 
@@ -445,7 +444,7 @@ export const fri = [
       },
       {
         title: "Act with Integrity",
-        speakerIds: [24],
+        speakerIds: [26],
         speakers: ["Jasmina Kadic"],
         desc: "",
 
@@ -453,7 +452,7 @@ export const fri = [
       },
       {
         title: "Value and Embrace Diversity",
-        speakerIds: [25],
+        speakerIds: [27],
         speakers: ["Evel Ribo"],
         desc: "",
 
@@ -461,7 +460,7 @@ export const fri = [
       },
       {
         title: "Serve the Community",
-        speakerIds: [26],
+        speakerIds: [28],
         speakers: ["Enisa Lisnjic"],
         desc: "",
 
@@ -469,7 +468,7 @@ export const fri = [
       },
       {
         title: "Partner with Those Who Share Our Vision",
-        speakerIds: [27],
+        speakerIds: [29],
         speakers: ["Azra Velic"],
         desc: "",
 
@@ -495,7 +494,7 @@ export const fri = [
         title: "Being Excellent: Your Career as a Journey",
         speakerIds: [1],
         speakers: ["Miralem Salihovic"],
-        desc: "",
+        desc: "Learn how to embrace your career journey by leveraging failure to become excellent.",
 
         tags: ["F2F", "Online"],
         company: 1,
