@@ -33,7 +33,7 @@ export const wed = [
       },
       {
         id: 4,
-        title: "Job Lab – Skills for the Future,",
+        title: "Job Lab – Skills for the Future",
         speakerIds: [22],
         speakers: ["Maja Tursunovic"],
         desc: "Job Lab - Skills for the Future is an education that aims to career counsalt young people through an interactive presentation of the labor market of the future, skills and competencies for developing the X-Factor and key strategies for their development.",

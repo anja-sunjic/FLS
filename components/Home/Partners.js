@@ -20,7 +20,7 @@ export default function Partners() {
     <>
       <section className="section partners" id="partners" name="partners">
         <div className="container">
-          <h2>Sponsors & Partners</h2>
+          <h2>OUR SPONSORS & PARTNERS</h2>
           <Swiper
             spaceBetween={30}
             centeredSlides={true}
