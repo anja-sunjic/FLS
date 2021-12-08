@@ -18,7 +18,7 @@ export const wed = [
         title: "Vision of the Future: Can Creativity Solve Every Problem?",
         speakerIds: [14],
         speakers: ["Edina Seleskovic"],
-        desc: "",
+        desc: "Which qualities make a visionary? In a world that undermines the value of creativity, reignite yours and make a revolutionary change.",
         tags: ["F2F"],
         company: 1,
       },
