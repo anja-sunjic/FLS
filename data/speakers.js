@@ -228,7 +228,10 @@ export const speakers = [
     title: "Brand Manager at City Gecko@Telemax d.o.o. Banja Luka",
     li: "https://www.linkedin.com/in/goranvukalovic/",
     img: "/speakers/Goran.png",
-    bio: "",
+    bio: `Currently employed at Telemax d.o.o. where he leads and manages marketing and branding activities of smart urban materials City Gecko. He has gained multiple years of experience in  marketing through work in marketing agencies and the non-government sector. <br><br/>
+    He made the decision to join Telemax, more specifically their work on developing the City Gecko brand, due to his firm beliefs in its potential. The positive atmosphere and possibilities of constant learning and work on the brand - and himself - are the factors that motivate him daily.<br><br/>
+    He connects his technical background and marketing abilities, which is successfully reflected in the brand that in and of itself also represents the synergy of smart technologies, top quality design, and a positive impact on the living environment
+    `,
   },
   {
     id: 21,
