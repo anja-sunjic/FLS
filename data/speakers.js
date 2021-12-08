@@ -6,7 +6,7 @@ export const speakers = [
     title: "Head of Solutions and Technology at Apple",
     li: "https://www.linkedin.com/in/miralemsalihovic/",
     img: "/speakers/Miralem.jpg",
-    bio: "",
+    bio: "Miralem Salihovic is a technology leader currently working as the Head of Solutions & Technology at Apple in Cupertino. He has more than 10 years of experience in leadership roles across Silicon Valley working in multiple industries in Business Operations, Product Management, Engineering, and management roles. Outside of work, he is very active in philanthropy and mentoring, especially in his home country of Bosnia and Herzegovina.",
   },
   {
     id: 2,
@@ -76,7 +76,13 @@ export const speakers = [
     title: "R&D Cylindrical Production Manager at Northvolt",
     li: "https://www.linkedin.com/in/selma-zilic-9a8b3a46/?originalSubdomain=se",
     img: "/speakers/Selma.jpg",
-    bio: "",
+    bio: `Born 25-02-1982, grew up in Tuzla, BiH, where she graduated from primary, secondary medical school and the Department of Chemistry at UNTZ PMF. The only child. She played handball, was a member of the young generation of RK Jedinstvo in one period. <br><br/>
+    After graduation, in 2005, she went to the USA to work as a waitress on a cruise for 8 months, with tours of the Gulf of Mexico and Caribbean, where she gained a great experience and met people from all over the world.
+    Upon her return to Tuzla, she applied for a scholarship program for ex-Yugoslav students, by the Government of the Czech Republic, through the Embassy in Sarajevo. She receives a scholarship for a master's degree in biochemistry in 2007. at Palackeho University in Olomouc, Czech Republic where she spends two years.<br><br/>
+    In 2009, Selma got a job as an external associate-assistant at the Faculty of Natural Sciences, UNTZ. She works with students of Pharmacy, Technology and PMF in various subjects. Due to the impossibility of permanent employment at UNTZ and unregulated status, as well as due to the impossibility of finding a job in BH, as the only biochemist in Tuzla Canton, she decides to leave UNTZ in 2011. She goes to the Middle East to work for the U.S. Government as an analyst in the Engineering Department at a civilian logistics company that worked for NATO and the U.S. military.<br><br/>
+    She returned to Tuzla in 2014. and spends the next 2 years traveling, applying for jobs in BH and around the world, and in 2017 she goes to Sweden and starts working as a laboratory technician and later as an engineer in Lund in a research company dealing with new solar cell technology. She spent 2 years working in Lund, and in 2019, Selma gets a job at Northvolt first as a technician, to build herself into a team leader working on prototyping different models of cylindrical cells for wide use.<br><br/>
+    Selma intends to stay in Sweden for the rest of her life.
+    `,
   },
   {
     id: 8,
@@ -117,8 +123,7 @@ export const speakers = [
     id: 11,
     slug: "mustafa-suvalija",
     name: "Mustafa Suvalija",
-    title:
-      "Workplace Counselor at Mistral",
+    title: "Workplace Counselor at Mistral",
     li: "https://www.linkedin.com/in/mustafasuvalija/",
     img: "/speakers/MustafaS.jpg",
     bio: `Mustafa Šuvalija is an in-house mental health counselor at Mistral, a Sarajevo-based IT company. He's been a part of the BHFF mentorship program for the past three cycles, volunteering as a soft skills mentor. Mustafa has a Master of Science degree in psychology and works privately as a cognitive-behavioral psychotherapist under supervision.
@@ -208,8 +213,7 @@ export const speakers = [
     id: 19,
     slug: "sanela-klaric",
     name: "Sanela Klaric",
-    title:
-      "PhD Architecture",
+    title: "PhD Architecture",
     li: "https://www.linkedin.com/in/sanela-klaric-5916616a/",
     img: "/speakers/SanelaKlaric.png",
     bio: "",
@@ -218,8 +222,7 @@ export const speakers = [
     id: 20,
     slug: "goran-vukalovic",
     name: "Goran Vukalovic",
-    title:
-      "Brand Manager at City Gecko@Telemax d.o.o. Banja Luka",
+    title: "Brand Manager at City Gecko@Telemax d.o.o. Banja Luka",
     li: "https://www.linkedin.com/in/goranvukalovic/",
     img: "/speakers/Goran.png",
     bio: "",
@@ -229,9 +232,88 @@ export const speakers = [
     slug: "suad-halilcevic",
     name: "Suad Halilcevic",
     title:
-        "PhD, Full Professor, Head of the Department of Power and Energy Engineering at Faculty of Electrical Engineering, University of Tuzla",
+      "PhD, Full Professor, Head of the Department of Power and Energy Engineering at Faculty of Electrical Engineering, University of Tuzla",
     li: "https://www.researchgate.net/profile/Suad-Halilcevic",
     img: "/speakers/suadhalilcevic.png",
     bio: "Suad S. Halilčević graduated in electrical engineering at the University of Tuzla, received his master's degree from the University of Zagreb, Croatia and his doctorate from the University of Tuzla, Bosnia and Herzegovina, under the mentorship of Prof. Ferdinand Gubina, from the University of Ljubljana, Slovenia. He worked at Elektrodistribucija Tuzla, BiH, for nine years. He has been working at the University of Tuzla since 1993, currently as a full professor and head of the Department of Power and Energy Engineering. He has twice received an award from the DAAD postdoctoral research fellowship at the Universities of Dortmund and Aachen. He won a Fulbright scholarship at Iowa State University in the 2004/2005 academic year. His special areas of interest include the operation and control of electric power and energy systems, energy policy and economics, and risk management.  ",
-  }
+  },
+  {
+    id: 22,
+    slug: "mirza-celegija",
+    name: "Mirza Celegija",
+    title:
+      "Software Developer at Mistral, Tech Executive at Moment One, Senior Scholar & Futures Makerspaces Coordinator at BH Futures Foundation",
+    li: "https://www.linkedin.com/in/mirzaceligija/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAC7GFBABsNQ6ZHCY-O67ckR2C-9scrUXnC8",
+    img: "/speakers/MirzaCelegija.jpg",
+    bio: "Mirza Čeligija is a Software Developer at Mistral and our Senior scholar and volunteer. He is completing his studies at the Faculty of Information Technologies in Mostar. In addition, Mirza leads the Futures Makerspace BiH portfolio within the Bosnia and Herzegovina Futures Foundation. Because of his passion for entrepreneurship and psychology, Mirza began his journey in a mental health startup from the UK working as a Tech Executive. He is in love with the idea of minimalism and self-actualization.",
+  },
+  {
+    id: 23,
+    slug: "zorana-staka",
+    name: "Zorana Staka",
+    title:
+      "Bachelor of Mathematics, Distingueshed Alumni at BH Futures Foundation",
+    li: "https://www.linkedin.com/in/zorana-staka/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACG-R-QBO9kfXMVubwy2PlR4TYmH0N3kuD4",
+    img: "/speakers/Zorana.png",
+    bio: `Zorana Staka finished the Faculty of Electrical Engineering in East Sarajevo in 2018 as the best student in the generation and valedictorian. Zorana also has a Bachelor's degree in Mathematics. She is currently studying Master's degree in Software engineering at the Faculty of Electrical Engineering in Belgrade. She works as a Teaching Assistant at the Faculty of Electrical engineering in East Sarajevo. Besides that, she has experience working in the industry, where she developed information systems. She also worked on developing solutions for the startup from Great Britain/Australia in the field of sports science.<br/><br/>
+    She is awarded the Vera Snajder award, which is awarded to the young promising female scientist. Zorana is Advisor for 387 Labs, which aims to create economic and technological opportunities using Artificial Intelligence, and Board member of the Agency for Development of Higher Education and Quality Assurance. She is a proud distinguished alumni member of the Bosnia and Herzegovina Futures Foundation `,
+  },
+  {
+    id: 24,
+    slug: "jasmina-kadic",
+    name: "Jasmina Kadic",
+    title:
+      "Student at Faculty of Information Technologies Mostar, Senior Scholar at BH Futures Foundation",
+    li: "https://www.linkedin.com/in/jasmina-kadic/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACYTiP8BXO5u4bVWQtzVdug_N-6O4iDEpn0",
+    img: "/speakers/JasminaKadic.png",
+    bio: `"Jasmina Kadic is a proactive and ambitious student pursuing her Bachelors degree @ FIT Mostar. Her second love are languages and organization. Volunteering has always been part of her life from the early age, where she gained broad knowledge of soft skills needed in today's world. Being part of BHFF has truly advanced her personal development in ways she could never have imagined. Everyday is a new opportunity to learn and worth investing into yourself because she believes in life-long learning! <br><br/>
+    ""A ship in harbor is safe - but that is not what ships are built for!"" - John A. Shedd."`,
+  },
+  {
+    id: 25,
+    slug: "evel-ribo",
+    name: "Evel Ribo",
+    title:
+      "IT Security Analyst at Fall River Florist Supply, Senior Scholar & Ambassadors Team Member at BH Futures Foundation",
+    li: "https://www.linkedin.com/in/evel-r/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACsQAZQBG3u-TyjKSlUvzMgnvVxtWRJiGmo",
+    img: "/speakers/EvelRibo.png",
+    bio: `"Evel Ribo is a fourth-year Religious Studies student at the Islamic-Pedagogical Faculty of the University of Zenica, and a Senior Scholar and volunteer at BH Futures Foundation. While being a student of Religious Studies he was engaged in the student's council and Union of Islamic Faculties of B&H and Serbia on leading positions. Also, during his Mechanical Engineering studies, he was part of iDEALab at Mechanical Engineering Faculty at the University of Zenica.<br><br/>
+
+    During his secondary school education, Evel has developed a love for graphic design and web development with outstanding creativity. His creativity and achieved results made him a scholar of the BH Futures Foundation where he is a member of the SYPLC and Ambassadors team, a Mistral scholarship holder as well as the IEEE Innovation Nation 2020 scholarship holder.<br><br/>
+    
+    Evel's greatest passion is the combination of spirituality and the cybersecurity industry and he aims to become a changemaker in the field. He is currently preparing for the CompTIA Security+ certification exam, and he works as an IT Security Analyst at Fall River Florist Supply."`,
+  },
+  {
+    id: 26,
+    slug: "enisa-lisnjic",
+    name: "Enisa Lisnjic",
+    title:
+      "Student of Mechanical Engineering, Senior Scholar at BH Futures Foundation",
+    li: "https://www.linkedin.com/in/enisalisnjic/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADKVWRwBEp70F7Z9nv7t-kTemGiembtGYbE",
+    img: "/speakers/EnisaLisnjic.png",
+    bio: `My name is Enisa Lisnjic, and I am a 3rd-year student of Mechanical Engineering at the University of Zenica, at the department of Engineering Product Design. I am a Senior Scholar and volunteer in BH Futures Foundation. I love volunteering, and I have been a volunteer in many different organizations for six years. I am interested in design and product development, but I also love photography. Besides photography, my hobbies are sewing, reading, and drawing.`,
+  },
+  {
+    id: 27,
+    slug: "azra-velic",
+    name: "Azra Velic",
+    title:
+      "Electrical and Electronics Engineering Student at IBU, Senior scholar at BH Futures Foundation",
+    li: "https://www.linkedin.com/in/azravelic/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADKcXrAB-B4f1_haqW5EdWqzfWi1PXlVNrQ",
+    img: "/speakers/AzraVelic.png",
+    bio: `"Azra Velic is a first year Electrical and Electronics Engineering student at Faculty of Engineering and Natural Sciences at International Burch University and a Senior scholar and volunteer at BH Futures Foundation. During her primary and secondary school education Azra has achieved significant results in Mathematics and Physics competitions and been awarded the title Student of the generation. This year, she became a member of IBU Start-up Incubator, where she is involved in business development of her startup, Explore.ba.<br><br/>
+
+    Furthermore, Azra volunteers within the Ambassadors program in BH Futures Foundation.<br><br/>
+    
+    Her greatest passion since primary school days is the automotive industry and she believes that one day she will become a changemaker in that industry. Interestingly, she writes and publishes both prose and poetry. She is currently learning Italian and Python for Data Science."`,
+  },
+  {
+    id: 28,
+    slug: "maja-tursunovic",
+    name: "Maja Tursunovic",
+    title: "Director at Telemach Fondacija",
+    li: "https://www.linkedin.com/in/maja-tursunovic-6bb0b130/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAZrxa8B9WNjnGf7xk6yDYbpRxz_p5_OoXY",
+    img: "/speakers/MajaTursunovic.jpg",
+    bio: ``,
+  },
 ];

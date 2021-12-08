@@ -15,11 +15,10 @@ export const wed = [
       },
       {
         id: 2,
-        title:
-          "Interdisciplinary integration as a pillar of pharmaceutical industry ",
-        speakerIds: [13],
-        speakers: ["Amra Ibrić"],
-        desc: "Insight into the world of drug development and pharmasuticals, with a strong emphasis of how a number of entirely different disciplines come together to create one final product.",
+        title: "Vision of the Future: Can Creativity Solve Every Problem?",
+        speakerIds: [14],
+        speakers: ["Edina Seleskovic"],
+        desc: "",
         tags: ["F2F"],
         company: 1,
       },
@@ -34,10 +33,10 @@ export const wed = [
       },
       {
         id: 4,
-        title: "Session Name TBA",
-        speakerIds: [],
-        speakers: ["TBA"],
-        desc: "",
+        title: "Job Lab – Skills for the Future,",
+        speakerIds: [28],
+        speakers: ["Maja Tursunovic"],
+        desc: "Job Lab - Skills for the Future is an education that aims to career counsalt young people through an interactive presentation of the labor market of the future, skills and competencies for developing the X-Factor and key strategies for their development.",
         tags: ["F2F"],
         company: 1,
       },
@@ -155,51 +154,51 @@ export const thu = [
     events: [
       {
         id: 12,
-        title: "Session Name TBA",
+        title: "HTEC Group",
         speakerIds: [],
         speakers: [],
         desc: "",
-
+        link: "https://htecgroup.com/",
         tags: ["F2F"],
         company: 1,
       },
       {
         id: 13,
-        title: "Session Name TBA",
+        title: "DKR - German Center for Robotics",
         speakerIds: [],
         speakers: [],
         desc: "",
-
+        link: "https://www.dkr.ba/en/",
         tags: ["F2F"],
         company: 1,
       },
       {
         id: 14,
-        title: "Session Name TBA",
+        title: "Faculty of Mechanical Engineering Tuzla, Laboratory Complex",
         speakerIds: [],
         speakers: [],
         desc: "",
-
+        link: "http://mf.untz.ba/",
         tags: ["F2F"],
         company: 1,
       },
       {
         id: 15,
-        title: "Session Name TBA",
+        title: "TEHNOGRAD-company",
         speakerIds: [],
         speakers: [],
         desc: "",
-
+        link: "https://tehnograd-company.ba/",
         tags: ["F2F"],
         company: 1,
       },
       {
         id: 16,
-        title: "Session Name TBA",
+        title: "Tuzla Thermal Power Plant",
         speakerIds: [],
         speakers: [],
         desc: "",
-
+        link: "https://www.epbih.ba/foto/9549/termoelektrana-tuzla",
         tags: ["F2F"],
         company: 1,
       },
@@ -246,7 +245,7 @@ export const thu = [
     type: "Break",
     events: [
       {
-        title: "Break",
+        title: "Lunch Break",
       },
     ],
   },
@@ -287,7 +286,7 @@ export const thu = [
     type: "Break",
     events: [
       {
-        title: "Break",
+        title: "Coffee Break",
       },
     ],
   },
@@ -297,10 +296,10 @@ export const thu = [
     events: [
       {
         id: 22,
-        title: "Session Name TBA",
+        title: "How COVID Accelerated Digital Transformation of Healthcare",
         speakerIds: [3],
-        speakers: [],
-        desc: "",
+        speakers: ["Mirza Cifric"],
+        desc: "How PCR became a household word overnight. An insight into both the temporary changes and those that are here to stay.",
 
         tags: ["F2F", "Online"],
         company: 1,
@@ -342,11 +341,11 @@ export const fri = [
       },
       {
         id: 25,
-        title: "Vision of the Future: Can Creativity Solve Every Problem?",
-        speakerIds: [14],
-        speakers: ["Edina Seleskovic"],
-        desc: "",
-
+        title:
+          "Interdisciplinary integration as a pillar of pharmaceutical industry ",
+        speakerIds: [13],
+        speakers: ["Amra Ibrić"],
+        desc: "Insight into the world of drug development and pharmasuticals, with a strong emphasis of how a number of entirely different disciplines come together to create one final product.",
         tags: ["F2F"],
         company: 1,
       },
@@ -373,7 +372,7 @@ export const fri = [
       },
       {
         id: 28,
-        title: "Session Name TBA",
+        title: "Leading with Innovation and Creativity",
         speakerIds: [10],
         speakers: ["Senad Santic"],
         desc: "",
@@ -413,55 +412,55 @@ export const fri = [
         title: "Lightning Talks Powered by BH Youth -  6 Rules to Live By",
         speakerIds: [],
         speakers: [],
-        desc: "",
+        desc: "Strong core values give community members a shared sense of commitment, allowing them to rally behind a united cause. It is very important to live your core values, and here are six BH Futures Foundation students who will tell you how they live the community's core values each day.",
 
         tags: ["F2F", "Online"],
         company: 1,
       },
       {
         title: "Be Entrepreneurial",
-        speakerIds: [],
-        speakers: [],
+        speakerIds: [22],
+        speakers: ["Mirza Celegija"],
         desc: "",
 
         company: 1,
       },
       {
         title: "Strive for Excellence",
-        speakerIds: [],
-        speakers: [],
+        speakerIds: [23],
+        speakers: ["Zorana Staka"],
         desc: "",
 
         company: 1,
       },
       {
-        title: "Act with integrity",
-        speakerIds: [],
-        speakers: [],
+        title: "Act with Integrity",
+        speakerIds: [24],
+        speakers: ["Jasmina Kadic"],
         desc: "",
 
         company: 1,
       },
       {
-        title: "Value and embrace diversity",
-        speakerIds: [],
-        speakers: [],
+        title: "Value and Embrace Diversity",
+        speakerIds: [25],
+        speakers: ["Evel Ribo"],
         desc: "",
 
         company: 1,
       },
       {
-        title: "Serve the community",
-        speakerIds: [],
-        speakers: [],
+        title: "Serve the Community",
+        speakerIds: [26],
+        speakers: ["Enisa Lisnjic"],
         desc: "",
 
         company: 1,
       },
       {
-        title: "Partner with those those who share their vision",
-        speakerIds: [],
-        speakers: [],
+        title: "Partner with Those Who Share Our Vision",
+        speakerIds: [27],
+        speakers: ["Azra Velic"],
         desc: "",
 
         company: 1,
@@ -473,7 +472,7 @@ export const fri = [
     type: "Break",
     events: [
       {
-        title: "Break",
+        title: "Lunch Break",
       },
     ],
   },

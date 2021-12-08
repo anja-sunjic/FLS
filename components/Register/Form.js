@@ -667,7 +667,6 @@ export default function ContactForm() {
 				<Popup open={openWarningModal} closePopup={toggleWarningModal}>
 				<>
 					<div className="inner">
-					{/*<Image src="/check.png" height={100} width={100}></Image>*/}
 					<p>
 						Sorry, registration for the Futures Leaders Summit '21 is now closed.
 					</p>
