@@ -27,7 +27,7 @@ export const wed = [
         title: "How to write an academic paper?",
         speakerIds: [21],
         speakers: ["Suad Halilcevic"],
-        desc: "",
+        desc: "What makes an academic paper truly great? How do we decide what we want to publish, and where to publish it? Learn to write a paper you will be proud of.",
         tags: ["F2F"],
         company: 1,
       },
