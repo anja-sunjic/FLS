@@ -35,7 +35,8 @@
 		"react-styled-components": "^0.1.11",
 		"react-tabs": "^3.2.2",
 		"reactjs-popup": "^2.0.5",
-		"styled-component": "^2.8.0"
+		"styled-component": "^2.8.0",
+		"swiper": "^7.3.1"
 	},
 	"devDependencies": {
 		"bootstrap": "^5.1.3",
