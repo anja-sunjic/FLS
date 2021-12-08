@@ -484,7 +484,7 @@ export const fri = [
         title: "Being Excellent: Your Career as a Journey",
         speakerIds: [1],
         speakers: ["Miralem Salihovic"],
-        desc: "",
+        desc: "Learn how to embrace your career journey by leveraging failure to become excellent.",
 
         tags: ["F2F", "Online"],
         company: 1,
