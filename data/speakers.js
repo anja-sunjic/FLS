@@ -239,6 +239,15 @@ export const speakers = [
   },
   {
     id: 22,
+    slug: "maja-tursunovic",
+    name: "Maja Tursunovic",
+    title: "Director at Telemach Fondacija",
+    li: "https://www.linkedin.com/in/maja-tursunovic-6bb0b130/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAZrxa8B9WNjnGf7xk6yDYbpRxz_p5_OoXY",
+    img: "/speakers/MajaTursunovic.jpg",
+    bio: ``,
+  },
+  {
+    id: 23,
     slug: "mirza-celegija",
     name: "Mirza Celegija",
     title:
@@ -248,7 +257,7 @@ export const speakers = [
     bio: "Mirza Čeligija is a Software Developer at Mistral and our Senior scholar and volunteer. He is completing his studies at the Faculty of Information Technologies in Mostar. In addition, Mirza leads the Futures Makerspace BiH portfolio within the Bosnia and Herzegovina Futures Foundation. Because of his passion for entrepreneurship and psychology, Mirza began his journey in a mental health startup from the UK working as a Tech Executive. He is in love with the idea of minimalism and self-actualization.",
   },
   {
-    id: 23,
+    id: 24,
     slug: "zorana-staka",
     name: "Zorana Staka",
     title:
@@ -259,7 +268,7 @@ export const speakers = [
     She is awarded the Vera Snajder award, which is awarded to the young promising female scientist. Zorana is Advisor for 387 Labs, which aims to create economic and technological opportunities using Artificial Intelligence, and Board member of the Agency for Development of Higher Education and Quality Assurance. She is a proud distinguished alumni member of the Bosnia and Herzegovina Futures Foundation `,
   },
   {
-    id: 24,
+    id: 25,
     slug: "jasmina-kadic",
     name: "Jasmina Kadic",
     title:
@@ -270,7 +279,7 @@ export const speakers = [
     ""A ship in harbor is safe - but that is not what ships are built for!"" - John A. Shedd."`,
   },
   {
-    id: 25,
+    id: 26,
     slug: "evel-ribo",
     name: "Evel Ribo",
     title:
@@ -284,7 +293,7 @@ export const speakers = [
     Evel's greatest passion is the combination of spirituality and the cybersecurity industry and he aims to become a changemaker in the field. He is currently preparing for the CompTIA Security+ certification exam, and he works as an IT Security Analyst at Fall River Florist Supply."`,
   },
   {
-    id: 26,
+    id: 27,
     slug: "enisa-lisnjic",
     name: "Enisa Lisnjic",
     title:
@@ -294,7 +303,7 @@ export const speakers = [
     bio: `My name is Enisa Lisnjic, and I am a 3rd-year student of Mechanical Engineering at the University of Zenica, at the department of Engineering Product Design. I am a Senior Scholar and volunteer in BH Futures Foundation. I love volunteering, and I have been a volunteer in many different organizations for six years. I am interested in design and product development, but I also love photography. Besides photography, my hobbies are sewing, reading, and drawing.`,
   },
   {
-    id: 27,
+    id: 28,
     slug: "azra-velic",
     name: "Azra Velic",
     title:
@@ -306,14 +315,5 @@ export const speakers = [
     Furthermore, Azra volunteers within the Ambassadors program in BH Futures Foundation.<br><br/>
     
     Her greatest passion since primary school days is the automotive industry and she believes that one day she will become a changemaker in that industry. Interestingly, she writes and publishes both prose and poetry. She is currently learning Italian and Python for Data Science."`,
-  },
-  {
-    id: 28,
-    slug: "maja-tursunovic",
-    name: "Maja Tursunovic",
-    title: "Director at Telemach Fondacija",
-    li: "https://www.linkedin.com/in/maja-tursunovic-6bb0b130/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAZrxa8B9WNjnGf7xk6yDYbpRxz_p5_OoXY",
-    img: "/speakers/MajaTursunovic.jpg",
-    bio: ``,
   },
 ];

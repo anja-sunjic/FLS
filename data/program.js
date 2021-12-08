@@ -34,7 +34,7 @@ export const wed = [
       {
         id: 4,
         title: "Job Lab – Skills for the Future,",
-        speakerIds: [28],
+        speakerIds: [22],
         speakers: ["Maja Tursunovic"],
         desc: "Job Lab - Skills for the Future is an education that aims to career counsalt young people through an interactive presentation of the labor market of the future, skills and competencies for developing the X-Factor and key strategies for their development.",
         tags: ["F2F"],
@@ -419,7 +419,7 @@ export const fri = [
       },
       {
         title: "Be Entrepreneurial",
-        speakerIds: [22],
+        speakerIds: [23],
         speakers: ["Mirza Celegija"],
         desc: "",
 
@@ -427,7 +427,7 @@ export const fri = [
       },
       {
         title: "Strive for Excellence",
-        speakerIds: [23],
+        speakerIds: [24],
         speakers: ["Zorana Staka"],
         desc: "",
 
@@ -435,7 +435,7 @@ export const fri = [
       },
       {
         title: "Act with Integrity",
-        speakerIds: [24],
+        speakerIds: [25],
         speakers: ["Jasmina Kadic"],
         desc: "",
 
@@ -443,7 +443,7 @@ export const fri = [
       },
       {
         title: "Value and Embrace Diversity",
-        speakerIds: [25],
+        speakerIds: [26],
         speakers: ["Evel Ribo"],
         desc: "",
 
@@ -451,7 +451,7 @@ export const fri = [
       },
       {
         title: "Serve the Community",
-        speakerIds: [26],
+        speakerIds: [27],
         speakers: ["Enisa Lisnjic"],
         desc: "",
 
@@ -459,7 +459,7 @@ export const fri = [
       },
       {
         title: "Partner with Those Who Share Our Vision",
-        speakerIds: [27],
+        speakerIds: [28],
         speakers: ["Azra Velic"],
         desc: "",
 
