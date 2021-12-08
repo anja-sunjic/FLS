@@ -119,11 +119,10 @@ export const wed = [
     events: [
       {
         id: 10,
-        title:
-          "Take the knowledge out of the box and play with it: Creating your own educational pathway through interdisciplinary approaches and significant learning",
+        title: "Break Away from the Mold and Live Creatively",
         speakerIds: [2],
         speakers: ["Zinka Bejtić"],
-        desc: "A roadmap to integrating knowledge, dismissing imposed conformity  and making connections between concepts across disciplines, in a world where the education system failis to keep pace with it's fast-changing requirements. Transform your attitude towards learning and positively influence your future career pursuits.",
+        desc: "Creativity is not only reserved for artists or innovators, those who embrace it defy the norm with their unique outlooks and original ideas that directly impact the quality of their personal and professional lives. Learn how to regain the courage and confidence you need to pursue the extraordinary in any aspect of your life.",
         tags: ["F2F", "Online"],
         company: 1,
       },
