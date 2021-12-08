@@ -133,8 +133,7 @@ export const speakers = [
     id: 12,
     slug: "erol-mujanovic",
     name: "Erol Mujanovic",
-    title:
-      "PhD Economics & Entrepreneurship, Deputy Director at Economic Development Office, USAID BIH",
+    title: "PhD Economics & Entrepreneurship",
     li: "https://www.linkedin.com/in/erol-mujanovic-721b59/",
     img: "/speakers/Erol.png",
     bio: `Reliable senior leader and economic development expert, PhD. in economics & entrepreneurship, marathon runner & Ironman triathlon finisher. He loves working with startups particularly blockchain related and teaching.<br/><br/>
