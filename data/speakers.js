@@ -151,7 +151,7 @@ export const speakers = [
     id: 13,
     slug: "amra-ibric",
     name: "Amra Ibric",
-    title: "Market & Technology Analyst at Marinomed Biotech AG",
+    title: "Market & Technology Analyst in Pharma/Biotech",
     li: "https://www.linkedin.com/in/amra-ibric-15a8a71b5/",
     img: "/speakers/Amra-square.jpg",
     bio: `Amra Ibric graduated in Pharmacy from University of Vienna in 2012 and pursued thereafter her public pharmacist training year to be awarded a certificate of registered pharmacist by Austrian Chamber of Pharmacists in 2013. She remained loyal to her public pharmacist's duties also during her doctoral studies. From 2013 she held the position of Lecturer at the University of Vienna and served as an Assistant Lecturer at the University of Applied Sciences in Vienna, Austria. Among her many accomplishments, she was awarded by the Austrian Federal Ministry of Science and Research with a High Honours Award for her outstanding academic achievements. Amra received her doctoral degree in Medicinal Chemistry from University of Vienna and holds a master’s degree in Pharmaceutical Quality Management. More recently she switched to industry to fill the role of pharmaceutical lead of freshly established business unit and helped its formation in her current company. In 2021 Amra took the position of Market & Technology Analyst. <br><br/>
