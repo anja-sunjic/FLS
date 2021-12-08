@@ -375,7 +375,7 @@ export const fri = [
         title: "Leading with Innovation and Creativity",
         speakerIds: [10],
         speakers: ["Senad Santic"],
-        desc: "",
+        desc: "Key takeaways from different stages of a company’s development and examples of innovation and creativity roles at every stage. Interactive session about business and people development.",
 
         tags: ["F2F"],
         company: 1,
