@@ -156,7 +156,7 @@ export const thu = [
         title: "HTEC Group",
         speakerIds: [],
         speakers: [],
-        desc: "",
+        desc: "HTEC Group, as the event’s general sponsor, will host a 4 hour workshop with students during which students will learn more about how HTEC solves complex engineering and business problems and will get to test out their own problem solving skills. Working in groups of five students, mentored by HTEC’s engineers, students will work on optimizing last mile delivery, from both a business and technology perspective and will present their team solutions at the end of the workshop. Please bring your laptops if you can and join us for some hands-on problem solving!",
         link: "https://htecgroup.com/",
         tags: ["F2F"],
         company: 1,
