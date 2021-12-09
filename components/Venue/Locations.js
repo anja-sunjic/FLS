@@ -88,14 +88,14 @@ export default function Locations() {
               </a>
               , &nbsp;
               <a
-                href="https://goo.gl/maps/6MabooLLMV9DJtxL9"
+                href="https://goo.gl/maps/L1KCxH3RPn1L37Ji6"
                 target="_blank"
                 rel="noreferrer"
                 className="link-black-bold-underline"
               >
                 TEHNOGRAD-company
               </a>
-              „ , &nbsp;
+              , &nbsp;
               <a
                 href="https://goo.gl/maps/Ft5YeV22WLNY6rVf6"
                 target="_blank"
