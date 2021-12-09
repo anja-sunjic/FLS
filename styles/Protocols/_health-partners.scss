@@ -1,0 +1,17 @@
+.container-partners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  @include mobile {
+    flex-direction: column;
+  }
+  .partners-image {
+    margin-top: 2.5rem;
+    padding: 1rem 3rem;
+    @include mobile {
+      margin-top: 0;
+      padding: 3rem 2rem;
+    }
+  }
+}

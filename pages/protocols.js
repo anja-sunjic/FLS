@@ -5,6 +5,7 @@ import Decor from "../components/partials/Decor";
 import Intro from "../components/Protocols/Intro";
 import Rules from "../components/Protocols/Rules";
 import Ending from "../components/Protocols/Ending";
+import HealthPartners from "../components/Protocols/HealthPartners";
 export default function Protocols() {
   return (
     <>
@@ -20,6 +21,8 @@ export default function Protocols() {
         <Intro />
         <Rules />
         <Ending />
+
+        <HealthPartners title="HEALTH AND SAFETY PROTOCOL PARTNERS" />
         <Decor />
       </div>
       <Footer />
