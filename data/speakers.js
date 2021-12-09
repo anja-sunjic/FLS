@@ -175,11 +175,11 @@ export const speakers = [
   },
   {
     id: 15,
-    slug: "srdjan-jovanovic",
-    name: "Srdjan Jovanovic",
-    title: "VP of People Operations at HTEC",
-    li: "https://www.linkedin.com/in/jovanovicsrdjan/",
-    img: "/speakers/Srdjan.png",
+    slug: "katarina-urosevic",
+    name: "Katarina Urosevic",
+    title: "Chief of Staff and Director of Corporate Communications at HTEC",
+    li: "https://www.linkedin.com/in/katarina-urosevic-36467463/",
+    img: "/speakers/Katarina.png",
     bio: "",
   },
   {
@@ -187,7 +187,7 @@ export const speakers = [
     slug: "vedad-pasic",
     name: "Vedad Pasic",
     title:
-      "Head of the Faculty of Natural Sciences and Mathematics of the University of Tuzla, Associate Professor in the field of Pure Mathematics",
+      "Dean of the Faculty of Natural Sciences and Mathematics of the University of Tuzla, Associate Professor in the field of Pure Mathematics",
     li: "https://www.linkedin.com/in/vedad-pasic-62792b20/",
     img: "/speakers/VedadPasic.png",
     bio: "",

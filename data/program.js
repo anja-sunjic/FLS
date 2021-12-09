@@ -105,7 +105,7 @@ export const wed = [
         id: 9,
         title: "Uniting Academia and Industry: Perspective on the BH Market",
         speakerIds: [9, 15, 16],
-        speakers: ["Melita Kurtović & Srdjan Jovanovic & Vedad Pasic"],
+        speakers: ["Melita Kurtović & Katarina Urosevic & Vedad Pasic"],
         desc: "",
 
         tags: ["F2F", "Online"],
