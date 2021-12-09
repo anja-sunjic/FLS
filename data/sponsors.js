@@ -55,7 +55,7 @@ export const sponsors = [
 			{
 				name: 'C.J. Bihac',
 				url: ' http://www.cj-doo.com/onama.php',
-				img: '/partners/CJBihac.png',
+				img: '/partners/bihac.png',
 			},
 			{
 				name: 'BEMA',
@@ -196,7 +196,7 @@ export const sponsors = [
 	},
 
 	{
-		name: 'Media Partner',
+		name: 'Media Partners',
 		members: [
 			{
 				name: 'Klix',
