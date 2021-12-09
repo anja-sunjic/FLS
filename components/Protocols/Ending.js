@@ -17,8 +17,9 @@ export default function Ending() {
           <div className="inner">
             <p>
               Individuals (staff, guests, and participants) are obliged to stay
-              at their accommodation and alert FLS’21 Organizing Team or FLS’21
-              Health Advisor if experiencing any of the following symptoms:
+              at their accommodation and alert FLS’21 Organizing Team or FLS'21
+              Health and Safety Advisor if experiencing any of the following
+              symptoms:
             </p>
             <ul className="protocols-list">
               <li>fever;</li>
