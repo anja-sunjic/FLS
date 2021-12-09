@@ -10,7 +10,7 @@ export const sponsors = [
 		],
 	},
 	{
-		name: 'Platinum sponsor',
+		name: 'Platinum sponsors',
 		members: [
 			{
 				name: 'HTEC',
@@ -25,7 +25,7 @@ export const sponsors = [
 		],
 	},
 	{
-		name: 'Gold sponsor',
+		name: 'Gold sponsors',
 		members: [
 			{
 				name: 'DKR',
@@ -45,7 +45,7 @@ export const sponsors = [
 		],
 	},
 	{
-		name: 'Silver sponsor',
+		name: 'Silver sponsors',
 		members: [
 			{
 				name: 'Mistral',
@@ -65,7 +65,7 @@ export const sponsors = [
 		],
 	},
 	{
-		name: 'Bronze sponsor',
+		name: 'Bronze sponsors',
 		members: [
 			{
 				name: 'Tehnograd Company',
