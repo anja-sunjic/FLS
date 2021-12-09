@@ -25,7 +25,7 @@ export const wed = [
       {
         id: 3,
         title: "How to write an academic paper?",
-        speakerIds: [21],
+        speakerIds: [22],
         speakers: ["Suad Halilcevic"],
         desc: "What makes an academic paper truly great? How do we decide what we want to publish, and where to publish it? Learn to write a paper you will be proud of.",
         tags: ["F2F"],
@@ -34,7 +34,7 @@ export const wed = [
       {
         id: 4,
         title: "Job Lab – Skills for the Future",
-        speakerIds: [22],
+        speakerIds: [23],
         speakers: ["Maja Tursunovic"],
         desc: "Job Lab - Skills for the Future is an education that aims to career counsalt young people through an interactive presentation of the labor market of the future, skills and competencies for developing the X-Factor and key strategies for their development.",
         tags: ["F2F"],
@@ -43,7 +43,7 @@ export const wed = [
       {
         id: 5,
         title: "Media-Education-Leadership in 2021",
-        speakerIds: [23],
+        speakerIds: [24],
         speakers: ["Amir Zonic"],
         desc: "What media and communication represent in the lives of young leaders? How to use social media in everyday life, work and through education? Are we aware of the impact that the media has on society as a whole? Answers to these and similar questions, along with several practical tricks in self-promotion and communication with the media at the workshop Media-Education-Leadership in 2021.",
         tags: ["F2F"],
@@ -103,9 +103,9 @@ export const wed = [
     events: [
       {
         id: 9,
-        title: "Uniting Academia and Industry: Perspective on the BH market",
-        speakerIds: [9, 15],
-        speakers: ["Melita Kurtović & Srdjan Jovanovic"],
+        title: "Uniting Academia and Industry: Perspective on the BH Market",
+        speakerIds: [9, 15, 16],
+        speakers: ["Melita Kurtović & Katarina Urosevic & Vedad Pasic"],
         desc: "",
 
         tags: ["F2F", "Online"],
@@ -156,13 +156,23 @@ export const thu = [
         title: "HTEC Group",
         speakerIds: [],
         speakers: [],
-        desc: "",
+        desc: "HTEC Group, as the event’s general sponsor, will host a 4 hour workshop with students during which students will learn more about how HTEC solves complex engineering and business problems and will get to test out their own problem solving skills. Working in groups of five students, mentored by HTEC’s engineers, students will work on optimizing last mile delivery, from both a business and technology perspective and will present their team solutions at the end of the workshop. Please bring your laptops if you can and join us for some hands-on problem solving!",
         link: "https://htecgroup.com/",
         tags: ["F2F"],
         company: 1,
       },
       {
         id: 13,
+        title: "Telemach",
+        speakerIds: [],
+        speakers: [],
+        desc: "Participants will be able to get acquainted with the principles of operations of the cable operator Telemach and ways to provide state-of-the-art telecommunications services (digital and IP television, internet and telephony).",
+        link: "https://telemach.ba/",
+        tags: ["F2F"],
+        company: 1,
+      },
+      {
+        id: 14,
         title: "DKR - German Center for Robotics",
         speakerIds: [],
         speakers: [],
@@ -172,7 +182,7 @@ export const thu = [
         company: 1,
       },
       {
-        id: 14,
+        id: 15,
         title: "Faculty of Mechanical Engineering Tuzla, Laboratory Complex",
         speakerIds: [],
         speakers: [],
@@ -182,7 +192,7 @@ export const thu = [
         company: 1,
       },
       {
-        id: 15,
+        id: 16,
         title: "TEHNOGRAD-company",
         speakerIds: [],
         speakers: [],
@@ -192,22 +202,12 @@ export const thu = [
         company: 1,
       },
       {
-        id: 16,
+        id: 17,
         title: "Tuzla Thermal Power Plant",
         speakerIds: [],
         speakers: [],
         desc: "Visit the largest power plant in Bosnia and Herzegovina and find out how TE Tuzla produces 50% of electrical energy in FBiH, how they distribute electrical energy and witness first-hand how does it look behind the scenes.",
         link: "https://www.epbih.ba/foto/9549/termoelektrana-tuzla",
-        tags: ["F2F"],
-        company: 1,
-      },
-      {
-        id: 17,
-        title: "Telemach",
-        speakerIds: [],
-        speakers: [],
-        desc: "",
-        link: "https://telemach.ba/",
         tags: ["F2F"],
         company: 1,
       },
@@ -239,8 +239,8 @@ export const thu = [
     events: [
       {
         id: 19,
-        title: "The Versatility of Engineering - The Voice of the Industry",
-        speakerIds: [19, 16, 20],
+        title: "Sustainable Innovation: The Voice of the Industry",
+        speakerIds: [20, 17, 21],
         speakers: ["Sanela Klaric & Denis Kraljevic & Goran Vukalovic"],
         desc: "",
 
@@ -280,7 +280,7 @@ export const thu = [
     events: [
       {
         id: 21,
-        title: "Session Name TBA",
+        title: "Digital Transformation: Myth Versus Reality",
         speakerIds: [8],
         speakers: ["Darko Todorovic"],
         desc: "",
@@ -341,7 +341,7 @@ export const fri = [
       {
         id: 24,
         title: "Leading From a Growth Mindset",
-        speakerIds: [17, 18],
+        speakerIds: [18, 19],
         speakers: ["Anja Bundalo & Snjezana Udovicic"],
         desc: "A workshop teaching the foundation of Leadership on the basic principles of Positive Psychology. An interdisciplinary approach to management skills, interactive work and exercises, and a guid to understand the intertwining of leadership with emotional intelligence and psychology overall.",
 
@@ -428,7 +428,7 @@ export const fri = [
       },
       {
         title: "Be Entrepreneurial",
-        speakerIds: [24],
+        speakerIds: [25],
         speakers: ["Mirza Celegija"],
         desc: "",
 
@@ -436,7 +436,7 @@ export const fri = [
       },
       {
         title: "Strive for Excellence",
-        speakerIds: [25],
+        speakerIds: [26],
         speakers: ["Zorana Staka"],
         desc: "",
 
@@ -444,7 +444,7 @@ export const fri = [
       },
       {
         title: "Act with Integrity",
-        speakerIds: [26],
+        speakerIds: [27],
         speakers: ["Jasmina Kadic"],
         desc: "",
 
@@ -452,7 +452,7 @@ export const fri = [
       },
       {
         title: "Value and Embrace Diversity",
-        speakerIds: [27],
+        speakerIds: [28],
         speakers: ["Evel Ribo"],
         desc: "",
 
@@ -460,7 +460,7 @@ export const fri = [
       },
       {
         title: "Serve the Community",
-        speakerIds: [28],
+        speakerIds: [29],
         speakers: ["Enisa Lisnjic"],
         desc: "",
 
@@ -468,7 +468,7 @@ export const fri = [
       },
       {
         title: "Partner with Those Who Share Our Vision",
-        speakerIds: [29],
+        speakerIds: [30],
         speakers: ["Azra Velic"],
         desc: "",
 
