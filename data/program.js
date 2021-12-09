@@ -280,7 +280,7 @@ export const thu = [
     events: [
       {
         id: 21,
-        title: "Session Name TBA",
+        title: "Digital Transformation: Myth Versus Reality",
         speakerIds: [8],
         speakers: ["Darko Todorovic"],
         desc: "",
