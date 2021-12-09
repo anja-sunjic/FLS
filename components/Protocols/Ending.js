@@ -17,9 +17,9 @@ export default function Ending() {
           <div className="inner">
             <p>
               Individuals (staff, guests, and participants) are obliged to stay
-              at their accommodation and alert FLS’21 Organizing Team or FLS'21
-              Health and Safety Advisor if experiencing any of the following
-              symptoms:
+              at their accommodation and alert FLS&apos;21 Organizing Team or
+              FLS&apos;21 Health and Safety Advisor if experiencing any of the
+              following symptoms:
             </p>
             <ul className="protocols-list">
               <li>fever;</li>
@@ -36,12 +36,12 @@ export default function Ending() {
             </ul>
             <br />
             <p>
-              We expect all FLS’21 guests and participants to follow protection
-              measures and guidelines against COVID-19 spread during their
-              travel trip to Tuzla. Participants will receive more detailed
-              instructions and information about the means of FLS’21 Health and
-              Safety Protocols’ implementation during the event via email before
-              the start of the event.
+              We expect all FLS&apos;21 guests and participants to follow
+              protection measures and guidelines against COVID-19 spread during
+              their travel trip to Tuzla. Participants will receive more
+              detailed instructions and information about the means of
+              FLS&apos;21 Health and Safety Protocols&apos; implementation
+              during the event via email before the start of the event.
             </p>
           </div>
         </div>
