@@ -55,7 +55,7 @@ export const sponsors = [
 			{
 				name: 'C.J. Bihac',
 				url: ' http://www.cj-doo.com/onama.php',
-				img: '/partners/bihac.png',
+				img: '/partners/CJBihac.png',
 			},
 			{
 				name: 'BEMA',
@@ -136,6 +136,11 @@ export const sponsors = [
 				name: 'City Gecko',
 				url: 'https://citygecko.solar/',
 				img: '/partners/citygecko.png',
+			},
+			{
+				name: 'BKC',
+				url: 'https://www.bkctuzla.ba/',
+				img: '/partners/BKCLogo.png',
 			},
 		],
 	},
