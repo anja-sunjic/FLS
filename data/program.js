@@ -25,7 +25,7 @@ export const wed = [
       {
         id: 3,
         title: "How to write an academic paper?",
-        speakerIds: [21],
+        speakerIds: [22],
         speakers: ["Suad Halilcevic"],
         desc: "What makes an academic paper truly great? How do we decide what we want to publish, and where to publish it? Learn to write a paper you will be proud of.",
         tags: ["F2F"],
@@ -34,7 +34,7 @@ export const wed = [
       {
         id: 4,
         title: "Job Lab – Skills for the Future",
-        speakerIds: [22],
+        speakerIds: [23],
         speakers: ["Maja Tursunovic"],
         desc: "Job Lab - Skills for the Future is an education that aims to career counsalt young people through an interactive presentation of the labor market of the future, skills and competencies for developing the X-Factor and key strategies for their development.",
         tags: ["F2F"],
@@ -43,7 +43,7 @@ export const wed = [
       {
         id: 5,
         title: "Media-Education-Leadership in 2021",
-        speakerIds: [23],
+        speakerIds: [24],
         speakers: ["Amir Zonic"],
         desc: "What media and communication represent in the lives of young leaders? How to use social media in everyday life, work and through education? Are we aware of the impact that the media has on society as a whole? Answers to these and similar questions, along with several practical tricks in self-promotion and communication with the media at the workshop Media-Education-Leadership in 2021.",
         tags: ["F2F"],
@@ -104,8 +104,8 @@ export const wed = [
       {
         id: 9,
         title: "Uniting Academia and Industry: Perspective on the BH market",
-        speakerIds: [9, 15],
-        speakers: ["Melita Kurtović & Srdjan Jovanovic"],
+        speakerIds: [9, 15, 16],
+        speakers: ["Melita Kurtović & Srdjan Jovanovic & Vedad Pasic"],
         desc: "",
 
         tags: ["F2F", "Online"],
@@ -240,7 +240,7 @@ export const thu = [
       {
         id: 19,
         title: "The Versatility of Engineering - The Voice of the Industry",
-        speakerIds: [19, 16, 20],
+        speakerIds: [20, 17, 21],
         speakers: ["Sanela Klaric & Denis Kraljevic & Goran Vukalovic"],
         desc: "",
 
@@ -341,7 +341,7 @@ export const fri = [
       {
         id: 24,
         title: "Leading From a Growth Mindset",
-        speakerIds: [17, 18],
+        speakerIds: [18, 19],
         speakers: ["Anja Bundalo & Snjezana Udovicic"],
         desc: "A workshop teaching the foundation of Leadership on the basic principles of Positive Psychology. An interdisciplinary approach to management skills, interactive work and exercises, and a guid to understand the intertwining of leadership with emotional intelligence and psychology overall.",
 
@@ -428,7 +428,7 @@ export const fri = [
       },
       {
         title: "Be Entrepreneurial",
-        speakerIds: [24],
+        speakerIds: [25],
         speakers: ["Mirza Celegija"],
         desc: "",
 
@@ -436,7 +436,7 @@ export const fri = [
       },
       {
         title: "Strive for Excellence",
-        speakerIds: [25],
+        speakerIds: [26],
         speakers: ["Zorana Staka"],
         desc: "",
 
@@ -444,7 +444,7 @@ export const fri = [
       },
       {
         title: "Act with Integrity",
-        speakerIds: [26],
+        speakerIds: [27],
         speakers: ["Jasmina Kadic"],
         desc: "",
 
@@ -452,7 +452,7 @@ export const fri = [
       },
       {
         title: "Value and Embrace Diversity",
-        speakerIds: [27],
+        speakerIds: [28],
         speakers: ["Evel Ribo"],
         desc: "",
 
@@ -460,7 +460,7 @@ export const fri = [
       },
       {
         title: "Serve the Community",
-        speakerIds: [28],
+        speakerIds: [29],
         speakers: ["Enisa Lisnjic"],
         desc: "",
 
@@ -468,7 +468,7 @@ export const fri = [
       },
       {
         title: "Partner with Those Who Share Our Vision",
-        speakerIds: [29],
+        speakerIds: [30],
         speakers: ["Azra Velic"],
         desc: "",
 

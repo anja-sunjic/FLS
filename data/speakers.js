@@ -184,6 +184,16 @@ export const speakers = [
   },
   {
     id: 16,
+    slug: "vedad-pasic",
+    name: "Vedad Pasic",
+    title:
+      "Head of the Faculty of Natural Sciences and Mathematics of the University of Tuzla, Associate Professor in the field of Pure Mathematics",
+    li: "https://www.linkedin.com/in/vedad-pasic-62792b20/",
+    img: "/speakers/VedadPasic.png",
+    bio: "",
+  },
+  {
+    id: 17,
     slug: "denis-kraljevic",
     name: "Denis Kraljevic",
     title: "CEO at Derubis Yachts",
@@ -192,7 +202,7 @@ export const speakers = [
     bio: "",
   },
   {
-    id: 17,
+    id: 18,
     slug: "anja-bundalo",
     name: "Anja Bundalo",
     title:
@@ -202,7 +212,7 @@ export const speakers = [
     bio: "She is 34 years old. She holds her PhD degree from the university François-Rabelais of Tours (France) since 2018, and has published articles and presented papers at conferences on the subject of French Enlightenment. She is currently a professor of French literature at the University of Banja Luka. She has also finished Law studies (four year curricula- 240 ECTS).<br/><br/>She is the contact person for the international projects at her University. She obtained the French government scholarship for her Master and doctoral studies, the staff scholarship for the observation of doctoral schools at the University of Poitiers, as well as Coimbra scholarship. She regularly participates in all the workshops concerning the implementation of Erasmus+ programs organized by hers and by the partner’s universities. <br/><br/>She fluently speaks Serbian/Bosnian (mother tongue), French, English, Italian and Russian and is very interested in developing “soft skills” and teaching capacities in the classroom. She is a professional Coach (licensed by ECA), NLP Trainer and a Transactional analyst- Practitioner (TA). She is a co-founder and director of the Center for education, coaching and self-development “LiderLab”, through which she is spreading the culture of leadership, assertive communication and self-awareness, that she also promotes in every classroom that she enters.",
   },
   {
-    id: 18,
+    id: 19,
     slug: "snjezana-udovicic",
     name: "Snjezana Udovicic",
     title:
@@ -212,7 +222,7 @@ export const speakers = [
     bio: "Snježana is a General manager at Publica Language Studio, and a Co-Founder & NLP Trainer at LiderLab Center. She graduated from the Banja Luka College, and went on to work as a Radio Host, first at NES Radio, and then at Big Radio Banja Luka. Over time, she has tackled Public Relations Management, Project Management, and NLP, gaining several specializations in the latter. Some of her many certificates include NLP Master IANLP, Professional Certified Coach (PCC), ECA, and NLP Practitioner IANLP. Currently, she is most actively involved in managing the Publiva Language Studio which conducts localization services, voiceover and translation, and audio and podcast production. Additionally, she invests her time in personal development coaching at the aforementioned LiderLab Center.",
   },
   {
-    id: 19,
+    id: 20,
     slug: "sanela-klaric",
     name: "Sanela Klaric",
     title: "PhD Architecture",
@@ -221,7 +231,7 @@ export const speakers = [
     bio: "",
   },
   {
-    id: 20,
+    id: 21,
     slug: "goran-vukalovic",
     name: "Goran Vukalovic",
     title: "Brand Manager at City Gecko@Telemax d.o.o. Banja Luka",
@@ -233,7 +243,7 @@ export const speakers = [
     `,
   },
   {
-    id: 21,
+    id: 22,
     slug: "suad-halilcevic",
     name: "Suad Halilcevic",
     title:
@@ -243,7 +253,7 @@ export const speakers = [
     bio: "Suad S. Halilčević graduated in electrical engineering at the University of Tuzla, received his master's degree from the University of Zagreb, Croatia and his doctorate from the University of Tuzla, Bosnia and Herzegovina, under the mentorship of Prof. Ferdinand Gubina, from the University of Ljubljana, Slovenia. He worked at Elektrodistribucija Tuzla, BiH, for nine years. He has been working at the University of Tuzla since 1993, currently as a full professor and head of the Department of Power and Energy Engineering. He has twice received an award from the DAAD postdoctoral research fellowship at the Universities of Dortmund and Aachen. He won a Fulbright scholarship at Iowa State University in the 2004/2005 academic year. His special areas of interest include the operation and control of electric power and energy systems, energy policy and economics, and risk management.  ",
   },
   {
-    id: 22,
+    id: 23,
     slug: "maja-tursunovic",
     name: "Maja Tursunovic",
     title: "Director at Telemach Fondacija",
@@ -257,7 +267,7 @@ export const speakers = [
     `,
   },
   {
-    id: 23,
+    id: 24,
     slug: "amir-zonic",
     name: "Amir Zonic",
     title: "Executive Manager at Kameleon M&M Group",
@@ -266,7 +276,7 @@ export const speakers = [
     bio: ``,
   },
   {
-    id: 24,
+    id: 25,
     slug: "mirza-celegija",
     name: "Mirza Celegija",
     title:
@@ -276,7 +286,7 @@ export const speakers = [
     bio: "Mirza Čeligija is a Software Developer at Mistral and our Senior scholar and volunteer. He is completing his studies at the Faculty of Information Technologies in Mostar. In addition, Mirza leads the Futures Makerspace BiH portfolio within the Bosnia and Herzegovina Futures Foundation. Because of his passion for entrepreneurship and psychology, Mirza began his journey in a mental health startup from the UK working as a Tech Executive. He is in love with the idea of minimalism and self-actualization.",
   },
   {
-    id: 25,
+    id: 26,
     slug: "zorana-staka",
     name: "Zorana Staka",
     title:
@@ -287,7 +297,7 @@ export const speakers = [
     She is awarded the Vera Snajder award, which is awarded to the young promising female scientist. Zorana is Advisor for 387 Labs, which aims to create economic and technological opportunities using Artificial Intelligence, and Board member of the Agency for Development of Higher Education and Quality Assurance. She is a proud distinguished alumni member of the Bosnia and Herzegovina Futures Foundation `,
   },
   {
-    id: 26,
+    id: 27,
     slug: "jasmina-kadic",
     name: "Jasmina Kadic",
     title:
@@ -298,7 +308,7 @@ export const speakers = [
     ""A ship in harbor is safe - but that is not what ships are built for!"" - John A. Shedd."`,
   },
   {
-    id: 27,
+    id: 28,
     slug: "evel-ribo",
     name: "Evel Ribo",
     title:
@@ -312,7 +322,7 @@ export const speakers = [
     Evel's greatest passion is the combination of spirituality and the cybersecurity industry and he aims to become a changemaker in the field. He is currently preparing for the CompTIA Security+ certification exam, and he works as an IT Security Analyst at Fall River Florist Supply."`,
   },
   {
-    id: 28,
+    id: 29,
     slug: "enisa-lisnjic",
     name: "Enisa Lisnjic",
     title:
@@ -322,7 +332,7 @@ export const speakers = [
     bio: `My name is Enisa Lisnjic, and I am a 3rd-year student of Mechanical Engineering at the University of Zenica, at the department of Engineering Product Design. I am a Senior Scholar and volunteer in BH Futures Foundation. I love volunteering, and I have been a volunteer in many different organizations for six years. I am interested in design and product development, but I also love photography. Besides photography, my hobbies are sewing, reading, and drawing.`,
   },
   {
-    id: 29,
+    id: 30,
     slug: "azra-velic",
     name: "Azra Velic",
     title:
