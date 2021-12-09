@@ -103,7 +103,7 @@ export const wed = [
     events: [
       {
         id: 9,
-        title: "Uniting Academia and Industry: Perspective on the BH market",
+        title: "Uniting Academia and Industry: Perspective on the BH Market",
         speakerIds: [9, 15, 16],
         speakers: ["Melita Kurtović & Srdjan Jovanovic & Vedad Pasic"],
         desc: "",
