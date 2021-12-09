@@ -239,7 +239,7 @@ export const thu = [
     events: [
       {
         id: 19,
-        title: "The Versatility of Engineering - The Voice of the Industry",
+        title: "Sustainable Innovation: The Voice of the Industry",
         speakerIds: [20, 17, 21],
         speakers: ["Sanela Klaric & Denis Kraljevic & Goran Vukalovic"],
         desc: "",
