@@ -206,7 +206,7 @@ export const thu = [
         title: "Telemach",
         speakerIds: [],
         speakers: [],
-        desc: "",
+        desc: "Participants will be able to get acquainted with the principles of operations of the cable operator Telemach and ways to provide state-of-the-art telecommunications services (digital and IP television, internet and telephony).",
         link: "https://telemach.ba/",
         tags: ["F2F"],
         company: 1,
