@@ -90,6 +90,16 @@ export const sponsors = [
 		],
 	},
 	{
+		name: 'Supporter',
+		members: [
+			{
+				name: 'MPTK',
+				url: 'http://www.vladatk.kim.ba/ministarstva-tk/ministarstvo-privrede',
+				img: '/partners/MPTK.png',
+			},
+		],
+	},
+	{
 		name: 'Community partners',
 		members: [
 			{
@@ -138,6 +148,11 @@ export const sponsors = [
 				img: '/partners/citygecko.png',
 			},
 			{
+				name: 'Lider Lab',
+				url: 'https://liderlab.center/',
+				img: '/partners/LiderLab.png',
+			},
+			{
 				name: 'BKC',
 				url: 'https://www.bkctuzla.ba/',
 				img: '/partners/BKCLogo.png',
@@ -179,16 +194,7 @@ export const sponsors = [
 			},
 		],
 	},
-	{
-		name: 'Supporter',
-		members: [
-			{
-				name: 'MPTK',
-				url: 'http://www.vladatk.kim.ba/ministarstva-tk/ministarstvo-privrede',
-				img: '/partners/MPTK.png',
-			},
-		],
-	},
+
 	{
 		name: 'Media Partner',
 		members: [
