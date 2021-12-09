@@ -10,17 +10,22 @@ export const sponsors = [
 		],
 	},
 	{
-		name: 'Platinum sponsor',
+		name: 'Platinum sponsors',
 		members: [
 			{
 				name: 'HTEC',
 				url: 'https://htecgroup.com/',
 				img: '/partners/htec.png',
 			},
+			{
+				name: 'telemach',
+				url: 'https://telemach.ba/',
+				img: '/partners/telemach.png',
+			},
 		],
 	},
 	{
-		name: 'Gold sponsor',
+		name: 'Gold sponsors',
 		members: [
 			{
 				name: 'DKR',
@@ -40,17 +45,27 @@ export const sponsors = [
 		],
 	},
 	{
-		name: 'Silver sponsor',
+		name: 'Silver sponsors',
 		members: [
 			{
 				name: 'Mistral',
 				url: 'https://www.mistral.ba/',
 				img: '/partners/Mistral.png',
 			},
+			{
+				name: 'C.J. Bihac',
+				url: ' http://www.cj-doo.com/onama.php',
+				img: '/partners/bihac.png',
+			},
+			{
+				name: 'BEMA',
+				url: ' http://www.bema.ba/index.php/en/',
+				img: '/partners/BEMA.png',
+			},
 		],
 	},
 	{
-		name: 'Bronze sponsor',
+		name: 'Bronze sponsors',
 		members: [
 			{
 				name: 'Tehnograd Company',
@@ -71,6 +86,16 @@ export const sponsors = [
 				name: 'BHing',
 				url: 'https://bhing.ba/',
 				img: '/partners/bhing.png',
+			},
+		],
+	},
+	{
+		name: 'Supporter',
+		members: [
+			{
+				name: 'MPTK',
+				url: 'http://www.vladatk.kim.ba/ministarstva-tk/ministarstvo-privrede',
+				img: '/partners/MPTK.png',
 			},
 		],
 	},
@@ -123,10 +148,15 @@ export const sponsors = [
 				img: '/partners/citygecko.png',
 			},
 			{
-				name: 'LiderLab',
+				name: 'Lider Lab',
 				url: 'https://liderlab.center/',
 				img: '/partners/LiderLab.png',
-			}
+			},
+			{
+				name: 'BKC',
+				url: 'https://www.bkctuzla.ba/',
+				img: '/partners/BKCLogo.png',
+			},
 		],
 	},
 	{
@@ -157,21 +187,22 @@ export const sponsors = [
 				url: 'https://ipi-akademija.ba/',
 				img: '/partners/IPIAkademija.png',
 			},
-		],
-	},
-	{
-		name: 'Supporter',
-		members: [
 			{
-				name: 'MPTK',
-				url: 'http://www.vladatk.kim.ba/ministarstva-tk/ministarstvo-privrede',
-				img: '/partners/MPTK.png',
+				name: 'finra.png',
+				url: 'https://finra.edu.ba/',
+				img: '/partners/FINra.png',
 			},
 		],
 	},
+
 	{
-		name: 'Media Partner',
+		name: 'Media Partners',
 		members: [
+			{
+				name: 'Klix',
+				url: 'https://www.klix.ba/',
+				img: '/partners/KLIX.png',
+			},
 			{
 				name: 'Radio Kameleon',
 				url: 'https://radiokameleon.ba/',

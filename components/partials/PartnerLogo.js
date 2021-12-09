@@ -16,6 +16,16 @@ export default function PartnerLogo({ url, img, size, name }) {
 						style={{ height: '8rem', marginTop: '-2rem' }}
 					/>
 				);
+			case 'C.J. Bihac':
+				return (
+					<img
+						src={img}
+						alt='FLS'
+						style={{ height: '7rem', marginTop: '2rem' }}
+					/>
+				);
+			case 'BEMA':
+				return <img src={img} alt='FLS' style={{ marginTop: '3rem' }} />;
 			case 'ieeebh':
 				return (
 					<img
