@@ -65,11 +65,13 @@ export default function ContactForm() {
     invalidField: "",
   });
 
-  //This state needs to be handlede after You check is discount code valid
-  const [discount, setDiscount] = useState(false);
-  //State for opening pop up
-  const [open, setOpen] = useState(false);
-  const toggleModal = () => setOpen(!open);
+	//This state needs to be handlede after You check is discount code valid
+	const [discount, setDiscount] = useState(false);
+	//State for opening pop up
+	const [openWarningModal, setOpenWarningModal] = useState(true);
+	const [open, setOpen] = useState(false);
+	const toggleModal = () => setOpen(!open);
+	const toggleWarningModal = () => setOpenWarningModal(!openWarningModal);
 
   //options for select fields
   const academicStatuses = [
@@ -521,7 +523,7 @@ export default function ContactForm() {
       </div>
       <div className="form-control">
         <div tabIndex="-1" id="talent_pool" className="form-label">
-          Do you agree to become part of the FLS&#39;21 Talent Pool?*
+          Do you agree to become part of the FLS&apos;21 Talent Pool?*
         </div>
         <Select
           instanceId="talentpool"
@@ -539,7 +541,7 @@ export default function ContactForm() {
         )}
         <p className={classes.explanation}>
           The FLS Organizing Team is creating a summit talent pool - a database
-          of individuals participating at the Futures Leaders Summit &#39;21.{" "}
+          of individuals participating at the Futures Leaders Summit &apos;21.{" "}
           <br /> <br /> After the completion of the event, the database will be
           shared with all interested Premium and Gold Sponsors for further
           networking and internship/employment opportunities.
@@ -575,92 +577,106 @@ export default function ContactForm() {
           <p>File Loaded successfully</p>
         )}
 
-        <p className={classes.explanation}>
-          If you agreed to become part of the FLS&#39;21 Talent Pool, it is
-          mandatory to upload your resume.
-        </p>
-      </div>
-      <div className="form-control">
-        <div className="form-label">Discount code:</div>
-        <input
-          id="discount_code"
-          type="text"
-          name="discount"
-          required
-          onChange={(e) => {
-            setDiscountCode(e.target.value);
-          }}
-        />
-        {!validateDiscountCode() && (
-          <p className={classes.required_field}>
-            Discount code must be 13 chars long
-          </p>
-        )}
-      </div>
-      <div className="form-control">
-        <div className="form-label">
-          How are you compliant with FLS&#39;21 Health and Safety Protocols?*
-        </div>
-        <div tabIndex="-1" id="vax_pool" style={{ width: "100%" }}>
-          <Select
-            instanceId="vax"
-            options={vaxStatuses}
-            onChange={(e) => setVaxStatus(e.value)}
-            placeholder="Select"
-            name="vaxStatus"
-            required={true}
-          />
-        </div>
-        {validateVaxComplience() && (
-          <p className={classes.required_field}>
-            Health compliance is required
-          </p>
-        )}
-      </div>
-      <input
-        className="contact-button"
-        type="submit"
-        onClick={validateOnSubmit}
-      />
-      {allInputValid.invalidField != "" ? (
-        <p className={classes.required_field}>
-          Field {allInputValid.invalidField} is required. Please fill it!
-        </p>
-      ) : null}
-      {open && discountCode && (
-        <Popup open={open} closePopup={toggleModal}>
-          <>
-            <div className="inner">
-              <Image src="/check.png" height={100} width={100}></Image>
-              <p>
-                Thank you for your registration. Check your email inbox
-                (Junk/Spam as well) for further information regarding
-                FLS&#39;21.
-              </p>
-              <div className="button" onClick={toggleModal}>
-                Continue
-              </div>
-            </div>
-          </>
-        </Popup>
-      )}
-      {open && !discountCode && (
-        <Popup open={open} closePopup={toggleModal}>
-          <>
-            <div className="inner">
-              <Image src="/check.png" height={100} width={100}></Image>
-              <p>
-                Thank you for your registration. Check your email inbox
-                (Junk/Spam as well) for payment instructions and further
-                information regarding FLS&apos;21.
-              </p>
-              <div className="button" onClick={toggleModal}>
-                Continue
-              </div>
-            </div>
-          </>
-        </Popup>
-      )}
-    </div>
-  );
+				<p className={classes.explanation}>
+					If you agreed to become part of the FLS&apos;21 Talent Pool, it is
+					mandatory to upload your resume.
+				</p>
+			</div>
+			<div className='form-control'>
+				<div className='form-label'>Discount code:</div>
+				<input
+					id='discount_code'
+					type='text'
+					name='discount'
+					required
+					onChange={(e) => {
+						setDiscountCode(e.target.value);
+					}}
+				/>
+				{!validateDiscountCode() && (
+					<p className={classes.required_field}>
+						Discount code must be 13 chars long
+					</p>
+				)}
+			</div>
+			<div className='form-control'>
+				<div className='form-label'>
+					How are you compliant with FLS&apos;21 Health and Safety Protocols?*
+				</div>
+				<div tabIndex='-1' id='vax_pool' style={{ width: '100%' }}>
+					<Select
+						instanceId='vax'
+						options={vaxStatuses}
+						onChange={(e) => setVaxStatus(e.value)}
+						placeholder='Select'
+						name='vaxStatus'
+						required={true}
+					/>
+				</div>
+				{validateVaxComplience() && (
+					<p className={classes.required_field}>
+						Health compliance is required
+					</p>
+				)}
+			</div>
+			<input
+				className='contact-button'
+				type='submit'
+				onClick={validateOnSubmit}
+			/>
+			{allInputValid.invalidField != '' ? (
+				<p className={classes.required_field}>
+					Field {allInputValid.invalidField} is required. Please fill it!
+				</p>
+			) : null}
+			{open && discountCode && (
+				<Popup open={open} closePopup={toggleModal}>
+					<>
+						<div className='inner'>
+							<Image src='/check.png' height={100} width={100}></Image>
+							<p>
+								Thank you for your registration. Check your email inbox
+								(Junk/Spam as well) for further information regarding
+								FLS&apos;21.
+							</p>
+							<div className='button' onClick={toggleModal}>
+								Continue
+							</div>
+						</div>
+					</>
+				</Popup>
+			)}
+			{open && !discountCode && (
+				<Popup open={open} closePopup={toggleModal}>
+					<>
+						<div className='inner'>
+							<Image src='/check.png' height={100} width={100}></Image>
+							<p>
+								Thank you for your registration. Check your email inbox
+								(Junk/Spam as well) for payment instructions and further
+								information regarding FLS&apos;21.
+							</p>
+							<div className='button' onClick={toggleModal}>
+								Continue
+							</div>
+						</div>
+					</>
+				</Popup>
+			)}
+			{openWarningModal && (
+				<Popup open={openWarningModal} closePopup={toggleWarningModal}>
+				<>
+					<div className="inner">
+					<p>
+						Sorry, registration for the Futures Leaders Summit &apos;21 is now closed.
+					</p>
+					<div className="button" onClick={toggleWarningModal}>
+						Close
+					</div>
+					</div>
+				</>
+				</Popup>
+			)}
+		</div>
+	);
 }
