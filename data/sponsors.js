@@ -60,7 +60,7 @@ export const sponsors = [
 			{
 				name: 'BEMA',
 				url: ' http://www.bema.ba/index.php/en/',
-				img: '/partners/bema.png',
+				img: '/partners/BEMA.png',
 			},
 		],
 	},
@@ -190,7 +190,7 @@ export const sponsors = [
 			{
 				name: 'finra.png',
 				url: 'https://finra.edu.ba/',
-				img: '/partners/finra.png',
+				img: '/partners/FINra.png',
 			},
 		],
 	},
@@ -201,7 +201,7 @@ export const sponsors = [
 			{
 				name: 'Klix',
 				url: 'https://www.klix.ba/',
-				img: '/partners/klix.png',
+				img: '/partners/KLIX.png',
 			},
 			{
 				name: 'Radio Kameleon',
