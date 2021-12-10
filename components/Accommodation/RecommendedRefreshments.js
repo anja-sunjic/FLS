@@ -7,20 +7,14 @@ import Refreshment from "./Refreshment";
 const RecommendedHotels = () => {
     return (
         <>
-            <div className="_speakers hero small-hero">
+            <div className="speakers-all">
                 <div className="container">
-                    <div className="inner">
-                        <div className="title-line">
-                            <h2>Recommended Refreshments</h2>
-                            <div className="line-decor is-hidden-touch">
-                                <img src="/dots.svg" alt="Futures Leaders Summit" />
-                            </div>
+                    <div className="recommended-title">
+                        <h2>Refreshments</h2>
+                        <div className="line-decor is-hidden-touch">
+                            <img src="/dots.svg" alt="Futures Leaders Summit" />
                         </div>
                     </div>
-                </div>
-            </div>
-            <div className="section speakers-all">
-                <div className="container">
                     <div className="hotel-container">
                         {
                             refreshments.map((refreshment) => {

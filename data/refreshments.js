@@ -9,6 +9,6 @@ export const refreshments = [
         id: 1,
         name: "Red Bull",
         website: "https://www.redbull.com/ba-bs/",
-        img: "/refreshments/redbull.jpg"
+        img: "/refreshments/redbull.png"
     },
 ];

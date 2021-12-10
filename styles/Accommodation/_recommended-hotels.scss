@@ -1,3 +1,23 @@
+.recommended-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0;
+
+  h2 {
+    margin-bottom: 0px;
+  }
+
+  @include touch {
+    justify-content: center;
+  }
+
+  .line-decor {
+    @include tablet {
+      width: 50%;
+    }
+  }
+}
 .hotel-container {
   display: flex;
   flex-direction: row;
