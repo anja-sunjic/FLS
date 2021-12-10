@@ -1,0 +1,50 @@
+.hotel-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  .reusable-card {
+    width: calc(50% - 1.5rem);
+    @include touch {
+      width: calc(100% - 1.5rem);
+    }
+    @include mobile {
+      width: calc(100% - 1.5rem);
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+  }
+  .card-image {
+
+  }
+  .card-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .card-title {
+    color: rgba(239, 226, 0, 1);
+    font-weight: 800;
+    padding: 10px 0;
+    font-size: crem(50px);
+    text-align: center;
+    @include mobile {
+      font-size: crem(50px);
+    }
+  }
+  .card-information{
+    color: #fff;
+    font-weight: 300;
+    font-size: crem(25px);
+    @include mobile {
+      font-size: crem(30px);
+    }
+  }
+  .card-details {
+    padding: 30px 0;
+  }
+}
