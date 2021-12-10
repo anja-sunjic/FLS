@@ -10,9 +10,9 @@ import RecommendedRefreshments from "../components/Accommodation/RecommendedRefr
 export default function Home() {
     return (
         <>
-            <MetaData path='/accommodation-and-food' title='Accommodation & Food' description='' image='/share.png' />
+            <MetaData path='/accommodation-food-and-refreshments' title='Accommodation, Food & Refreshments' description='' image='/share.png' />
             <div className='_main speakers'>
-                <h1 className='is-hidden'>Accommodation, Food and Refreshments Futures Leaders Summit</h1>
+                <h1 className='is-hidden'>Accommodation, Food & Refreshments Futures Leaders Summit</h1>
                 <Header />
                 <Intro />
                 <RecommendedHotels />
