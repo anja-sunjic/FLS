@@ -6,7 +6,7 @@ const Hotel = (props) => {
         <>
             <div className="reusable-card">
                 <div className="card-image">
-                    <a href={props.hotel.website} target="_blank" rel="noreferrer"><img src={props.hotel.img} className="grayscale"/></a>
+                    <a href={props.hotel.website} target="_blank" rel="noreferrer"><img src={props.hotel.img} alt={props.hotel.name} className="grayscale"/></a>
                 </div>
                 <div className="card-text">
                     <p className="card-title">{props.hotel.name}</p>

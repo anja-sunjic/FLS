@@ -5,21 +5,29 @@
   flex-wrap: wrap;
   gap: 2rem;
 
+  @include touch {
+    justify-content: center;
+  }
+
   .reusable-card {
     width: calc(50% - 1.5rem);
     @include touch {
-      width: calc(100% - 1.5rem);
+      width: calc(60% - 1.5rem);
+      align-items: baseline;
     }
     @include mobile {
       width: calc(100% - 1.5rem);
+      align-items: baseline;
     }
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: baseline;
   }
-  .card-image {
-
+  .card-image img {
+    height: 300px;
+    width: 600px;
+    object-fit: cover;
   }
   .card-text{
     display: flex;
