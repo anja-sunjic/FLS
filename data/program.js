@@ -24,8 +24,8 @@ export const wed = [
       },
       {
         id: 3,
-        title: "How to write an academic paper?",
-        speakerIds: [22],
+        title: "How to Write an Academic Paper",
+        speakerIds: [23],
         speakers: ["Suad Halilcevic"],
         desc: "What makes an academic paper truly great? How do we decide what we want to publish, and where to publish it? Learn to write a paper you will be proud of.",
         tags: ["F2F"],
@@ -34,7 +34,7 @@ export const wed = [
       {
         id: 4,
         title: "Job Lab – Skills for the Future",
-        speakerIds: [23],
+        speakerIds: [24],
         speakers: ["Maja Tursunovic"],
         desc: "Job Lab - Skills for the Future is an education that aims to career counsalt young people through an interactive presentation of the labor market of the future, skills and competencies for developing the X-Factor and key strategies for their development.",
         tags: ["F2F"],
@@ -43,7 +43,7 @@ export const wed = [
       {
         id: 5,
         title: "Media-Education-Leadership in 2021",
-        speakerIds: [24],
+        speakerIds: [25],
         speakers: ["Amir Zonic"],
         desc: "What media and communication represent in the lives of young leaders? How to use social media in everyday life, work and through education? Are we aware of the impact that the media has on society as a whole? Answers to these and similar questions, along with several practical tricks in self-promotion and communication with the media at the workshop Media-Education-Leadership in 2021.",
         tags: ["F2F"],
@@ -129,7 +129,7 @@ export const wed = [
     ],
   },
   {
-    time: "19h",
+    time: "19:30",
     type: "Social",
     events: [
       {
@@ -139,7 +139,7 @@ export const wed = [
         speakers: [],
         desc: "",
 
-        tags: ["F2F"],
+        tags: ["F2F", "Online"],
         company: 1,
       },
     ],
@@ -240,7 +240,7 @@ export const thu = [
       {
         id: 19,
         title: "Sustainable Innovation: The Voice of the Industry",
-        speakerIds: [20, 17, 21],
+        speakerIds: [21, 17, 22],
         speakers: ["Sanela Klaric & Denis Kraljevic & Goran Vukalovic"],
         desc: "",
 
@@ -316,7 +316,7 @@ export const thu = [
     ],
   },
   {
-    time: "19:30h",
+    time: "19:00",
     type: "Partner Event",
     events: [
       {
@@ -326,7 +326,7 @@ export const thu = [
         speakers: [],
         desc: "",
 
-        tags: ["Invite Only"],
+        tags: ["Invite Only", "Online"],
         company: 1,
       },
     ],
@@ -428,7 +428,7 @@ export const fri = [
       },
       {
         title: "Be Entrepreneurial",
-        speakerIds: [25],
+        speakerIds: [26],
         speakers: ["Mirza Celegija"],
         desc: "",
 
@@ -436,7 +436,7 @@ export const fri = [
       },
       {
         title: "Strive for Excellence",
-        speakerIds: [26],
+        speakerIds: [27],
         speakers: ["Zorana Staka"],
         desc: "",
 
@@ -444,7 +444,7 @@ export const fri = [
       },
       {
         title: "Act with Integrity",
-        speakerIds: [27],
+        speakerIds: [28],
         speakers: ["Jasmina Kadic"],
         desc: "",
 
@@ -452,7 +452,7 @@ export const fri = [
       },
       {
         title: "Value and Embrace Diversity",
-        speakerIds: [28],
+        speakerIds: [29],
         speakers: ["Evel Ribo"],
         desc: "",
 
@@ -460,7 +460,7 @@ export const fri = [
       },
       {
         title: "Serve the Community",
-        speakerIds: [29],
+        speakerIds: [30],
         speakers: ["Enisa Lisnjic"],
         desc: "",
 
@@ -468,7 +468,7 @@ export const fri = [
       },
       {
         title: "Partner with Those Who Share Our Vision",
-        speakerIds: [30],
+        speakerIds: [31],
         speakers: ["Azra Velic"],
         desc: "",
 
@@ -512,13 +512,13 @@ export const fri = [
         speakers: [],
         desc: "",
 
-        tags: ["F2F"],
+        tags: ["F2F", "Online"],
         company: 1,
       },
     ],
   },
   {
-    time: "19h",
+    time: "19:00",
     type: "Social",
     events: [
       {
