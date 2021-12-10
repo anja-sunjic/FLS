@@ -24,7 +24,7 @@ export const wed = [
       },
       {
         id: 3,
-        title: "How to write an academic paper?",
+        title: "How to Write an Academic Paper",
         speakerIds: [22],
         speakers: ["Suad Halilcevic"],
         desc: "What makes an academic paper truly great? How do we decide what we want to publish, and where to publish it? Learn to write a paper you will be proud of.",
