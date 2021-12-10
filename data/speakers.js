@@ -91,7 +91,7 @@ export const speakers = [
     title: "VP of Engineering and Delivery at HTEC",
     li: "https://www.linkedin.com/in/darko-todorovic-b8079826/",
     img: "/speakers/DarkoTodorovic.png",
-    bio: "",
+    bio: "Darko is the VP of Engineering and Delivery at the HTEC Group. He oversees delivery and is responsible for lead conversion, customer onboarding and tech excellence. Before taking on this role, Darko was the group’s head of R&D and the leader of HTEC’s development center in Nis. Darko has a special interest in the application of Artificial Intelligence, Machine Learning and Data Science in business digitalization, improving organizational and business process efficiency across industries with a deep specialization in IoT and Robotics. Currently, he is working on his PhD dissertation in Human-Robot Interaction Anticipation with Application in Collaborative Robotics at the University of Nis, where he teaches in the department of Control Systems and also leads the Robotics Laboratory.",
   },
   {
     id: 9,
@@ -180,7 +180,7 @@ export const speakers = [
     title: "Chief of Staff and Director of Corporate Communications at HTEC",
     li: "https://www.linkedin.com/in/katarina-urosevic-36467463/",
     img: "/speakers/Katarina.png",
-    bio: "",
+    bio: "Katarina is the Chief of Staff and Director of Corporate Communications at the HTEC Group. She joined HTEC with 13 years of experience in science, technology and innovation policy and managing development projects within international organizations. While in the government, as the science advisor to the Deputy Prime Minister, Katarina worked on research sector reforms, developing research infrastructure, securing international financing and establishing the first financing instruments for innovative start-ups and business-academia collaboration. She also worked for the OECD in Paris as a policy analyst and project manager in South East Europe and was a consultant for the World Bank for almost five years, for projects in the Balkans and Sri Lanka. She is passionate about bringing out the incredible potential of Serbia and its people, which is why she returned to the country after completing her BA in Physics at Princeton University.",
   },
   {
     id: 16,
