@@ -129,7 +129,7 @@ export const wed = [
     ],
   },
   {
-    time: "19h",
+    time: "19:30",
     type: "Social",
     events: [
       {
@@ -139,7 +139,7 @@ export const wed = [
         speakers: [],
         desc: "",
 
-        tags: ["F2F"],
+        tags: ["F2F", "Online"],
         company: 1,
       },
     ],
@@ -316,7 +316,7 @@ export const thu = [
     ],
   },
   {
-    time: "19:30h",
+    time: "19:00",
     type: "Partner Event",
     events: [
       {
@@ -326,7 +326,7 @@ export const thu = [
         speakers: [],
         desc: "",
 
-        tags: ["Invite Only"],
+        tags: ["Invite Only", "Online"],
         company: 1,
       },
     ],
@@ -512,13 +512,13 @@ export const fri = [
         speakers: [],
         desc: "",
 
-        tags: ["F2F"],
+        tags: ["F2F", "Online"],
         company: 1,
       },
     ],
   },
   {
-    time: "19h",
+    time: "19:00",
     type: "Social",
     events: [
       {
