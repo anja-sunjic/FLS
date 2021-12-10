@@ -1,6 +1,6 @@
 //import css framework
-@import './partials/normalize';
-@import '~bulma/bulma.sass';
+@import "./partials/normalize";
+@import "~bulma/bulma.sass";
 
 //colors
 // $yellow: #1b69ae;
@@ -13,146 +13,155 @@ $gray: #424242;
 $dark: #080f13;
 // convertes px to rem.
 @function crem($pixels) {
-	$context: 16 * 1px;
-	@if (unitless($pixels)) {
-		$pixels: $pixels * 1px;
-	}
-	@return $pixels / $context * 1rem;
+  $context: 16 * 1px;
+  @if (unitless($pixels)) {
+    $pixels: $pixels * 1px;
+  }
+  @return $pixels / $context * 1rem;
 }
 //fonts
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Overpass:wght@300;400;600;700&display=swap');
-$font: 'Overpass', sans-serif;
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-$font-cap: 'Anton', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Overpass:wght@300;400;600;700&display=swap");
+$font: "Overpass", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+$font-cap: "Anton", sans-serif;
 
 ::-moz-selection {
-	color: $dark;
-	background: $yellow;
+  color: $dark;
+  background: $yellow;
 }
 
 ::selection {
-	color: $dark;
-	background: $yellow;
+  color: $dark;
+  background: $yellow;
 }
 html {
-	scroll-behavior: smooth;
-	font-size: calc(0.5em + 0.4vw);
-	background-color: $dark;
-	z-index: -10;
-	position: relative;
+  scroll-behavior: smooth;
+  font-size: calc(0.5em + 0.4vw);
+  background-color: $dark;
+  z-index: -10;
+  position: relative;
 }
 
 body {
-	font-family: $font;
-	z-index: -10;
-	position: relative;
-	overflow-x: hidden;
+  font-family: $font;
+  z-index: -10;
+  position: relative;
+  overflow-x: hidden;
 }
 
 h2 {
-	font-size: crem(52px);
-	font-weight: 400;
-	margin-bottom: 2rem;
-	font-family: $font-cap;
-	text-transform: uppercase;
-	color: $yellow;
-	display: block;
-	text-align: left;
+  font-size: crem(52px);
+  font-weight: 400;
+  margin-bottom: 2rem;
+  font-family: $font-cap;
+  text-transform: uppercase;
+  color: $yellow;
+  display: block;
+  text-align: left;
 }
 p {
-	font-size: crem(27px);
+  font-size: crem(27px);
 }
 .section {
-	padding: crem(100px) 0;
-	@include touch {
-		padding: 3rem 1.5rem !important;
-	}
+  padding: crem(100px) 0;
+  @include touch {
+    padding: 3rem 1.5rem !important;
+  }
 }
 ._main {
-	position: relative;
-	z-index: 1;
-	background-color: $dark;
+  position: relative;
+  z-index: 1;
+  background-color: $dark;
 }
 img {
-	-moz-user-select: none;
-	-webkit-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	&:focus {
-		outline: none;
-	}
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  &:focus {
+    outline: none;
+  }
 }
 
 .fls-list {
-	padding: 0;
-	font-size: crem(27px);
+  padding: 0;
+  font-size: crem(27px);
 }
 
 .fls-list-item {
-	list-style: none;
-	position: relative;
-	padding-left: 1.25em;
-	margin-bottom: 1em;
+  list-style: none;
+  position: relative;
+  padding-left: 1.25em;
+  margin-bottom: 1em;
 }
 
 .fls-list-item:after {
-	position: absolute;
-	left: 0;
-	top: 50%;
-	transform: translateY(-50%);
-	content: '';
-	background: transparent url(../public/hexa-bullet.svg) 0 50% no-repeat;
-	width: 1em;
-	height: 1em;
-	display: inline-block;
-	background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  content: "";
+  background: transparent url(../public/hexa-bullet.svg) 0 50% no-repeat;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  background-size: cover;
 }
 
 .center-text {
-	text-align: center;
+  text-align: center;
 }
 
 .link-black {
-	color: black;
+  color: black;
 }
 
 .link-black-bold-underline {
-	color: black;
-	font-weight: bold;
-	text-decoration: underline;
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .link-yellow-bold-underline {
-	color: #f1dc13;
-	font-weight: bold;
-	text-decoration: underline;
+  color: #f1dc13;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .link-white-bold-underline {
-	color: #ffffff;
-	font-weight: bold;
-	text-decoration: underline;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .health-safety-center {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-link {
+  @include tablet {
+    padding: 2rem;
+  }
+  @include mobile {
+    padding: 2rem;
+  }
 }
 //import all files
-@import './partials/all';
-@import './animations';
-@import './Home/all';
-@import './Contact/all';
-@import './About/all';
-@import './Team/all';
-@import './Speakers/all';
-@import './Program/all';
-@import './Protocols/all';
-@import './Register/all';
-@import './TravelGrant/all';
-@import './Countdown/all';
-@import './Registration/_all';
-@import './AdminDashboard/_all';
-@import './Sponsors/_all';
-@import './Venue/_all';
+@import "./partials/all";
+@import "./animations";
+@import "./Home/all";
+@import "./Contact/all";
+@import "./About/all";
+@import "./Team/all";
+@import "./Speakers/all";
+@import "./Program/all";
+@import "./Protocols/all";
+@import "./Register/all";
+@import "./TravelGrant/all";
+@import "./Countdown/all";
+@import "./Registration/_all";
+@import "./AdminDashboard/_all";
+@import "./Sponsors/_all";
+@import "./Venue/_all";
