@@ -77,8 +77,17 @@ export default function Header() {
 								<li>
 									<Link href='/sponsors-and-partners'>Sponsors & Partners</Link>
 								</li>
-								<li>
-									<Link href='/venue'>Venue</Link>
+								<li className='dropdown-trigger'>
+									<Link href='/venue'>Other</Link>
+									<img src='/drop-arrow.png' alt='drop arrow' />
+									<div className='dropdown-menu'>
+										<div className='dropdown-item'>
+											<Link href='/venue'>Venue</Link>
+										</div>
+										<div className='dropdown-item'>
+											<Link href='/accommodation-food-and-refreshments'>Accommodation, Food & Refreshments</Link>
+										</div>
+									</div>
 								</li>
 							</ul>
 						</div>
@@ -177,13 +186,42 @@ export default function Header() {
 						>
 							<Link href='/#partners'>Sponsors & Partners</Link>
 						</li>
-						<li
-							onClick={() => {
-								setisMobileMenu(!isMobileMenu);
-							}}
+						<Collapsible
+							triggerSibling={() => (
+								<Link href='/venue'>
+									<a
+										className='_sibling'
+										onClick={() => {
+											setisMobileMenu(!isMobileMenu);
+										}}
+									>
+										Other
+									</a>
+								</Link>
+							)}
+							trigger=' '
 						>
-							<Link href='/venue'>Venue</Link>
-						</li>
+							<Link href='/venue'>
+								<a
+									className='_sub'
+									onClick={() => {
+										setisMobileMenu(!isMobileMenu);
+									}}
+								>
+									Venue
+								</a>
+							</Link>
+							<Link href='/accommodation-food-and-refreshments'>
+								<a
+									className='_sub'
+									onClick={() => {
+										setisMobileMenu(!isMobileMenu);
+									}}
+								>
+									Accommodation, Food & Refreshments
+								</a>
+							</Link>
+						</Collapsible>
 					</ul>
 				</div>
 			)}

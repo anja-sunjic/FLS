@@ -20,6 +20,9 @@
       margin-top: 3rem;
       h2 {
         margin: 0;
+        @include mobile {
+          text-align: center;
+        }
       }
       .line-decor {
         width: 60%;
