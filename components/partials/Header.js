@@ -78,12 +78,9 @@ export default function Header() {
 									<Link href='/sponsors-and-partners'>Sponsors & Partners</Link>
 								</li>
 								<li className='dropdown-trigger'>
-									<Link href='/venue'>Other</Link>
+									<Link href='/venue'>Venue</Link>
 									<img src='/drop-arrow.png' alt='drop arrow' />
 									<div className='dropdown-menu'>
-										<div className='dropdown-item'>
-											<Link href='/venue'>Venue</Link>
-										</div>
 										<div className='dropdown-item'>
 											<Link href='/accommodation-food-and-refreshments'>Accommodation, Food & Refreshments</Link>
 										</div>
@@ -195,22 +192,12 @@ export default function Header() {
 											setisMobileMenu(!isMobileMenu);
 										}}
 									>
-										Other
+										Venue
 									</a>
 								</Link>
 							)}
 							trigger=' '
 						>
-							<Link href='/venue'>
-								<a
-									className='_sub'
-									onClick={() => {
-										setisMobileMenu(!isMobileMenu);
-									}}
-								>
-									Venue
-								</a>
-							</Link>
 							<Link href='/accommodation-food-and-refreshments'>
 								<a
 									className='_sub'
