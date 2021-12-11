@@ -10,7 +10,7 @@ const RecommendedHotels = () => {
             <div className="speakers-all">
                 <div className="container">
                     <div className="recommended-title">
-                        <h2>Hotels</h2>
+                        <h2>Accommodation</h2>
                         <div className="line-decor is-hidden-touch">
                             <img src="/dots.svg" alt="Futures Leaders Summit" />
                         </div>
