@@ -10,7 +10,7 @@ export const hotels = [
     {
         id: 2,
         name: "Hotel Tehnograd",
-        address: "Žarka Vukovića bb (Goste Lazarevica bb)",
+        address: "Goste Lazarevica bb",
         city: "Tuzla, 7500",
         website: "http://hotel-tehnograd.com/en/home/",
         img: "/hotels/hotel-tehnograd.jpg"
