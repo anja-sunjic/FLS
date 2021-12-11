@@ -5,7 +5,7 @@ const Food = (props) => {
     return (
         <>
             <div className="reusable-card">
-                <div className="card-image">
+                <div className="refreshment-image">
                     <a href={props.refreshment.website} target="_blank" rel="noreferrer"><img src={props.refreshment.img} alt={props.refreshment.name} className="grayscale"/></a>
                 </div>
                 <div className="card-text">
