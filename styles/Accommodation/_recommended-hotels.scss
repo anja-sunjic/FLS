@@ -5,7 +5,10 @@
   padding: 100px 0;
 
   h2 {
-    margin-bottom: 0px;
+    margin-bottom: 0;
+    @include touch {
+      font-size: 5.25rem;
+    }
   }
 
   @include touch {
