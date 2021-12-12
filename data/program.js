@@ -106,7 +106,7 @@ export const wed = [
         title: "Uniting Academia and Industry: Perspective on the BH Market",
         speakerIds: [9, 15, 16],
         speakers: ["Melita Kurtović & Katarina Urosevic & Vedad Pasic"],
-        desc: "",
+        desc: "While values of higher education are many, the core one is to prepare the youth to become an important, contributing member of society. Yet, the marketplace develops far faster than academia can adapt and follow. How do we bridge the gap, and what are the next steps that both academia and industry can do to bring better perspective on the BH market?",
 
         tags: ["F2F", "Online"],
         company: 1,
@@ -240,9 +240,11 @@ export const thu = [
       {
         id: 19,
         title: "Sustainable Innovation: The Voice of the Industry",
-        speakerIds: [21, 17, 22],
-        speakers: ["Sanela Klaric & Denis Kraljevic & Goran Vukalovic"],
-        desc: "",
+        speakerIds: [21, 20, 17, 22],
+        speakers: [
+          "Sanela Klaric & Haris Muratovic & Goran Vukalovic & Denis Kraljevic ",
+        ],
+        desc: "With Bosnia and Herzegovina topping the air pollution lists, the topic of sustainable development becomes more relevant than ever before. Hear what our leaders in sustainable innovation have to say about the future, and the demands of the market.",
 
         tags: ["F2F", "Online"],
         company: 1,
