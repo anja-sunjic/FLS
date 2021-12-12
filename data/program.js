@@ -25,7 +25,7 @@ export const wed = [
       {
         id: 3,
         title: "How to Write an Academic Paper",
-        speakerIds: [23],
+        speakerIds: [24],
         speakers: ["Suad Halilcevic"],
         desc: "What makes an academic paper truly great? How do we decide what we want to publish, and where to publish it? Learn to write a paper you will be proud of.",
         tags: ["F2F"],
@@ -34,7 +34,7 @@ export const wed = [
       {
         id: 4,
         title: "Job Lab – Skills for the Future",
-        speakerIds: [24],
+        speakerIds: [25],
         speakers: ["Maja Tursunovic"],
         desc: "Job Lab - Skills for the Future is an education that aims to career counsalt young people through an interactive presentation of the labor market of the future, skills and competencies for developing the X-Factor and key strategies for their development.",
         tags: ["F2F"],
@@ -43,7 +43,7 @@ export const wed = [
       {
         id: 5,
         title: "Media-Education-Leadership in 2021",
-        speakerIds: [25],
+        speakerIds: [26],
         speakers: ["Amir Zonic"],
         desc: "What media and communication represent in the lives of young leaders? How to use social media in everyday life, work and through education? Are we aware of the impact that the media has on society as a whole? Answers to these and similar questions, along with several practical tricks in self-promotion and communication with the media at the workshop Media-Education-Leadership in 2021.",
         tags: ["F2F"],
@@ -104,8 +104,10 @@ export const wed = [
       {
         id: 9,
         title: "Uniting Academia and Industry: Perspective on the BH Market",
-        speakerIds: [9, 15, 16],
-        speakers: ["Melita Kurtović & Katarina Urosevic & Vedad Pasic"],
+        speakerIds: [9, 15, 21, 16],
+        speakers: [
+          "Melita Kurtović & Katarina Urosevic & Emina Karahmet & Vedad Pasic",
+        ],
         desc: "While values of higher education are many, the core one is to prepare the youth to become an important, contributing member of society. Yet, the marketplace develops far faster than academia can adapt and follow. How do we bridge the gap, and what are the next steps that both academia and industry can do to bring better perspective on the BH market?",
 
         tags: ["F2F", "Online"],
@@ -240,7 +242,7 @@ export const thu = [
       {
         id: 19,
         title: "Sustainable Innovation: The Voice of the Industry",
-        speakerIds: [21, 20, 17, 22],
+        speakerIds: [22, 20, 23, 17],
         speakers: [
           "Sanela Klaric & Haris Muratovic & Goran Vukalovic & Denis Kraljevic ",
         ],
@@ -430,7 +432,7 @@ export const fri = [
       },
       {
         title: "Be Entrepreneurial",
-        speakerIds: [26],
+        speakerIds: [27],
         speakers: ["Mirza Celegija"],
         desc: "",
 
@@ -438,7 +440,7 @@ export const fri = [
       },
       {
         title: "Strive for Excellence",
-        speakerIds: [27],
+        speakerIds: [28],
         speakers: ["Zorana Staka"],
         desc: "",
 
@@ -446,7 +448,7 @@ export const fri = [
       },
       {
         title: "Act with Integrity",
-        speakerIds: [28],
+        speakerIds: [29],
         speakers: ["Jasmina Kadic"],
         desc: "",
 
@@ -454,7 +456,7 @@ export const fri = [
       },
       {
         title: "Value and Embrace Diversity",
-        speakerIds: [29],
+        speakerIds: [30],
         speakers: ["Evel Ribo"],
         desc: "",
 
@@ -462,7 +464,7 @@ export const fri = [
       },
       {
         title: "Serve the Community",
-        speakerIds: [30],
+        speakerIds: [31],
         speakers: ["Enisa Lisnjic"],
         desc: "",
 
@@ -470,7 +472,7 @@ export const fri = [
       },
       {
         title: "Partner with Those Who Share Our Vision",
-        speakerIds: [31],
+        speakerIds: [32],
         speakers: ["Azra Velic"],
         desc: "",
 
