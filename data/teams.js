@@ -125,6 +125,12 @@ export const teams = [
 				li: 'https://www.linkedin.com/in/mefnan/',
 				img: '/teams/Marketing Team/EfnanMerdan.jpg',
 			},
+			{
+				name: 'Zehra Buco',
+				title: 'Marketing and Branding Team Member/Graphic Designer',
+				li: 'https://www.linkedin.com/in/zehra-bu%C4%8Do-ba35451b0/',
+				img: '/teams/Marketing Team/ZehraBuco.png',
+			},
 		],
 	},
 	{

@@ -69,6 +69,15 @@ export default function Partners() {
               </a>
             </SwiperSlide>
             <SwiperSlide>
+              <a target="_blank" href="https://telemach.ba/" rel="noreferrer">
+                <img
+                  className="sponsor-align"
+                  src="/partners/telemach.png"
+                  alt="Sponsor Image"
+                />
+              </a>
+            </SwiperSlide>
+            <SwiperSlide>
               <a target="_blank" href="https://www.dkr.ba/en/" rel="noreferrer">
                 <img
                   className="sponsor-align"
@@ -115,6 +124,32 @@ export default function Partners() {
             <SwiperSlide>
               <a
                 target="_blank"
+                href="https://www.cj-doo.com/onama.php/"
+                rel="noreferrer"
+              >
+                <img
+                  className="sponsor-align"
+                  src="/partners/bihac.png"
+                  alt="Sponsor Image"
+                />
+              </a>
+            </SwiperSlide>
+            <SwiperSlide>
+              <a
+                target="_blank"
+                href="http://www.bema.ba/index.php/en/"
+                rel="noreferrer"
+              >
+                <img
+                  className="sponsor-align"
+                  src="/partners/BEMA.png"
+                  alt="Sponsor Image"
+                />
+              </a>
+            </SwiperSlide>
+            <SwiperSlide>
+              <a
+                target="_blank"
                 href="https://tehnograd-company.ba/"
                 rel="noreferrer"
               >
@@ -143,6 +178,19 @@ export default function Partners() {
                 <img
                   className="sponsor-align"
                   src="/partners/bhing.png"
+                  alt="Sponsor Image"
+                />
+              </a>
+            </SwiperSlide>
+            <SwiperSlide>
+              <a
+                target="_blank"
+                href="http://www.vladatk.kim.ba/ministarstva-tk/ministarstvo-privrede"
+                rel="noreferrer"
+              >
+                <img
+                  className="sponsor-align"
+                  src="/partners/MPTK.png"
                   alt="Sponsor Image"
                 />
               </a>
@@ -266,10 +314,14 @@ export default function Partners() {
               </a>
             </SwiperSlide>
             <SwiperSlide>
-              <a target="_blank" href="http://www.untz.ba/" rel="noreferrer">
+              <a
+                target="_blank"
+                href="https://liderlab.center/"
+                rel="noreferrer"
+              >
                 <img
                   className="sponsor-align"
-                  src="/partners/untz.png"
+                  src="/partners/LiderLab.png"
                   alt="Sponsor Image"
                 />
               </a>
@@ -277,12 +329,34 @@ export default function Partners() {
             <SwiperSlide>
               <a
                 target="_blank"
-                href="https://ipi-akademija.ba/"
+                href="https://www.facebook.com/platinium.ba/"
                 rel="noreferrer"
               >
                 <img
                   className="sponsor-align"
-                  src="/partners/IPIAkademija.png"
+                  src="/partners/platinium.png"
+                  alt="Sponsor Image"
+                />
+              </a>
+            </SwiperSlide>
+            <SwiperSlide>
+              <a
+                target="_blank"
+                href="https://www.bkctuzla.ba/"
+                rel="noreferrer"
+              >
+                <img
+                  className="sponsor-align"
+                  src="/partners/BKCLogo.png"
+                  alt="Sponsor Image"
+                />
+              </a>
+            </SwiperSlide>
+            <SwiperSlide>
+              <a target="_blank" href="http://www.untz.ba/" rel="noreferrer">
+                <img
+                  className="sponsor-align"
+                  src="/partners/untz.png"
                   alt="Sponsor Image"
                 />
               </a>
@@ -321,12 +395,21 @@ export default function Partners() {
             <SwiperSlide>
               <a
                 target="_blank"
-                href="http://www.vladatk.kim.ba/ministarstva-tk/ministarstvo-privrede"
+                href="https://ipi-akademija.ba/"
                 rel="noreferrer"
               >
                 <img
                   className="sponsor-align"
-                  src="/partners/MPTK.png"
+                  src="/partners/IPIAkademija.png"
+                  alt="Sponsor Image"
+                />
+              </a>
+            </SwiperSlide>
+            <SwiperSlide>
+              <a target="_blank" href="https://www.klix.ba/" rel="noreferrer">
+                <img
+                  className="sponsor-align"
+                  src="/partners/KLIX.png"
                   alt="Sponsor Image"
                 />
               </a>
