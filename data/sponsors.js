@@ -153,6 +153,11 @@ export const sponsors = [
 				img: '/partners/LiderLab.png',
 			},
 			{
+				name: 'PLATINIUM',
+				url: 'https://www.facebook.com/platinium.ba/',
+				img: '/partners/platinium.png',
+			},
+			{
 				name: 'BKC',
 				url: 'https://www.bkctuzla.ba/',
 				img: '/partners/BKCLogo.png',
