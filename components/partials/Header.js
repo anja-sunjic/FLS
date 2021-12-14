@@ -175,7 +175,7 @@ export default function Header() {
 								setisMobileMenu(!isMobileMenu);
 							}}
 						>
-							<Link href='/#partners'>Sponsors & Partners</Link>
+							<Link href='/sponsors-and-partners'>Sponsors & Partners</Link>
 						</li>
 						<li
 							onClick={() => {
