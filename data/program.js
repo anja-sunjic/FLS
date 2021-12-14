@@ -7,8 +7,8 @@ export const wed = [
         id: 1,
         title:
           "Design the career you want: From skills to finding your North Star",
-        speakerIds: [9],
-        speakers: ["Melita Kurtović"],
+        speakerIds: [],
+        speakers: [],
         desc: "How do you get from where you are today to the life of your dreams?  Education is a big component of the journey but with the rise of a skill-based economy, 'conventional' education may not be sufficient. Join this workshop discussing how to align your life and career values in a way that is meaningful for you and for society.",
         tags: ["F2F"],
         company: 1,
