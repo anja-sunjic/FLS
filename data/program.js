@@ -283,7 +283,7 @@ export const thu = [
         title: "Digital Transformation: Myth Versus Reality",
         speakerIds: [8],
         speakers: ["Darko Todorovic"],
-        desc: "",
+        desc: "Listen to the VP of Engineering and Delivery at HTEC Group on how he perceives digital transformation through years of experience in business digitalization and organizational transformation across industries.",
 
         tags: ["F2F", "Online"],
         company: 1,
