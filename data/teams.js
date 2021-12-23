@@ -212,6 +212,78 @@ export const teams = [
 				li: 'https://www.linkedin.com/in/lejla-%C4%91apo/',
 				img: '/teams/Logistics Team/LejlaDjapo.jpg',
 			},
+			{
+				name: 'Almedin Mesic',
+				title: 'Logistics Team Member',
+				li: 'https://www.linkedin.com/in/almedin-mešić-12363321a',
+				img: '/teams/Logistics Team/AlmedinMesic.png',
+			},
+			{
+				name: 'Meliha Dzindo',
+				title: 'Logistics Team Member',
+				li: 'https://www.linkedin.com/in/meliha-d%C5%BEindo-86763521a',
+				img: '/teams/Logistics Team/MelihaDzindo.png',
+			},
+			{
+				name: 'Ismar Ajkunic',
+				title: 'Logistics Team Member',
+				li: 'http://linkedin.com/in/ismar-ajkunić-b270511b5',
+				img: '/teams/Logistics Team/IsmarAjkunic.png',
+			},
+			{
+				name: 'Amina Osmanovic',
+				title: 'Logistics Team Member',
+				li: 'https://www.instagram.com/aaamina.osm/',
+				img: '/teams/Logistics Team/AminaOsmanovic.png',
+			},
+			{
+				name: 'Emina Bosnjakovic',
+				title: 'Logistics Team Member',
+				li: 'https://www.instagram.com/eminnie_20/',
+				img: '/teams/Logistics Team/EminaBosnjakovic.png',
+			},
+			{
+				name: 'Emir Alic',
+				title: 'Logistics Team Member',
+				li: 'https://www.linkedin.com/in/emir-alic-81b8811ba/',
+				img: '/teams/Logistics Team/EmirAlic.png',
+			},
+			{
+				name: 'Zerina Hamidovic',
+				title: 'Logistics Team Member',
+				li: '',
+				img: '/teams/Logistics Team/ZerinaHamidovic.png',
+			},
+			{
+				name: 'Laila Zildzic',
+				title: 'Logistics Team Member',
+				li: 'https://www.linkedin.com/in/lailazildzic',
+				img: '/teams/Logistics Team/LailaZildzic.png',
+			},
+			{
+				name: 'Asja Hadzic',
+				title: 'Logistics Team Member',
+				li: 'https://www.linkedin.com/in/asja-hadzic-079219199/',
+				img: '/teams/Logistics Team/AsjaHadzic.png',
+			},
+			{
+				name: 'Damir Mijatovic',
+				title: 'Logistics Team Member',
+				li: '',
+				img: '/teams/Logistics Team/DamirMijatovic.png',
+			},
+			{
+				name: 'Lamija Ahmetasevic',
+				title: 'Logistics Team Member',
+				li: 'https://www.linkedin.com/in/lamija-ahmetašević-82a36821a',
+				img: '/teams/Logistics Team/LamijaAhmetasevic.png',
+			},
+			{
+				name: 'Samir Cirak',
+				title: 'Logistics Team Member',
+				li: 'https://www.facebook.com/samir.cirak.1/',
+				img: '/teams/Logistics Team/SamirCirak.png',
+			},
 		],
 	},
 	{
@@ -252,11 +324,6 @@ export const teams = [
 				li: 'https://www.linkedin.com/in/nihad-ferhatovic/',
 				img: '/teams/Advisors/Nihad.png',
 			},
-
-
-
-
-
 			{
 				name: 'Ali Mokayes',
 				title: 'Tech Advisor',
