@@ -287,8 +287,8 @@ export const speakers = [
   },
   {
     id: 27,
-    slug: "mirza-celegija",
-    name: "Mirza Celegija",
+    slug: "mirza-celigija",
+    name: "Mirza Celigija",
     title:
       "Software Developer at Mistral, Tech Executive at Moment One, Senior Scholar & Futures Makerspaces Coordinator at BH Futures Foundation",
     li: "https://www.linkedin.com/in/mirzaceligija/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAC7GFBABsNQ6ZHCY-O67ckR2C-9scrUXnC8",

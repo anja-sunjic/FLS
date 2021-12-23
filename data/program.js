@@ -429,7 +429,7 @@ export const fri = [
       {
         title: "Be Entrepreneurial",
         speakerIds: [27],
-        speakers: ["Mirza Celegija"],
+        speakers: ["Mirza Celigija"],
         desc: "",
 
         company: 1,
