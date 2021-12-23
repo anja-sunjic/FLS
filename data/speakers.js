@@ -192,15 +192,7 @@ export const speakers = [
     img: "/speakers/VedadPasic.png",
     bio: "",
   },
-  {
-    id: 17,
-    slug: "denis-kraljevic",
-    name: "Denis Kraljevic",
-    title: "CEO at Derubis Yachts",
-    li: "https://www.linkedin.com/in/denis-kraljevic-633b73214/",
-    img: "/speakers/Denis.png",
-    bio: "",
-  },
+
   {
     id: 18,
     slug: "anja-bundalo",
