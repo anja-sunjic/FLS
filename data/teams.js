@@ -201,16 +201,16 @@ export const teams = [
 				img: '/teams/Logistics Team/SelmaAlicic.jpg',
 			},
 			{
-				name: 'Lejla Djapo',
-				title: 'Logistics Team Member',
-				li: 'https://www.linkedin.com/in/lejla-%C4%91apo/',
-				img: '/teams/Logistics Team/LejlaDjapo.jpg',
-			},
-			{
 				name: 'Dijana Causevic',
 				title: 'Logistics Team Member',
 				li: 'https://www.linkedin.com/in/dijana-causevic/',
 				img: '/teams/Logistics Team/DijanaCausevic.jpg',
+			},
+			{
+				name: 'Lejla Djapo',
+				title: 'Logistics Team Member',
+				li: 'https://www.linkedin.com/in/lejla-%C4%91apo/',
+				img: '/teams/Logistics Team/LejlaDjapo.jpg',
 			},
 		],
 	},
@@ -234,6 +234,29 @@ export const teams = [
 	{
 		name: 'Advisors',
 		members: [
+			{
+				name: 'Majda Mujanovic-Babovic',
+				title: 'General Advisor',
+				li: 'https://www.linkedin.com/in/majda-mujanovic-babovic/',
+				img: '/teams/Advisors/Majda.png',
+			},
+			{
+				name: 'Melvisa Miskic',
+				title: 'General Advisor',
+				li: 'https://www.linkedin.com/in/melvisa-miski%C4%87-a735b691/',
+				img: '/teams/Advisors/Melvisa.png',
+			},
+			{
+				name: 'Nihad Ferhatovic',
+				title: 'General Advisor',
+				li: 'https://www.linkedin.com/in/nihad-ferhatovic/',
+				img: '/teams/Advisors/Nihad.png',
+			},
+
+
+
+
+
 			{
 				name: 'Ali Mokayes',
 				title: 'Tech Advisor',
