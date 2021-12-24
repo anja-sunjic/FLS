@@ -105,9 +105,7 @@ export const wed = [
         id: 9,
         title: "Uniting Academia and Industry: Perspective on the BH Market",
         speakerIds: [15, 21, 16],
-        speakers: [
-          "Katarina Urosevic & Emina Karahmet & Vedad Pasic",
-        ],
+        speakers: ["Katarina Urosevic & Emina Karahmet & Vedad Pasic"],
         desc: "While values of higher education are many, the core one is to prepare the youth to become an important, contributing member of society. Yet, the marketplace develops far faster than academia can adapt and follow. How do we bridge the gap, and what are the next steps that both academia and industry can do to bring better perspective on the BH market?",
 
         tags: ["F2F", "Online"],
@@ -242,10 +240,8 @@ export const thu = [
       {
         id: 19,
         title: "Sustainable Innovation: The Voice of the Industry",
-        speakerIds: [22, 20, 23, 17],
-        speakers: [
-          "Sanela Klaric & Haris Muratovic & Goran Vukalovic & Denis Kraljevic ",
-        ],
+        speakerIds: [22, 20, 23],
+        speakers: ["Sanela Klaric & Haris Muratovic & Goran Vukalovic"],
         desc: "With Bosnia and Herzegovina topping the air pollution lists, the topic of sustainable development becomes more relevant than ever before. Hear what our leaders in sustainable innovation have to say about the future, and the demands of the market.",
 
         tags: ["F2F", "Online"],
@@ -287,7 +283,7 @@ export const thu = [
         title: "Digital Transformation: Myth Versus Reality",
         speakerIds: [8],
         speakers: ["Darko Todorovic"],
-        desc: "",
+        desc: "Listen to the VP of Engineering and Delivery at HTEC Group on how he perceives digital transformation through years of experience in business digitalization and organizational transformation across industries.",
 
         tags: ["F2F", "Online"],
         company: 1,
@@ -433,7 +429,7 @@ export const fri = [
       {
         title: "Be Entrepreneurial",
         speakerIds: [27],
-        speakers: ["Mirza Celegija"],
+        speakers: ["Mirza Celigija"],
         desc: "",
 
         company: 1,

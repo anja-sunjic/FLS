@@ -192,15 +192,7 @@ export const speakers = [
     img: "/speakers/VedadPasic.png",
     bio: "",
   },
-  {
-    id: 17,
-    slug: "denis-kraljevic",
-    name: "Denis Kraljevic",
-    title: "CEO at Derubis Yachts",
-    li: "https://www.linkedin.com/in/denis-kraljevic-633b73214/",
-    img: "/speakers/Denis.png",
-    bio: "",
-  },
+
   {
     id: 18,
     slug: "anja-bundalo",
@@ -295,8 +287,8 @@ export const speakers = [
   },
   {
     id: 27,
-    slug: "mirza-celegija",
-    name: "Mirza Celegija",
+    slug: "mirza-celigija",
+    name: "Mirza Celigija",
     title:
       "Software Developer at Mistral, Tech Executive at Moment One, Senior Scholar & Futures Makerspaces Coordinator at BH Futures Foundation",
     li: "https://www.linkedin.com/in/mirzaceligija/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAC7GFBABsNQ6ZHCY-O67ckR2C-9scrUXnC8",
